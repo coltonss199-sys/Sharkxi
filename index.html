@@ -8,7 +8,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Sniglet&display=swap">
 <style>
-/* Layout: one 16:9 playground stage drawn in SVG, with a slim control bar beneath it */
+/* Layout: one 16:9 playground stage drawn in SVG, with a replay button beneath it.
+   Palette: every color lives in these tokens. */
 :root {
   --bg: #E7F0EC;
   --stage: #F7FBF9;
@@ -16,10 +17,6 @@
   --muted: #56686E;
   --slide: #FF8A1F;
   --slide-dk: #D9670A;
-  --water: #2F7FC4;
-  --water-hi: #8CC0EA;
-  --castle: #B7A6E6;
-  --castle-dk: #7F6CC0;
   --ground: #CFE2D4;
   --on-color: #1C2A39;
   --display: "Bagel Fat One", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
@@ -28,15 +25,13 @@
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #0E1820; --stage: #15232D; --ink: #EAF3EF; --muted: #98ACB2;
-    --slide: #FF9636; --slide-dk: #C4600F; --water: #2B6FAD; --water-hi: #5E9BD0;
-    --castle: #9483D6; --castle-dk: #5E4DA6; --ground: #21343B;
+    --slide: #FF9636; --slide-dk: #C4600F; --ground: #21343B;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --bg: #0E1820; --stage: #15232D; --ink: #EAF3EF; --muted: #98ACB2;
-  --slide: #FF9636; --slide-dk: #C4600F; --water: #2B6FAD; --water-hi: #5E9BD0;
-  --castle: #9483D6; --castle-dk: #5E4DA6; --ground: #21343B;
+  --slide: #FF9636; --slide-dk: #C4600F; --ground: #21343B;
   color-scheme: dark;
 }
 
@@ -57,19 +52,13 @@ body {
 .stage {
   position: relative;
   width: 100%;
-  max-width: 100%;
   aspect-ratio: 16 / 9;
   background: var(--stage);
   border-radius: 20px;
   overflow: hidden;
   cursor: pointer;
 }
-.slide {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  opacity: 0; transition: opacity .45s ease;
-  pointer-events: none;
-}
-.slide.is-active { opacity: 1; }
+.stage svg { position: absolute; inset: 0; width: 100%; height: 100%; }
 
 /* SVG paint, all from tokens */
 .ground { fill: var(--ground); }
@@ -77,47 +66,29 @@ body {
 .platform { fill: var(--ink); }
 .chute-edge { fill: none; stroke: var(--slide-dk); stroke-width: 92; stroke-linecap: round; stroke-linejoin: round; }
 .chute { fill: none; stroke: var(--slide); stroke-width: 76; stroke-linecap: round; stroke-linejoin: round; }
-.water { fill: var(--water); }
-.ripple { fill: none; stroke: var(--water-hi); stroke-width: 6; stroke-linecap: round; }
-.island { fill: var(--ground); }
-.castle { fill: var(--castle); }
-.castle-dk { fill: var(--castle-dk); }
-.pole { stroke: var(--ink); stroke-width: 6; stroke-linecap: round; }
-.flag { fill: var(--slide); }
-.hull { fill: var(--slide); }
 
-.word { font-family: var(--display); fill: var(--ink); }
-.big { font-size: 128px; }
+.word { font-family: var(--display); fill: var(--ink); font-size: 128px; }
 .on-chute { font-family: var(--display); font-size: 58px; fill: var(--on-color); letter-spacing: 2px; }
-.on-water { font-family: var(--display); font-size: 46px; fill: #FFFFFF; letter-spacing: 3px; }
 
-.slide text, .slide g, .slide path { transform-box: fill-box; transform-origin: center; }
-#flag { transform-origin: left center; }
+svg text { transform-box: fill-box; transform-origin: center; }
 
 /* Controls */
 .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
-.count { font-size: 16px; color: var(--muted); font-variant-numeric: tabular-nums; letter-spacing: .04em; }
-.count b { color: var(--ink); font-weight: 400; }
-.btns { display: flex; gap: 8px; }
+.hint { font-size: 13px; color: var(--muted); margin: 0; }
 button {
   font: inherit; font-size: 16px;
-  color: var(--ink); background: transparent;
+  color: var(--stage); background: var(--ink);
   border: 2px solid var(--ink); border-radius: 999px;
   padding: 7px 18px; cursor: pointer;
 }
-button.primary { background: var(--ink); color: var(--stage); }
 button:hover { border-color: var(--slide-dk); }
 button:focus-visible, .stage:focus-visible { outline: 3px solid var(--slide); outline-offset: 3px; }
-.hint { font-size: 13px; color: var(--muted); margin: 0; }
-@media (max-width: 520px) { .hint { display: none; } }
 </style>
 </head>
 <body>
 <main class="wrap">
-  <div class="stage" id="stage" tabindex="0" aria-label="Poem slides. Click for the next slide.">
-
-    <!-- Slide 1: I climb to ride / the twisty slide -->
-    <svg class="slide is-active" id="s1" viewBox="0 0 1600 900" role="img" aria-label="I climb to ride the twisty slide">
+  <div class="stage" id="stage" tabindex="0" aria-label="Poem animation. Click to replay.">
+    <svg viewBox="0 0 1600 900" role="img" aria-label="I climb to ride the twisty slide">
       <rect class="ground" x="0" y="820" width="1600" height="80"/>
       <g>
         <rect class="rail" x="468" y="330" width="16" height="490" rx="8"/>
@@ -133,91 +104,36 @@ button:focus-visible, .stage:focus-visible { outline: 3px solid var(--slide); ou
       <path class="chute" id="chute" d="M720,318 C900,298 1010,380 960,480 S760,610 880,690 S1260,760 1560,796"/>
       <rect class="platform" x="448" y="304" width="296" height="28" rx="14"/>
 
-      <text class="word big" id="w-i" x="430" y="790" text-anchor="end">I</text>
-      <text class="word big" id="w-climb" x="430" y="650" text-anchor="end">climb</text>
-      <text class="word big" id="w-to" x="430" y="510" text-anchor="end">to</text>
-      <text class="word big" id="w-ride" x="430" y="370" text-anchor="end">ride</text>
+      <text class="word" id="w-i" x="430" y="790" text-anchor="end">I</text>
+      <text class="word" id="w-climb" x="430" y="650" text-anchor="end">climb</text>
+      <text class="word" id="w-to" x="430" y="510" text-anchor="end">to</text>
+      <text class="word" id="w-ride" x="430" y="370" text-anchor="end">ride</text>
 
       <text class="on-chute" id="t-chute" dominant-baseline="central"><textPath id="tp-chute" href="#chute" startOffset="58%">the twisty slide</textPath></text>
-    </svg>
-
-    <!-- Slide 2: My little boat can float / around the castle moat -->
-    <svg class="slide" id="s2" viewBox="0 0 1600 900" role="img" aria-label="My little boat can float around the castle moat" aria-hidden="true">
-      <ellipse class="ground" cx="1180" cy="700" rx="412" ry="148"/>
-      <ellipse class="water" cx="1180" cy="690" rx="382" ry="122"/>
-      <path id="moat" fill="none" d="M850,690 A330,90 0 0 0 1510,690 A330,90 0 0 0 850,690 A330,90 0 0 0 1510,690 A330,90 0 0 0 850,690"/>
-      <text class="on-water" id="t-moat" dominant-baseline="central"><textPath id="tp-moat" href="#moat" startOffset="52%">around the castle moat</textPath></text>
-      <ellipse class="island" cx="1180" cy="672" rx="215" ry="50"/>
-
-      <g id="castle">
-        <rect class="castle" x="1060" y="420" width="240" height="260"/>
-        <rect class="castle" x="1072" y="394" width="26" height="30"/>
-        <rect class="castle" x="1120" y="394" width="26" height="30"/>
-        <rect class="castle" x="1168" y="394" width="26" height="30"/>
-        <rect class="castle" x="1216" y="394" width="26" height="30"/>
-        <rect class="castle" x="1262" y="394" width="26" height="30"/>
-        <rect class="castle-dk" x="1010" y="360" width="84" height="320"/>
-        <rect class="castle-dk" x="1266" y="360" width="84" height="320"/>
-        <rect class="castle-dk" x="1010" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1041" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1072" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1266" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1297" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1328" y="334" width="22" height="30"/>
-        <rect class="castle" x="1040" y="430" width="24" height="44" rx="12"/>
-        <rect class="castle" x="1296" y="430" width="24" height="44" rx="12"/>
-        <path class="castle-dk" d="M1142,680 V612 A38,38 0 0 1 1218,612 V680 Z"/>
-        <line class="pole" x1="1308" y1="336" x2="1308" y2="250"/>
-        <path class="flag" id="flag" d="M1311,252 L1380,272 L1311,294 Z"/>
-      </g>
-
-      <text class="word" id="w-my" x="110" y="240" font-size="104">My little</text>
-      <g id="boat-sail">
-        <g id="boat-rock">
-          <path class="hull" d="M80,452 H590 L530,526 H140 Z"/>
-          <text class="word" x="120" y="446" font-size="168">boat</text>
-        </g>
-      </g>
-      <path class="ripple" d="M60,560 q30,-14 60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0"/>
-      <text class="word" id="w-float" x="110" y="720" font-size="112">can float</text>
     </svg>
   </div>
 
   <div class="bar">
-    <span class="count" id="count" aria-live="polite"><b>1</b> / 2</span>
-    <p class="hint">Click the stage or press → to go on, R to replay</p>
-    <div class="btns">
-      <button id="prev" type="button">Back</button>
-      <button id="replay" type="button">Replay</button>
-      <button id="next" type="button" class="primary">Next</button>
-    </div>
+    <p class="hint">Click the stage or press R to replay</p>
+    <button id="replay" type="button">Replay</button>
   </div>
 </main>
 
 <script>
 (function () {
   var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var slides = [].slice.call(document.querySelectorAll('.slide'));
   var $ = function (id) { return document.getElementById(id); };
-  var cur = 0, running = [], token = 0;
+  var running = [], token = 0, chuteEnd, chuteLen;
 
   function anim(el, kf, opts) {
-    if (!el.animate) return null;
+    if (!el.animate) return;
     var o = { fill: 'backwards' };
     for (var k in opts) o[k] = opts[k];
-    var a = el.animate(kf, o);
-    running.push(a);
-    return a;
-  }
-  function stop() {
-    running.forEach(function (a) { a.cancel(); });
-    running = [];
-    token++;
+    running.push(el.animate(kf, o));
   }
   var easeInOut = function (p) { return p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2; };
-  var easeOutBack = function (p) { var c = 1.6; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
 
-  // Tween a textPath's startOffset; cancelled when the slide changes.
+  // Tween the textPath's startOffset so the words ride down the chute; cancelled on replay.
   function tween(tp, from, to, dur, delay, ease) {
     var my = token, t0 = performance.now() + delay;
     tp.setAttribute('startOffset', from);
@@ -230,40 +146,14 @@ button:focus-visible, .stage:focus-visible { outline: 3px solid var(--slide); ou
     requestAnimationFrame(step);
   }
 
-  // Resting positions for the text that rides along a path
-  var chuteEnd, chuteLen, moatEnd, moatLen;
-  function measure() {
-    var chute = $('chute'), moat = $('moat');
-    chuteLen = $('t-chute').getComputedTextLength();
-    chuteEnd = chute.getTotalLength() - chuteLen - 40;
-    moatLen = $('t-moat').getComputedTextLength();
-    var loop = moat.getTotalLength() / 2;
-    moatEnd = loop + (loop / 2 - moatLen) / 2;
-  }
-  function rest() {
+  function play() {
+    running.forEach(function (a) { a.cancel(); });
+    running = [];
+    token++;
     $('tp-chute').setAttribute('startOffset', chuteEnd);
-    $('tp-moat').setAttribute('startOffset', moatEnd);
-  }
+    if (reduce) return;
 
-  // Split "can float" into single letters so each one can bob on its own
-  var letters = [];
-  function splitFloat() {
-    var t = $('w-float'), str = t.textContent, g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-    for (var i = 0; i < str.length; i++) {
-      if (str[i] === ' ') continue;
-      var p = t.getStartPositionOfChar(i);
-      var c = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      c.setAttribute('class', 'word');
-      c.setAttribute('font-size', t.getAttribute('font-size'));
-      c.setAttribute('x', p.x); c.setAttribute('y', p.y);
-      c.textContent = str[i];
-      c.dataset.idx = i;
-      g.appendChild(c); letters.push(c);
-    }
-    t.parentNode.replaceChild(g, t);
-  }
-
-  function play1() {
+    // each word climbs one rung higher
     ['w-i', 'w-climb', 'w-to', 'w-ride'].forEach(function (id, i) {
       anim($(id), [
         { transform: 'translateY(150px) scale(.8)', opacity: 0 },
@@ -278,60 +168,14 @@ button:focus-visible, .stage:focus-visible { outline: 3px solid var(--slide); ou
     tween($('tp-chute'), -chuteLen - 20, chuteEnd, 2000, 2800, easeInOut);
   }
 
-  function play2() {
-    anim($('w-my'), [
-      { transform: 'translateY(-70px)', opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }
-    ], { duration: 650, delay: 200, easing: 'cubic-bezier(.2,.8,.3,1.2)' });
-    anim($('boat-sail'), [
-      { transform: 'translateX(-760px)' }, { transform: 'translateX(0)' }
-    ], { duration: 1400, delay: 500, easing: 'cubic-bezier(.2,.7,.25,1)' });
-    anim($('boat-rock'), [
-      { transform: 'translateY(0) rotate(-2.5deg)' }, { transform: 'translateY(-12px) rotate(2.5deg)' }
-    ], { duration: 1500, iterations: Infinity, direction: 'alternate', easing: 'ease-in-out', fill: 'none' });
-
-    letters.forEach(function (c, n) {
-      var isFloat = +c.dataset.idx > 3, d = 1900 + n * 90;
-      anim(c, [
-        { transform: 'translateY(90px)', opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }
-      ], { duration: 560, delay: d, easing: 'cubic-bezier(.2,.9,.3,1.3)' });
-      if (isFloat) anim(c, [
-        { transform: 'translateY(0) rotate(0)' }, { transform: 'translateY(-18px) rotate(' + (n % 2 ? 4 : -4) + 'deg)' }
-      ], { duration: 1300, delay: d + 600, iterations: Infinity, direction: 'alternate', easing: 'ease-in-out', fill: 'none' });
-    });
-
-    anim($('flag'), [
-      { transform: 'scaleX(1) skewY(0)' }, { transform: 'scaleX(.82) skewY(6deg)' }
-    ], { duration: 520, iterations: Infinity, direction: 'alternate', easing: 'ease-in-out', fill: 'none' });
-
-    // all the way around the castle once, then settle in front
-    tween($('tp-moat'), -moatLen, moatEnd, 4200, 2700, easeInOut);
-  }
-
-  function go(i) {
-    cur = (i + slides.length) % slides.length;
-    stop();
-    rest();
-    slides.forEach(function (s, k) {
-      s.classList.toggle('is-active', k === cur);
-      s.setAttribute('aria-hidden', k === cur ? 'false' : 'true');
-    });
-    $('count').innerHTML = '<b>' + (cur + 1) + '</b> / ' + slides.length;
-    if (!reduce) (cur === 0 ? play1 : play2)();
-  }
-
   function start() {
-    measure();
-    splitFloat();
-    go(0);
-    $('next').addEventListener('click', function () { go(cur + 1); });
-    $('prev').addEventListener('click', function () { go(cur - 1); });
-    $('replay').addEventListener('click', function () { go(cur); });
-    $('stage').addEventListener('click', function () { go(cur + 1); });
+    chuteLen = $('t-chute').getComputedTextLength();
+    chuteEnd = $('chute').getTotalLength() - chuteLen - 40;
+    play();
+    $('replay').addEventListener('click', play);
+    $('stage').addEventListener('click', play);
     document.addEventListener('keydown', function (e) {
-      if (e.target.tagName === 'BUTTON' && (e.key === ' ' || e.key === 'Enter')) return;
-      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown' || e.key === 'Enter') { e.preventDefault(); go(cur + 1); }
-      else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(cur - 1); }
-      else if (e.key === 'r' || e.key === 'R') go(cur);
+      if (e.key === 'r' || e.key === 'R') play();
     });
   }
 
