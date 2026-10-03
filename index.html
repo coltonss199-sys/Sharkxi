@@ -6,337 +6,465 @@
 <title>The Twisty Slide</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Sniglet&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@700;800&display=swap">
 <style>
-/* Layout: one 16:9 playground stage drawn in SVG, with a slim control bar beneath it */
+/* Layout: one 16:9 playground stage holding two SVG slides that swap sideways, with the poem lines as tabs beneath */
 :root {
-  --bg: #E7F0EC;
-  --stage: #F7FBF9;
-  --ink: #1C2A39;
-  --muted: #56686E;
-  --slide: #FF8A1F;
-  --slide-dk: #D9670A;
-  --water: #2F7FC4;
-  --water-hi: #8CC0EA;
-  --castle: #B7A6E6;
-  --castle-dk: #7F6CC0;
-  --ground: #CFE2D4;
-  --on-color: #1C2A39;
-  --display: "Bagel Fat One", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
-  --ui: "Sniglet", "Trebuchet MS", system-ui, sans-serif;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0E1820; --stage: #15232D; --ink: #EAF3EF; --muted: #98ACB2;
-    --slide: #FF9636; --slide-dk: #C4600F; --water: #2B6FAD; --water-hi: #5E9BD0;
-    --castle: #9483D6; --castle-dk: #5E4DA6; --ground: #21343B;
-    color-scheme: dark;
-  }
-}
-:root[data-theme="dark"] {
-  --bg: #0E1820; --stage: #15232D; --ink: #EAF3EF; --muted: #98ACB2;
-  --slide: #FF9636; --slide-dk: #C4600F; --water: #2B6FAD; --water-hi: #5E9BD0;
-  --castle: #9483D6; --castle-dk: #5E4DA6; --ground: #21343B;
-  color-scheme: dark;
+  /* the six swatches */
+  --pink: #FBB9C5;
+  --peach: #FDD0B1;
+  --butter: #F9EFC7;
+  --mint: #C3EDBF;
+  --sky: #B8DFE6;
+  --lilac: #C5BBDE;
+  /* one deep shade of the lilac, used only for outlines and small text */
+  --ink: #352C55;
+  --display: "Fredoka", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+  --ui: "Nunito", "Trebuchet MS", system-ui, sans-serif;
+  color-scheme: light;
 }
 
 html, body { height: 100%; }
 body {
   margin: 0;
-  background: var(--bg);
+  background: var(--lilac);
   color: var(--ink);
   font-family: var(--ui);
   display: grid;
   place-items: center;
-  padding-block: 24px;
+  padding-block: 28px;
   padding-inline: 16px;
   box-sizing: border-box;
 }
-.wrap { width: 100%; max-width: 1100px; display: grid; gap: 14px; }
+.wrap { width: 100%; max-width: 1120px; display: grid; gap: 20px; }
 
 .stage {
   position: relative;
   width: 100%;
   max-width: 100%;
   aspect-ratio: 16 / 9;
-  background: var(--stage);
-  border-radius: 20px;
+  background: var(--butter);
+  border: 3px solid var(--ink);
+  border-radius: 22px;
+  box-shadow: 0 8px 0 var(--ink);
   overflow: hidden;
   cursor: pointer;
+  box-sizing: border-box;
 }
 .slide {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  opacity: 0; transition: opacity .45s ease;
-  pointer-events: none;
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  display: block;
+  transform: translateX(100%);
+  transition: transform .9s cubic-bezier(.75, 0, .2, 1);
 }
-.slide.is-active { opacity: 1; }
+.slide.is-active { transform: translateX(0); }
+.slide.is-past { transform: translateX(-100%); }
 
-/* SVG paint, all from tokens */
-.ground { fill: var(--ground); }
-.rail { fill: var(--ink); opacity: .85; }
-.platform { fill: var(--ink); }
-.chute-edge { fill: none; stroke: var(--slide-dk); stroke-width: 92; stroke-linecap: round; stroke-linejoin: round; }
-.chute { fill: none; stroke: var(--slide); stroke-width: 76; stroke-linecap: round; stroke-linejoin: round; }
-.water { fill: var(--water); }
-.ripple { fill: none; stroke: var(--water-hi); stroke-width: 6; stroke-linecap: round; }
-.island { fill: var(--ground); }
-.castle { fill: var(--castle); }
-.castle-dk { fill: var(--castle-dk); }
-.pole { stroke: var(--ink); stroke-width: 6; stroke-linecap: round; }
-.flag { fill: var(--slide); }
-.hull { fill: var(--slide); }
-
-.word { font-family: var(--display); fill: var(--ink); }
-.big { font-size: 128px; }
-.on-chute { font-family: var(--display); font-size: 58px; fill: var(--on-color); letter-spacing: 2px; }
-.on-water { font-family: var(--display); font-size: 46px; fill: #FFFFFF; letter-spacing: 3px; }
-
-.slide text, .slide g, .slide path { transform-box: fill-box; transform-origin: center; }
-#flag { transform-origin: left center; }
+/* SVG paint, all from the tokens */
+.f-pink { fill: var(--pink); }
+.f-peach { fill: var(--peach); }
+.f-butter { fill: var(--butter); }
+.f-mint { fill: var(--mint); }
+.f-sky { fill: var(--sky); }
+.f-lilac { fill: var(--lilac); }
+.outlined { stroke: var(--ink); stroke-width: 5px; stroke-linejoin: round; }
+.ring { fill: none; stroke: var(--ink); stroke-width: 7px; stroke-linecap: round; stroke-dasharray: 0 26; }
+.track-edge { fill: none; stroke: var(--ink); stroke-width: 58px; stroke-linecap: round; stroke-linejoin: round; }
+.track { fill: none; stroke: var(--pink); stroke-width: 46px; stroke-linecap: round; stroke-linejoin: round; }
+.track-stripe { fill: none; stroke: var(--butter); stroke-width: 8px; stroke-dasharray: 34 26; }
+.glyph {
+  font-family: var(--display);
+  font-weight: 700;
+  stroke: var(--ink);
+  stroke-width: 10px;
+  stroke-linejoin: round;
+  paint-order: stroke fill;
+}
+.pop feDropShadow { flood-color: var(--ink); flood-opacity: 1; }
 
 /* Controls */
-.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; }
-.count { font-size: 16px; color: var(--muted); font-variant-numeric: tabular-nums; letter-spacing: .04em; }
-.count b { color: var(--ink); font-weight: 400; }
-.btns { display: flex; gap: 8px; }
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 10px; }
 button {
-  font: inherit; font-size: 16px;
-  color: var(--ink); background: transparent;
-  border: 2px solid var(--ink); border-radius: 999px;
-  padding: 7px 18px; cursor: pointer;
+  font: inherit;
+  color: var(--ink);
+  background: transparent;
+  border: 3px solid var(--ink);
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex; align-items: center; gap: 10px;
+  transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease;
 }
-button.primary { background: var(--ink); color: var(--stage); }
-button:hover { border-color: var(--slide-dk); }
-button:focus-visible, .stage:focus-visible { outline: 3px solid var(--slide); outline-offset: 3px; }
-.hint { font-size: 13px; color: var(--muted); margin: 0; }
-@media (max-width: 520px) { .hint { display: none; } }
+.tab { padding: 6px 18px 6px 6px; }
+.tab .n {
+  width: 30px; height: 30px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--ink); color: var(--butter);
+  font: 800 15px/1 var(--ui);
+  font-variant-numeric: tabular-nums;
+}
+.tab .line { font: 600 20px/1.2 var(--display); }
+.tab[aria-current="step"] { background: var(--butter); box-shadow: 0 4px 0 var(--ink); transform: translateY(-2px); }
+.tab:hover { background: var(--butter); }
+.replay { padding: 10px 20px; background: var(--ink); color: var(--butter); font: 800 16px/1 var(--ui); letter-spacing: .02em; }
+.replay:hover { box-shadow: 0 4px 0 var(--pink); transform: translateY(-2px); }
+button:focus-visible, .stage:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+.hint { margin: 0; font: 700 14px/1.4 var(--ui); color: var(--ink); opacity: .78; }
+.hint kbd {
+  font: 800 12px/1 var(--ui);
+  border: 2px solid var(--ink); border-radius: 6px;
+  padding: 2px 6px; margin-inline: 1px;
+}
+.end { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+
+@media (max-width: 560px) {
+  .tab .line { font-size: 17px; }
+  .hint { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .slide, button { transition: none; }
+}
 </style>
 </head>
 <body>
 <main class="wrap">
-  <div class="stage" id="stage" tabindex="0" aria-label="Poem slides. Click for the next slide.">
+  <div class="stage" id="stage" tabindex="0" aria-label="Poem slides. Click or press the right arrow for the next line.">
 
-    <!-- Slide 1: I climb to ride / the twisty slide -->
-    <svg class="slide is-active" id="s1" viewBox="0 0 1600 900" role="img" aria-label="I climb to ride the twisty slide">
-      <rect class="ground" x="0" y="820" width="1600" height="80"/>
-      <g>
-        <rect class="rail" x="468" y="330" width="16" height="490" rx="8"/>
-        <rect class="rail" x="574" y="330" width="16" height="490" rx="8"/>
-        <rect class="rail" x="712" y="330" width="16" height="490" rx="8"/>
-        <rect class="rail" x="468" y="414" width="122" height="12" rx="6"/>
-        <rect class="rail" x="468" y="494" width="122" height="12" rx="6"/>
-        <rect class="rail" x="468" y="574" width="122" height="12" rx="6"/>
-        <rect class="rail" x="468" y="654" width="122" height="12" rx="6"/>
-        <rect class="rail" x="468" y="734" width="122" height="12" rx="6"/>
+    <!-- Slide 1: the letters walk in and climb the steps -->
+    <svg class="slide is-active" id="s1" viewBox="0 0 1600 900" role="img" aria-label="I climb to ride">
+      <defs>
+        <filter id="pop1" class="pop" filterUnits="userSpaceOnUse" x="-300" y="-300" width="2200" height="1500">
+          <feDropShadow dx="0" dy="8" stdDeviation="0"/>
+        </filter>
+      </defs>
+      <rect class="f-butter" width="1600" height="900"/>
+      <g id="s1-sun">
+        <circle class="ring" cx="200" cy="170" r="96"/>
+        <circle class="f-peach outlined" cx="200" cy="170" r="62"/>
       </g>
-      <path class="chute-edge" d="M720,318 C900,298 1010,380 960,480 S760,610 880,690 S1260,760 1560,796"/>
-      <path class="chute" id="chute" d="M720,318 C900,298 1010,380 960,480 S760,610 880,690 S1260,760 1560,796"/>
-      <rect class="platform" x="448" y="304" width="296" height="28" rx="14"/>
-
-      <text class="word big" id="w-i" x="430" y="790" text-anchor="end">I</text>
-      <text class="word big" id="w-climb" x="430" y="650" text-anchor="end">climb</text>
-      <text class="word big" id="w-to" x="430" y="510" text-anchor="end">to</text>
-      <text class="word big" id="w-ride" x="430" y="370" text-anchor="end">ride</text>
-
-      <text class="on-chute" id="t-chute" dominant-baseline="central"><textPath id="tp-chute" href="#chute" startOffset="58%">the twisty slide</textPath></text>
+      <g id="s1-clouds">
+        <path class="f-sky outlined" transform="translate(470 196) scale(1.15)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+        <path class="f-sky outlined" transform="translate(860 248) scale(.8)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+      </g>
+      <g id="s1-steps"></g>
+      <rect class="f-mint outlined" x="-10" y="820" width="1620" height="100"/>
+      <g id="s1-letters" filter="url(#pop1)"></g>
     </svg>
 
-    <!-- Slide 2: My little boat can float / around the castle moat -->
-    <svg class="slide" id="s2" viewBox="0 0 1600 900" role="img" aria-label="My little boat can float around the castle moat" aria-hidden="true">
-      <ellipse class="ground" cx="1180" cy="700" rx="412" ry="148"/>
-      <ellipse class="water" cx="1180" cy="690" rx="382" ry="122"/>
-      <path id="moat" fill="none" d="M850,690 A330,90 0 0 0 1510,690 A330,90 0 0 0 850,690 A330,90 0 0 0 1510,690 A330,90 0 0 0 850,690"/>
-      <text class="on-water" id="t-moat" dominant-baseline="central"><textPath id="tp-moat" href="#moat" startOffset="52%">around the castle moat</textPath></text>
-      <ellipse class="island" cx="1180" cy="672" rx="215" ry="50"/>
-
-      <g id="castle">
-        <rect class="castle" x="1060" y="420" width="240" height="260"/>
-        <rect class="castle" x="1072" y="394" width="26" height="30"/>
-        <rect class="castle" x="1120" y="394" width="26" height="30"/>
-        <rect class="castle" x="1168" y="394" width="26" height="30"/>
-        <rect class="castle" x="1216" y="394" width="26" height="30"/>
-        <rect class="castle" x="1262" y="394" width="26" height="30"/>
-        <rect class="castle-dk" x="1010" y="360" width="84" height="320"/>
-        <rect class="castle-dk" x="1266" y="360" width="84" height="320"/>
-        <rect class="castle-dk" x="1010" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1041" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1072" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1266" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1297" y="334" width="22" height="30"/>
-        <rect class="castle-dk" x="1328" y="334" width="22" height="30"/>
-        <rect class="castle" x="1040" y="430" width="24" height="44" rx="12"/>
-        <rect class="castle" x="1296" y="430" width="24" height="44" rx="12"/>
-        <path class="castle-dk" d="M1142,680 V612 A38,38 0 0 1 1218,612 V680 Z"/>
-        <line class="pole" x1="1308" y1="336" x2="1308" y2="250"/>
-        <path class="flag" id="flag" d="M1311,252 L1380,272 L1311,294 Z"/>
+    <!-- Slide 2: the letters ride down a zigzag slide and skid into a line -->
+    <svg class="slide" id="s2" viewBox="0 0 1600 900" role="img" aria-label="the twisty slide" aria-hidden="true">
+      <defs>
+        <filter id="pop2" class="pop" filterUnits="userSpaceOnUse" x="-300" y="-300" width="2300" height="1500">
+          <feDropShadow dx="0" dy="8" stdDeviation="0"/>
+        </filter>
+      </defs>
+      <rect class="f-sky" width="1600" height="900"/>
+      <g id="s2-sun">
+        <circle class="ring" cx="200" cy="170" r="96"/>
+        <circle class="f-peach outlined" cx="200" cy="170" r="62"/>
       </g>
-
-      <text class="word" id="w-my" x="110" y="240" font-size="104">My little</text>
-      <g id="boat-sail">
-        <g id="boat-rock">
-          <path class="hull" d="M80,452 H590 L530,526 H140 Z"/>
-          <text class="word" x="120" y="446" font-size="168">boat</text>
-        </g>
+      <g id="s2-clouds">
+        <path class="f-butter outlined" transform="translate(640 120) scale(.9)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+        <path class="f-butter outlined" transform="translate(1010 150) scale(.7)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
       </g>
-      <path class="ripple" d="M60,560 q30,-14 60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0 t60,0"/>
-      <text class="word" id="w-float" x="110" y="720" font-size="112">can float</text>
+      <g id="ladder">
+        <rect class="f-lilac outlined" x="1426" y="226" width="20" height="640" rx="10"/>
+        <rect class="f-lilac outlined" x="1524" y="226" width="20" height="640" rx="10"/>
+        <rect class="f-lilac outlined" x="1440" y="300" width="90" height="16" rx="8"/>
+        <rect class="f-lilac outlined" x="1440" y="380" width="90" height="16" rx="8"/>
+        <rect class="f-lilac outlined" x="1440" y="460" width="90" height="16" rx="8"/>
+        <rect class="f-lilac outlined" x="1440" y="540" width="90" height="16" rx="8"/>
+        <rect class="f-lilac outlined" x="1440" y="620" width="90" height="16" rx="8"/>
+        <rect class="f-lilac outlined" x="1440" y="700" width="90" height="16" rx="8"/>
+        <rect class="f-lilac outlined" x="1440" y="780" width="90" height="16" rx="8"/>
+      </g>
+      <rect class="f-mint outlined" x="-10" y="826" width="1620" height="100"/>
+      <path class="track-edge" d="M1660,214 L1340,214 C1060,214 720,196 480,290 C280,370 330,492 580,502 C860,514 1180,468 1310,566 C1410,644 1330,796 1140,796 L40,796"/>
+      <path class="track" id="track" d="M1660,214 L1340,214 C1060,214 720,196 480,290 C280,370 330,492 580,502 C860,514 1180,468 1310,566 C1410,644 1330,796 1140,796 L40,796"/>
+      <path class="track-stripe" id="track-stripe" d="M1660,214 L1340,214 C1060,214 720,196 480,290 C280,370 330,492 580,502 C860,514 1180,468 1310,566 C1410,644 1330,796 1140,796 L40,796"/>
+      <g id="s2-letters" filter="url(#pop2)"></g>
     </svg>
   </div>
 
   <div class="bar">
-    <span class="count" id="count" aria-live="polite"><b>1</b> / 2</span>
-    <p class="hint">Click the stage or press → to go on, R to replay</p>
-    <div class="btns">
-      <button id="prev" type="button">Back</button>
-      <button id="replay" type="button">Replay</button>
-      <button id="next" type="button" class="primary">Next</button>
+    <div class="tabs" role="group" aria-label="Poem lines">
+      <button class="tab" type="button" id="tab-0" aria-current="step"><span class="n">1</span><span class="line">I climb to ride</span></button>
+      <button class="tab" type="button" id="tab-1"><span class="n">2</span><span class="line">the twisty slide</span></button>
+    </div>
+    <div class="end">
+      <p class="hint"><kbd>←</kbd> <kbd>→</kbd> to switch, <kbd>R</kbd> to replay</p>
+      <button class="replay" type="button" id="replay">Play from the start</button>
     </div>
   </div>
 </main>
 
 <script>
 (function () {
-  var reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var slides = [].slice.call(document.querySelectorAll('.slide'));
-  var $ = function (id) { return document.getElementById(id); };
-  var cur = 0, running = [], token = 0;
+  'use strict';
+  const NS = 'http://www.w3.org/2000/svg';
+  const reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const $ = (id) => document.getElementById(id);
+  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+  const lerp = (a, b, u) => a + (b - a) * u;
+  const smooth = (u) => u * u * (3 - 2 * u);
+  const easeOutBack = (u) => { const c = 1.7; return 1 + (c + 1) * Math.pow(u - 1, 3) + c * Math.pow(u - 1, 2); };
 
-  function anim(el, kf, opts) {
-    if (!el.animate) return null;
-    var o = { fill: 'backwards' };
-    for (var k in opts) o[k] = opts[k];
-    var a = el.animate(kf, o);
-    running.push(a);
-    return a;
+  function el(tag, attrs, parent) {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(n);
+    return n;
   }
-  function stop() {
-    running.forEach(function (a) { a.cancel(); });
-    running = [];
-    token++;
-  }
-  var easeInOut = function (p) { return p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2; };
-  var easeOutBack = function (p) { var c = 1.6; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); };
 
-  // Tween a textPath's startOffset; cancelled when the slide changes.
-  function tween(tp, from, to, dur, delay, ease) {
-    var my = token, t0 = performance.now() + delay;
-    tp.setAttribute('startOffset', from);
-    function step(now) {
-      if (my !== token) return;
-      var p = Math.min(1, Math.max(0, (now - t0) / dur));
-      tp.setAttribute('startOffset', from + (to - from) * ease(p));
-      if (p < 1) requestAnimationFrame(step);
+  // Where each character's centre falls when the string is set at this size
+  function measure(svg, str, size) {
+    const t = el('text', { class: 'glyph', 'font-size': size, x: 0, y: 0, visibility: 'hidden' }, svg);
+    t.textContent = str;
+    const chars = [];
+    for (let i = 0; i < str.length; i++) {
+      let cx;
+      try { cx = (t.getStartPositionOfChar(i).x + t.getEndPositionOfChar(i).x) / 2; }
+      catch (e) { cx = (i + 0.5) * size * 0.55; }
+      chars.push({ ch: str[i], cx: cx });
     }
-    requestAnimationFrame(step);
+    let total = t.getComputedTextLength();
+    if (!total) total = str.length * size * 0.55;
+    t.remove();
+    return { chars: chars, total: total };
   }
 
-  // Resting positions for the text that rides along a path
-  var chuteEnd, chuteLen, moatEnd, moatLen;
-  function measure() {
-    var chute = $('chute'), moat = $('moat');
-    chuteLen = $('t-chute').getComputedTextLength();
-    chuteEnd = chute.getTotalLength() - chuteLen - 40;
-    moatLen = $('t-moat').getComputedTextLength();
-    var loop = moat.getTotalLength() / 2;
-    moatEnd = loop + (loop / 2 - moatLen) / 2;
+  // One letter, drawn with its baseline at the group's origin
+  function glyph(parent, ch, size, tone) {
+    const g = el('g', {}, parent);
+    el('text', { class: 'glyph f-' + tone, 'font-size': size, 'text-anchor': 'middle' }, g).textContent = ch;
+    return g;
   }
-  function rest() {
-    $('tp-chute').setAttribute('startOffset', chuteEnd);
-    $('tp-moat').setAttribute('startOffset', moatEnd);
-  }
+  const f = (n) => n.toFixed(2);
 
-  // Split "can float" into single letters so each one can bob on its own
-  var letters = [];
-  function splitFloat() {
-    var t = $('w-float'), str = t.textContent, g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
-    for (var i = 0; i < str.length; i++) {
-      if (str[i] === ' ') continue;
-      var p = t.getStartPositionOfChar(i);
-      var c = document.createElementNS('http://www.w3.org/2000/svg', 'text');
-      c.setAttribute('class', 'word');
-      c.setAttribute('font-size', t.getAttribute('font-size'));
-      c.setAttribute('x', p.x); c.setAttribute('y', p.y);
-      c.textContent = str[i];
-      c.dataset.idx = i;
-      g.appendChild(c); letters.push(c);
+  /* ---------- Slide 1: I climb to ride ---------- */
+  function makeClimb() {
+    const svg = $('s1'), stepsG = $('s1-steps'), lettersG = $('s1-letters');
+    const WORDS = ['I', 'climb', 'to', 'ride'];
+    const TONES = ['pink', 'peach', 'sky', 'lilac'];
+    const FS = 124, PAD = 90, RISE = 128, GROUND = 820, GAP = 0.08;
+    const steps = [], letters = [];
+    let end = 0;
+
+    const ms = WORDS.map((w) => measure(svg, w, FS));
+    const widths = ms.map((m) => Math.max(m.total + PAD * 2, 190));
+    let x = 1600 - 64 - widths.reduce((a, b) => a + b, 0);
+    WORDS.forEach((w, k) => {
+      const top = GROUND - RISE * (k + 1);
+      // each step runs a little under the next one so only its outer corner is rounded
+      const rect = el('rect', { class: 'outlined f-' + TONES[k], x: x, y: GROUND, width: widths[k] + (k < 3 ? 30 : 0), height: 40, rx: 22 }, stepsG);
+      steps.push({ x: x, top: top, rect: rect });
+      const left = x + (widths[k] - ms[k].total) / 2;
+      ms[k].chars.forEach((c, j) => letters.push({ ch: c.ch, word: k, j: j, fx: left + c.cx }));
+      x += widths[k];
+    });
+
+    // Every letter walks in along the ground, then hops up one step at a time to its own word
+    letters.forEach((L, i) => {
+      L.g = glyph(lettersG, L.ch, FS, TONES[L.word]);
+      const t0 = 0.8 + i * 0.16;
+      const xg = steps[0].x - 70;
+      const segs = [{ hop: false, t0: t0, t1: t0 + 0.62, x0: -120, y0: GROUND, x1: xg, y1: GROUND }];
+      let t = t0 + 0.62 + GAP, px = xg, py = GROUND;
+      for (let k = 0; k <= L.word; k++) {
+        const tx = k === L.word ? L.fx : steps[k].x + 32;
+        const ty = steps[k].top;
+        const d = 0.32 + Math.abs(tx - px) / 1700;
+        segs.push({ hop: true, t0: t, t1: t + d, x0: px, y0: py, x1: tx, y1: ty });
+        t += d + GAP; px = tx; py = ty;
+      }
+      L.segs = segs;
+      L.land = t - GAP;
+      end = Math.max(end, L.land);
+    });
+
+    // [x, y, rotation, scaleX, scaleY]
+    function pose(L, t) {
+      const S = L.segs;
+      if (t <= S[0].t0) return [-200, GROUND, 0, 1, 1];
+      for (let j = 0; j < S.length; j++) {
+        const s = S[j];
+        if (t < s.t0) { // crouch before the next hop
+          const q = Math.sin(Math.PI * clamp((t - (s.t0 - GAP)) / GAP, 0, 1));
+          return [s.x0, s.y0, 0, 1 + 0.16 * q, 1 - 0.22 * q];
+        }
+        if (t < s.t1) {
+          const u = (t - s.t0) / (s.t1 - s.t0);
+          if (!s.hop) {
+            const b = Math.abs(Math.sin(u * Math.PI * 4));
+            return [lerp(s.x0, s.x1, u), s.y0 - 18 * b, 7 * Math.sin(u * Math.PI * 8), 1, 1];
+          }
+          const arc = (s.y0 - s.y1) / 2 + 110, q = Math.sin(Math.PI * u);
+          return [lerp(s.x0, s.x1, u), lerp(s.y0, s.y1, u) - arc * 4 * u * (1 - u), 12 * q, 1 - 0.08 * q, 1 + 0.12 * q];
+        }
+      }
+      const a = t - L.land, k = Math.exp(-a * 7) * Math.cos(a * 20);
+      return [L.fx, S[S.length - 1].y1, 0, 1 + 0.2 * k, 1 - 0.26 * k];
     }
-    t.parentNode.replaceChild(g, t);
+
+    const sunRing = document.querySelector('#s1-sun .ring'), clouds = $('s1-clouds');
+    function render(t, live) {
+      steps.forEach((s, k) => {
+        const e = easeOutBack(clamp((t - 0.1 - k * 0.14) / 0.55, 0, 1));
+        const h = (GROUND - s.top) * e;
+        s.rect.setAttribute('y', f(GROUND - h));
+        s.rect.setAttribute('height', f(h + 40));
+      });
+      letters.forEach((L) => {
+        const p = pose(L, t);
+        // "ride" keeps bouncing once everyone is up top
+        if (live && L.word === 3 && t > end + 0.5) {
+          const b = Math.max(0, Math.sin((t - end - 0.5) * 4.4 - L.j * 0.8));
+          p[1] -= 26 * b; p[2] -= 8 * b;
+        }
+        L.g.setAttribute('transform', 'translate(' + f(p[0]) + ' ' + f(p[1]) + ') rotate(' + f(p[2]) + ') scale(' + f(p[3]) + ' ' + f(p[4]) + ')');
+      });
+      const tt = live ? t : 0;
+      sunRing.setAttribute('transform', 'rotate(' + f(tt * 14) + ' 200 170)');
+      clouds.setAttribute('transform', 'translate(' + f(18 * Math.sin(tt * 0.4)) + ' 0)');
+    }
+    return { render: render, reset: function () {}, get end() { return end; } };
   }
 
-  function play1() {
-    ['w-i', 'w-climb', 'w-to', 'w-ride'].forEach(function (id, i) {
-      anim($(id), [
-        { transform: 'translateY(150px) scale(.8)', opacity: 0 },
-        { transform: 'translateY(-34px) scale(1.04)', opacity: 1, offset: .6 },
-        { transform: 'translateY(0) scale(1)', opacity: 1 }
-      ], { duration: 640, delay: 300 + i * 520, easing: 'cubic-bezier(.3,.7,.4,1)' });
+  /* ---------- Slide 2: the twisty slide ---------- */
+  function makeRide() {
+    const svg = $('s2'), lettersG = $('s2-letters'), track = $('track'), stripe = $('track-stripe');
+    const TEXT = 'the twisty slide', FS = 112, LIFT = 26, END_X = 40, CENTER = 0.36 * FS;
+    const RAINBOW = ['pink', 'peach', 'butter', 'mint', 'sky', 'lilac'];
+    const V0 = 460, ACC = 900, VMAX = 980, BRAKE = 340, STAGGER = 0.16, FIRST = 0.3;
+    const len = track.getTotalLength();
+
+    // sample the track once so each frame is a table lookup
+    const STEP = 2, N = Math.ceil(len / STEP) + 1, PX = new Float32Array(N), PY = new Float32Array(N);
+    for (let i = 0; i < N; i++) { const p = track.getPointAtLength(Math.min(len, i * STEP)); PX[i] = p.x; PY[i] = p.y; }
+    function at(s) {
+      const fi = clamp(s, 0, len) / STEP, i = Math.min(N - 2, Math.floor(fi)), u = fi - i;
+      const a0 = Math.max(0, i - 4), a1 = Math.min(N - 1, i + 5);
+      let deg = Math.atan2(PY[a1] - PY[a0], PX[a1] - PX[a0]) * 180 / Math.PI;
+      if (deg > 90) deg -= 180; else if (deg < -90) deg += 180; // keep letters upright
+      return { x: lerp(PX[i], PX[i + 1], u), y: lerp(PY[i], PY[i + 1], u), deg: deg };
+    }
+    // "twisty" does its spin along the middle run, between the two hairpins
+    let iLeft = 0, iRight = 0;
+    for (let i = 0; i < N * 0.6; i++) if (PX[i] < PX[iLeft]) iLeft = i;
+    iRight = iLeft;
+    for (let i = iLeft; i < N; i++) if (PX[i] > PX[iRight]) iRight = i;
+    const spinA = iLeft * STEP + 140, spinB = iRight * STEP - 220;
+
+    const m = measure(svg, TEXT, FS);
+    const cx = clamp(600, 70 + m.total / 2, 1110 - m.total / 2);
+    const left = cx - m.total / 2;
+    const letters = [];
+    let w = 0, j = 0;
+    m.chars.forEach((c) => {
+      if (c.ch === ' ') { w++; j = 0; return; }
+      const tone = w === 1 ? RAINBOW[j % RAINBOW.length] : 'butter';
+      const fx = left + c.cx;
+      letters.push({ ch: c.ch, word: w, j: j, D: len - (fx - END_X), g: glyph(lettersG, c.ch, FS, tone), rot: 0 });
+      j++;
     });
-    // a little wobble at the top before the ride
-    anim($('w-ride'), [
-      { transform: 'rotate(0)' }, { transform: 'rotate(-6deg)' }, { transform: 'rotate(5deg)' }, { transform: 'rotate(0)' }
-    ], { duration: 520, delay: 2400, fill: 'none' });
-    tween($('tp-chute'), -chuteLen - 20, chuteEnd, 2000, 2800, easeInOut);
-  }
 
-  function play2() {
-    anim($('w-my'), [
-      { transform: 'translateY(-70px)', opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }
-    ], { duration: 650, delay: 200, easing: 'cubic-bezier(.2,.8,.3,1.2)' });
-    anim($('boat-sail'), [
-      { transform: 'translateX(-760px)' }, { transform: 'translateX(0)' }
-    ], { duration: 1400, delay: 500, easing: 'cubic-bezier(.2,.7,.25,1)' });
-    anim($('boat-rock'), [
-      { transform: 'translateY(0) rotate(-2.5deg)' }, { transform: 'translateY(-12px) rotate(2.5deg)' }
-    ], { duration: 1500, iterations: Infinity, direction: 'alternate', easing: 'ease-in-out', fill: 'none' });
-
-    letters.forEach(function (c, n) {
-      var isFloat = +c.dataset.idx > 3, d = 1900 + n * 90;
-      anim(c, [
-        { transform: 'translateY(90px)', opacity: 0 }, { transform: 'translateY(0)', opacity: 1 }
-      ], { duration: 560, delay: d, easing: 'cubic-bezier(.2,.9,.3,1.3)' });
-      if (isFloat) anim(c, [
-        { transform: 'translateY(0) rotate(0)' }, { transform: 'translateY(-18px) rotate(' + (n % 2 ? 4 : -4) + 'deg)' }
-      ], { duration: 1300, delay: d + 600, iterations: Infinity, direction: 'alternate', easing: 'ease-in-out', fill: 'none' });
+    // Same ride for every letter: a push off, full speed, then brakes on the flat run-out
+    let end = 0;
+    const ta = (VMAX - V0) / ACC, sa = V0 * ta + 0.5 * ACC * ta * ta, DEC = VMAX * VMAX / (2 * BRAKE);
+    letters.forEach((L, i) => {
+      L.t0 = FIRST + i * STAGGER;
+      L.sb = L.D - BRAKE;
+      L.tc = ta + (L.sb - sa) / VMAX;
+      L.stop = L.tc + 2 * BRAKE / VMAX;
+      end = Math.max(end, L.t0 + L.stop);
     });
+    function dist(L, tau) {
+      if (tau <= 0) return 0;
+      if (tau < ta) return V0 * tau + 0.5 * ACC * tau * tau;
+      if (tau < L.tc) return sa + VMAX * (tau - ta);
+      if (tau < L.stop) { const u = tau - L.tc; return L.sb + VMAX * u - 0.5 * DEC * u * u; }
+      return L.D;
+    }
 
-    anim($('flag'), [
-      { transform: 'scaleX(1) skewY(0)' }, { transform: 'scaleX(.82) skewY(6deg)' }
-    ], { duration: 520, iterations: Infinity, direction: 'alternate', easing: 'ease-in-out', fill: 'none' });
-
-    // all the way around the castle once, then settle in front
-    tween($('tp-moat'), -moatLen, moatEnd, 4200, 2700, easeInOut);
+    const sunRing = document.querySelector('#s2-sun .ring'), clouds = $('s2-clouds');
+    let lastT = null;
+    function render(t, live) {
+      const dt = lastT === null ? 1 : t - lastT;
+      lastT = t;
+      const ease = (dt < 0 || dt > 0.25) ? 1 : 1 - Math.exp(-dt * 10);
+      letters.forEach((L) => {
+        const tau = t - L.t0, s = dist(L, tau), p = at(s);
+        const target = clamp(p.deg, -38, 38);
+        L.rot = live ? L.rot + (target - L.rot) * ease : target;
+        let spin = 0, rock = 0;
+        if (L.word === 1) spin = 360 * smooth(clamp((s - spinA) / (spinB - spinA), 0, 1));
+        const after = tau - L.stop;
+        if (after > 0) rock = 13 * Math.exp(-after * 5) * Math.sin(after * 15);
+        if (live && L.word === 1 && t > end + 0.4) {
+          spin += 9 * Math.sin((t - end - 0.4) * 4 + L.j * 1.1) * Math.min(1, (t - end - 0.4) / 0.8);
+        }
+        L.g.setAttribute('transform',
+          'translate(' + f(p.x) + ' ' + f(p.y) + ') rotate(' + f(L.rot) + ') translate(0 ' + (-LIFT) + ') rotate(' + f(rock) + ') rotate(' + f(spin) + ' 0 ' + f(-CENTER) + ')');
+      });
+      const tt = live ? t : 0;
+      stripe.style.strokeDashoffset = f(-tt * 120);
+      sunRing.setAttribute('transform', 'rotate(' + f(tt * 14) + ' 200 170)');
+      clouds.setAttribute('transform', 'translate(' + f(18 * Math.sin(tt * 0.4)) + ' 0)');
+    }
+    return { render: render, reset: function () { lastT = null; }, get end() { return end; } };
   }
 
-  function go(i) {
-    cur = (i + slides.length) % slides.length;
-    stop();
-    rest();
-    slides.forEach(function (s, k) {
-      s.classList.toggle('is-active', k === cur);
-      s.setAttribute('aria-hidden', k === cur ? 'false' : 'true');
-    });
-    $('count').innerHTML = '<b>' + (cur + 1) + '</b> / ' + slides.length;
-    if (!reduce) (cur === 0 ? play1 : play2)();
-  }
-
+  /* ---------- Player ---------- */
   function start() {
-    measure();
-    splitFloat();
-    go(0);
-    $('next').addEventListener('click', function () { go(cur + 1); });
-    $('prev').addEventListener('click', function () { go(cur - 1); });
-    $('replay').addEventListener('click', function () { go(cur); });
-    $('stage').addEventListener('click', function () { go(cur + 1); });
-    document.addEventListener('keydown', function (e) {
+    const slides = [$('s1'), $('s2')];
+    const tabs = [$('tab-0'), $('tab-1')];
+    const scenes = [makeClimb(), makeRide()];
+    const clock = [0, -1e9];
+    let cur = 0, auto = false;
+
+    function go(i, autoplay) {
+      const prev = cur;
+      cur = (i + slides.length) % slides.length;
+      auto = !!autoplay && !reduce;
+      slides.forEach((s, k) => {
+        s.classList.toggle('is-active', k === cur);
+        s.classList.toggle('is-past', k < cur);
+        s.setAttribute('aria-hidden', k === cur ? 'false' : 'true');
+      });
+      tabs.forEach((b, k) => { if (k === cur) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
+      // let the new slide finish swinging in before its letters start
+      clock[cur] = performance.now() + (prev !== cur && !reduce ? 450 : 150);
+      scenes[cur].reset();
+    }
+
+    function frame(now) {
+      scenes.forEach((sc, k) => {
+        sc.render(reduce ? sc.end + 2 : (now - clock[k]) / 1000, !reduce);
+      });
+      if (auto && cur === 0 && (now - clock[0]) / 1000 > scenes[0].end + 2.2) go(1, false);
+      requestAnimationFrame(frame);
+    }
+
+    tabs.forEach((b, k) => b.addEventListener('click', () => go(k, false)));
+    $('replay').addEventListener('click', () => go(0, true));
+    $('stage').addEventListener('click', () => go(cur + 1, false));
+    document.addEventListener('keydown', (e) => {
       if (e.target.tagName === 'BUTTON' && (e.key === ' ' || e.key === 'Enter')) return;
-      if (e.key === 'ArrowRight' || e.key === ' ' || e.key === 'PageDown' || e.key === 'Enter') { e.preventDefault(); go(cur + 1); }
-      else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(cur - 1); }
-      else if (e.key === 'r' || e.key === 'R') go(cur);
+      if (e.key === 'ArrowRight' || e.key === 'PageDown' || (e.key === ' ' && e.target === $('stage'))) { e.preventDefault(); go(cur + 1, false); }
+      else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(cur - 1, false); }
+      else if (e.key === 'r' || e.key === 'R') go(0, true);
     });
+
+    go(0, true);
+    requestAnimationFrame(frame);
   }
 
-  if (document.fonts && document.fonts.ready) document.fonts.ready.then(start, start);
-  else start();
+  // Letter positions are measured, so wait for the display face (but never forever)
+  const fontsReady = document.fonts && document.fonts.load
+    ? Promise.all([document.fonts.load('700 124px Fredoka'), document.fonts.load('700 112px Fredoka')]).catch(() => {})
+    : Promise.resolve();
+  Promise.race([fontsReady, new Promise((r) => setTimeout(r, 2500))]).then(start);
 })();
 </script>
 </body>
