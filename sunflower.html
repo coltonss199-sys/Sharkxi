@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@700;800&display=swap">
 <style>
-/* Layout: one 16:9 cutaway of sky over soil; the camera starts on the buried seed and pulls back as the sunflower grows */
+/* Layout: one 16:9 cutaway of sky over soil; the camera starts on the buried line and pulls back as the sunflower grows */
 :root {
   /* the scene */
   --sky: #BCE0EC;
@@ -82,12 +82,11 @@ body {
 .root { fill: none; stroke: var(--cream); stroke-width: 4px; stroke-linecap: round; }
 .vein { fill: none; stroke: var(--ink); stroke-width: 3.5px; stroke-linecap: round; }
 .stripe { fill: none; stroke: var(--cream); stroke-width: 3px; stroke-linecap: round; }
-.glyph { font-family: var(--display); font-weight: 700; }
-/* the buried line is outlined in the usual way; the line above ground gets its outline from the sticker filter so "tall" can stretch without fattening it */
-.g-buried { fill: var(--cream); stroke: var(--ink); stroke-width: 9px; stroke-linejoin: round; paint-order: stroke fill; }
-.g-petal { fill: var(--petal); }
-.g-leaf { fill: var(--leaf); }
-.sticker feFlood { flood-color: var(--ink); }
+/* Lettering is drawn in three passes (shadow, outline, face) so touching letters share one outline, same weight as the drawing */
+.type-shade, .type-edge { fill: var(--ink); stroke: var(--ink); stroke-width: 10px; stroke-linejoin: round; }
+.t-cream { fill: var(--cream); }
+.t-petal { fill: var(--petal); }
+.t-leaf { fill: var(--leaf); }
 
 /* Controls */
 .bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; }
@@ -125,31 +124,18 @@ body {
 <main class="wrap">
   <div class="stage" id="stage">
     <svg id="scene" viewBox="0 0 1600 900" role="img" aria-label="A seed so small became so tall. A seed drops into the soil, sprouts, and grows into a tall sunflower.">
-      <defs>
-        <filter id="sticker" class="sticker" filterUnits="userSpaceOnUse" x="-200" y="-200" width="2000" height="1300" color-interpolation-filters="sRGB">
-          <feMorphology in="SourceAlpha" operator="dilate" radius="5" result="fat"/>
-          <feFlood result="ink"/>
-          <feComposite in="ink" in2="fat" operator="in" result="edge"/>
-          <feOffset in="edge" dy="7" result="drop"/>
-          <feMerge>
-            <feMergeNode in="drop"/>
-            <feMergeNode in="edge"/>
-            <feMergeNode in="SourceGraphic"/>
-          </feMerge>
-        </filter>
-      </defs>
       <rect class="f-sky" width="1600" height="900"/>
       <g id="world">
         <g id="sun">
-          <circle class="ring" cx="1075" cy="178" r="96"/>
-          <circle class="f-sun edge" cx="1075" cy="178" r="60"/>
+          <circle class="ring" cx="1010" cy="170" r="96"/>
+          <circle class="f-sun edge" cx="1010" cy="170" r="60"/>
         </g>
         <g id="clouds">
-          <path class="f-cream edge" transform="translate(110 205) scale(1.1)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
-          <path class="f-cream edge" transform="translate(1310 118) scale(.75)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+          <path class="f-cream edge" transform="translate(590 165)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+          <path class="f-cream edge" transform="translate(1290 112) scale(.75)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
         </g>
         <!-- "became so tall" sits behind the soil so it can spring up out of it -->
-        <g id="line2" filter="url(#sticker)"></g>
+        <g id="line2"></g>
         <g id="soil"></g>
         <g id="roots"></g>
         <g id="line1"></g>
@@ -202,6 +188,7 @@ body {
   const easeOut = (u) => 1 - Math.pow(1 - u, 3);
   const easeOutBack = (u) => { const c = 1.7; return 1 + (c + 1) * Math.pow(u - 1, 3) + c * Math.pow(u - 1, 2); };
   const spring = (a) => (a <= 0 ? 0 : 1 - Math.exp(-a * 5.5) * Math.cos(a * 10)); // 0 → 1 with one overshoot
+  const settle = (a) => (a > 0 ? Math.exp(-a * 9) * Math.cos(a * 22) : 0);         // a landing's wobble, 1 → 0
   const f = (n) => n.toFixed(2);
 
   function el(tag, attrs, parent) {
@@ -221,89 +208,171 @@ body {
     };
   }
 
-  function build() {
-    const svg = $('scene'), world = $('world');
+  /* ---------- Letterforms ---------- */
+  // Letter outlines from Fredoka (SIL Open Font License 1.1): em = 1000 units, y points down, baseline at 0.
+  // bold is weight 700; "small" thins to light (weight 400) and "tall" narrows to narrow (width 75).
+  // The three cuts share one point structure, so any glyph can be blended between them point by point.
+  const FONT = {
+    bold: {
+      A: [711, 'M690-118Q705-88 706-67Q707-46 693-30Q679-14 648 2Q600 25 574 16.5Q548 8 525-41L355-389L187-40Q163 7 137 15.5Q111 24 64 1Q33-14 18.5-30Q4-46 5-67Q6-88 21-118L272-638Q284-662 307.5-676.5Q331-691 356-691Q374-691 389.5-684.5Q405-678 418-666Q431-654 439-637ZM197-136L273-292L438-292L514-136Z'],
+      s: [457, 'M219 18Q191 18 156.5 11.5Q122 5 89.5-7.5Q57-20 36-37Q15-54 15-76Q15-86 19.5-98.5Q24-111 32-126Q40-141 52-158Q59-168 68.5-173Q78-178 91-178Q109-178 126-170.5Q143-163 160-153.5Q177-144 195.5-136.5Q214-129 235-129Q254-129 263.5-133Q273-137 273-145Q273-153 266.5-158Q260-163 248.5-166.5Q237-170 222-173Q207-176 190-180Q173-184 155-190Q132-197 110-208.5Q88-220 70.5-239Q53-258 42.5-285Q32-312 32-351Q32-403 56-438Q80-473 127-491Q174-509 243-509Q260-509 277-507Q294-505 311.5-501Q329-497 346.5-490.5Q364-484 382-476Q419-460 420-431.5Q421-403 399-372Q387-353 374.5-343.5Q362-334 349-334Q333-334 314-343Q295-352 274-361Q253-370 232-370Q220-370 211.5-367.5Q203-365 199-360.5Q195-356 195-350Q195-339 202.5-332.5Q210-326 222.5-322Q235-318 251.5-315Q268-312 287-309Q313-305 340.5-296.5Q368-288 391-272Q414-256 428-228Q442-200 442-155Q442-70 385.5-26Q329 18 219 18Z'],
+      e: [535, 'M288 20Q213 20 161-4.5Q109-29 77-68.5Q45-108 30-154Q15-200 15-243Q15-322 50-382Q85-442 147-476Q209-510 289-510Q351-510 395-490Q439-470 466.5-439Q494-408 507-373Q520-338 520-308Q520-251 492-221Q464-191 420-191L207-191Q211-175 223.5-163.5Q236-152 255-145.5Q274-139 296-139Q318-139 335-141.5Q352-144 364.5-148Q377-152 387.5-156Q398-160 406.5-162.5Q415-165 423-165Q441-165 456-153Q471-141 483-117Q490-104 493-92.5Q496-81 496-71Q496-41 471.5-21Q447-1 401 9.5Q355 20 288 20ZM207-285L319-285Q333-285 339.5-291Q346-297 346-309Q346-322 338.5-331Q331-340 318-344.5Q305-349 287-349Q263-349 245-339.5Q227-330 217.5-315.5Q208-301 207-285Z'],
+      d: [554, 'M246 7Q201 7 159.5-13.5Q118-34 85.5-69.5Q53-105 34-151Q15-197 15-247Q15-295 34-340Q53-385 86-420.5Q119-456 160.5-477Q202-498 246-498Q294-498 329-477.5Q364-457 387-422Q410-387 421.5-342Q433-297 434-249Q435-200 424-154.5Q413-109 390-72.5Q367-36 331.5-14.5Q296 7 246 7ZM270-173Q289-173 305-183Q321-193 331-209.5Q341-226 341-245Q341-265 331.5-281Q322-297 306-307Q290-317 269-317Q249-317 232.5-307.5Q216-298 206.5-281.5Q197-265 197-245Q197-226 207-209.5Q217-193 234-183Q251-173 270-173ZM434 8Q394 8 374-4Q354-16 347-42L347-637Q347-659 349.5-680Q352-701 370-714.5Q388-728 433-728Q479-728 497.5-715Q516-702 520-681.5Q524-661 524-638L524-83Q524-61 520-40Q516-19 497.5-5.5Q479 8 434 8Z'],
+      o: [558, 'M280 18Q234 18 187-0.5Q140-19 100.5-53.5Q61-88 37.5-136.5Q14-185 14-245Q14-300 35-348Q56-396 92.5-432.5Q129-469 176.5-490Q224-511 278-511Q352-511 412-475.5Q472-440 508-380Q544-320 544-246Q544-183 520-134Q496-85 457-51Q418-17 371.5 0.5Q325 18 280 18ZM278-165Q293-165 312.5-172.5Q332-180 346.5-198Q361-216 361-247Q361-272 350.5-290Q340-308 321-318Q302-328 277-328Q255-328 237-317.5Q219-307 208-288.5Q197-270 197-246Q197-216 211-198Q225-180 244-172.5Q263-165 278-165Z'],
+      m: [791, 'M118 9Q73 9 54-4.5Q35-18 31.5-39Q28-60 28-82L28-409Q28-432 32-452.5Q36-473 55-486Q74-499 120-499Q165-499 185.5-481.5Q206-464 206-425L189-430Q189-430 196.5-440.5Q204-451 218.5-465Q233-479 254-489.5Q275-500 302-500Q333-500 359-492Q385-484 406.5-467.5Q428-451 444-427Q455-440 474-457Q493-474 519.5-487Q546-500 579-500Q638-500 679.5-470Q721-440 742.5-383Q764-326 764-245L764-82Q764-60 760-39Q756-18 737-4.5Q718 9 672 9Q627 9 608-5Q589-19 585.5-40Q582-61 582-83L582-246Q582-270 576.5-285.5Q571-301 560.5-309Q550-317 534-317Q517-317 506.5-310Q496-303 491.5-287.5Q487-272 487-245L487-82Q487-60 483-39Q479-18 460-4.5Q441 9 395 9Q350 9 331-5Q312-19 308.5-40Q305-61 305-83L305-246Q305-270 300-286Q295-302 284.5-309.5Q274-317 257-317Q237-317 227-307Q217-297 213.5-281Q210-265 210-246L210-81Q210-59 206-38Q202-17 183-4Q164 9 118 9Z'],
+      a: [557, 'M436 7Q391 7 369.5-8Q348-23 349-42L363-42Q358-35 343.5-23.5Q329-12 305-2.5Q281 7 246 7Q201 7 159.5-13.5Q118-34 85.5-70Q53-106 34-151.5Q15-197 15-247Q15-296 34-341Q53-386 86-421.5Q119-457 160-477.5Q201-498 246-498Q280-498 303.5-488Q327-478 341.5-466Q356-454 361-446L350-446Q349-471 370.5-485Q392-499 437-499Q482-499 500.5-485.5Q519-472 523-451Q527-430 527-408L527-83Q527-61 523-40Q519-19 500.5-6Q482 7 436 7ZM271-174Q290-174 305.5-184Q321-194 330.5-210.5Q340-227 340-246Q340-266 330.5-282Q321-298 305-308Q289-318 269-318Q249-318 232.5-308Q216-298 206-281.5Q196-265 196-245Q196-226 206.5-210Q217-194 234-184Q251-174 271-174Z'],
+      l: [311, 'M242 9Q196 9 161.5 5Q127 1 103-11Q79-23 64-45.5Q49-68 42-104.5Q35-141 35-196L35-639Q35-662 39-682.5Q43-703 62-716.5Q81-730 126-730Q171-730 189.5-716.5Q208-703 212-682Q216-661 216-638L216-207Q216-192 216.5-183.5Q217-175 219.5-171Q222-167 227.5-166.5Q233-166 243-166Q256-166 270.5-162.5Q285-159 295.5-141.5Q306-124 306-81Q306-36 295.5-17Q285 2 270 5.5Q255 9 242 9Z'],
+      b: [554, 'M308 7Q259 7 223-14.5Q187-36 164-72.5Q141-109 130-154.5Q119-200 120-249Q121-297 132.5-342Q144-387 167-422Q190-457 225-477.5Q260-498 308-498Q352-498 393.5-477Q435-456 468-420.5Q501-385 520-340Q539-295 539-247Q539-197 520-151Q501-105 468.5-69.5Q436-34 394.5-13.5Q353 7 308 7ZM284-173Q304-173 320.5-183Q337-193 347-209.5Q357-226 357-245Q357-265 347.5-281.5Q338-298 321.5-307.5Q305-317 285-317Q265-317 248.5-307Q232-297 222.5-281Q213-265 213-245Q213-226 223-209.5Q233-193 249-183Q265-173 284-173ZM120 8Q75 8 56-5.5Q37-19 33.5-40Q30-61 30-83L30-638Q30-661 34-681.5Q38-702 57-715Q76-728 121-728Q166-728 184-714.5Q202-701 205-680Q208-659 207-637L207-42Q200-16 180.5-4Q161 8 120 8Z'],
+      c: [503, 'M287 14Q246 14 200.5-2.5Q155-19 115-51.5Q75-84 50-133Q25-182 25-247Q25-311 50-359.5Q75-408 114.5-440Q154-472 199.5-488.5Q245-505 285-505Q323-505 351-497Q379-489 397-479.5Q415-470 423-465Q443-453 460.5-437.5Q478-422 478-396Q478-383 473-369.5Q468-356 457-339Q421-284 385-284Q369-284 357-289.5Q345-295 335-302Q325-309 313.5-314.5Q302-320 285-320Q265-320 248-310Q231-300 221-283.5Q211-267 211-246Q211-225 221-208Q231-191 247.5-181Q264-171 283-171Q297-171 306.5-174Q316-177 321-180.5Q326-184 327-184Q341-192 353.5-199Q366-206 379-206Q396-206 414-193.5Q432-181 454-153Q475-127 477.5-104.5Q480-82 466-62.5Q452-43 423-25Q420-23 402.5-13.5Q385-4 356 5Q327 14 287 14Z'],
+      t: [429, 'M302 9Q249 9 210-3Q171-15 145.5-40Q120-65 107.5-103Q95-141 95-192L95-580Q95-603 99-622.5Q103-642 122-654.5Q141-667 186-667Q230-667 249-653.5Q268-640 272-619Q276-598 276-576L276-201Q276-190 277.5-182.5Q279-175 282-171Q285-167 290-165Q295-163 303-163Q329-163 349.5-159Q370-155 381.5-138Q393-121 393-81Q393-36 379-17Q365 2 344 5.5Q323 9 302 9ZM74-493L191-493L329-498Q351-498 371.5-494Q392-490 405.5-471Q419-452 419-406Q419-364 405.5-345Q392-326 371.5-321Q351-316 328-316L201-319L70-319Q36-321 23-341Q10-361 10-407Q10-450 26-471.5Q42-493 74-493Z']
+    },
+    light: {
+      s: [459, 'M224 15Q200 15 174 10Q148 5 123.5-4.5Q99-14 80.5-27Q62-40 53-56Q48-66 47-74.5Q46-83 50-91Q54-99 62-107Q72-119 82-118.5Q92-118 107-105Q118-98 133-89.5Q148-81 164-74.5Q180-68 196.5-63.5Q213-59 229-59Q275-59 303-76.5Q331-94 331-123Q331-140 324-152Q317-164 305-172.5Q293-181 278-187Q263-193 244.5-198.5Q226-204 208-209Q181-216 155-225Q129-234 108-248.5Q87-263 74-285.5Q61-308 61-343Q61-384 82-414Q103-444 141-460.5Q179-477 230-477Q252-477 271-474Q290-471 307.5-464.5Q325-458 341-449.5Q357-441 372-429Q390-417 391-403Q392-389 380-374Q371-361 360-357.5Q349-354 338-363Q322-375 304-384Q286-393 267-399Q248-405 228-405Q203-405 183.5-397.5Q164-390 153.5-375.5Q143-361 143-343Q143-327 151.5-317Q160-307 173.5-300Q187-293 205.5-287.5Q224-282 244-277Q273-270 303.5-260.5Q334-251 358.5-235.5Q383-220 398.5-194.5Q414-169 414-127Q414-61 362-23Q310 15 224 15Z'],
+      m: [826, 'M106 10Q87 10 78 4Q69-2 66-12Q63-22 63-36L63-432Q63-446 66-455Q69-464 78.5-469Q88-474 107-474Q129-474 138.5-465.5Q148-457 148-436L144-393Q151-408 165-423Q179-438 198.5-450Q218-462 240-469Q262-476 285-476Q320-476 347.5-463.5Q375-451 397-428Q419-405 434-371Q454-404 476.5-427.5Q499-451 528-463.5Q557-476 593-476Q650-476 688.5-447.5Q727-419 746.5-367.5Q766-316 766-244L766-35Q766-21 763.5-11Q761-1 751.5 4.5Q742 10 722 10Q703 10 693.5 4Q684-2 681-12Q678-22 678-36L678-245Q678-290 667.5-322.5Q657-355 635.5-373Q614-391 580-391Q544-391 516.5-373.5Q489-356 474-323Q459-290 459-245L459-34Q459-19 453-8Q447 3 435 7.5Q423 12 406 9Q390 7 382 1Q374-5 372-14.5Q370-24 370-36L370-245Q370-290 359.5-322.5Q349-355 327.5-373Q306-391 272-391Q236-391 208.5-372.5Q181-354 166-321Q151-288 151-245L151-35Q151-21 148-11Q145-1 135.5 4.5Q126 10 106 10Z'],
+      a: [574, 'M475 9Q453 9 443.5 0Q434-9 432-28L436-78Q426-62 405-41.5Q384-21 350-5.5Q316 10 267 10Q219 10 177.5-9Q136-28 104.5-62Q73-96 55.5-140Q38-184 38-234Q38-283 55.5-326.5Q73-370 105-403Q137-436 178.5-455Q220-474 267-474Q311-474 342-462.5Q373-451 395.5-432.5Q418-414 435-391L433-433Q432-455 442.5-464.5Q453-474 476-474Q495-474 503.5-468Q512-462 515-451Q518-440 518-424L518-38Q518-24 515-13Q512-2 503 3.5Q494 9 475 9ZM282-74Q322-74 355.5-95Q389-116 408.5-151.5Q428-187 428-233Q428-280 407.5-315.5Q387-351 353.5-371.5Q320-392 280-392Q233-392 198.5-370.5Q164-349 144-313Q124-277 124-231Q124-186 144-150.5Q164-115 199.5-94.5Q235-74 282-74Z'],
+      l: [281, 'M215 10Q183 10 157.5 4.5Q132-1 113-13Q94-25 81.5-44Q69-63 63.5-90Q58-117 58-153L58-653Q58-668 60.5-678Q63-688 73-693.5Q83-699 101-699Q121-699 130.5-694Q140-689 143-679Q146-669 146-655L146-154Q146-134 150-119.5Q154-105 162.5-95Q171-85 184-81Q197-77 215-77Q227-77 235.5-74Q244-71 249-62Q254-53 254-34Q254-14 249-4.5Q244 5 235.5 7.5Q227 10 215 10Z']
+    },
+    narrow: {
+      t: [381, 'M277 9Q228 9 191-3Q154-15 129.5-40Q105-65 92.5-103Q80-141 80-192L80-580Q80-603 84-622.5Q88-642 106.5-654.5Q125-667 171-667Q215-667 234-653.5Q253-640 257-619Q261-598 261-576L261-211Q261-200 261-191Q261-182 263.5-176Q266-170 271.5-166.5Q277-163 288-163Q304-163 320-159Q336-155 347-138Q358-121 358-81Q358-36 344.5-17Q331 2 312 5.5Q293 9 277 9ZM74-493L191-493L281-498Q303-499 323.5-495Q344-491 357.5-471.5Q371-452 371-406Q371-364 359.5-345Q348-326 329.5-321Q311-316 288-316L191-319L70-319Q36-319 23-340Q10-361 10-407Q10-450 26-471.5Q42-493 74-493Z'],
+      a: [501, 'M379 7Q347 7 320.5-9Q294-25 294-47L299-47Q293-37 277.5-24Q262-11 240-2Q218 7 189 7Q147 7 114.5-13.5Q82-34 59.5-70Q37-106 25.5-151.5Q14-197 14-247Q14-296 26-341Q38-386 60.5-421.5Q83-457 115.5-477.5Q148-498 189-498Q214-498 236.5-491.5Q259-485 276-473.5Q293-462 299-448L295-448Q303-471 323-485Q343-499 380-499Q426-499 444.5-485.5Q463-472 467-451Q471-430 471-408L471-83Q471-61 467-40Q463-19 444-6Q425 7 379 7ZM242-174Q256-174 265.5-184Q275-194 279.5-210.5Q284-227 284-246Q284-266 279.5-282Q275-298 265.5-308Q256-318 240-318Q225-318 215-308Q205-298 200-281.5Q195-265 195-245Q195-226 200.5-210Q206-194 216.5-184Q227-174 242-174Z'],
+      l: [311, 'M232 9Q205 9 177 5Q149 1 123.5-11Q98-23 78-45.5Q58-68 46.5-104.5Q35-141 35-196L35-639Q35-662 39-682.5Q43-703 62-716.5Q81-730 126-730Q171-730 189.5-716.5Q208-703 212-682Q216-661 216-638L216-207Q216-197 216.5-189.5Q217-182 218.5-176.5Q220-171 223.5-168.5Q227-166 233-166Q246-166 260.5-162.5Q275-159 285.5-141.5Q296-124 296-81Q296-36 285.5-17Q275 2 260 5.5Q245 9 232 9Z']
+    }
+  };
+  // Where each character starts along its line, kerned, in em units; the last number is the line's length
+  const PEN = {
+    bold: { 'A seed so small': [0, 711, 946, 1403, 1938, 2473, 3027, 3262, 3719, 4277, 4512, 4969, 5760, 6317, 6628, 6939], 'became so': [0, 554, 1089, 1592, 2149, 2940, 3475, 3710, 4167, 4725], tall: [0, 429, 986, 1297, 1608] },
+    light: { small: [0, 459, 1285, 1859, 2110, 2391] },
+    narrow: { tall: [0, 381, 882, 1163, 1474] }
+  };
 
-    // Where each character starts and ends when the string is set at this size
-    function measure(str, size) {
-      const t = el('text', { class: 'glyph', 'font-size': size, x: 0, y: 0, visibility: 'hidden' }, svg);
-      t.textContent = str;
-      const chars = [];
-      for (let i = 0; i < str.length; i++) {
-        let x0, x1;
-        try { x0 = t.getStartPositionOfChar(i).x; x1 = t.getEndPositionOfChar(i).x; }
-        catch (e) { x0 = i * size * 0.55; x1 = x0 + size * 0.55; }
-        chars.push({ ch: str[i], x0: x0, x1: x1, cx: (x0 + x1) / 2 });
+  const GLYPHS = {};
+  for (const cut in FONT) {
+    GLYPHS[cut] = {};
+    for (const ch in FONT[cut]) {
+      const cmds = [], nums = [];
+      FONT[cut][ch][1].replace(/[MLQZ]|-?[\d.]+/g, (tok) => {
+        if (/[MLQZ]/.test(tok)) cmds.push(tok); else nums.push(+tok);
+        return tok;
+      });
+      GLYPHS[cut][ch] = { adv: FONT[cut][ch][0], cmds: cmds, nums: nums };
+    }
+  }
+
+  // A glyph as path data in scene units (k = size / 1000), centred on its advance. With `to` it is blended
+  // point by point toward another cut of the same letter. Points above `cut` are lifted by `grow` and moved
+  // sideways by `lean`: that lengthens a straight stem and leaves the rest of the letter exactly as drawn.
+  function outline(g, k, to, u, cut, grow, lean) {
+    const a = g.nums, b = to ? to.nums : a;
+    u = to ? u : 0;
+    const ox = lerp(g.adv, to ? to.adv : g.adv, u) / 2;
+    let d = '', i = 0;
+    for (const c of g.cmds) {
+      if (c === 'Z') { d += 'Z'; continue; }
+      d += c;
+      for (let p = c === 'Q' ? 2 : 1; p > 0; p--, i += 2) {
+        let x = lerp(a[i], b[i], u), y = lerp(a[i + 1], b[i + 1], u);
+        if (y < cut) { y -= grow; x += lean; }
+        d += ((x - ox) * k).toFixed(1) + ' ' + (y * k).toFixed(1) + ' ';
       }
-      const total = t.getComputedTextLength() || str.length * size * 0.55;
-      t.remove();
-      return { chars: chars, total: total };
     }
-    // One letter, drawn with its baseline at the group's origin
-    function glyph(parent, ch, size, cls) {
-      const g = el('g', { transform: 'scale(0)' }, parent);
-      el('text', { class: 'glyph ' + cls, 'font-size': size, 'text-anchor': 'middle' }, g).textContent = ch;
-      return g;
-    }
+    return d;
+  }
+
+  // A line of lettering is three layers; each letter owns one path in each
+  function typeLayers(parent) {
+    return ['type-shade', 'type-edge', ''].map((cls) => el('g', cls ? { class: cls } : {}, parent));
+  }
+  function letter(layers, tone) {
+    const shade = el('path', {}, layers[0]), edge = el('path', {}, layers[1]), face = el('path', { class: tone }, layers[2]);
+    return {
+      set(d) { shade.setAttribute('d', d); edge.setAttribute('d', d); face.setAttribute('d', d); },
+      move(tf) { shade.setAttribute('transform', tf + ' translate(0 6)'); edge.setAttribute('transform', tf); face.setAttribute('transform', tf); },
+      hide() { this.move('scale(0)'); }
+    };
+  }
+
+  function build() {
+    const world = $('world');
 
     /* ---------- Timeline (seconds) ---------- */
     const T = {
-      words: [0.45, 0.8, 1.45, 1.85], // A · seed · so · small
-      shrink: 2.6,
-      drop: 3.35, land: 3.97,
-      crack: 4.75,
-      sprout: 5.0, surface: 5.45, top: 8.4,
-      bloom: 8.25,
-      kernels: 9.15,
-      end: 10.8
+      words: [0.35, 0.72, 1.25, 1.6], // A · seed · so · small, each word sown a letter at a time
+      fall: 0.42,
+      shrink: 2.4,
+      drop: 3.15, land: 3.77,
+      crack: 4.5,
+      sprout: 4.75, surface: 5.2, top: 8.45,
+      pull: 5.1, pullFor: 2.4,
+      became: 6.55, so: 7.2, tall: 7.5, grow: 7.95,
+      bloom: 8.3,
+      kernels: 9.25,
+      end: 10.9
     };
 
     /* ---------- Layout ---------- */
-    const GROUND = 782;   // soil surface
-    const BASE1 = 868;    // baseline of the buried line
-    const BASE2 = GROUND - 3; // baseline of the line that grows out of the soil
-    const FS1 = 68, FS_TINY = 30, X1 = 96;
-    const STRETCH = 3.3;
+    const GROUND = 728;        // soil surface
+    const ROWS = [800, 872];   // baselines of the buried line, set in two rows
+    const BASE2 = GROUND - 2;  // baseline of the line that grows out of the soil
+    const K1 = 0.074, TINY = 0.42, X1 = 80;
+    const TALL = 1.75;         // "tall" is set this much bigger than the rest of its line
+    const GROW = 820;          // how far its stems grow, in em units: about three x-heights tall in all
+    const CUT = { t: -540, l: -420 }; // heights (em units) inside the straight part of each stem
 
-    // "A seed so small", with the seed itself as the full stop
-    const m1 = measure('A seed so small', FS1);
-    const iSmall = 10;
-    const mTiny = measure('small', FS_TINY);
-    const tinyLeft = X1 + m1.chars[iSmall].x0;
-    const SX = tinyLeft + mTiny.total + 50;   // the seed, and the stem that grows out of it
-    const SY = 850;
-    const HX = SX + 16, HY = 268, HEAD = 1.12; // flower head
+    // "A seed / so small", with the seed itself as the full stop
+    const TEXT1 = 'A seed so small', iRow2 = TEXT1.indexOf('so'), iSmall = TEXT1.indexOf('small');
+    const pen1 = PEN.bold[TEXT1], penS = PEN.light.small, KS = K1 * TINY;
+    const INDENT = 66;  // the second row steps in, so its full stop (and the stem) clears the first row
+    const rowX = (i) => (i >= iRow2 ? X1 + INDENT + (pen1[i] - pen1[iRow2]) * K1 : X1 + pen1[i] * K1);
+    const tinyLeft = rowX(iSmall);
+    const SX = tinyLeft + penS[penS.length - 1] * KS + 40;  // the seed, and the stem that grows out of it
+    const SY = ROWS[1] - 13;
+    const HX = SX + 14, HY = 252, HEAD = 1.12;               // flower head
 
-    const line1 = [], lrand = rng(3), FALL = 0.42;
+    const lay1 = typeLayers($('line1')), line1 = [], lrand = rng(3);
     let word = 0, j = 0;
-    m1.chars.forEach((c, i) => {
-      if (c.ch === ' ') { word++; j = 0; return; }
-      const L = { x: X1 + c.cx, word: word, j: j, small: i >= iSmall };
-      if (L.small) L.xTiny = tinyLeft + mTiny.chars[i - iSmall].cx;
-      L.t0 = T.words[word] + j * 0.08;
-      L.spin = (lrand() - 0.5) * 50;
-      L.g = glyph($('line1'), c.ch, FS1, 'g-buried');
+    for (let i = 0; i < TEXT1.length; i++) {
+      const ch = TEXT1[i];
+      if (ch === ' ') { word++; j = 0; continue; }
+      const g = GLYPHS.bold[ch];
+      const L = { g: g, j: j, x: rowX(i) + g.adv / 2 * K1, base: ROWS[i >= iRow2 ? 1 : 0], t0: T.words[word] + j * 0.05, spin: (lrand() - 0.5) * 40, el: letter(lay1, 't-cream') };
+      if (i >= iSmall) {
+        L.light = GLYPHS.light[ch];
+        L.xTiny = tinyLeft + (penS[i - iSmall] + L.light.adv / 2) * KS;
+      }
+      L.el.set(outline(g, K1));
+      L.el.hide();
       line1.push(L);
       j++;
-    });
+    }
 
     // "became so tall", fitted between the stem and the right edge
-    const X2 = SX + 100, RIGHT = 1540, TALL_K = 1.3;
-    let FS2 = 124;
-    let mB = measure('became so', FS2), mT = measure('tall', FS2 * TALL_K);
-    const fit = Math.min(1, (RIGHT - X2) / (mB.total + 0.32 * FS2 + mT.total));
-    if (fit < 1) { FS2 *= fit; mB = measure('became so', FS2); mT = measure('tall', FS2 * TALL_K); }
-    const XT = X2 + mB.total + 0.32 * FS2;
-    const line2 = [];
-    word = 0; j = 0;
-    mB.chars.forEach((c) => {
-      if (c.ch === ' ') { word++; j = 0; return; }
-      line2.push({ ch: c.ch, x: X2 + c.cx, half: (c.x1 - c.x0) / 2, word: word, j: j++, fs: FS2, tone: 'g-petal' });
+    const X2 = SX + 88, RIGHT = 1548;
+    const penB = PEN.bold['became so'], penT = PEN.bold.tall, penN = PEN.narrow.tall;
+    const SPACE = penB[7] - penB[6];
+    const K2 = (RIGHT - X2) / (penB[penB.length - 1] + SPACE + penT[penT.length - 1] * TALL), KT = K2 * TALL;
+    const XT = X2 + (penB[penB.length - 1] + SPACE) * K2;
+    const SEED_CY = BASE2 - 380 * K2;  // a little above the middle of the x-height
+    const lay2 = typeLayers($('line2')), seedsG = el('g', {}, $('line2')), line2 = [];
+    'became so'.split('').forEach((ch, i) => {
+      if (ch === ' ') return;
+      const g = GLYPHS.bold[ch];
+      line2.push({ g: g, word: i < 6 ? 0 : 1, j: i < 6 ? i : i - 7, k: K2, x: X2 + (penB[i] + g.adv / 2) * K2, el: letter(lay2, 't-petal') });
     });
-    mT.chars.forEach((c, k) => {
-      line2.push({ ch: c.ch, x: XT + c.cx, half: (c.x1 - c.x0) / 2, word: 2, j: k, fs: FS2 * TALL_K, tone: 'g-leaf' });
+    'tall'.split('').forEach((ch, i) => {
+      const g = GLYPHS.bold[ch], n = GLYPHS.narrow[ch];
+      line2.push({ g: g, n: n, word: 2, j: i, k: KT, cut: CUT[ch], x: XT + (penT[i] + g.adv / 2) * KT, xN: XT + (penN[i] + n.adv / 2) * KT, el: letter(lay2, 't-leaf') });
     });
-    line2.forEach((L) => { L.g = glyph($('line2'), L.ch, L.fs, L.tone); });
+    const SEED_BODY = 'M-28,0 C-28,-15 -8,-16 28,0 C-8,16 -28,15 -28,0 Z';
+    line2.forEach((L) => {
+      L.el.set(outline(L.g, L.k));
+      L.el.hide();
+      if (L.word === 0) { // "became" starts out as seeds
+        L.seed = el('g', { transform: 'scale(0)' }, seedsG);
+        el('path', { class: 'f-disk edge', d: SEED_BODY }, L.seed);
+        el('path', { class: 'stripe', d: 'M-17,-6 C-6,-9 8,-7 18,-2' }, L.seed);
+        el('path', { class: 'stripe', d: 'M-17,6 C-6,9 8,7 18,2' }, L.seed);
+      }
+    });
 
     /* ---------- Soil, pebbles, grass ---------- */
     const soilG = $('soil'), rand = rng(7);
@@ -311,33 +380,33 @@ body {
     let d = 'M-20,930 L-20,' + f(surf(-20));
     for (let x = -10; x <= 1630; x += 10) d += ' L' + x + ',' + f(surf(x));
     el('path', { class: 'f-soil edge', d: d + ' L1630,930 Z' }, soilG);
-    for (let i = 0; i < 46; i++) {
-      const x = rand() * 1600, y = GROUND + 22 + rand() * 72;
-      if (x > X1 - 20 && x < SX + 70 && y > BASE1 - 66 && y < BASE1 + 12) continue; // keep the buried line clear
+    for (let i = 0; i < 60; i++) {
+      const x = rand() * 1600, y = GROUND + 22 + rand() * 150;
+      if (x > X1 - 24 && x < SX + 80 && y > ROWS[0] - 70) continue; // keep the buried line and the seed clear
       el('ellipse', { class: 'f-soil-deep', cx: f(x), cy: f(y), rx: f(4 + rand() * 7), ry: f(3 + rand() * 3.5) }, soilG);
     }
     const TUFT = 'M-14,4 C-14,-6 -20,-16 -24,-22 C-12,-16 -6,-9 -4,-2 C-4,-14 -2,-25 2,-33 C6,-23 6,-12 4,-2 C8,-9 14,-17 24,-21 C18,-13 14,-5 14,4 Z';
-    [44, 300, SX + 112, XT - 0.16 * FS2, XT + mT.total + 34].forEach((x) => {
-      if (x < 1590) el('path', { class: 'f-leaf edge-thin', d: TUFT, transform: 'translate(' + f(x) + ' ' + f(surf(x) + 2) + ')' }, soilG);
+    [40, 170, 1584].forEach((x) => {
+      el('path', { class: 'f-leaf edge-thin', d: TUFT, transform: 'translate(' + f(x) + ' ' + f(surf(x) + 2) + ')' }, soilG);
     });
 
     /* ---------- Seed and roots ---------- */
     const seedG = $('seed'), seedTop = $('seed-top');
     const roots = [
-      'M' + (SX - 6) + ',860 C' + (SX - 15) + ',872 ' + (SX - 9) + ',884 ' + (SX - 19) + ',897',
-      'M' + (SX + 2) + ',862 C' + (SX + 5) + ',876 ' + (SX + 13) + ',884 ' + (SX + 10) + ',898',
-      'M' + (SX + 6) + ',858 C' + (SX + 26) + ',864 ' + (SX + 34) + ',878 ' + (SX + 54) + ',884'
-    ].map((rd) => {
-      const p = el('path', { class: 'root', d: rd }, $('roots'));
+      [-6, 10, -15, 28, -9, 44, -19, 62],
+      [2, 12, 5, 30, 13, 44, 10, 64],
+      [6, 8, 26, 16, 34, 32, 56, 40]
+    ].map((r) => {
+      const p = el('path', { class: 'root', d: 'M' + (SX + r[0]) + ',' + (SY + r[1]) + ' C' + (SX + r[2]) + ',' + (SY + r[3]) + ' ' + (SX + r[4]) + ',' + (SY + r[5]) + ' ' + (SX + r[6]) + ',' + (SY + r[7]) }, $('roots'));
       const len = p.getTotalLength();
       p.style.strokeDasharray = f(len) + ' ' + f(len + 10);
       return { el: p, len: len };
     });
 
     /* ---------- Stem ---------- */
-    const stemD = 'M' + SX + ',846 C' + (SX - 6) + ',742 ' + (SX + 14) + ',660 ' + (SX + 5) + ',566' +
-      ' C' + (SX - 4) + ',474 ' + (SX - 16) + ',386 ' + (SX + 1) + ',326' +
-      ' C' + (SX + 8) + ',298 ' + HX + ',286 ' + HX + ',' + HY;
+    const stemD = 'M' + SX + ',' + (SY - 4) + ' C' + (SX - 6) + ',718 ' + (SX + 14) + ',638 ' + (SX + 5) + ',548' +
+      ' C' + (SX - 4) + ',456 ' + (SX - 16) + ',368 ' + (SX + 1) + ',308' +
+      ' C' + (SX + 8) + ',280 ' + HX + ',268 ' + HX + ',' + HY;
     const stemEdge = $('stem-edge'), stem = $('stem');
     stemEdge.setAttribute('d', stemD);
     stem.setAttribute('d', stemD);
@@ -350,7 +419,7 @@ body {
       return { x: lerp(PX[i], PX[i + 1], u), y: lerp(PY[i], PY[i + 1], u), deg: Math.atan2(PY[a1] - PY[a0], PX[a1] - PX[a0]) * 180 / Math.PI };
     }
     function lengthAtY(y) { for (let i = 0; i < N; i++) if (PY[i] <= y) return i * STEP; return LEN; }
-    const L_SURF = lengthAtY(GROUND + 2), L_COT = lengthAtY(GROUND - 64);
+    const L_SURF = lengthAtY(GROUND + 2), L_COT = lengthAtY(GROUND - 60);
 
     // How much stem there is at time t: a slow push through the soil, then up into the sky
     function tipLen(t) {
@@ -370,8 +439,8 @@ body {
       return { g: g, dir: dir };
     });
     const leaves = [
-      { y: 640, dir: 1, rot: -16, phase: 0 },
-      { y: 488, dir: -1, rot: -14, phase: 1.7 }
+      { y: 560, dir: 1, rot: -16, phase: 0 },
+      { y: 432, dir: -1, rot: -14, phase: 1.7 }
     ].map((Lf) => {
       const len = lengthAtY(Lf.y), p = at(len);
       Lf.x = p.x; Lf.y = p.y; Lf.t0 = timeAtLen(len) + 0.05;
@@ -415,37 +484,31 @@ body {
     }
 
     /* ---------- Camera ---------- */
-    // Opens close on the buried line, then pulls back so the growing tip stays in frame
-    const S0 = clamp(1600 / (SX + 80 - 40), 1.6, 3);
+    // Opens close on the buried line, then pulls back to the whole field once the sprout is up
+    const S0 = clamp(1600 / (Math.max(SX + 70, rowX(pen1.length - 1) + 34) - 40), 1.6, 3.6);
     function camera(t) {
-      const tipY = at(tipLen(t)).y;
-      let s = clamp(900 / (900 - (tipY - 180)), 1, S0);
-      s = lerp(s, 1, smooth(prog(t, T.top - 0.3, 1.2)));
-      const u = (S0 - s) / (S0 - 1);
-      // pin the left edge so the start of the buried line never slides out of frame
-      return { s: s, cx: clamp(lerp(40, 0, u) + 800 / s, 800 / s, 1600 - 800 / s), cy: 900 - 450 / s };
+      const u = smooth(prog(t, T.pull, T.pullFor));
+      const s = Math.pow(S0, 1 - u);
+      return { s: s, left: lerp(40, 0, u) };
     }
 
-    // The seed falls from just above the opening frame
-    const SEED_Y0 = 900 - 900 / S0 - 60;
+    // The letters and the seed fall from just above the opening frame and go in with a puff of dirt
+    const DROP_Y = 900 - 900 / S0 - 10, SEED_Y0 = DROP_Y - 50;
     const tEntry = T.drop + (T.land - T.drop) * Math.sqrt((GROUND - SEED_Y0) / (SY - SEED_Y0));
     burst(SX + 24 * (1 - (tEntry - T.drop) / (T.land - T.drop)), tEntry, 9, 260);
     burst(SX, T.surface, 14, 360);
-    // and each letter of the buried line is sown the same way
-    const DROP_Y = 900 - 900 / S0 - 10;
-    line1.forEach((L) => burst(L.x, L.t0 + FALL * Math.sqrt((GROUND - DROP_Y) / (BASE1 - DROP_Y)), 5, 190));
+    line1.forEach((L) => burst(L.x, L.t0 + T.fall * Math.sqrt((GROUND - DROP_Y) / (L.base - DROP_Y)), 5, 190));
 
-    // Each word of the second line springs up as the camera reveals it
-    line2.forEach((L) => { L.rev = Infinity; });
-    for (let t = T.surface; t < T.end + 2; t += 1 / 60) {
-      const c = camera(t), right = c.cx + 800 / c.s;
-      line2.forEach((L) => { if (L.rev === Infinity && L.x + L.half < right - 12) L.rev = t; });
-    }
-    let prev = 0;
-    line2.forEach((L, i) => {
-      L.t0 = Math.max(L.rev, T.surface + 0.45 + i * 0.07, prev + 0.07);
-      prev = L.t0;
-      if (L.word === 2) L.tStretch = Math.max(L.t0 + 0.35, T.top - 0.45 + L.j * 0.11);
+    // The second line keeps its beat, but no letter starts before the camera has it in frame
+    const start2 = { 0: T.became, 1: T.so, 2: T.tall }, gap2 = { 0: 0.08, 1: 0.07, 2: 0.07 };
+    line2.forEach((L) => {
+      L.t0 = start2[L.word] + L.j * gap2[L.word];
+      for (let t = L.t0; t < T.end; t += 1 / 60) {
+        const c = camera(t);
+        if (L.x + 50 < c.left + 1600 / c.s) { L.t0 = t; break; }
+      }
+      if (L.word === 2) L.tGrow = Math.max(L.t0 + 0.35, T.grow + L.j * 0.1);
+      burst(L.x, L.t0 + (L.word === 0 ? 0.02 : 0.06), 4, 150);
     });
 
     /* ---------- One frame ---------- */
@@ -455,26 +518,27 @@ body {
       const idle = live ? smooth(prog(t, T.end - 0.4, 1.6)) : 0;
 
       const c = camera(t);
-      world.setAttribute('transform', 'translate(800 450) scale(' + c.s.toFixed(4) + ') translate(' + f(-c.cx) + ' ' + f(-c.cy) + ')');
-      sunRing.setAttribute('transform', 'rotate(' + f(tt * 12) + ' 1075 178)');
+      world.setAttribute('transform', 'scale(' + c.s.toFixed(4) + ') translate(' + f(-c.left) + ' ' + f(-(900 - 900 / c.s)) + ')');
+      sunRing.setAttribute('transform', 'rotate(' + f(tt * 12) + ' 1010 170)');
       clouds.setAttribute('transform', 'translate(' + f(16 * Math.sin(tt * 0.35)) + ' 0)');
 
-      // The buried line: letters drop into the soil, "small" shrinks and shivers, the seed's landing knocks them up
+      // The buried line: letters are sown into the soil, "small" shrinks and thins and shivers,
+      // and the seed's landing knocks them all up
       line1.forEach((L) => {
-        if (t < L.t0) { L.g.setAttribute('transform', 'scale(0)'); return; }
-        const u = prog(t, L.t0, FALL), a = t - L.t0 - FALL;
-        const k = a > 0 ? Math.exp(-a * 10) * Math.cos(a * 24) : 0;
-        let sc = 1, x = L.x, y = lerp(DROP_Y, BASE1, u * u);
-        if (L.small) {
-          const u = smooth(prog(t, T.shrink + L.j * 0.03, 0.5));
-          sc *= lerp(1, FS_TINY / FS1, u);
-          x = lerp(L.x, L.xTiny, u);
-          const sh = prog(t, T.shrink + 0.5, 0.6);
-          if (sh > 0 && sh < 1) x += 2.4 * Math.sin(t * 70 + L.j * 2) * (1 - sh);
+        if (t < L.t0) { L.el.hide(); return; }
+        const u = prog(t, L.t0, T.fall), k = settle(t - L.t0 - T.fall);
+        let x = L.x, y = lerp(DROP_Y, L.base, u * u), sc = 1;
+        if (L.light) {
+          const m = smooth(prog(t, T.shrink + L.j * 0.03, 0.55));
+          if (m !== L.m) { L.m = m; L.el.set(outline(L.g, K1, L.light, m)); }
+          sc = lerp(1, TINY, m);
+          x = lerp(L.x, L.xTiny, m);
+          const sh = prog(t, T.shrink + 0.6, 0.6);
+          if (sh > 0 && sh < 1) x += 2.2 * Math.sin(t * 70 + L.j * 2) * (1 - sh);
         }
         const hop = t - T.land - (SX - x) / 1400;
-        if (hop > 0 && hop < 0.32) y -= 15 * Math.sin(Math.PI * hop / 0.32);
-        L.g.setAttribute('transform', 'translate(' + f(x) + ' ' + f(y) + ') rotate(' + f(L.spin * (1 - u)) + ') scale(' + f(sc * (1 + 0.18 * k)) + ' ' + f(sc * (1 - 0.22 * k)) + ')');
+        if (hop > 0 && hop < 0.32) y -= 14 * Math.sin(Math.PI * hop / 0.32);
+        L.el.move('translate(' + f(x) + ' ' + f(y) + ') rotate(' + f(L.spin * (1 - u)) + ') scale(' + f(sc * (1 + 0.16 * k)) + ' ' + f(sc * (1 - 0.2 * k)) + ')');
       });
 
       // The seed: falls, lands, wiggles, cracks open
@@ -508,7 +572,7 @@ body {
       stemEdge.style.strokeDasharray = dash; stem.style.strokeDasharray = dash;
       stemEdge.style.visibility = stem.style.visibility = l > 0.5 ? 'visible' : 'hidden';
       const sway = idle * 1.1 * Math.sin(tt * 0.9);
-      plant.setAttribute('transform', 'rotate(' + f(sway) + ' ' + SX + ' 846)');
+      plant.setAttribute('transform', 'rotate(' + f(sway) + ' ' + SX + ' ' + (SY - 4) + ')');
 
       const pc = at(Math.min(l, L_COT));
       const cs = easeOut(prog(t, T.sprout + 0.05, 0.4));
@@ -535,19 +599,33 @@ body {
       disk.setAttribute('transform', 'scale(' + f(easeOutBack(prog(t, T.bloom + 0.3, 0.5))) + ')');
       kernels.forEach((K) => { K.el.setAttribute('r', f(K.r * easeOutBack(prog(t, K.t0, 0.2)))); });
 
-      // "became so" springs out of the soil; "tall" then shoots up like a stalk
+      // "became": seeds hop out of the soil and flip over into letters.
+      // "so" springs up out of the ground; "tall" does too, then its stems grow like stalks and it narrows.
       line2.forEach((L) => {
         const a = t - L.t0;
-        if (a <= 0) { L.g.setAttribute('transform', 'scale(0)'); return; }
-        const y = BASE2 + (1 - easeOutBack(prog(a, 0, 0.5))) * L.fs;
-        let sx = 1, sy = 1, skew = 0;
-        if (L.word === 2) {
-          const g = spring(t - L.tStretch);
-          sy = lerp(1, STRETCH, g);
-          sx = lerp(1, 0.9, Math.min(1, g));
-          skew = idle * 3.2 * Math.sin(tt * 1.6 - L.j * 0.6);
+        if (L.word === 0) {
+          if (a > 0 && a < 0.42) {
+            const r = easeOutBack(prog(a, 0, 0.3)), flip = 1 - smooth(prog(a, 0.3, 0.12));
+            L.seed.setAttribute('transform', 'translate(' + f(L.x) + ' ' + f(lerp(GROUND + 34, SEED_CY, r)) + ') rotate(' + f(-80 * (1 - r)) + ') scale(' + f(0.9 * flip) + ' 0.9)');
+          } else L.seed.setAttribute('transform', 'scale(0)');
+          if (a < 0.42) { L.el.hide(); return; }
+          const k = settle(a - 0.62);
+          L.el.move('translate(' + f(L.x) + ' ' + BASE2 + ') scale(' + f(easeOutBack(prog(a, 0.42, 0.2)) * (1 + 0.08 * k)) + ' ' + f(1 - 0.1 * k) + ')');
+          return;
         }
-        L.g.setAttribute('transform', 'translate(' + f(L.x) + ' ' + f(y) + ') skewX(' + f(skew) + ') scale(' + f(sx) + ' ' + f(sy) + ')');
+        if (a <= 0) { L.el.hide(); return; }
+        const y = BASE2 + (1 - easeOutBack(prog(a, 0, 0.45))) * 950 * L.k;
+        const k = settle(a - 0.45);
+        let x = L.x;
+        if (L.word === 2) {
+          const g = t - L.tGrow, n = smooth(prog(g, 0, 0.7));
+          const lean = (g > 0 ? 90 * Math.exp(-g * 3) * Math.sin(g * 9 + L.j) : 0) + idle * 70 * Math.sin(tt * 1.6 - L.j * 0.7);
+          const grow = GROW * spring(g);
+          const key = grow.toFixed(1) + ' ' + n.toFixed(3) + ' ' + lean.toFixed(1);
+          if (key !== L.key) { L.key = key; L.el.set(outline(L.g, KT, L.n, n, L.cut, grow, lean)); }
+          x = lerp(L.x, L.xN, n);
+        }
+        L.el.move('translate(' + f(x) + ' ' + f(y) + ') scale(' + f(1 + 0.12 * k) + ' ' + f(1 - 0.15 * k) + ')');
       });
 
       bits.forEach((b) => {
@@ -562,30 +640,24 @@ body {
   }
 
   /* ---------- Player ---------- */
-  function start() {
-    const scene = build();
-    let clock = performance.now() + 250;
-    const play = () => {
-      clock = performance.now() + 250;
-      if (reduce) scene.render(scene.end + 1, false);
-    };
-    $('replay').addEventListener('click', play);
-    $('stage').addEventListener('click', play);
-    document.addEventListener('keydown', (e) => {
-      if ((e.key === 'r' || e.key === 'R') && !e.metaKey && !e.ctrlKey && !e.altKey) play();
-    });
-    if (reduce) { scene.render(scene.end + 1, false); return; }
+  const scene = build();
+  let clock = performance.now() + 250;
+  const play = () => {
+    clock = performance.now() + 250;
+    if (reduce) scene.render(scene.end + 1, false);
+  };
+  $('replay').addEventListener('click', play);
+  $('stage').addEventListener('click', play);
+  document.addEventListener('keydown', (e) => {
+    if ((e.key === 'r' || e.key === 'R') && !e.metaKey && !e.ctrlKey && !e.altKey) play();
+  });
+  if (reduce) scene.render(scene.end + 1, false);
+  else {
     (function frame(now) {
       scene.render((now - clock) / 1000, true);
       requestAnimationFrame(frame);
     })(performance.now());
   }
-
-  // Letter positions are measured, so wait for the display face (but never forever)
-  const fontsReady = document.fonts && document.fonts.load
-    ? Promise.all([document.fonts.load('700 68px Fredoka'), document.fonts.load('600 24px Fredoka')]).catch(() => {})
-    : Promise.resolve();
-  Promise.race([fontsReady, new Promise((r) => setTimeout(r, 2500))]).then(start);
 })();
 </script>
 </body>
