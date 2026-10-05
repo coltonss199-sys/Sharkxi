@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A Seed So Small</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@700;800&display=swap">
+<style>
+/* Layout: one 16:9 cutaway of sky over soil; the camera starts on the buried seed and pulls back as the sunflower grows */
+:root {
+  /* the scene */
+  --sky: #BCE0EC;
+  --sun: #FFE89A;
+  --petal: #FFC633;
+  --petal-deep: #F39A1E;
+  --disk: #5B3A21;
+  --kernel: #D9A25C;
+  --leaf: #82C35E;
+  --soil: #8C5D3A;
+  --soil-deep: #714629;
+  --cream: #FFF5DA;
+  --ink: #2C1D12;
+  /* the page around it */
+  --page: #FFD54F;
+  --page-ink: #2C1D12;
+  --display: "Fredoka", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+  --ui: "Nunito", "Trebuchet MS", system-ui, sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --page: #24170E; --page-ink: #FFF5DA; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --page: #24170E; --page-ink: #FFF5DA; color-scheme: dark; }
+
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background: var(--page);
+  color: var(--page-ink);
+  font-family: var(--ui);
+  display: grid;
+  place-items: center;
+  padding-block: 28px;
+  padding-inline: 16px;
+  box-sizing: border-box;
+}
+.wrap { width: 100%; max-width: 1120px; display: grid; gap: 20px; }
+
+.stage {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--sky);
+  border: 3px solid var(--page-ink);
+  border-radius: 22px;
+  box-shadow: 0 8px 0 var(--page-ink);
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.stage svg { display: block; width: 100%; height: 100%; }
+
+/* SVG paint, all from the tokens */
+.f-sky { fill: var(--sky); }
+.f-sun { fill: var(--sun); }
+.f-petal { fill: var(--petal); }
+.f-petal-deep { fill: var(--petal-deep); }
+.f-disk { fill: var(--disk); }
+.f-kernel { fill: var(--kernel); }
+.f-leaf { fill: var(--leaf); }
+.f-soil { fill: var(--soil); }
+.f-soil-deep { fill: var(--soil-deep); }
+.f-cream { fill: var(--cream); }
+.edge { stroke: var(--ink); stroke-width: 5px; stroke-linejoin: round; }
+.edge-thin { stroke: var(--ink); stroke-width: 3px; stroke-linejoin: round; }
+.ring { fill: none; stroke: var(--ink); stroke-width: 7px; stroke-linecap: round; stroke-dasharray: 0 26; }
+.stem-edge { fill: none; stroke: var(--ink); stroke-width: 34px; stroke-linecap: round; }
+.stem { fill: none; stroke: var(--leaf); stroke-width: 22px; stroke-linecap: round; }
+.root { fill: none; stroke: var(--cream); stroke-width: 4px; stroke-linecap: round; }
+.vein { fill: none; stroke: var(--ink); stroke-width: 3.5px; stroke-linecap: round; }
+.stripe { fill: none; stroke: var(--cream); stroke-width: 3px; stroke-linecap: round; }
+.glyph { font-family: var(--display); font-weight: 700; }
+/* the buried line is outlined in the usual way; the line above ground gets its outline from the sticker filter so "tall" can stretch without fattening it */
+.g-buried { fill: var(--cream); stroke: var(--ink); stroke-width: 9px; stroke-linejoin: round; paint-order: stroke fill; }
+.g-petal { fill: var(--petal); }
+.g-leaf { fill: var(--leaf); }
+.sticker feFlood { flood-color: var(--ink); }
+
+/* Controls */
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; }
+.poem { margin: 0; min-width: 0; font: 600 clamp(21px, 3vw, 28px)/1.2 var(--display); text-wrap: balance; }
+.end { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+.hint { margin: 0; font: 700 14px/1.4 var(--ui); opacity: .8; }
+.hint kbd {
+  font: 800 12px/1 var(--ui);
+  border: 2px solid var(--page-ink); border-radius: 6px;
+  padding: 2px 6px;
+}
+.replay {
+  font: 800 16px/1 var(--ui);
+  letter-spacing: .02em;
+  color: var(--page);
+  background: var(--page-ink);
+  border: 3px solid var(--page-ink);
+  border-radius: 999px;
+  padding: 12px 22px;
+  cursor: pointer;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.replay:hover { transform: translateY(-2px); box-shadow: 0 4px 0 var(--petal-deep); }
+.replay:focus-visible { outline: 3px solid var(--page-ink); outline-offset: 4px; }
+
+@media (max-width: 560px) {
+  .hint { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .replay { transition: none; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="stage" id="stage">
+    <svg id="scene" viewBox="0 0 1600 900" role="img" aria-label="A seed so small became so tall. A seed drops into the soil, sprouts, and grows into a tall sunflower.">
+      <defs>
+        <filter id="sticker" class="sticker" filterUnits="userSpaceOnUse" x="-200" y="-200" width="2000" height="1300" color-interpolation-filters="sRGB">
+          <feMorphology in="SourceAlpha" operator="dilate" radius="5" result="fat"/>
+          <feFlood result="ink"/>
+          <feComposite in="ink" in2="fat" operator="in" result="edge"/>
+          <feOffset in="edge" dy="7" result="drop"/>
+          <feMerge>
+            <feMergeNode in="drop"/>
+            <feMergeNode in="edge"/>
+            <feMergeNode in="SourceGraphic"/>
+          </feMerge>
+        </filter>
+      </defs>
+      <rect class="f-sky" width="1600" height="900"/>
+      <g id="world">
+        <g id="sun">
+          <circle class="ring" cx="1075" cy="178" r="96"/>
+          <circle class="f-sun edge" cx="1075" cy="178" r="60"/>
+        </g>
+        <g id="clouds">
+          <path class="f-cream edge" transform="translate(110 205) scale(1.1)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+          <path class="f-cream edge" transform="translate(1310 118) scale(.75)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+        </g>
+        <!-- "became so tall" sits behind the soil so it can spring up out of it -->
+        <g id="line2" filter="url(#sticker)"></g>
+        <g id="soil"></g>
+        <g id="roots"></g>
+        <g id="line1"></g>
+        <g id="plant">
+          <path class="stem-edge" id="stem-edge"/>
+          <path class="stem" id="stem"/>
+          <g id="leaves"></g>
+          <g id="head">
+            <g id="bracts"></g>
+            <g id="petals-back"></g>
+            <g id="petals-front"></g>
+            <circle class="f-disk edge" id="disk" r="66"/>
+            <g id="kernels"></g>
+          </g>
+        </g>
+        <g id="seed">
+          <g id="seed-low">
+            <path class="f-disk edge" d="M-28,0 C-28,15 -8,16 28,0 Z"/>
+            <path class="stripe" d="M-17,6 C-6,9 8,7 18,2"/>
+          </g>
+          <g id="seed-top">
+            <path class="f-disk edge" d="M-28,0 C-28,-15 -8,-16 28,0 Z"/>
+            <path class="stripe" d="M-17,-6 C-6,-9 8,-7 18,-2"/>
+          </g>
+        </g>
+        <g id="dirt"></g>
+      </g>
+    </svg>
+  </div>
+
+  <div class="bar">
+    <p class="poem">A seed so small became so tall 🌻</p>
+    <div class="end">
+      <p class="hint">Click the picture or press <kbd>R</kbd> to replay</p>
+      <button class="replay" type="button" id="replay">Play again</button>
+    </div>
+  </div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  const NS = 'http://www.w3.org/2000/svg';
+  const reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const $ = (id) => document.getElementById(id);
+  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+  const lerp = (a, b, u) => a + (b - a) * u;
+  const prog = (t, start, dur) => clamp((t - start) / dur, 0, 1);
+  const smooth = (u) => u * u * (3 - 2 * u);
+  const easeOut = (u) => 1 - Math.pow(1 - u, 3);
+  const easeOutBack = (u) => { const c = 1.7; return 1 + (c + 1) * Math.pow(u - 1, 3) + c * Math.pow(u - 1, 2); };
+  const spring = (a) => (a <= 0 ? 0 : 1 - Math.exp(-a * 5.5) * Math.cos(a * 10)); // 0 → 1 with one overshoot
+  const f = (n) => n.toFixed(2);
+
+  function el(tag, attrs, parent) {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+
+  // deterministic scatter, so every replay looks the same
+  function rng(seed) {
+    return function () {
+      seed = (seed + 0x6D2B79F5) | 0;
+      let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  function build() {
+    const svg = $('scene'), world = $('world');
+
+    // Where each character starts and ends when the string is set at this size
+    function measure(str, size) {
+      const t = el('text', { class: 'glyph', 'font-size': size, x: 0, y: 0, visibility: 'hidden' }, svg);
+      t.textContent = str;
+      const chars = [];
+      for (let i = 0; i < str.length; i++) {
+        let x0, x1;
+        try { x0 = t.getStartPositionOfChar(i).x; x1 = t.getEndPositionOfChar(i).x; }
+        catch (e) { x0 = i * size * 0.55; x1 = x0 + size * 0.55; }
+        chars.push({ ch: str[i], x0: x0, x1: x1, cx: (x0 + x1) / 2 });
+      }
+      const total = t.getComputedTextLength() || str.length * size * 0.55;
+      t.remove();
+      return { chars: chars, total: total };
+    }
+    // One letter, drawn with its baseline at the group's origin
+    function glyph(parent, ch, size, cls) {
+      const g = el('g', { transform: 'scale(0)' }, parent);
+      el('text', { class: 'glyph ' + cls, 'font-size': size, 'text-anchor': 'middle' }, g).textContent = ch;
+      return g;
+    }
+
+    /* ---------- Timeline (seconds) ---------- */
+    const T = {
+      words: [0.45, 0.8, 1.45, 1.85], // A · seed · so · small
+      shrink: 2.6,
+      drop: 3.35, land: 3.97,
+      crack: 4.75,
+      sprout: 5.0, surface: 5.45, top: 8.4,
+      bloom: 8.25,
+      kernels: 9.15,
+      end: 10.8
+    };
+
+    /* ---------- Layout ---------- */
+    const GROUND = 782;   // soil surface
+    const BASE1 = 868;    // baseline of the buried line
+    const BASE2 = GROUND - 3; // baseline of the line that grows out of the soil
+    const FS1 = 68, FS_TINY = 30, X1 = 96;
+    const STRETCH = 3.3;
+
+    // "A seed so small", with the seed itself as the full stop
+    const m1 = measure('A seed so small', FS1);
+    const iSmall = 10;
+    const mTiny = measure('small', FS_TINY);
+    const tinyLeft = X1 + m1.chars[iSmall].x0;
+    const SX = tinyLeft + mTiny.total + 50;   // the seed, and the stem that grows out of it
+    const SY = 850;
+    const HX = SX + 16, HY = 268, HEAD = 1.12; // flower head
+
+    const line1 = [], lrand = rng(3), FALL = 0.42;
+    let word = 0, j = 0;
+    m1.chars.forEach((c, i) => {
+      if (c.ch === ' ') { word++; j = 0; return; }
+      const L = { x: X1 + c.cx, word: word, j: j, small: i >= iSmall };
+      if (L.small) L.xTiny = tinyLeft + mTiny.chars[i - iSmall].cx;
+      L.t0 = T.words[word] + j * 0.08;
+      L.spin = (lrand() - 0.5) * 50;
+      L.g = glyph($('line1'), c.ch, FS1, 'g-buried');
+      line1.push(L);
+      j++;
+    });
+
+    // "became so tall", fitted between the stem and the right edge
+    const X2 = SX + 100, RIGHT = 1540, TALL_K = 1.3;
+    let FS2 = 124;
+    let mB = measure('became so', FS2), mT = measure('tall', FS2 * TALL_K);
+    const fit = Math.min(1, (RIGHT - X2) / (mB.total + 0.32 * FS2 + mT.total));
+    if (fit < 1) { FS2 *= fit; mB = measure('became so', FS2); mT = measure('tall', FS2 * TALL_K); }
+    const XT = X2 + mB.total + 0.32 * FS2;
+    const line2 = [];
+    word = 0; j = 0;
+    mB.chars.forEach((c) => {
+      if (c.ch === ' ') { word++; j = 0; return; }
+      line2.push({ ch: c.ch, x: X2 + c.cx, half: (c.x1 - c.x0) / 2, word: word, j: j++, fs: FS2, tone: 'g-petal' });
+    });
+    mT.chars.forEach((c, k) => {
+      line2.push({ ch: c.ch, x: XT + c.cx, half: (c.x1 - c.x0) / 2, word: 2, j: k, fs: FS2 * TALL_K, tone: 'g-leaf' });
+    });
+    line2.forEach((L) => { L.g = glyph($('line2'), L.ch, L.fs, L.tone); });
+
+    /* ---------- Soil, pebbles, grass ---------- */
+    const soilG = $('soil'), rand = rng(7);
+    const surf = (x) => GROUND + 4 * Math.sin(x / 47) + 2.5 * Math.sin(x / 19 + 1.3);
+    let d = 'M-20,930 L-20,' + f(surf(-20));
+    for (let x = -10; x <= 1630; x += 10) d += ' L' + x + ',' + f(surf(x));
+    el('path', { class: 'f-soil edge', d: d + ' L1630,930 Z' }, soilG);
+    for (let i = 0; i < 46; i++) {
+      const x = rand() * 1600, y = GROUND + 22 + rand() * 72;
+      if (x > X1 - 20 && x < SX + 70 && y > BASE1 - 66 && y < BASE1 + 12) continue; // keep the buried line clear
+      el('ellipse', { class: 'f-soil-deep', cx: f(x), cy: f(y), rx: f(4 + rand() * 7), ry: f(3 + rand() * 3.5) }, soilG);
+    }
+    const TUFT = 'M-14,4 C-14,-6 -20,-16 -24,-22 C-12,-16 -6,-9 -4,-2 C-4,-14 -2,-25 2,-33 C6,-23 6,-12 4,-2 C8,-9 14,-17 24,-21 C18,-13 14,-5 14,4 Z';
+    [44, 300, SX + 112, XT - 0.16 * FS2, XT + mT.total + 34].forEach((x) => {
+      if (x < 1590) el('path', { class: 'f-leaf edge-thin', d: TUFT, transform: 'translate(' + f(x) + ' ' + f(surf(x) + 2) + ')' }, soilG);
+    });
+
+    /* ---------- Seed and roots ---------- */
+    const seedG = $('seed'), seedTop = $('seed-top');
+    const roots = [
+      'M' + (SX - 6) + ',860 C' + (SX - 15) + ',872 ' + (SX - 9) + ',884 ' + (SX - 19) + ',897',
+      'M' + (SX + 2) + ',862 C' + (SX + 5) + ',876 ' + (SX + 13) + ',884 ' + (SX + 10) + ',898',
+      'M' + (SX + 6) + ',858 C' + (SX + 26) + ',864 ' + (SX + 34) + ',878 ' + (SX + 54) + ',884'
+    ].map((rd) => {
+      const p = el('path', { class: 'root', d: rd }, $('roots'));
+      const len = p.getTotalLength();
+      p.style.strokeDasharray = f(len) + ' ' + f(len + 10);
+      return { el: p, len: len };
+    });
+
+    /* ---------- Stem ---------- */
+    const stemD = 'M' + SX + ',846 C' + (SX - 6) + ',742 ' + (SX + 14) + ',660 ' + (SX + 5) + ',566' +
+      ' C' + (SX - 4) + ',474 ' + (SX - 16) + ',386 ' + (SX + 1) + ',326' +
+      ' C' + (SX + 8) + ',298 ' + HX + ',286 ' + HX + ',' + HY;
+    const stemEdge = $('stem-edge'), stem = $('stem');
+    stemEdge.setAttribute('d', stemD);
+    stem.setAttribute('d', stemD);
+    const LEN = stem.getTotalLength();
+    const STEP = 2, N = Math.ceil(LEN / STEP) + 1, PX = new Float32Array(N), PY = new Float32Array(N);
+    for (let i = 0; i < N; i++) { const p = stem.getPointAtLength(Math.min(LEN, i * STEP)); PX[i] = p.x; PY[i] = p.y; }
+    function at(s) {
+      const fi = clamp(s, 0, LEN) / STEP, i = Math.min(N - 2, Math.floor(fi)), u = fi - i;
+      const a0 = Math.max(0, i - 3), a1 = Math.min(N - 1, i + 4);
+      return { x: lerp(PX[i], PX[i + 1], u), y: lerp(PY[i], PY[i + 1], u), deg: Math.atan2(PY[a1] - PY[a0], PX[a1] - PX[a0]) * 180 / Math.PI };
+    }
+    function lengthAtY(y) { for (let i = 0; i < N; i++) if (PY[i] <= y) return i * STEP; return LEN; }
+    const L_SURF = lengthAtY(GROUND + 2), L_COT = lengthAtY(GROUND - 64);
+
+    // How much stem there is at time t: a slow push through the soil, then up into the sky
+    function tipLen(t) {
+      if (t <= T.sprout) return 0;
+      if (t < T.surface) return L_SURF * prog(t, T.sprout, T.surface - T.sprout);
+      const u = prog(t, T.surface, T.top - T.surface);
+      return L_SURF + (LEN - L_SURF) * (0.3 * u + 0.7 * (1 - Math.cos(Math.PI * u)) / 2);
+    }
+    function timeAtLen(l) { for (let t = T.sprout; t < T.top; t += 1 / 120) if (tipLen(t) >= l) return t; return T.top; }
+
+    // Seed leaves ride up with the tip, then stay behind just above the soil
+    const LEAF = 'M0,0 C24,-40 96,-56 150,-18 C104,14 40,22 0,0 Z';
+    const COT = 'M0,0 C10,-14 34,-18 48,-6 C36,8 12,8 0,0 Z';
+    const cots = [1, -1].map((dir) => {
+      const g = el('g', { transform: 'scale(0)' }, $('leaves'));
+      el('path', { class: 'f-leaf edge', d: COT }, g);
+      return { g: g, dir: dir };
+    });
+    const leaves = [
+      { y: 640, dir: 1, rot: -16, phase: 0 },
+      { y: 488, dir: -1, rot: -14, phase: 1.7 }
+    ].map((Lf) => {
+      const len = lengthAtY(Lf.y), p = at(len);
+      Lf.x = p.x; Lf.y = p.y; Lf.t0 = timeAtLen(len) + 0.05;
+      Lf.g = el('g', { transform: 'scale(0)' }, $('leaves'));
+      el('path', { class: 'f-leaf edge', d: LEAF }, Lf.g);
+      el('path', { class: 'vein', d: 'M8,-1 C50,-13 98,-22 136,-18' }, Lf.g);
+      return Lf;
+    });
+
+    /* ---------- Flower head ---------- */
+    const head = $('head'), disk = $('disk');
+    // green bracts behind the petals; with the petals still shut, they are the bud
+    const BRACT = 'M-12,2 Q-7,-18 0,-30 Q7,-18 12,2 Z';
+    for (let i = 0; i < 16; i++) {
+      el('path', { class: 'f-leaf edge', d: BRACT, transform: 'rotate(' + (i * 22.5 + 11) + ') translate(0 -48)' }, $('bracts'));
+    }
+    el('circle', { class: 'f-leaf edge', r: 56 }, $('bracts'));
+    const petalD = (len) => 'M0,6 C-15,' + f(-len * 0.2) + ' -17,' + f(-len * 0.62) + ' 0,' + -len + ' C17,' + f(-len * 0.62) + ' 15,' + f(-len * 0.2) + ' 0,6 Z';
+    const petals = [];
+    [['petals-back', 'f-petal-deep', 94, 9], ['petals-front', 'f-petal', 84, 0]].forEach((ring, r) => {
+      for (let i = 0; i < 20; i++) {
+        const a = i * 18 + ring[3];
+        const p = el('path', { class: ring[1] + ' edge', d: petalD(ring[2]), transform: 'scale(0)' }, $(ring[0]));
+        petals.push({ el: p, a: a, t0: T.bloom + 0.22 + r * 0.12 + i * 0.03 });
+      }
+    });
+    // Sunflower seeds pack in a spiral, each one turned 137.5° from the last
+    const kernels = [], NK = 150, GOLDEN = Math.PI * (3 - Math.sqrt(5));
+    for (let i = 0; i < NK; i++) {
+      const r = 59 * Math.sqrt((i + 0.6) / NK), a = i * GOLDEN;
+      kernels.push({ el: el('circle', { class: 'f-kernel', cx: f(r * Math.cos(a)), cy: f(r * Math.sin(a)), r: 0 }, $('kernels')), r: 1.9 + 1.5 * Math.sqrt(i / NK), t0: T.kernels + 1.3 * i / NK });
+    }
+
+    /* ---------- Dirt kicked up ---------- */
+    const bits = [], dirtG = $('dirt'), drand = rng(21);
+    function burst(x, t0, n, power) {
+      for (let i = 0; i < n; i++) {
+        const a = (-90 + (drand() - 0.5) * 120) * Math.PI / 180, v = power * (0.5 + drand() * 0.7);
+        bits.push({ x: x, y: GROUND - 2, t0: t0, vx: Math.cos(a) * v, vy: Math.sin(a) * v, r: 3 + drand() * 5, el: el('circle', { class: 'f-soil edge-thin', r: 0 }, dirtG) });
+      }
+    }
+
+    /* ---------- Camera ---------- */
+    // Opens close on the buried line, then pulls back so the growing tip stays in frame
+    const S0 = clamp(1600 / (SX + 80 - 40), 1.6, 3);
+    function camera(t) {
+      const tipY = at(tipLen(t)).y;
+      let s = clamp(900 / (900 - (tipY - 180)), 1, S0);
+      s = lerp(s, 1, smooth(prog(t, T.top - 0.3, 1.2)));
+      const u = (S0 - s) / (S0 - 1);
+      // pin the left edge so the start of the buried line never slides out of frame
+      return { s: s, cx: clamp(lerp(40, 0, u) + 800 / s, 800 / s, 1600 - 800 / s), cy: 900 - 450 / s };
+    }
+
+    // The seed falls from just above the opening frame
+    const SEED_Y0 = 900 - 900 / S0 - 60;
+    const tEntry = T.drop + (T.land - T.drop) * Math.sqrt((GROUND - SEED_Y0) / (SY - SEED_Y0));
+    burst(SX + 24 * (1 - (tEntry - T.drop) / (T.land - T.drop)), tEntry, 9, 260);
+    burst(SX, T.surface, 14, 360);
+    // and each letter of the buried line is sown the same way
+    const DROP_Y = 900 - 900 / S0 - 10;
+    line1.forEach((L) => burst(L.x, L.t0 + FALL * Math.sqrt((GROUND - DROP_Y) / (BASE1 - DROP_Y)), 5, 190));
+
+    // Each word of the second line springs up as the camera reveals it
+    line2.forEach((L) => { L.rev = Infinity; });
+    for (let t = T.surface; t < T.end + 2; t += 1 / 60) {
+      const c = camera(t), right = c.cx + 800 / c.s;
+      line2.forEach((L) => { if (L.rev === Infinity && L.x + L.half < right - 12) L.rev = t; });
+    }
+    let prev = 0;
+    line2.forEach((L, i) => {
+      L.t0 = Math.max(L.rev, T.surface + 0.45 + i * 0.07, prev + 0.07);
+      prev = L.t0;
+      if (L.word === 2) L.tStretch = Math.max(L.t0 + 0.35, T.top - 0.45 + L.j * 0.11);
+    });
+
+    /* ---------- One frame ---------- */
+    const sunRing = document.querySelector('#sun .ring'), clouds = $('clouds'), plant = $('plant');
+    function render(t, live) {
+      const tt = live ? t : 0;
+      const idle = live ? smooth(prog(t, T.end - 0.4, 1.6)) : 0;
+
+      const c = camera(t);
+      world.setAttribute('transform', 'translate(800 450) scale(' + c.s.toFixed(4) + ') translate(' + f(-c.cx) + ' ' + f(-c.cy) + ')');
+      sunRing.setAttribute('transform', 'rotate(' + f(tt * 12) + ' 1075 178)');
+      clouds.setAttribute('transform', 'translate(' + f(16 * Math.sin(tt * 0.35)) + ' 0)');
+
+      // The buried line: letters drop into the soil, "small" shrinks and shivers, the seed's landing knocks them up
+      line1.forEach((L) => {
+        if (t < L.t0) { L.g.setAttribute('transform', 'scale(0)'); return; }
+        const u = prog(t, L.t0, FALL), a = t - L.t0 - FALL;
+        const k = a > 0 ? Math.exp(-a * 10) * Math.cos(a * 24) : 0;
+        let sc = 1, x = L.x, y = lerp(DROP_Y, BASE1, u * u);
+        if (L.small) {
+          const u = smooth(prog(t, T.shrink + L.j * 0.03, 0.5));
+          sc *= lerp(1, FS_TINY / FS1, u);
+          x = lerp(L.x, L.xTiny, u);
+          const sh = prog(t, T.shrink + 0.5, 0.6);
+          if (sh > 0 && sh < 1) x += 2.4 * Math.sin(t * 70 + L.j * 2) * (1 - sh);
+        }
+        const hop = t - T.land - (SX - x) / 1400;
+        if (hop > 0 && hop < 0.32) y -= 15 * Math.sin(Math.PI * hop / 0.32);
+        L.g.setAttribute('transform', 'translate(' + f(x) + ' ' + f(y) + ') rotate(' + f(L.spin * (1 - u)) + ') scale(' + f(sc * (1 + 0.18 * k)) + ' ' + f(sc * (1 - 0.22 * k)) + ')');
+      });
+
+      // The seed: falls, lands, wiggles, cracks open
+      if (t < T.drop) seedG.setAttribute('transform', 'scale(0)');
+      else {
+        let x = SX, y = SY, rot = -28, sx = 1, sy = 1, open = 0;
+        if (t < T.land) {
+          const u = prog(t, T.drop, T.land - T.drop);
+          y = lerp(SEED_Y0, SY, u * u);
+          x = SX + 24 * (1 - u);
+          rot = -28 + 250 * (1 - u);
+        } else {
+          const a = t - T.land, k = Math.exp(-a * 9) * Math.cos(a * 26);
+          sx = 1 + 0.22 * k; sy = 1 - 0.28 * k;
+          const w = prog(t, T.crack - 0.55, 0.55);
+          if (w > 0 && w < 1) rot += 9 * Math.sin(w * Math.PI * 6) * Math.sin(w * Math.PI);
+          open = easeOutBack(prog(t, T.crack, 0.35));
+        }
+        seedG.setAttribute('transform', 'translate(' + f(x) + ' ' + f(y) + ') rotate(' + f(rot) + ') scale(' + f(sx) + ' ' + f(sy) + ')');
+        seedTop.setAttribute('transform', 'rotate(' + f(-24 * open) + ' -28 0)');
+      }
+      roots.forEach((r, i) => {
+        const u = easeOut(prog(t, T.crack + 0.15 + i * 0.12, 0.9));
+        r.el.style.strokeDashoffset = f(r.len * (1 - u));
+        r.el.style.visibility = u > 0 ? 'visible' : 'hidden';
+      });
+
+      // The stem draws itself up to the tip
+      const l = tipLen(t);
+      const dash = f(l) + ' ' + f(LEN + 40);
+      stemEdge.style.strokeDasharray = dash; stem.style.strokeDasharray = dash;
+      stemEdge.style.visibility = stem.style.visibility = l > 0.5 ? 'visible' : 'hidden';
+      const sway = idle * 1.1 * Math.sin(tt * 0.9);
+      plant.setAttribute('transform', 'rotate(' + f(sway) + ' ' + SX + ' 846)');
+
+      const pc = at(Math.min(l, L_COT));
+      const cs = easeOut(prog(t, T.sprout + 0.05, 0.4));
+      const ca = lerp(-80, -14, smooth(prog(t, T.surface + 0.05, 0.6)));
+      cots.forEach((C) => {
+        C.g.setAttribute('transform', 'translate(' + f(pc.x) + ' ' + f(pc.y) + ') scale(' + C.dir + ' 1) rotate(' + f(ca) + ') scale(' + f(cs) + ')');
+      });
+      leaves.forEach((Lf) => {
+        const k = easeOutBack(prog(t, Lf.t0, 0.7));
+        const flutter = idle * 3 * Math.sin(tt * 1.3 + Lf.phase);
+        Lf.g.setAttribute('transform', 'translate(' + f(Lf.x) + ' ' + f(Lf.y) + ') scale(' + Lf.dir + ' 1) rotate(' + f(Lf.rot + (1 - k) * 40 + flutter) + ') scale(' + f(Math.max(0, k)) + ')');
+      });
+
+      // The head: a green bud riding the tip, then it opens and turns to the sun
+      const tip = at(l);
+      const bloom = prog(t, T.bloom, 0.6);
+      const hs = lerp(0.3 * smooth(prog(l, L_COT, 60)), HEAD, easeOutBack(bloom));
+      const tilt = lerp(tip.deg + 90, 8, smooth(bloom)) + idle * 2.2 * Math.sin(tt * 0.9 - 0.8);
+      head.setAttribute('transform', 'translate(' + f(tip.x) + ' ' + f(tip.y) + ') rotate(' + f(tilt) + ') scale(' + f(hs) + ')');
+      petals.forEach((P) => {
+        const k = easeOutBack(prog(t, P.t0, 0.5));
+        P.el.setAttribute('transform', 'rotate(' + f(P.a + idle * 1.5 * Math.sin(tt * 2 + P.a)) + ') translate(0 -50) scale(' + f(Math.max(0, k)) + ')');
+      });
+      disk.setAttribute('transform', 'scale(' + f(easeOutBack(prog(t, T.bloom + 0.3, 0.5))) + ')');
+      kernels.forEach((K) => { K.el.setAttribute('r', f(K.r * easeOutBack(prog(t, K.t0, 0.2)))); });
+
+      // "became so" springs out of the soil; "tall" then shoots up like a stalk
+      line2.forEach((L) => {
+        const a = t - L.t0;
+        if (a <= 0) { L.g.setAttribute('transform', 'scale(0)'); return; }
+        const y = BASE2 + (1 - easeOutBack(prog(a, 0, 0.5))) * L.fs;
+        let sx = 1, sy = 1, skew = 0;
+        if (L.word === 2) {
+          const g = spring(t - L.tStretch);
+          sy = lerp(1, STRETCH, g);
+          sx = lerp(1, 0.9, Math.min(1, g));
+          skew = idle * 3.2 * Math.sin(tt * 1.6 - L.j * 0.6);
+        }
+        L.g.setAttribute('transform', 'translate(' + f(L.x) + ' ' + f(y) + ') skewX(' + f(skew) + ') scale(' + f(sx) + ' ' + f(sy) + ')');
+      });
+
+      bits.forEach((b) => {
+        const a = t - b.t0, y = b.y + b.vy * a + 550 * a * a;
+        const on = a > 0 && a < 1.1 && y < GROUND + 4;
+        b.el.setAttribute('r', on ? f(b.r * (1 - a / 1.1)) : 0);
+        if (on) { b.el.setAttribute('cx', f(b.x + b.vx * a)); b.el.setAttribute('cy', f(y)); }
+      });
+    }
+
+    return { render: render, end: T.end };
+  }
+
+  /* ---------- Player ---------- */
+  function start() {
+    const scene = build();
+    let clock = performance.now() + 250;
+    const play = () => {
+      clock = performance.now() + 250;
+      if (reduce) scene.render(scene.end + 1, false);
+    };
+    $('replay').addEventListener('click', play);
+    $('stage').addEventListener('click', play);
+    document.addEventListener('keydown', (e) => {
+      if ((e.key === 'r' || e.key === 'R') && !e.metaKey && !e.ctrlKey && !e.altKey) play();
+    });
+    if (reduce) { scene.render(scene.end + 1, false); return; }
+    (function frame(now) {
+      scene.render((now - clock) / 1000, true);
+      requestAnimationFrame(frame);
+    })(performance.now());
+  }
+
+  // Letter positions are measured, so wait for the display face (but never forever)
+  const fontsReady = document.fonts && document.fonts.load
+    ? Promise.all([document.fonts.load('700 68px Fredoka'), document.fonts.load('600 24px Fredoka')]).catch(() => {})
+    : Promise.resolve();
+  Promise.race([fontsReady, new Promise((r) => setTimeout(r, 2500))]).then(start);
+})();
+</script>
+</body>
+</html>
