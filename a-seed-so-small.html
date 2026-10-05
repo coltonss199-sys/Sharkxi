@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>A Seed So Small</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Nunito:wght@700;800&display=swap">
+<style>
+/* Layout: one 16:9 garden stage filmed as a single camera move, with the two poem lines as chapter tabs beneath */
+:root {
+  /* the six swatches */
+  --pink: #FBB9C5;
+  --peach: #FDD0B1;
+  --butter: #F9EFC7;
+  --mint: #C3EDBF;
+  --sky: #B8DFE6;
+  --lilac: #C5BBDE;
+  /* one deep shade of the lilac, used only for outlines and small text */
+  --ink: #352C55;
+  --display: "Fredoka", "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+  --ui: "Nunito", "Trebuchet MS", system-ui, sans-serif;
+  color-scheme: light;
+}
+
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--lilac);
+  color: var(--ink);
+  font-family: var(--ui);
+  display: grid;
+  place-items: center;
+  padding-block: 28px;
+  padding-inline: 16px;
+  box-sizing: border-box;
+}
+.wrap { width: 100%; max-width: 1120px; display: grid; gap: 20px; }
+
+.stage {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: 16 / 9;
+  background: var(--sky);
+  border: 3px solid var(--ink);
+  border-radius: 22px;
+  box-shadow: 0 8px 0 var(--ink);
+  overflow: hidden;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.scene { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+
+/* SVG paint, all from the tokens */
+.f-pink { fill: var(--pink); }
+.f-peach { fill: var(--peach); }
+.f-butter { fill: var(--butter); }
+.f-mint { fill: var(--mint); }
+.f-sky { fill: var(--sky); }
+.f-lilac { fill: var(--lilac); }
+.outlined { stroke: var(--ink); stroke-width: 5px; stroke-linejoin: round; }
+.ring { fill: none; stroke: var(--ink); stroke-width: 7px; stroke-linecap: round; stroke-dasharray: 0 26; }
+.gl, .sh { font-family: var(--display); font-weight: 700; stroke: var(--ink); stroke-linejoin: round; }
+.gl { paint-order: stroke fill; }
+.sh, .ink { fill: var(--ink); }
+.seed { fill: var(--butter); stroke: var(--ink); stroke-width: 4px; stroke-linejoin: round; }
+.seed-sh { fill: var(--ink); stroke: var(--ink); stroke-width: 4px; stroke-linejoin: round; }
+.seed-rim { fill: none; stroke: var(--peach); stroke-width: 3px; stroke-linecap: round; }
+.leaf { fill: var(--mint); stroke: var(--ink); stroke-linejoin: round; }
+.leaf-sh { fill: var(--ink); stroke: var(--ink); stroke-linejoin: round; }
+.vein { fill: none; stroke: var(--ink); stroke-linecap: round; }
+.bar-ink, .bar-fill { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.bar-ink { stroke: var(--ink); }
+.s-pink { stroke: var(--pink); }
+.s-peach { stroke: var(--peach); }
+.s-butter { stroke: var(--butter); }
+.s-mint { stroke: var(--mint); }
+.s-lilac { stroke: var(--lilac); }
+.root { fill: none; stroke: var(--ink); stroke-width: 3.2px; stroke-linecap: round; stroke-linejoin: round; }
+.pebble { stroke: var(--ink); stroke-width: 2.5px; }
+.dirt { stroke: var(--ink); stroke-width: 2px; }
+
+/* Controls */
+.bar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 14px; }
+.tabs { display: flex; flex-wrap: wrap; gap: 10px; }
+button {
+  font: inherit;
+  color: var(--ink);
+  background: transparent;
+  border: 3px solid var(--ink);
+  border-radius: 999px;
+  cursor: pointer;
+  display: inline-flex; align-items: center; gap: 10px;
+  transition: transform .15s ease, box-shadow .15s ease, background-color .15s ease;
+}
+.tab { padding: 6px 18px 6px 6px; }
+.tab .n {
+  width: 30px; height: 30px; border-radius: 50%;
+  display: grid; place-items: center;
+  background: var(--ink); color: var(--butter);
+  font: 800 15px/1 var(--ui);
+  font-variant-numeric: tabular-nums;
+}
+.tab .line { font: 600 20px/1.2 var(--display); }
+.tab[aria-current="step"] { background: var(--butter); box-shadow: 0 4px 0 var(--ink); transform: translateY(-2px); }
+.tab:hover { background: var(--butter); }
+.replay { padding: 10px 20px; background: var(--ink); color: var(--butter); font: 800 16px/1 var(--ui); letter-spacing: .02em; }
+.replay:hover { box-shadow: 0 4px 0 var(--pink); transform: translateY(-2px); }
+button:focus-visible, .stage:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+.hint { margin: 0; font: 700 14px/1.4 var(--ui); color: var(--ink); opacity: .78; }
+.hint kbd {
+  font: 800 12px/1 var(--ui);
+  border: 2px solid var(--ink); border-radius: 6px;
+  padding: 2px 6px; margin-inline: 1px;
+}
+.end { display: flex; flex-wrap: wrap; align-items: center; gap: 14px; }
+
+@media (max-width: 560px) {
+  .tab .line { font-size: 17px; }
+  .hint { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  button { transition: none; }
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <div class="stage" id="stage" tabindex="0" aria-label="Poem animation. Click or press the right arrow for the next line.">
+    <svg class="scene" id="scene" viewBox="0 0 1600 900" role="img" aria-label="A seed so small became so tall">
+      <rect class="f-sky" width="1600" height="900"/>
+      <!-- Everything below is filmed by one camera: this group's transform -->
+      <g id="world">
+        <g id="sun">
+          <circle class="ring" cx="200" cy="170" r="96"/>
+          <circle class="f-peach outlined" cx="200" cy="170" r="62"/>
+        </g>
+        <g id="clouds">
+          <path class="f-butter outlined" transform="translate(560 226) scale(1.05)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+          <path class="f-butter outlined" transform="translate(1200 318) scale(.9)" d="M0,0 a36,36 0 0 1 22,-62 a52,52 0 0 1 96,-22 a40,40 0 0 1 66,30 a32,32 0 0 1 4,54 Z"/>
+        </g>
+        <!-- letters live behind the ground, so they can rise out of it -->
+        <g id="words"></g>
+        <rect class="f-peach" x="-4000" y="826" width="9600" height="4000"/>
+        <g id="pebbles"></g>
+        <!-- the cut-away soil: roots, the buried seed and its sprout -->
+        <g id="under"></g>
+        <rect class="f-mint outlined" x="-4000" y="800" width="9600" height="26"/>
+        <g id="fx"></g>
+      </g>
+    </svg>
+  </div>
+
+  <div class="bar">
+    <div class="tabs" role="group" aria-label="Poem lines">
+      <button class="tab" type="button" id="tab-0" aria-current="step"><span class="n">1</span><span class="line">A seed so small</span></button>
+      <button class="tab" type="button" id="tab-1"><span class="n">2</span><span class="line">became so tall</span></button>
+    </div>
+    <div class="end">
+      <p class="hint"><kbd>←</kbd> <kbd>→</kbd> to switch, <kbd>R</kbd> to replay</p>
+      <button class="replay" type="button" id="replay">Play from the start</button>
+    </div>
+  </div>
+</main>
+
+<script>
+(function () {
+  'use strict';
+  const NS = 'http://www.w3.org/2000/svg';
+  const reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const $ = (id) => document.getElementById(id);
+  const clamp = (v, a, b) => Math.min(b, Math.max(a, v));
+  const lerp = (a, b, u) => a + (b - a) * u;
+  const smooth = (u) => u * u * (3 - 2 * u);
+  const inOut = (u) => (u < 0.5 ? 4 * u * u * u : 1 - Math.pow(2 - 2 * u, 3) / 2);
+  const outCubic = (u) => 1 - Math.pow(1 - u, 3);
+  const outBack = (u, c) => { c = c || 1.7; return 1 + (c + 1) * Math.pow(u - 1, 3) + c * Math.pow(u - 1, 2); };
+  const span = (t, a, d) => clamp((t - a) / d, 0, 1);
+  const f = (n) => n.toFixed(2);
+
+  function el(tag, attrs, parent) {
+    const n = document.createElementNS(NS, tag);
+    for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(n);
+    return n;
+  }
+
+  // A spring let go at tau = 0: overshoots, rings a little, settles on 1
+  function spring(tau, zeta, omega) {
+    if (tau <= 0) return 0;
+    const wd = omega * Math.sqrt(1 - zeta * zeta), e = Math.exp(-zeta * omega * tau);
+    return 1 - e * (Math.cos(wd * tau) + (zeta * omega / wd) * Math.sin(wd * tau));
+  }
+  // A shake that starts at rest and dies away
+  const wobble = (tau, amp, decay, freq) => (tau <= 0 ? 0 : amp * Math.exp(-tau * decay) * Math.sin(tau * freq));
+
+  // Seeded random, so every replay throws the same dirt
+  function rng(seed) {
+    return function () {
+      seed = (seed + 0x6D2B79F5) | 0;
+      let t = Math.imul(seed ^ (seed >>> 15), 1 | seed);
+      t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;
+      return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
+    };
+  }
+
+  // Monotone cubic through keyframes: the camera glides through each one without overshooting
+  function track(ts, vs) {
+    const n = ts.length, d = [], m = [];
+    for (let i = 0; i < n - 1; i++) d.push((vs[i + 1] - vs[i]) / (ts[i + 1] - ts[i]));
+    m[0] = d[0]; m[n - 1] = d[n - 2];
+    for (let i = 1; i < n - 1; i++) m[i] = d[i - 1] * d[i] <= 0 ? 0 : (d[i - 1] + d[i]) / 2;
+    for (let i = 0; i < n - 1; i++) {
+      if (d[i] === 0) { m[i] = 0; m[i + 1] = 0; continue; }
+      const a = m[i] / d[i], b = m[i + 1] / d[i], h = a * a + b * b;
+      if (h > 9) { const k = 3 / Math.sqrt(h); m[i] = k * a * d[i]; m[i + 1] = k * b * d[i]; }
+    }
+    return function (t) {
+      if (t <= ts[0]) return vs[0];
+      if (t >= ts[n - 1]) return vs[n - 1];
+      let i = 0;
+      while (t > ts[i + 1]) i++;
+      const h = ts[i + 1] - ts[i], u = (t - ts[i]) / h, u2 = u * u, u3 = u2 * u;
+      return (2 * u3 - 3 * u2 + 1) * vs[i] + (u3 - 2 * u2 + u) * h * m[i] + (-2 * u3 + 3 * u2) * vs[i + 1] + (u3 - u2) * h * m[i + 1];
+    };
+  }
+
+  // Where each character's centre falls when the string is set at this size
+  function measure(svg, str, size) {
+    const t = el('text', { class: 'gl', 'font-size': size, x: 0, y: 0, visibility: 'hidden' }, svg);
+    t.textContent = str;
+    const chars = [];
+    for (let i = 0; i < str.length; i++) {
+      let cx;
+      try { cx = (t.getStartPositionOfChar(i).x + t.getEndPositionOfChar(i).x) / 2; }
+      catch (e) { cx = (i + 0.5) * size * 0.58; }
+      chars.push({ ch: str[i], cx: cx });
+    }
+    let total = t.getComputedTextLength();
+    if (!total) total = str.length * size * 0.58;
+    t.remove();
+    return { chars: chars, total: total };
+  }
+
+  // One letter with its hard drop shadow, baseline centre at the group's origin
+  function glyph(parent, ch, size, tone) {
+    const g = el('g', {}, parent), sw = f(size * 0.081);
+    el('text', { class: 'sh', 'font-size': size, 'text-anchor': 'middle', y: f(size * 0.065), 'stroke-width': sw }, g).textContent = ch;
+    el('text', { class: 'gl f-' + tone, 'font-size': size, 'text-anchor': 'middle', 'stroke-width': sw }, g).textContent = ch;
+    return g;
+  }
+
+  // A leaf points along +x from its stalk end; its shadow is a sibling so it always falls straight down
+  const LEAF = 'M0,0 C10,-13 28,-15 42,0 C28,15 10,13 0,0 Z';
+  function leaf(parent, size) {
+    const sh = el('path', { class: 'leaf-sh', d: LEAF, 'stroke-width': f(5 / size) }, parent);
+    const g = el('g', {}, parent);
+    el('path', { class: 'leaf', d: LEAF, 'stroke-width': f(5 / size) }, g);
+    el('path', { class: 'vein', d: 'M6,0 L30,0', 'stroke-width': f(3 / size) }, g);
+    return { sh: sh, g: g, size: size };
+  }
+  function putLeaf(L, x, y, deg, k) {
+    const s = L.size * Math.max(0, k);
+    const tf = ' rotate(' + f(deg) + ') scale(' + s.toFixed(3) + ')';
+    L.g.setAttribute('transform', 'translate(' + f(x) + ' ' + f(y) + ')' + tf);
+    L.sh.setAttribute('transform', 'translate(' + f(x) + ' ' + f(y + 4) + ')' + tf);
+  }
+
+  function build() {
+    const svg = $('scene'), world = $('world'), wordsG = $('words'), underG = $('under'), fxG = $('fx');
+    const GROUND = 800;
+    const R = rng(7);
+
+    // Fredoka's real x-height and cap height, for where the seed sits on each word
+    let XH = 0.5, CAP = 0.7;
+    try {
+      const c = document.createElement('canvas').getContext('2d');
+      c.font = '700 100px Fredoka';
+      XH = (c.measureText('x').actualBoundingBoxAscent || 50) / 100;
+      CAP = (c.measureText('H').actualBoundingBoxAscent || 70) / 100;
+    } catch (e) { /* keep the defaults */ }
+
+    /* ---------- Layout: every word stands on the ground, each bigger than the last ---------- */
+    const SPACE = 0.24;
+    const SPEC = [
+      { str: 'A', size: 64, tone: 'pink', line: 0, gap: 64 * SPACE },
+      { str: 'seed', size: 64, tone: 'peach', line: 0, gap: 64 * SPACE },
+      { str: 'so', size: 64, tone: 'butter', line: 0, gap: 64 * SPACE * 0.8 },
+      { str: 'small', size: 30, tone: 'lilac', line: 0, gap: 0 },
+      { str: 'became', size: 96, tone: 'mint', line: 1, gap: 96 * SPACE * 1.4 },
+      { str: 'so', size: 144, tone: 'pink', line: 1, gap: 144 * SPACE * 1.1 }
+    ];
+    const words = [];
+    let x = 64, XB = 0;
+    SPEC.forEach((w, i) => {
+      if (i === 4) { XB = x + 46; x = XB + 52; } // the seed is planted in the gap between the two lines
+      const m = measure(svg, w.str, w.size);
+      const word = { str: w.str, size: w.size, line: w.line, x0: x, x1: x + m.total, cx: x + m.total / 2, letters: [] };
+      word.depth = w.size * 0.95;
+      word.top = (w.str === 'A' ? CAP : XH) * w.size + w.size * 0.04;
+      m.chars.forEach((c, j) => word.letters.push({ ch: c.ch, j: j, cx: x + c.cx, g: glyph(wordsG, c.ch, w.size, w.tone) }));
+      words.push(word);
+      x += m.total + w.gap;
+    });
+
+    // TALL is built from round bars, so the letters can grow without their outlines stretching
+    const tallX0 = x, avail = 1600 - 70 - tallX0;
+    const unit = avail / 3.69, BAR = unit * 0.35, OUT = 6, DROP = 9;
+    const H0 = 112, HF = GROUND - 108;
+    const TALL = [
+      { type: 'T', w: unit, tone: 'butter', lean: -7 },
+      { type: 'A', w: unit * 1.06, tone: 'pink', lean: 3 },
+      { type: 'L', w: unit * 0.68, tone: 'lilac', lean: -4 },
+      { type: 'L', w: unit * 0.68, tone: 'peach', lean: 8 }
+    ];
+    let tx = tallX0;
+    TALL.forEach((L, k) => {
+      L.k = k; L.x0 = tx; tx += L.w + unit * 0.09;
+      L.g = el('g', {}, wordsG);
+      L.sh = el('path', { class: 'bar-ink', 'stroke-width': f(BAR + 2 * OUT), transform: 'translate(0 ' + DROP + ')' }, L.g);
+      L.out = el('path', { class: 'bar-ink', 'stroke-width': f(BAR + 2 * OUT) }, L.g);
+      L.fill = el('path', { class: 'bar-fill s-' + L.tone, 'stroke-width': f(BAR) }, L.g);
+    });
+    const DEEP = GROUND + 34;
+    // centreline of each letter at height H, with its top pushed sideways by dx
+    function tallShape(L, H, dx) {
+      const top = GROUND - H + BAR / 2;
+      if (L.type === 'T') {
+        const sx = L.x0 + L.w / 2;
+        return {
+          d: 'M' + f(sx) + ',' + f(DEEP) + ' Q' + f(sx) + ',' + f((DEEP + top) / 2) + ' ' + f(sx + dx) + ',' + f(top) +
+             ' M' + f(L.x0 + BAR / 2 + dx) + ',' + f(top) + ' L' + f(L.x0 + L.w - BAR / 2 + dx) + ',' + f(top),
+          at: (h, side) => { const p = (DEEP - (GROUND - h)) / (DEEP - top); return [sx + p * p * dx + side * BAR / 2, GROUND - h]; },
+          top: [sx + dx, top]
+        };
+      }
+      if (L.type === 'A') {
+        const xl = L.x0 + BAR / 2, xr = L.x0 + L.w - BAR / 2, xa = L.x0 + L.w / 2 + dx;
+        const yc = GROUND - 0.34 * (GROUND - top), u = (DEEP - yc) / (DEEP - top);
+        return {
+          d: 'M' + f(xl) + ',' + f(DEEP) + ' L' + f(xa) + ',' + f(top) + ' L' + f(xr) + ',' + f(DEEP) +
+             ' M' + f(lerp(xl, xa, u)) + ',' + f(yc) + ' L' + f(lerp(xr, xa, u)) + ',' + f(yc),
+          at: (h, side) => { const q = (DEEP - (GROUND - h)) / (DEEP - top); return [lerp(side < 0 ? xl : xr, xa, q) + side * BAR / 2, GROUND - h]; },
+          top: [xa, top]
+        };
+      }
+      const sx = L.x0 + BAR / 2, foot = GROUND - BAR / 2;
+      return {
+        d: 'M' + f(sx + dx) + ',' + f(top) + ' Q' + f(sx) + ',' + f((top + foot) / 2) + ' ' + f(sx) + ',' + f(foot) + ' L' + f(L.x0 + L.w - BAR / 2) + ',' + f(foot),
+        at: (h, side) => { const p = (GROUND - h - top) / (foot - top); return [sx + (1 - p) * (1 - p) * dx + side * BAR / 2, GROUND - h]; },
+        top: [sx + dx, top]
+      };
+    }
+
+    // Leaves along the TALL stems (fraction of the height, which side), and one flower on the last L
+    const LEAVES = [
+      [[0.34, -1], [0.6, 1]],
+      [[0.5, -1], [0.72, 1]],
+      [[0.4, 1], [0.68, -1]],
+      [[0.28, -1], [0.56, 1]]
+    ];
+    TALL.forEach((L, k) => { L.leaves = LEAVES[k].map((p) => ({ h: p[0], side: p[1], leaf: leaf(wordsG, 1.55) })); });
+    const flowerSh = el('g', {}, wordsG), flower = el('g', {}, wordsG);
+    for (let i = 0; i < 6; i++) {
+      const a = i * Math.PI / 3;
+      const pos = { cx: f(Math.cos(a) * 19), cy: f(Math.sin(a) * 19), r: 16 };
+      el('circle', Object.assign({ class: 'ink', stroke: 'none' }, pos), flowerSh).setAttribute('r', 18.5);
+      el('circle', Object.assign({ class: 'f-pink outlined' }, pos), flower);
+    }
+    el('circle', { class: 'ink', r: 16.5 }, flowerSh);
+    el('circle', { class: 'f-butter outlined', r: 13 }, flower);
+
+    /* ---------- Underground: pebbles, roots, the seed, its sprout ---------- */
+    const pebG = $('pebbles');
+    for (let px = -260; px < 1900; px += 95 + R() * 90) {
+      if (Math.abs(px - XB) < 60) continue;
+      el('ellipse', { class: 'pebble f-' + (R() < 0.5 ? 'lilac' : 'butter'), cx: f(px), cy: f(850 + R() * 36), rx: f(5 + R() * 5), ry: f(3.5 + R() * 2.5) }, pebG);
+    }
+
+    // one long root creeps from the seed under the whole second line
+    const ROOT_Y = GROUND + 66;
+    let rd = 'M' + f(XB + 3) + ',' + f(GROUND + 76) + ' Q' + f(XB + 14) + ',' + f(ROOT_Y + 2) + ' ' + f(XB + 40) + ',' + f(ROOT_Y);
+    for (let px = XB + 48; px <= 1640; px += 8) {
+      const v = px - XB - 40;
+      rd += ' L' + f(px) + ',' + f(ROOT_Y + 3.2 * Math.sin(v / 41) + 1.6 * Math.sin(v / 13));
+    }
+    const root = el('path', { class: 'root', d: rd }, underG);
+    const rootLen = root.getTotalLength();
+    const rootAt = [];
+    for (let s = 0; s <= rootLen; s += 8) rootAt.push([root.getPointAtLength(s).x, s]);
+    const lenAtX = (px) => { for (let i = 0; i < rootAt.length; i++) if (rootAt[i][0] >= px) return rootAt[i][1]; return rootLen; };
+    const tapRoots = [
+      'M' + f(XB) + ',' + f(GROUND + 77) + ' q-4,14 -16,22 t-12,14',
+      'M' + f(XB) + ',' + f(GROUND + 77) + ' q6,12 3,26 t6,12'
+    ].map((d) => { const p = el('path', { class: 'root', d: d }, underG); return { p: p, len: p.getTotalLength() }; });
+
+    // the sprout: an inked stem with a mint core, two leaves on top
+    const STEM = 'M' + f(XB) + ',' + f(GROUND + 30) + ' C' + f(XB - 6) + ',' + f(GROUND - 10) + ' ' + f(XB + 12) + ',' + f(GROUND - 50) + ' ' + f(XB + 6) + ',' + f(GROUND - 94);
+    const stemInk = el('path', { class: 'bar-ink', d: STEM, 'stroke-width': 14 }, underG);
+    const stemCore = el('path', { class: 'bar-fill s-mint', d: STEM, 'stroke-width': 7 }, underG);
+    const stemLen = stemCore.getTotalLength();
+    const sproutLeaves = [leaf(underG, 0.95), leaf(underG, 0.95)];
+
+    const SEED = 'M0,-46 C6,-42 18,-30 18,-16 C18,-6 10,0 0,0 C-10,0 -18,-6 -18,-16 C-18,-30 -6,-42 0,-46 Z';
+    const seedSh = el('path', { class: 'seed-sh', d: SEED }, underG);
+    const seedG = el('g', {}, underG);
+    el('path', { class: 'seed', d: SEED }, seedG);
+    el('path', { class: 'seed-rim', d: 'M0,-37 C4,-34 11,-26 11,-17 C11,-10 6,-7 0,-7' }, seedG);
+
+    /* ---------- Timeline (seconds) ---------- */
+    const FALL = 0.08;
+    const LAND = [0.6, 1.25, 1.9, 2.55];          // the seed lands on A, seed, so, small
+    const RISE = 0.34, LIFT = 0.04, LAUNCH = LAND.map((t) => t + 0.21);
+    const LAND_B = LAND[3] + 0.58, HOP = LAND_B + 0.12, FLIP_END = HOP + 0.26, DRILL_END = FLIP_END + 0.62;
+    const SPROUT = DRILL_END + 0.4, CH2 = DRILL_END + 0.3;
+    const BECAME = SPROUT + 0.55, SO2 = BECAME + 1.05, POKE = SO2 + 0.6, SHOOT = POKE + 0.55;
+    const FLOWER = SHOOT + 1.15, END = FLOWER + 0.6;
+
+    // when each letter starts to rise
+    words.forEach((w, i) => w.letters.forEach((L) => {
+      if (w.line === 0) { L.t0 = LAND[i] + LIFT + L.j * 0.035; L.dur = RISE; }
+      else if (i === 4) { L.t0 = BECAME + L.j * 0.085; L.dur = 0.55; }
+      else { L.t0 = SO2 + L.j * 0.07; L.dur = 0.45; }
+      L.dir = L.j % 2 ? 1 : -1;
+    }));
+    // the root reaches each word just before it sprouts
+    const headT = [SPROUT + 0.1, BECAME - 0.05, BECAME + 0.5, SO2 - 0.05, SO2 + 0.3, POKE - 0.05, POKE + 0.3];
+    const headX = [XB, words[4].x0, words[4].x1, words[5].x0, words[5].x1, TALL[0].x0, 1640];
+    const headAt = track(headT, headX);
+    TALL.forEach((L, k) => {
+      L.poke = POKE + k * 0.06;
+      L.shoot = SHOOT + k * 0.07;
+      L.leaves.forEach((lf, n) => { lf.t0 = L.shoot + 0.5 + n * 0.14 + k * 0.03; });
+    });
+
+    // the seed's stops: centre of each first-line word, then the planting spot
+    const STOP = words.slice(0, 4).map((w) => w.letters.reduce((a, b) => (Math.abs(b.cx - w.cx) < Math.abs(a.cx - w.cx) ? b : a)));
+    const stopX = words.slice(0, 4).map((w) => w.cx).concat([XB]);
+
+    function letterY(w, L, t) {
+      const u = span(t, L.t0, L.dur);
+      return GROUND + (1 - outBack(u, w.line === 0 ? 1.7 : 2.2)) * w.depth;
+    }
+    // the seed rides on top of the word as it pops out of the ground
+    function rideY(i, t) {
+      const w = words[i];
+      return Math.min(GROUND, letterY(w, STOP[i], t) - w.top);
+    }
+    const launchY = LAUNCH.map((t, i) => rideY(i, t));
+
+    // [x, bottom y, rotation, scaleX, scaleY]
+    function seedPose(t) {
+      if (t < LAND[0]) {
+        const u = span(t, FALL, LAND[0] - FALL);
+        return [lerp(stopX[0] - 30, stopX[0], outCubic(u)), lerp(600, GROUND, u * u), lerp(-200, 0, outCubic(u)), 0.94, 1.08];
+      }
+      for (let i = 0; i < 4; i++) {
+        const next = i < 3 ? LAND[i + 1] : LAND_B;
+        if (t < LAUNCH[i]) {
+          const q = Math.sin(Math.PI * span(t, LAND[i], 0.1));
+          return [stopX[i], rideY(i, t), 0, 1 + 0.22 * q, 1 - 0.26 * q];
+        }
+        if (t < next) {
+          const u = (t - LAUNCH[i]) / (next - LAUNCH[i]), y0 = launchY[i];
+          const arc = (i < 3 ? 70 : 52) + (GROUND - y0) * 0.5, q = Math.sin(Math.PI * u);
+          return [lerp(stopX[i], stopX[i + 1], u), lerp(y0, GROUND, u) - arc * 4 * u * (1 - u), 360 * inOut(u), 1 - 0.07 * q, 1 + 0.1 * q];
+        }
+      }
+      if (t < HOP) {
+        const q = Math.sin(Math.PI * span(t, LAND_B, 0.1));
+        return [XB, GROUND, 0, 1 + 0.22 * q, 1 - 0.26 * q];
+      }
+      if (t < FLIP_END) { // a little jump, flipping point-down
+        const u = (t - HOP) / (FLIP_END - HOP);
+        return [XB, GROUND - 40 * Math.sin(Math.PI * u), 180 * inOut(u), 1, 1];
+      }
+      if (t < DRILL_END) { // drill down, spinning
+        const u = (t - FLIP_END) / (DRILL_END - FLIP_END);
+        return [XB + 1.5 * Math.sin(u * 70), GROUND + 78 * inOut(u), 180, Math.cos(u * Math.PI * 6), 1];
+      }
+      return [XB, GROUND + 78, 180 + wobble(t - DRILL_END - 0.08, 12, 6, 22), 1, 1];
+    }
+
+    // dirt kicked up by the drilling seed and by TALL bursting out
+    const dirt = [];
+    function burst(t0, bx, n, power, size, spread, rim) {
+      for (let i = 0; i < n; i++) {
+        const side = i % 2 ? 1 : -1;
+        const a = (-90 + side * (12 + R() * 55)) * Math.PI / 180, v = power * (0.55 + 0.6 * R());
+        const d = {
+          t0: t0 + R() * spread, x: bx + side * (rim + R() * 10), vx: Math.cos(a) * v, vy: Math.sin(a) * v,
+          r: size * (0.6 + 0.6 * R()), life: 0.5 + 0.35 * R()
+        };
+        d.node = el('circle', { class: 'dirt f-' + (R() < 0.72 ? 'peach' : 'mint'), r: 0 }, fxG);
+        dirt.push(d);
+      }
+    }
+    burst(FLIP_END + 0.05, XB, 18, 330, 5, DRILL_END - FLIP_END - 0.2, 16);
+    TALL.forEach((L) => burst(L.shoot - 0.02, L.x0 + L.w / 2, 8, 560, 8, 0.08, BAR * 0.5));
+    const GRAV = 1500;
+
+    /* ---------- Camera: [time, centre x, zoom, where the ground sits in the frame (0 top .. 1 bottom)] ---------- */
+    const tallEnd = TALL[3].x0 + TALL[3].w;
+    const KEYS = [
+      [0, stopX[0] + 95, 4.0, 0.72],
+      [LAND[0] + 0.1, stopX[0] + 100, 4.0, 0.72],
+      [LAND[1] + 0.1, stopX[1] + 70, 4.0, 0.72],
+      [LAND[2] + 0.1, stopX[2] + 55, 4.1, 0.72],
+      [LAND[3] + 0.2, stopX[3] + 15, 5.4, 0.7],
+      [LAND_B + 0.15, XB - 15, 4.8, 0.64],
+      [DRILL_END - 0.2, XB, 4.4, 0.5],
+      [SPROUT, XB + 5, 4.3, 0.52],
+      [SPROUT + 0.55, XB + 60, 3.0, 0.74],
+      [BECAME + 0.45, words[4].cx - 30, 2.6, 0.78],
+      [SO2 + 0.1, (words[4].x0 + words[5].x1) / 2 + 20, 2.15, 0.8],
+      [POKE + 0.15, (words[5].x0 + tallEnd) / 2, 2.0, 0.8],
+      [SHOOT + 0.05, (words[5].x0 + tallEnd) / 2 - 10, 1.95, 0.8],
+      [SHOOT + 0.95, 800, 1.0, 1 - 100 / 900]
+    ];
+    const camX = track(KEYS.map((k) => k[0]), KEYS.map((k) => k[1]));
+    const camZ = track(KEYS.map((k) => k[0]), KEYS.map((k) => Math.log(k[2])));
+    const camG = track(KEYS.map((k) => k[0]), KEYS.map((k) => k[3]));
+
+    const sunRing = document.querySelector('#sun .ring'), clouds = $('clouds');
+
+    function render(t, live) {
+      const idle = live ? t : END + 2;
+      const calm = live ? smooth(span(t, END - 0.4, 1.4)) : 0; // idle sway fades in after the last beat
+
+      // camera
+      const z = Math.exp(camZ(t)), cx = camX(t), cy = GROUND - (camG(t) - 0.5) * 900 / z;
+      world.setAttribute('transform', 'translate(800 450) scale(' + z.toFixed(4) + ') translate(' + f(-cx) + ' ' + f(-cy) + ')');
+
+      // words
+      words.forEach((w, i) => w.letters.forEach((L) => {
+        const u = span(t, L.t0, L.dur);
+        const y = letterY(w, L, t);
+        let sx = 1, sy = 1, r = 0;
+        if (w.line === 0) {
+          const q = Math.sin(Math.PI * u);
+          sx = 1 - 0.08 * q; sy = 1 + 0.14 * q;
+        } else {
+          sx = sy = lerp(0.5, 1, outBack(u, 1.4));
+          r = wobble(t - L.t0 - L.dur * 0.55, (i === 5 ? 7 : 10) * L.dir, 5, 13);
+          if (i === 4) r += calm * 2.2 * Math.sin(idle * 2.1 + L.j * 0.9);
+        }
+        L.g.setAttribute('transform', 'translate(' + f(L.cx) + ' ' + f(y) + ') rotate(' + f(r) + ') scale(' + f(sx) + ' ' + f(sy) + ')');
+      }));
+
+      // TALL: pops up at letter size, crouches, then shoots up on a spring
+      TALL.forEach((L) => {
+        const up = outBack(span(t, L.poke, 0.36), 2);
+        const crouch = 1 - 0.14 * Math.sin(Math.PI * span(t, SHOOT - 0.16, 0.16 + (L.shoot - SHOOT)));
+        const grow = spring(t - L.shoot, 0.5, 8.5);
+        const H = H0 * crouch + (HF - H0) * grow;
+        const sway = L.lean * smooth(span(t, L.shoot + 0.2, 1)) + calm * 9 * Math.sin(idle * 1.25 + L.k * 1.3);
+        const shape = tallShape(L, H, sway);
+        L.g.setAttribute('transform', 'translate(0 ' + f((1 - up) * (H0 + 60)) + ')');
+        L.sh.setAttribute('d', shape.d); L.out.setAttribute('d', shape.d); L.fill.setAttribute('d', shape.d);
+        L.leaves.forEach((lf) => {
+          const k = outBack(span(t, lf.t0, 0.42), 2.2);
+          const p = shape.at(lf.h * H, lf.side);
+          const flutter = calm * 5 * Math.sin(idle * 2.3 + lf.h * 9);
+          putLeaf(lf.leaf, p[0], p[1], (lf.side > 0 ? -36 : -144) + lf.side * -28 * (1 - Math.min(1, k)) + flutter, k);
+        });
+        if (L.k === 3) {
+          const k = outBack(span(t, FLOWER, 0.5), 2.4);
+          const spin = (1 - span(t, FLOWER, 0.5)) * -120 + calm * 6 * Math.sin(idle * 1.6);
+          const tf = ' rotate(' + f(spin) + ') scale(' + (1.25 * Math.max(0, k)).toFixed(3) + ')';
+          flower.setAttribute('transform', 'translate(' + f(shape.top[0]) + ' ' + f(shape.top[1] - 6) + ')' + tf);
+          flowerSh.setAttribute('transform', 'translate(' + f(shape.top[0]) + ' ' + f(shape.top[1] - 6 + 5) + ')' + tf);
+        }
+      });
+
+      // the seed
+      const p = seedPose(t);
+      const tf = ' rotate(' + f(p[2]) + ' 0 -23) scale(' + f(p[3]) + ' ' + f(p[4]) + ')';
+      seedG.setAttribute('transform', 'translate(' + f(p[0]) + ' ' + f(p[1]) + ')' + tf);
+      seedSh.setAttribute('transform', 'translate(' + f(p[0]) + ' ' + f(p[1] + 3.5) + ')' + tf);
+
+      // roots, sprout
+      tapRoots.forEach((r, i) => { const k = outCubic(span(t, SPROUT - 0.2 + i * 0.1, 0.5)); r.p.style.strokeDasharray = f(r.len * k) + ' ' + f(r.len + 1); r.p.style.opacity = k > 0 ? 1 : 0; });
+      const head = lenAtX(headAt(t)) * (t > SPROUT + 0.1 ? 1 : 0);
+      root.style.strokeDasharray = f(head) + ' ' + f(rootLen + 1);
+      root.style.opacity = head > 0 ? 1 : 0;
+      const grown = outCubic(span(t, SPROUT, 0.55));
+      [stemInk, stemCore].forEach((s) => { s.style.strokeDasharray = f(stemLen * grown) + ' ' + f(stemLen + 1); s.style.opacity = grown > 0 ? 1 : 0; });
+      const tip = stemCore.getPointAtLength(stemLen * grown);
+      const leafK = outBack(span(t, SPROUT + 0.4, 0.4), 2.2), nod = calm * 6 * Math.sin(idle * 1.8);
+      putLeaf(sproutLeaves[0], tip.x, tip.y, -150 + 30 * (1 - Math.min(1, leafK)) + nod, leafK);
+      putLeaf(sproutLeaves[1], tip.x, tip.y, -30 - 30 * (1 - Math.min(1, leafK)) + nod, leafK);
+
+      // dirt
+      dirt.forEach((d) => {
+        const tau = t - d.t0;
+        const dy = GROUND - 4 + d.vy * tau + 0.5 * GRAV * tau * tau;
+        // gone once it has fallen back into the grass
+        if (tau <= 0 || tau >= d.life || (dy > GROUND - 2 && d.vy + GRAV * tau > 0)) { d.node.setAttribute('r', 0); return; }
+        d.node.setAttribute('cx', f(d.x + d.vx * tau));
+        d.node.setAttribute('cy', f(dy));
+        d.node.setAttribute('r', f(d.r * smooth(span(tau, 0, 0.08)) * (1 - smooth(span(tau, d.life * 0.6, d.life * 0.4)))));
+      });
+
+      // sky
+      sunRing.setAttribute('transform', 'rotate(' + f((live ? t : 0) * 14) + ' 200 170)');
+      clouds.setAttribute('transform', 'translate(' + f(live ? 18 * Math.sin(t * 0.4) : 0) + ' 0)');
+    }
+
+    return { render: render, end: END, ch2: CH2 };
+  }
+
+  /* ---------- Player ---------- */
+  function start() {
+    const scene = build();
+    const tabs = [$('tab-0'), $('tab-1')];
+    const STARTS = [-0.15, scene.ch2 - 0.1];
+    let clock = performance.now(), cur = 0, shown = -1;
+
+    function mark(k) {
+      if (k === shown) return;
+      shown = k; cur = k;
+      tabs.forEach((b, j) => { if (j === k) b.setAttribute('aria-current', 'step'); else b.removeAttribute('aria-current'); });
+    }
+    function go(i) {
+      const k = (i + 2) % 2;
+      clock = performance.now() - STARTS[k] * 1000;
+      mark(k);
+    }
+    function frame(now) {
+      if (reduce) {
+        scene.render(scene.end + 2, false);
+      } else {
+        const t = (now - clock) / 1000;
+        scene.render(t, true);
+        mark(t >= scene.ch2 ? 1 : 0);
+      }
+      requestAnimationFrame(frame);
+    }
+
+    tabs.forEach((b, k) => b.addEventListener('click', () => go(k)));
+    $('replay').addEventListener('click', () => go(0));
+    $('stage').addEventListener('click', () => go(cur + 1));
+    document.addEventListener('keydown', (e) => {
+      if (e.target.tagName === 'BUTTON' && (e.key === ' ' || e.key === 'Enter')) return;
+      if (e.key === 'ArrowRight' || e.key === 'PageDown' || (e.key === ' ' && e.target === $('stage'))) { e.preventDefault(); go(cur + 1); }
+      else if (e.key === 'ArrowLeft' || e.key === 'PageUp') { e.preventDefault(); go(cur - 1); }
+      else if (e.key === 'r' || e.key === 'R') go(0);
+    });
+
+    go(0);
+    requestAnimationFrame(frame);
+  }
+
+  // Letter positions are measured, so wait for the display face (but never forever)
+  const fontsReady = document.fonts && document.fonts.load
+    ? Promise.all([document.fonts.load('700 64px Fredoka'), document.fonts.load('700 150px Fredoka')]).catch(() => {})
+    : Promise.resolve();
+  Promise.race([fontsReady, new Promise((r) => setTimeout(r, 2500))]).then(start);
+})();
+</script>
+</body>
+</html>
