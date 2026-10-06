@@ -8,65 +8,65 @@ rank	word1	word2	rhyme_type	link	relationship	example
 7	inclusive	exclusive	perfect	antonym	open versus closed membership	Make the party inclusive, not exclusive, and everyone can dance.
 8	new	anew	perfect	synonym	both mean fresh again	Every sunrise feels new, so I begin my song anew.
 9	assume	presume	perfect	synonym	both mean suppose beforehand	I assume you'll come, and I presume you'll bring the sunshine.
-10	oops	whoops	perfect	synonym	both cry little slip	Oops, I tripped on sunshine; whoops, I fell in love.
-11	do	undo	perfect	antonym	making versus unmaking	Any knot we tie, we can undo, the way true dreamers do.
-12	true	blue	perfect	synonym	true-blue means loyal	You stay true, my friend, as steady as the sky is blue.
-13	community	unity	perfect	synonym	both mean shared togetherness	A caring community grows from simple unity of hearts.
-14	union	reunion	perfect	synonym	joining and rejoining hearts	Our happy union shines brighter at every family reunion.
-15	blooming	booming	perfect	synonym	both mean thriving growth	The garden's blooming and the laughter's booming all night long.
-16	soothing	smoothing	perfect	synonym	both mean gentle easing	Her soothing hum kept smoothing out the wrinkles of the day.
-17	blues	hues	perfect	synonym	both name color shades	Ocean blues and sunset hues paint the summer sky.
-18	fusion	infusion	perfect	synonym	both mean blending together	A fusion of rhythms, an infusion of pure joy.
-19	renew	anew	perfect	synonym	both mean beginning again	Spring will renew the meadows and start the world anew.
-20	solution	resolution	perfect	synonym	both mean answer found	We found a solution and a resolution to laugh more.
-21	troupe	group	perfect	synonym	both mean performing company	The dancing troupe became a group of lifelong friends.
-22	union	communion	perfect	synonym	both mean heartfelt fellowship	In this union of voices we share a sweet communion.
-23	moon	noon	perfect	antonym	midnight versus midday sky	From the silver moon to the golden noon, I'm yours.
-24	choose	refuse	perfect	antonym	accepting versus declining	I choose the brighter road and refuse to stand still.
-25	undo	redo	perfect	antonym	reverse versus repeat action	Undo the frown, redo the smile, and try it once again.
-26	scoop	swoop	perfect	synonym	both mean sweeping up	Swoop down low and scoop me up into the sky.
-27	acute	astute	perfect	synonym	both mean keenly sharp	With an acute ear and an astute heart, she hears every note.
-28	move	remove	perfect	synonym	both mean shifting away	Move the clouds and remove the doubt; let the sunshine in.
-29	view	review	perfect	synonym	both mean looking over	Climb up for the view, then review the road we traveled.
-30	boom	bloom	perfect	synonym	both mean flourishing growth	Let the town boom and every window bloom with flowers.
-31	hoot	toot	perfect	synonym	both are cheery calls	Hoot like an owl and toot like a horn; the party's on!
-32	glue	screw	perfect	synonym	both fasten things together	With a little glue and a single screw, we built our dream.
-33	moving	improving	perfect	synonym	both mean making progress	Keep on moving, keep improving, every step a brand new song.
-34	use	reuse	perfect	synonym	putting things to work	Use it well, then reuse it, and keep the planet green.
-35	woo	coo	perfect	synonym	both mean tender courting	Come woo me softly; coo my name beneath the stars.
-36	move	groove	perfect	cause-effect	rhythm makes bodies dance	Feel the groove and let your body move.
-37	food	mood	perfect	cause-effect	good meals lift spirits	Warm food and old friends put me in a golden mood.
-38	blue	hue	perfect	part-whole	blue is one hue	Of every hue the sky can wear, I love the blue.
-39	shoot	root	perfect	part-whole	parts of a plant	From a tiny root, a hopeful shoot reaches for the sun.
-40	fruit	root	perfect	part-whole	plant's beginning and harvest	Deep root, sweet fruit; patience pays in summertime.
-41	produce	juice	perfect	cause-effect	fresh produce makes juice	Fresh produce from the market, squeezed to golden juice.
-42	tune	swoon	perfect	cause-effect	melody makes hearts melt	Play that tune again and watch the whole room swoon.
-43	flute	toot	perfect	cause-effect	a flute sounds toots	Toot the flute and call the morning birds to sing.
-44	clue	knew	perfect	cause-effect	a clue brings knowing	One tiny clue, and suddenly I knew it was you.
-45	grew	new	perfect	cause-effect	growth brings fresh leaves	The seed we planted grew, and every leaf was new.
-46	improve	approve	perfect	cause-effect	betterment wins approval	Keep working to improve, and the crowd will soon approve.
-47	blew	flew	perfect	cause-effect	wind lifts the kite	The breeze blew softly and my kite flew high.
-48	muse	amuse	perfect	cause-effect	inspiration brings playful delight	My muse came by to amuse me with silly little songs.
-49	proof	truth	slant	synonym	evidence of what's real	Your smile is all the proof I need of the truth.
-50	astute	shrewd	slant	synonym	both mean clever insight	An astute mind and a shrewd eye find the hidden gold.
-51	moon	sun	slant	antonym	night light versus day	You're my moon at midnight and my sun by day.
-52	cute	sweet	slant	synonym	both mean adorable charm	You're so cute and so sweet, you light up the street.
-53	beauty	pretty	slant	synonym	both mean lovely looks	Pretty petals, quiet beauty, all along the garden path.
-54	tune	tone	slant	synonym	both mean musical sound	Hum a tune in a gentle tone and the night will listen.
-55	shoot	sprout	slant	synonym	both mean new growth	A green shoot, a tender sprout, spring is pushing through.
-56	moon	june	perfect	scene	summer night romance	Dancing under a silver moon on a warm night in June.
-57	dune	lagoon	perfect	scene	sunny tropical beach	Barefoot over the dune and down to the bright lagoon.
-58	spruce	moose	perfect	scene	northern forest wildlife	A gentle moose naps beneath the spruce at dawn.
-59	bloom	groom	perfect	scene	wedding day flowers	The groom wore a rose in full bloom.
-60	shoes	blues	perfect	scene	dancing to blues music	Lace up your dancing shoes; the band is playing the blues.
-61	dew	new	perfect	scene	fresh dawn meadow	Morning dew makes every meadow look brand new.
-62	dew	blue	perfect	scene	dawn under clear sky	Diamonds of dew sparkle beneath a sky of blue.
-63	flew	through	perfect	scene	bird crossing open sky	The swallow flew through the open gate of morning.
-64	loop	swoop	perfect	scene	swallows in evening flight	The swallows loop and swoop across the evening sky.
-65	soup	scoop	perfect	scene	serving a warm supper	Scoop the soup into bowls and gather round the table.
-66	brew	stew	perfect	scene	cozy kitchen cooking	A pot of stew, a fresh tea brew, a cozy winter night.
-67	broom	room	perfect	scene	sweeping the house clean	Sweep the room with a dancing broom and sing along.
-68	canoe	crew	perfect	scene	paddling down the river	Our canoe and our cheerful crew glide down the river.
+10	do	undo	perfect	antonym	making versus unmaking	Any knot we tie, we can undo, the way true dreamers do.
+11	true	blue	perfect	synonym	true-blue means loyal	You stay true, my friend, as steady as the sky is blue.
+12	community	unity	perfect	synonym	both mean shared togetherness	A caring community grows from simple unity of hearts.
+13	union	reunion	perfect	synonym	joining and rejoining hearts	Our happy union shines brighter at every family reunion.
+14	blooming	booming	perfect	synonym	both mean thriving growth	The garden's blooming and the laughter's booming all night long.
+15	soothing	smoothing	perfect	synonym	both mean gentle easing	Her soothing hum kept smoothing out the wrinkles of the day.
+16	blues	hues	perfect	synonym	both name color shades	Ocean blues and sunset hues paint the summer sky.
+17	fusion	infusion	perfect	synonym	both mean blending together	A fusion of rhythms, an infusion of pure joy.
+18	renew	anew	perfect	synonym	both mean beginning again	Spring will renew the meadows and start the world anew.
+19	solution	resolution	perfect	synonym	both mean answer found	We found a solution and a resolution to laugh more.
+20	troupe	group	perfect	synonym	both mean performing company	The dancing troupe became a group of lifelong friends.
+21	union	communion	perfect	synonym	both mean heartfelt fellowship	In this union of voices we share a sweet communion.
+22	moon	noon	perfect	antonym	midnight versus midday sky	From the silver moon to the golden noon, I'm yours.
+23	undo	redo	perfect	antonym	reverse versus repeat action	Undo the frown, redo the smile, and try it once again.
+24	scoop	swoop	perfect	synonym	both mean sweeping up	Swoop down low and scoop me up into the sky.
+25	acute	astute	perfect	synonym	both mean keenly sharp	With an acute ear and an astute heart, she hears every note.
+26	move	remove	perfect	synonym	both mean shifting away	Move the clouds and remove the doubt; let the sunshine in.
+27	view	review	perfect	synonym	both mean looking over	Climb up for the view, then review the road we traveled.
+28	boom	bloom	perfect	synonym	both mean flourishing growth	Let the town boom and every window bloom with flowers.
+29	mew	coo	perfect	synonym	both soft tender cries	A kitten's mew, a dove's soft coo, the morning hums with love.
+30	hoot	toot	perfect	synonym	both are cheery calls	Hoot like an owl and toot like a horn; the party's on!
+31	glue	screw	perfect	synonym	both fasten things together	With a little glue and a single screw, we built our dream.
+32	moving	improving	perfect	synonym	both mean making progress	Keep on moving, keep improving, every step a brand new song.
+33	use	reuse	perfect	synonym	putting things to work	Use it well, then reuse it, and keep the planet green.
+34	woo	coo	perfect	synonym	both mean tender courting	Come woo me softly; coo my name beneath the stars.
+35	move	groove	perfect	cause-effect	rhythm makes bodies dance	Feel the groove and let your body move.
+36	food	mood	perfect	cause-effect	good meals lift spirits	Warm food and old friends put me in a golden mood.
+37	blue	hue	perfect	part-whole	blue is one hue	Of every hue the sky can wear, I love the blue.
+38	shoot	root	perfect	part-whole	parts of a plant	From a tiny root, a hopeful shoot reaches for the sun.
+39	fruit	root	perfect	part-whole	plant's beginning and harvest	Deep root, sweet fruit; patience pays in summertime.
+40	produce	juice	perfect	cause-effect	fresh produce makes juice	Fresh produce from the market, squeezed to golden juice.
+41	tune	swoon	perfect	cause-effect	melody makes hearts melt	Play that tune again and watch the whole room swoon.
+42	flute	toot	perfect	cause-effect	a flute sounds toots	Toot the flute and call the morning birds to sing.
+43	clue	knew	perfect	cause-effect	a clue brings knowing	One tiny clue, and suddenly I knew it was you.
+44	grew	new	perfect	cause-effect	growth brings fresh leaves	The seed we planted grew, and every leaf was new.
+45	improve	approve	perfect	cause-effect	betterment wins approval	Keep working to improve, and the crowd will soon approve.
+46	blew	flew	perfect	cause-effect	wind lifts the kite	The breeze blew softly and my kite flew high.
+47	muse	amuse	perfect	cause-effect	inspiration brings playful delight	My muse came by to amuse me with silly little songs.
+48	proof	truth	slant	synonym	evidence of what's real	Your smile is all the proof I need of the truth.
+49	astute	shrewd	slant	synonym	both mean clever insight	An astute mind and a shrewd eye find the hidden gold.
+50	moon	sun	slant	antonym	night light versus day	You're my moon at midnight and my sun by day.
+51	cute	sweet	slant	synonym	both mean adorable charm	You're so cute and so sweet, you light up the street.
+52	beauty	pretty	slant	synonym	both mean lovely looks	Pretty petals, quiet beauty, all along the garden path.
+53	tune	tone	slant	synonym	both mean musical sound	Hum a tune in a gentle tone and the night will listen.
+54	shoot	sprout	slant	synonym	both mean new growth	A green shoot, a tender sprout, spring is pushing through.
+55	moon	june	perfect	scene	summer night romance	Dancing under a silver moon on a warm night in June.
+56	dune	lagoon	perfect	scene	sunny tropical beach	Barefoot over the dune and down to the bright lagoon.
+57	spruce	moose	perfect	scene	northern forest wildlife	A gentle moose naps beneath the spruce at dawn.
+58	bloom	groom	perfect	scene	wedding day flowers	The groom wore a rose in full bloom.
+59	shoes	blues	perfect	scene	dancing to blues music	Lace up your dancing shoes; the band is playing the blues.
+60	dew	new	perfect	scene	fresh dawn meadow	Morning dew makes every meadow look brand new.
+61	dew	blue	perfect	scene	dawn under clear sky	Diamonds of dew sparkle beneath a sky of blue.
+62	flew	through	perfect	scene	bird crossing open sky	The swallow flew through the open gate of morning.
+63	loop	swoop	perfect	scene	swallows in evening flight	The swallows loop and swoop across the evening sky.
+64	soup	scoop	perfect	scene	serving a warm supper	Scoop the soup into bowls and gather round the table.
+65	brew	stew	perfect	scene	cozy kitchen cooking	A pot of stew, a fresh tea brew, a cozy winter night.
+66	broom	room	perfect	scene	sweeping the house clean	Sweep the room with a dancing broom and sing along.
+67	canoe	crew	perfect	scene	paddling down the river	Our canoe and our cheerful crew glide down the river.
+68	woo	you	perfect	scene	romantic courtship of beloved	I'll write you songs and woo you under every summer star.
 69	true	you	perfect	scene	loyal lover's vow	Through every season I will stay true to you.
 70	news	views	perfect	scene	morning paper reading	Good news and bright views fill the morning paper.
 71	cruise	views	perfect	scene	scenic sea voyage	A summer cruise with endless ocean views.
