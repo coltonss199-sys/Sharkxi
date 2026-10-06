@@ -3,7 +3,8 @@
 Rules enforced here (from the brief):
   * exactly two syllables in every CMU pronunciation, stress pattern iamb
     (0-1 / 2-1) or trochee (1-0 / 1-2)
-  * no r-controlled syllables: no ER vowel, and no vowel immediately followed by R
+  * no r-controlled syllables: no ER vowel, no vowel immediately followed by R,
+    and no vowel letter closed by R in the spelling (sur-prise)
   * no l-controlled syllables: no vowel immediately followed by L, except a long
     vowel in an open syllable whose L starts the next syllable (ho-ly, si-lent),
     and no silent-L spelling (talk, calm) or suffixed base-final L (roll-ing)
@@ -39,8 +40,11 @@ NEAR = [{"P", "B"}, {"T", "D"}, {"K", "G"}, {"F", "V"}, {"S", "Z"},
 WORD_RE = re.compile(r"^[a-z]+$")
 SILENT_L = re.compile(r"alk|alm|alf|alv|olk|ould")
 # A base word that ends in vowel + L keeps that L in its own syllable when a
-# suffix is added (roll-ing, feel-ing, smil-ing, styl-ish).
-BASE_FINAL_L = re.compile(r"[aeiouwy]ll?(ing|ings|ish)$")
+# suffix is added (roll-ing, feel-ing, smil-ing, styl-ish, cool-est, real-ly).
+BASE_FINAL_L = re.compile(r"[aeiouwy]ll?(ing|ings|ish|est|ly)$")
+# A vowel letter closed by R in the spelling (sur-prise) is r-controlled even
+# where CMU also lists a reduced, R-less variant.
+SPELLED_R = re.compile(r"[aeiouy]r(?![aeiouyr])")
 
 
 def load_cmu(path):
@@ -179,9 +183,11 @@ def qualifying(prons, word=None):
     Given the spelling, so is a silent-L pattern (talk, calm, half, folk,
     could), which phonics teaches as l-controlled though CMU has no L, and a
     suffixed base-final L (rolling, feeling, smiling), whose L stays with the
-    stressed vowel even though CMU writes it before the suffix's vowel.
+    stressed vowel even though CMU writes it before the suffix's vowel, and a
+    vowel letter closed by R (surprise), whatever reduced variant CMU lists.
     """
-    if word is not None and (SILENT_L.search(word) or BASE_FINAL_L.search(word)):
+    if word is not None and any(rx.search(word)
+                                for rx in (SILENT_L, BASE_FINAL_L, SPELLED_R)):
         return []
     if any(sum(is_vowel(ph) for ph in p) != 2 for p in prons):
         return []
