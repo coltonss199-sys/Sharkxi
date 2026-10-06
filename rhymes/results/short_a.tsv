@@ -1,101 +1,101 @@
 rank	word1	word2	rhyme_type	link	relationship	example
-1	grasp	clasp	perfect	synonym	both mean hold tightly	I grasp your hand and clasp it close beneath the stars
-2	grab	nab	perfect	synonym	both mean seize quickly	Grab your coat and nab the seat beside me
-3	jammed	crammed	perfect	synonym	both mean tightly packed	The hall was jammed, the dance floor crammed with smiling friends
-4	dance	prance	perfect	synonym	both mean move with joy	We dance across the meadow and prance beneath the moon
-5	catch	snatch	perfect	synonym	both mean seize in motion	Catch the bouquet and snatch the moment as it flies
-6	attach	latch	perfect	synonym	both mean fasten securely	Attach the ribbon, latch the gate, and run to meet me
-7	attach	detach	perfect	antonym	fasten versus unfasten	Attach the sail at sunrise, detach it when we're home
-8	demand	command	perfect	synonym	both mean firmly require	You command the stage and the fans demand one more song
-9	flashy	splashy	perfect	synonym	both mean bold and showy	Flashy lights and splashy colors paint the carnival night
-10	jazzy	snazzy	perfect	synonym	both mean lively and stylish	Jazzy shoes and a snazzy hat for the Saturday swing
-11	splash	dash	perfect	synonym	both mean small poured amount	A splash of cream, a dash of cinnamon, a perfect morning
-12	pact	contract	perfect	synonym	both mean binding agreement	We made a pact, a contract sealed with a grin
-13	catch	match	perfect	synonym	both mean ideal partner	You're a catch, and darling, we're a perfect match
-14	enhance	advance	perfect	synonym	both mean improve something	Each lesson will enhance your skill and advance your dream
-15	jam	cram	perfect	synonym	both mean squeeze tightly in	Jam the suitcase, cram one more sweater, and let's go
-16	static	ecstatic	perfect	antonym	unmoving versus wildly joyful	No more static evenings, my heart is ecstatic now
-17	pack	unpack	perfect	antonym	fill versus empty bags	We pack for the mountains and unpack beside the lake
-18	tango	fandango	perfect	synonym	both are lively dances	We tango in the kitchen, then fandango down the hall
-19	rang	clang	perfect	synonym	both describe ringing metal	The bells rang out, a joyful clang across the town
-20	passion	compassion	perfect	synonym	both are heartfelt feelings	Lead with passion and love the world with compassion
-21	pack	stack	perfect	synonym	both mean load things together	Pack the presents and stack them high beneath the tree
-22	cash	stash	perfect	synonym	both mean money saved up	Count the cash and tuck it in our travel stash
-23	wrap	strap	perfect	synonym	both mean bind around something	Wrap the gift in gold and strap it to the sled
-24	craft	raft	perfect	part-whole	a raft is a craft	Our little craft, a raft of pine, drifts down the stream
-25	gratitude	attitude	perfect	cause-effect	thankfulness shapes your outlook	An attitude of gratitude turns every day to gold
-26	glance	romance	perfect	cause-effect	a look sparks love	One glance across the room and our romance began
-27	outstanding	standing	perfect	cause-effect	great shows earn ovations	An outstanding show brings a standing ovation
-28	sap	tap	perfect	cause-effect	tapping trees draws sap	We tap the maple and the sweet sap flows
-29	cram	exam	perfect	cause-effect	hard study before testing	We cram all night and ace the exam by morning
-30	class	pass	perfect	cause-effect	studying lets you pass	Study with a smile and you will pass the class
-31	grad	glad	perfect	cause-effect	graduating makes you joyful	Every proud grad is glad to toss that cap
-32	action	satisfaction	perfect	cause-effect	effort brings fulfillment	Turn your dreams to action and taste satisfaction
-33	fantastic	enthusiastic	perfect	cause-effect	great shows excite crowds	The show was fantastic and the crowd enthusiastic
-34	hand	band	perfect	part-whole	ring worn on hand	A golden band upon your hand, forever and a day
-35	chance	dance	perfect	cause-effect	daring leads to dancing	Take a chance and ask me for a dance
-36	act	impact	perfect	cause-effect	kind deeds make difference	Every kind act makes an impact on the world
-37	granted	enchanted	perfect	scene	magic makes wishes true	Your wish is granted in the enchanted wood
-38	sack	bag	slant	synonym	both are carrying pouches	Fill a sack with apples and a bag with bread
-39	cap	hat	slant	synonym	both are worn headwear	Tip your cap or wave your hat, the parade is here
-40	bag	pack	slant	synonym	both carry your things	Grab your bag, shoulder your pack, the trail is calling
-41	pat	tap	slant	synonym	both mean gentle touch	A pat on the back, a tap on the shoulder, well done
-42	classy	snazzy	slant	synonym	both mean smartly stylish	A classy coat and snazzy shoes for the gala
-43	dash	panache	slant	synonym	both mean stylish flair	She enters with a dash of daring and pure panache
-44	magic	logic	slant	antonym	wonder versus cool reason	Your magic melts my logic every single time
-45	cat	pet	slant	part-whole	a cat is a pet	My cat is the sweetest pet who ever purred
-46	piano	soprano	perfect	scene	singer with her accompanist	The piano swells as the soprano soars
-47	lamb	ram	perfect	scene	young and grown sheep	The lamb leaps while the ram keeps watch on the hill
+1	dance	prance	perfect	synonym	both mean move with joy	We dance across the meadow and prance beneath the moon
+2	jazzy	snazzy	perfect	synonym	both mean lively and stylish	Jazzy shoes and a snazzy hat for the Saturday swing
+3	flashy	splashy	perfect	synonym	both mean bold and showy	Flashy lights and splashy colors paint the carnival night
+4	tango	fandango	perfect	synonym	both are lively dances	We tango in the kitchen, then fandango down the hall
+5	passion	compassion	perfect	synonym	both are heartfelt feelings	Lead with passion and love the world with compassion
+6	grasp	clasp	perfect	synonym	both mean hold tightly	I grasp your hand and clasp it close beneath the stars
+7	catch	match	perfect	synonym	both mean ideal partner	You're a catch, and darling, we're a perfect match
+8	static	ecstatic	perfect	antonym	unmoving versus wildly joyful	No more static evenings, my heart is ecstatic now
+9	enhance	advance	perfect	synonym	both mean improve something	Each lesson will enhance your skill and advance your dream
+10	splash	dash	perfect	synonym	both mean small poured amount	A splash of cream, a dash of cinnamon, a perfect morning
+11	handy	dandy	perfect	synonym	both mean fine and helpful	A handy friend makes every day just dandy
+12	attach	latch	perfect	synonym	both mean fasten securely	Attach the ribbon, latch the gate, and run to meet me
+13	wrap	strap	perfect	synonym	both mean bind around something	Wrap the gift in gold and strap it to the sled
+14	pack	stack	perfect	synonym	both mean load things together	Pack the presents and stack them high beneath the tree
+15	pact	contract	perfect	synonym	both mean binding agreement	We made a pact, a contract sealed with a grin
+16	cash	stash	perfect	synonym	both mean money saved up	Count the cash and tuck it in our travel stash
+17	demand	command	perfect	synonym	both mean firmly require	You command the stage and the fans demand one more song
+18	attach	detach	perfect	antonym	fasten versus unfasten	Attach the sail at sunrise, detach it when we're home
+19	pack	unpack	perfect	antonym	fill versus empty bags	We pack for the mountains and unpack beside the lake
+20	gratitude	attitude	perfect	cause-effect	thankfulness shapes your outlook	An attitude of gratitude turns every day to gold
+21	glance	romance	perfect	cause-effect	a look sparks love	One glance across the room and our romance began
+22	hand	band	perfect	part-whole	ring worn on hand	A golden band upon your hand, forever and a day
+23	chance	dance	perfect	cause-effect	daring leads to dancing	Take a chance and ask me for a dance
+24	outstanding	standing	perfect	cause-effect	great shows earn ovations	An outstanding show brings a standing ovation
+25	grad	glad	perfect	cause-effect	graduating makes you joyful	Every proud grad is glad to toss that cap
+26	fantastic	enthusiastic	perfect	cause-effect	great shows excite crowds	The show was fantastic and the crowd enthusiastic
+27	act	impact	perfect	cause-effect	kind deeds make difference	Every kind act makes an impact on the world
+28	action	satisfaction	perfect	cause-effect	effort brings fulfillment	Turn your dreams to action and taste satisfaction
+29	craft	raft	perfect	part-whole	a raft is a craft	Our little craft, a raft of pine, drifts down the stream
+30	sap	tap	perfect	cause-effect	tapping trees draws sap	We tap the maple and the sweet sap flows
+31	class	pass	perfect	cause-effect	studying lets you pass	Study with a smile and you will pass the class
+32	granted	enchanted	perfect	scene	magic makes wishes true	Your wish is granted in the enchanted wood
+33	classy	snazzy	slant	synonym	both mean smartly stylish	A classy coat and snazzy shoes for the gala
+34	dash	panache	slant	synonym	both mean stylish flair	She enters with a dash of daring and pure panache
+35	magic	logic	slant	antonym	wonder versus cool reason	Your magic melts my logic every single time
+36	cat	pet	slant	part-whole	a cat is a pet	My cat is the sweetest pet who ever purred
+37	pat	tap	slant	synonym	both mean gentle touch	A pat on the back, a tap on the shoulder, well done
+38	cap	hat	slant	synonym	both are worn headwear	Tip your cap or wave your hat, the parade is here
+39	bag	pack	slant	synonym	both carry your things	Grab your bag, shoulder your pack, the trail is calling
+40	sack	bag	slant	synonym	both are carrying pouches	Fill a sack with apples and a bag with bread
+41	piano	soprano	perfect	scene	singer with her accompanist	The piano swells as the soprano soars
+42	dance	romance	perfect	scene	couples swaying in love	One more dance under fairy lights and our romance blooms
+43	happy	snappy	perfect	scene	cheerful upbeat little tune	Whistle a happy, snappy tune as we stroll to town
+44	clapping	tapping	perfect	scene	joyful rhythm made together	Hands are clapping, feet are tapping, the whole room sings
+45	granny	nanny	perfect	scene	loving caregivers for children	Granny and the nanny sing the baby a lullaby
+46	dad	lad	perfect	scene	father and young son	Dad and the lad go fishing at sunrise
+47	nap	lap	perfect	scene	kitten dozing on knees	The kitten takes a nap curled up in my lap
 48	cat	mat	perfect	scene	pet curled on rug	The cat stretched out sunny on the welcome mat
-49	nap	lap	perfect	scene	kitten dozing on knees	The kitten takes a nap curled up in my lap
-50	clap	snap	perfect	scene	rhythm made with hands	Clap your hands and snap your fingers to the beat
-51	granny	nanny	perfect	scene	loving caregivers for children	Granny and the nanny sing the baby a lullaby
-52	dad	lad	perfect	scene	father and young son	Dad and the lad go fishing at sunrise
-53	banana	cabana	perfect	scene	tropical beachside treats	A banana smoothie in the shade of the cabana
-54	camp	lamp	perfect	scene	light glowing at campsite	Back at camp we read by the glow of a lamp
-55	ham	yam	perfect	scene	holiday feast side dishes	Honey ham and buttered yam on the holiday table
-56	band	stand	perfect	scene	music from the bandstand	The band strikes up from the old park stand
-57	sang	rang	perfect	scene	chorus with ringing bells	The children sang as the church bells rang
-58	jazz	pizzazz	perfect	scene	music bursting with flair	The jazz trio played with pizzazz all night long
-59	cat	nap	slant	scene	a short daytime doze	Curl up like a cat and take a sunny nap
-60	brass	jazz	slant	scene	horns of jazz bands	Bright brass rings out and the jazz begins to swing
+49	lamb	ram	perfect	scene	young and grown sheep	The lamb leaps while the ram keeps watch on the hill
+50	banana	cabana	perfect	scene	tropical beachside treats	A banana smoothie in the shade of the cabana
+51	sand	strand	perfect	scene	golden beach shoreline	Barefoot on the sand, we stroll the golden strand
+52	clap	snap	perfect	scene	rhythm made with hands	Clap your hands and snap your fingers to the beat
+53	camp	lamp	perfect	scene	light glowing at campsite	Back at camp we read by the glow of a lamp
+54	ham	yam	perfect	scene	holiday feast side dishes	Honey ham and buttered yam on the holiday table
+55	band	stand	perfect	scene	music from the bandstand	The band strikes up from the old park stand
+56	sang	rang	perfect	scene	chorus with ringing bells	The children sang as the church bells rang
+57	jazz	pizzazz	perfect	scene	music bursting with flair	The jazz trio played with pizzazz all night long
+58	cat	nap	slant	scene	a short daytime doze	Curl up like a cat and take a sunny nap
+59	brass	jazz	slant	scene	horns of jazz bands	Bright brass rings out and the jazz begins to swing
+60	catch	fetch	slant	scene	playing games with dogs	Toss the ball, play catch, and watch the puppy fetch
 61	math	graph	slant	scene	plotting numbers visually	We turn our math into a rising graph of dreams
-62	catch	fetch	slant	scene	playing games with dogs	Toss the ball, play catch, and watch the puppy fetch
-63	glad	happy	assonance	synonym	both mean joyful mood	I'm so glad you're here, so happy you came home
-64	cab	taxi	assonance	synonym	both are hired cars	Hail a cab or flag a taxi, I'll meet you downtown
-65	pancake	flapjack	assonance	synonym	both name griddle cakes	One pancake, two, a flapjack tower drizzled gold
-66	pants	slacks	assonance	synonym	both are trousers	Pressed pants or comfy slacks, just come dance with me
-67	mammoth	massive	assonance	synonym	both mean enormous	A mammoth sky, a massive moon, and you beside me
-68	static	dynamic	assonance	antonym	still versus energetic	Leave the static behind, our love is dynamic
-69	active	passive	assonance	antonym	acting versus receiving	Be active in your dreams, never passive in your days
-70	add	subtract	assonance	antonym	plus versus minus	Add a little laughter and subtract the worry
-71	expand	contract	assonance	antonym	grow versus shrink	Lungs expand and contract as we sing together
-72	rapid	languid	assonance	antonym	quick versus slow	Rapid rivers turn to languid pools at dusk
-73	lad	lass	assonance	antonym	boy versus girl	A lad and a lass dance a jig at the fair
-74	granny	grandma	assonance	synonym	both mean grandmother	Granny bakes the cookies, Grandma pours the tea
-75	family	clan	assonance	synonym	both mean kin group	Our family gathers, the whole happy clan
-76	glance	scan	assonance	synonym	both mean quick look	Glance at the stars and scan the sky for wishes
-77	grasp	fathom	assonance	synonym	both mean understand	I cannot grasp or fathom how much I adore you
-78	knack	aptitude	assonance	synonym	both mean natural skill	You've got a knack, a true aptitude for joy
-79	savvy	canny	assonance	synonym	both mean shrewd	A savvy mind and a canny smile win the day
-80	attractive	handsome	assonance	synonym	both mean good-looking	An attractive grin on a handsome face
-81	handsome	dashing	assonance	synonym	both mean stylishly attractive	So handsome and dashing in his Sunday best
-82	lavish	extravagant	assonance	synonym	both mean richly abundant	A lavish feast, an extravagant cake, for you
-83	fabulous	fantastic	assonance	synonym	both mean wonderful	A fabulous night and a fantastic view
-84	strategy	tactics	assonance	synonym	both mean planned approach	Our strategy is kindness, our tactics are smiles
-85	vast	expanse	assonance	synonym	both evoke huge space	A vast blue sky, an endless expanse of light
-86	chant	mantra	assonance	synonym	both are repeated phrases	We chant our mantra softly as the sun comes up
-87	antics	pranks	assonance	synonym	both are playful tricks	Silly antics and harmless pranks fill the summer camp
-88	bonanza	jackpot	assonance	synonym	both mean big windfall	A bonanza of luck, we hit the jackpot
+62	glad	happy	assonance	synonym	both mean joyful mood	I'm so glad you're here, so happy you came home
+63	happily	gladly	assonance	synonym	both mean with joy	I will happily follow and gladly hold your hand
+64	fabulous	fantastic	assonance	synonym	both mean wonderful	A fabulous night and a fantastic view
+65	granny	grandma	assonance	synonym	both mean grandmother	Granny bakes the cookies, Grandma pours the tea
+66	family	clan	assonance	synonym	both mean kin group	Our family gathers, the whole happy clan
+67	lad	lass	assonance	antonym	boy versus girl	A lad and a lass dance a jig at the fair
+68	pancake	flapjack	assonance	synonym	both name griddle cakes	One pancake, two, a flapjack tower drizzled gold
+69	attractive	handsome	assonance	synonym	both mean good-looking	An attractive grin on a handsome face
+70	handsome	dashing	assonance	synonym	both mean stylishly attractive	So handsome and dashing in his Sunday best
+71	lavish	extravagant	assonance	synonym	both mean richly abundant	A lavish feast, an extravagant cake, for you
+72	bonanza	jackpot	assonance	synonym	both mean big windfall	A bonanza of luck, we hit the jackpot
+73	antics	pranks	assonance	synonym	both are playful tricks	Silly antics and harmless pranks fill the summer camp
+74	mammoth	massive	assonance	synonym	both mean enormous	A mammoth sky, a massive moon, and you beside me
+75	vast	expanse	assonance	synonym	both evoke huge space	A vast blue sky, an endless expanse of light
+76	rapid	languid	assonance	antonym	quick versus slow	Rapid rivers turn to languid pools at dusk
+77	knack	aptitude	assonance	synonym	both mean natural skill	You've got a knack, a true aptitude for joy
+78	savvy	canny	assonance	synonym	both mean shrewd	A savvy mind and a canny smile win the day
+79	glance	scan	assonance	synonym	both mean quick look	Glance at the stars and scan the sky for wishes
+80	grasp	fathom	assonance	synonym	both mean understand	I cannot grasp or fathom how much I adore you
+81	chant	mantra	assonance	synonym	both are repeated phrases	We chant our mantra softly as the sun comes up
+82	static	dynamic	assonance	antonym	still versus energetic	Leave the static behind, our love is dynamic
+83	active	passive	assonance	antonym	acting versus receiving	Be active in your dreams, never passive in your days
+84	add	subtract	assonance	antonym	plus versus minus	Add a little laughter and subtract the worry
+85	expand	contract	assonance	antonym	grow versus shrink	Lungs expand and contract as we sing together
+86	cab	taxi	assonance	synonym	both are hired cars	Hail a cab or flag a taxi, I'll meet you downtown
+87	pants	slacks	assonance	synonym	both are trousers	Pressed pants or comfy slacks, just come dance with me
+88	strategy	tactics	assonance	synonym	both mean planned approach	Our strategy is kindness, our tactics are smiles
 89	canyon	chasm	assonance	synonym	both are deep gorges	Across the canyon, over the chasm, our voices echo
-90	map	atlas	assonance	part-whole	atlas collects many maps	Unfold the map, open the atlas, choose our adventure
-91	fabric	satin	assonance	part-whole	satin is a fabric	Soft fabric, shining satin, sewn into her gown
-92	candy	taffy	assonance	part-whole	taffy is a candy	Sweet candy stripes and salty taffy at the pier
-93	language	slang	assonance	part-whole	slang lives within language	Every language sparkles with its playful slang
-94	attract	magnet	assonance	cause-effect	magnets pull things close	You attract me like a magnet draws the steel
-95	laugh	happy	assonance	cause-effect	laughing lifts the mood	One laugh with you and I am happy all day
-96	slapstick	laugh	assonance	cause-effect	comedy draws out laughter	A slapstick tumble makes the whole crowd laugh
-97	rabbit	hat	assonance	scene	magician's classic trick	The magician pulls a rabbit from his hat
-98	magic	abracadabra	assonance	scene	words that cast spells	Say abracadabra and feel the magic rise
+90	laugh	happy	assonance	cause-effect	laughing lifts the mood	One laugh with you and I am happy all day
+91	slapstick	laugh	assonance	cause-effect	comedy draws out laughter	A slapstick tumble makes the whole crowd laugh
+92	attract	magnet	assonance	cause-effect	magnets pull things close	You attract me like a magnet draws the steel
+93	candy	taffy	assonance	part-whole	taffy is a candy	Sweet candy stripes and salty taffy at the pier
+94	map	atlas	assonance	part-whole	atlas collects many maps	Unfold the map, open the atlas, choose our adventure
+95	fabric	satin	assonance	part-whole	satin is a fabric	Soft fabric, shining satin, sewn into her gown
+96	language	slang	assonance	part-whole	slang lives within language	Every language sparkles with its playful slang
+97	magic	abracadabra	assonance	scene	words that cast spells	Say abracadabra and feel the magic rise
+98	rabbit	hat	assonance	scene	magician's classic trick	The magician pulls a rabbit from his hat
 99	giraffe	savannah	assonance	scene	wildlife on open plains	A giraffe strolls gently across the golden savannah
 100	planet	galactic	assonance	scene	wonders of outer space	Our tiny planet spins in the galactic dance
