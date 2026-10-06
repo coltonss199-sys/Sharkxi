@@ -32,7 +32,7 @@ def main():
         if zipf_frequency and z < min_zipf:
             continue
         seen = set()
-        for m, p in qualifying(plist):
+        for m, p in qualifying(plist, word):
             v = base(p[stressed_index(p)])
             group = next((g for g, vs in GROUPS.items() if v in vs), None)
             key = (m, " ".join(p))

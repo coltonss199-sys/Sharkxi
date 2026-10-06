@@ -56,7 +56,7 @@ def check(prons, group, rows):
             if w not in prons:
                 problems.append(f"{where}: '{w}' not in CMU dict")
                 continue
-            q[w] = qualifying(prons[w])
+            q[w] = qualifying(prons[w], w)
             if not q[w]:
                 problems.append(f"{where}: '{w}' breaks the rules "
                                 "(not 2-syllable iamb/trochee, or r/l-controlled)")

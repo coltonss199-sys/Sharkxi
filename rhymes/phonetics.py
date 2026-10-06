@@ -1,10 +1,12 @@
 """Shared CMU-dict helpers for the rhyme-pair project.
 
 Rules enforced here (from the brief):
-  * exactly two syllables, stress pattern iamb (0-1 / 2-1) or trochee (1-0 / 1-2)
+  * exactly two syllables in every CMU pronunciation, stress pattern iamb
+    (0-1 / 2-1) or trochee (1-0 / 1-2)
   * no r-controlled syllables: no ER vowel, and no vowel immediately followed by R
   * no l-controlled syllables: no vowel immediately followed by L, except a long
-    vowel in an open syllable whose L starts the next syllable (ho-ly, si-lent)
+    vowel in an open syllable whose L starts the next syllable (ho-ly, si-lent),
+    and no silent-L spelling (talk, calm, half, folk, could)
 """
 
 import re
@@ -35,6 +37,7 @@ NEAR = [{"P", "B"}, {"T", "D"}, {"K", "G"}, {"F", "V"}, {"S", "Z"},
         {"P", "T"}, {"B", "D"}, {"F", "TH"}, {"V", "DH"}]
 
 WORD_RE = re.compile(r"^[a-z]+$")
+SILENT_L = re.compile(r"alk|alm|alf|alv|olk|ould")
 
 
 def load_cmu(path):
@@ -165,8 +168,18 @@ def rhyme_type(p1, p2):
     return None
 
 
-def qualifying(prons):
-    """Pronunciations of a word that satisfy the brief's sound rules."""
+def qualifying(prons, word=None):
+    """Pronunciations of a word that satisfy the brief's sound rules.
+
+    A word whose CMU entries disagree on syllable count (cov-ring vs
+    co-ver-ing, gig-gling vs gig-gle-ing) is dropped: its meter is ambiguous.
+    Given the spelling, so is a silent-L pattern (talk, calm, half, folk,
+    could), which phonics teaches as l-controlled though CMU has no L.
+    """
+    if word is not None and SILENT_L.search(word):
+        return []
+    if any(sum(is_vowel(ph) for ph in p) != 2 for p in prons):
+        return []
     out = []
     for p in prons:
         m = meter(p)
