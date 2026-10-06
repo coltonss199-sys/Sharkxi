@@ -1,41 +1,41 @@
 rank	word1	word2	rhyme_type	link	relationship	example
 1	meet	greet	perfect	synonym	both mean welcome someone	Come meet the morning and greet the rising sun
-2	increase	decrease	perfect	antonym	opposite changes in amount	May your joy increase and every worry decrease
-3	sweets	treats	perfect	synonym	both mean sugary delights	A jar of sweets and little treats for everyone
-4	sleek	chic	perfect	synonym	both mean stylish and polished	She stepped out sleek and chic beneath the city lights
-5	beam	gleam	perfect	synonym	both mean shining light	Watch the sunrise beam and gleam across the lake
-6	easy	breezy	perfect	synonym	both mean light and effortless	Summer days are easy, breezy, slow and warm
-7	agree	disagree	perfect	antonym	opposite responses to ideas	We can agree to disagree and still hold hands
-8	complete	incomplete	perfect	antonym	finished versus unfinished	I felt incomplete until your laughter made me complete
-9	seen	unseen	perfect	antonym	visible versus hidden	Love the seen and the unseen wonders of the world
-10	cheap	steep	perfect	antonym	low price versus high	The roses came cheap but the silk ribbon was steep
-11	genius	ingenious	perfect	synonym	both mean brilliantly clever	A genius plan, an ingenious spark of light
-12	cheeky	sneaky	perfect	synonym	both mean playfully mischievous	A cheeky grin, a sneaky wink across the room
-13	even	uneven	perfect	antonym	level versus not level	On even roads or uneven ground I'll walk beside you
-14	succeed	exceed	perfect	synonym	both mean reach beyond goals	We will succeed, then exceed the dreams we drew
-15	he	she	perfect	antonym	paired male and female pronouns	He hums the melody while she sings the harmony
-16	meeting	greeting	perfect	synonym	both mean coming together warmly	Every meeting starts with a warm greeting and a smile
-17	beaming	gleaming	perfect	synonym	both mean shining brightly	Beaming faces, gleaming lanterns all along the festival street
-18	teach	preach	perfect	synonym	both mean deliver a lesson	Teach with kindness, preach with a gentle voice
-19	conceive	believe	perfect	synonym	both mean imagine as true	If you can conceive it, you can believe it
-20	appease	please	perfect	synonym	both mean satisfy someone	No need to appease me, your smile is sure to please
-21	agreed	indeed	perfect	synonym	both affirm a yes	Agreed, my friend, indeed the night is young
-22	green	clean	perfect	synonym	both mean eco-friendly	Keep the river clean and the meadow green
-23	breeze	ease	perfect	synonym	both mean effortless calm	Life feels like a breeze when your heart's at ease
-24	believe	achieve	perfect	cause-effect	belief fuels achievement	Believe at dawn and achieve by starlight
-25	sheep	sleep	perfect	cause-effect	counting sheep brings sleep	Count the woolly sheep and slip away to sleep
+2	sweets	treats	perfect	synonym	both mean sugary delights	A jar of sweets and little treats for everyone
+3	beam	gleam	perfect	synonym	both mean shining light	Watch the sunrise beam and gleam across the lake
+4	easy	breezy	perfect	synonym	both mean light and effortless	Summer days are easy, breezy, slow and warm
+5	increase	decrease	perfect	antonym	opposite changes in amount	May your joy increase and every worry decrease
+6	sweet	petite	perfect	synonym	both mean dainty and charming	Sweet and petite, she twirled in her little yellow dress
+7	sleek	chic	perfect	synonym	both mean stylish and polished	She stepped out sleek and chic beneath the city lights
+8	agree	disagree	perfect	antonym	opposite responses to ideas	We can agree to disagree and still hold hands
+9	genius	ingenious	perfect	synonym	both mean brilliantly clever	A genius plan, an ingenious spark of light
+10	beaming	gleaming	perfect	synonym	both mean shining brightly	Beaming faces, gleaming lanterns all along the festival street
+11	complete	incomplete	perfect	antonym	finished versus unfinished	I felt incomplete until your laughter made me complete
+12	seen	unseen	perfect	antonym	visible versus hidden	Love the seen and the unseen wonders of the world
+13	succeed	exceed	perfect	synonym	both mean reach beyond goals	We will succeed, then exceed the dreams we drew
+14	even	uneven	perfect	antonym	level versus not level	On even roads or uneven ground I'll walk beside you
+15	meeting	greeting	perfect	synonym	both mean coming together warmly	Every meeting starts with a warm greeting and a smile
+16	he	she	perfect	antonym	paired male and female pronouns	He hums the melody while she sings the harmony
+17	teach	preach	perfect	synonym	both mean deliver a lesson	Teach with kindness, preach with a gentle voice
+18	conceive	believe	perfect	synonym	both mean imagine as true	If you can conceive it, you can believe it
+19	agreed	indeed	perfect	synonym	both affirm a yes	Agreed, my friend, indeed the night is young
+20	green	clean	perfect	synonym	both mean eco-friendly	Keep the river clean and the meadow green
+21	breeze	ease	perfect	synonym	both mean effortless calm	Life feels like a breeze when your heart's at ease
+22	appease	please	perfect	synonym	both mean satisfy someone	No need to appease me, your smile is sure to please
+23	believe	achieve	perfect	cause-effect	belief fuels achievement	Believe at dawn and achieve by starlight
+24	free	glee	perfect	cause-effect	freedom sparks joyful delight	Running barefoot, wild and free, the children laughed with glee
+25	jubilee	glee	perfect	cause-effect	celebration sparks joyful delight	Dancing at the jubilee, we shouted out with glee
 26	key	free	perfect	cause-effect	a key sets free	Turn the golden key and set the songbird free
-27	need	feed	perfect	cause-effect	feeding answers a need	Bake bread for those in need and feed them well
+27	sheep	sleep	perfect	cause-effect	counting sheep brings sleep	Count the woolly sheep and slip away to sleep
 28	deed	need	perfect	cause-effect	kind act meets need	One good deed can meet a stranger's need
-29	reading	leading	perfect	cause-effect	readers grow into leaders	Keep on reading and someday you'll be leading
-30	jubilee	glee	perfect	cause-effect	celebration sparks joyful delight	Dancing at the jubilee, we shouted out with glee
-31	freeze	degrees	perfect	cause-effect	low degrees bring freezing	Zero degrees and the lake begins to freeze
-32	peace	cease	perfect	cause-effect	ceasing noise brings peace	Let the hurry cease and let the evening bring peace
-33	weave	sleeve	perfect	cause-effect	weaving makes the sleeve	Weave the silver thread into a sleeve of light
-34	caffeine	bean	perfect	part-whole	bean holds the caffeine	Every roasted bean holds a little caffeine spark
-35	scene	screen	perfect	part-whole	scene plays on screen	The final scene glowed softly on the silver screen
-36	teen	sixteen	perfect	part-whole	sixteen is a teen	Sweet sixteen, a dreaming teen with stars in her eyes
-37	we	me	perfect	part-whole	me is part of we	Together we are more than you and me
+29	need	feed	perfect	cause-effect	feeding answers a need	Bake bread for those in need and feed them well
+30	reading	leading	perfect	cause-effect	readers grow into leaders	Keep on reading and someday you'll be leading
+31	peace	cease	perfect	cause-effect	ceasing noise brings peace	Let the hurry cease and let the evening bring peace
+32	weave	sleeve	perfect	cause-effect	weaving makes the sleeve	Weave the silver thread into a sleeve of light
+33	freeze	degrees	perfect	cause-effect	low degrees bring freezing	Zero degrees and the lake begins to freeze
+34	we	me	perfect	part-whole	me is part of we	Together we are more than you and me
+35	teen	sixteen	perfect	part-whole	sixteen is a teen	Sweet sixteen, a dreaming teen with stars in her eyes
+36	scene	screen	perfect	part-whole	scene plays on screen	The final scene glowed softly on the silver screen
+37	caffeine	bean	perfect	part-whole	bean holds the caffeine	Every roasted bean holds a little caffeine spark
 38	sheen	gleam	slant	synonym	both mean glossy shine	The silk had a sheen, the pearls a gentle gleam
 39	peace	ease	slant	synonym	both mean calm comfort	Find your peace and let your heart rest at ease
 40	intrigue	mystique	slant	synonym	both mean alluring mystery	Her quiet mystique was wrapped in sweet intrigue
