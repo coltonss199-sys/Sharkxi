@@ -13,61 +13,61 @@ rank	word1	word2	rhyme_type	link	relationship	example
 12	ding	ring	perfect	synonym	both are bell sounds	Ding goes the shop door, ring go the bells of home
 13	ping	ding	perfect	synonym	both are bright chime sounds	A ping from the kettle, a ding from the oven, breakfast is ready
 14	assist	resist	perfect	antonym	helping versus pushing back	Don't resist the music; let the rhythm assist your feet
-15	commit	quit	perfect	antonym	staying versus giving up	Commit to the climb and never quit the dream
-16	mission	ambition	perfect	synonym	both mean a driving purpose	Ambition lights the road, and the mission carries us home
-17	clinch	cinch	perfect	synonym	both mean to secure	Cinch the saddle tight, then clinch the summer race
-18	rendition	edition	perfect	synonym	both mean a new version	A fresh edition of our song, a sweeter rendition of the tune
-19	efficient	proficient	perfect	synonym	both mean skilled and capable	Proficient hands and efficient hearts built this house of joy
-20	tricky	sticky	perfect	synonym	both mean hard to handle	When the road gets tricky and the moments sticky, keep smiling
-21	inch	pinch	perfect	synonym	both measure tiny amounts	Give an inch of patience and a pinch of grace
-22	nip	sip	perfect	synonym	both mean a small drink	A nip of cider, a sip of tea, warm beside the fire
-23	sniff	whiff	perfect	synonym	both mean catching a smell	One sniff, one whiff of baking bread, and I'm home again
-24	twin	akin	perfect	synonym	both mean closely alike	Our hearts are twin flames, akin in every dream
-25	swift	adrift	perfect	antonym	speeding versus aimless floating	Swift as a swallow or gently adrift, the boat still finds the shore
-26	whisk	brisk	perfect	synonym	both suggest quick motion	Whisk me away on a brisk spring breeze
-27	click	tick	perfect	synonym	both are small crisp sounds	The click of the latch, the tick of the clock, I'm home
-28	win	grin	perfect	cause-effect	a win sparks a grin	Every little win puts a grin upon my face
-29	lift	gift	perfect	cause-effect	a gift lifts the spirit	Your laughter is a gift that can lift the grayest day
-30	ambition	fruition	perfect	cause-effect	ambition ripens into results	Plant your ambition and tend it to fruition
-31	living	giving	perfect	cause-effect	giving makes life rich	The secret of living is found in the giving
-32	kitten	smitten	perfect	cause-effect	kittens make hearts smitten	One look at the kitten and the whole family was smitten
-33	flint	glint	perfect	cause-effect	struck flint throws a spark	Strike the flint and catch the glint of campfire light
-34	ship	trip	perfect	scene	a voyage at sea	We board the ship for a sunlit trip across the bay
-35	sing	ring	perfect	scene	bells and voices celebrate	Let the church bells ring and all the children sing
-36	wing	sing	perfect	scene	birds singing in flight	Swallows on the wing sing the morning awake
-37	kittens	mittens	perfect	scene	nursery rhyme kittens find mittens	Three little kittens found their mittens in the snow
-38	cricket	wicket	perfect	part-whole	the wicket anchors cricket	Summer cricket on the green, the bowler aims for the wicket
-39	sip	lip	perfect	part-whole	lips take a sip	A sip of lemonade, sweet and cool upon my lip
-40	twist	wrist	perfect	part-whole	a twist of the wrist	With a twist of the wrist, the kite leaps into the sky
-41	kin	twin	perfect	part-whole	a twin is closest kin	My twin, my closest kin, my mirror in the morning light
-42	violin	chin	perfect	scene	violin rests under chin	She tucks the violin beneath her chin and the music soars
-43	drink	clink	perfect	scene	glasses meet in a toast	Raise a drink to friendship and let the glasses clink
-44	fish	dish	perfect	scene	fresh catch for dinner	Fresh fish from the harbor makes the finest dish
-45	twig	stick	slant	synonym	both mean a small branch	A twig, a stick, a little nest for spring
-46	thin	slim	slant	synonym	both mean slender	Thin as a reed and slim as the crescent moon
-47	vision	mission	slant	synonym	both mean a guiding purpose	Hold the vision close and let the mission lead
-48	pip	pit	slant	synonym	both mean a fruit seed	Save the cherry pit and the apple pip for planting
-49	chip	bit	slant	synonym	both mean a small piece	A chip of chocolate, a bit of cake, a perfect afternoon
-50	sing	song	slant	cause-effect	singing makes a song	Sing me a song of the open road
-51	tip	top	slant	synonym	both mean the highest point	From the tip of the tower to the top of the world
-52	drip	drop	slant	synonym	both mean a falling bead	Drip by drop, the spring rain fills the garden
-53	skip	hop	slant	synonym	both mean light bouncing steps	Skip and hop along the path to the summer fair
-54	bridge	ridge	perfect	scene	crossing the high country	From the ridge we watched the sunrise gild the bridge
-55	gym	swim	perfect	scene	a morning fitness routine	Hit the gym at dawn, then a cool blue swim
-56	spring	fling	perfect	scene	carefree springtime romance	Sunny spring brought a sweet and carefree fling
-57	sitting	knitting	perfect	scene	cozy fireside craft	Grandma's sitting by the fire, knitting scarves of blue
-58	quiz	whiz	perfect	scene	a trivia champion shines	She's a whiz at every quiz on trivia night
-59	jig	gig	perfect	scene	a folk band performs	The band's last gig ended with a joyful jig
-60	chip	dip	perfect	scene	a party snack pairing	Grab a chip, take a dip, the party's just begun
-61	grin	chin	perfect	scene	a happy smiling face	A grin from ear to ear and frosting on his chin
-62	king	ring	perfect	scene	a royal signet ring	The king raised his golden ring to bless the feast
-63	fig	twig	perfect	scene	fruit on a branch	A ripe fig hangs heavy from the twig
-64	bricks	sticks	perfect	scene	three little pigs' houses	Build your house of bricks, not straw or sticks
-65	hit	mitt	perfect	scene	a summer baseball game	Crack of a hit, pop of a mitt, summer's here
-66	mist	kissed	perfect	scene	a dewy morning meadow	Morning mist kissed the meadow awake
-67	delicious	nutritious	perfect	scene	praise for wholesome food	Grandma's soup is both delicious and nutritious
-68	ditty	witty	perfect	scene	a clever little song	A witty little ditty to brighten up your day
-69	kiss	miss	perfect	scene	longing for a sweetheart	I miss your kiss like flowers miss the rain
+15	mission	ambition	perfect	synonym	both mean a driving purpose	Ambition lights the road, and the mission carries us home
+16	clinch	cinch	perfect	synonym	both mean to secure	Cinch the saddle tight, then clinch the summer race
+17	rendition	edition	perfect	synonym	both mean a new version	A fresh edition of our song, a sweeter rendition of the tune
+18	efficient	proficient	perfect	synonym	both mean skilled and capable	Proficient hands and efficient hearts built this house of joy
+19	nip	sip	perfect	synonym	both mean a small drink	A nip of cider, a sip of tea, warm beside the fire
+20	sniff	whiff	perfect	synonym	both mean catching a smell	One sniff, one whiff of baking bread, and I'm home again
+21	twin	akin	perfect	synonym	both mean closely alike	Our hearts are twin flames, akin in every dream
+22	whisk	brisk	perfect	synonym	both suggest quick motion	Whisk me away on a brisk spring breeze
+23	click	tick	perfect	synonym	both are small crisp sounds	The click of the latch, the tick of the clock, I'm home
+24	win	grin	perfect	cause-effect	a win sparks a grin	Every little win puts a grin upon my face
+25	lift	gift	perfect	cause-effect	a gift lifts the spirit	Your laughter is a gift that can lift the grayest day
+26	living	giving	perfect	cause-effect	giving makes life rich	The secret of living is found in the giving
+27	kitten	smitten	perfect	cause-effect	kittens make hearts smitten	One look at the kitten and the whole family was smitten
+28	ambition	fruition	perfect	cause-effect	ambition ripens into results	Plant your ambition and tend it to fruition
+29	flint	glint	perfect	cause-effect	struck flint throws a spark	Strike the flint and catch the glint of campfire light
+30	kittens	mittens	perfect	scene	nursery rhyme kittens find mittens	Three little kittens found their mittens in the snow
+31	wiggling	giggling	perfect	scene	children playing with glee	Toddlers wiggling and giggling in a pile of autumn leaves
+32	ship	trip	perfect	scene	a voyage at sea	We board the ship for a sunlit trip across the bay
+33	sing	ring	perfect	scene	bells and voices celebrate	Let the church bells ring and all the children sing
+34	wing	sing	perfect	scene	birds singing in flight	Swallows on the wing sing the morning awake
+35	cricket	wicket	perfect	part-whole	the wicket anchors cricket	Summer cricket on the green, the bowler aims for the wicket
+36	sip	lip	perfect	part-whole	lips take a sip	A sip of lemonade, sweet and cool upon my lip
+37	twist	wrist	perfect	part-whole	a twist of the wrist	With a twist of the wrist, the kite leaps into the sky
+38	kin	twin	perfect	part-whole	a twin is closest kin	My twin, my closest kin, my mirror in the morning light
+39	violin	chin	perfect	scene	violin rests under chin	She tucks the violin beneath her chin and the music soars
+40	drink	clink	perfect	scene	glasses meet in a toast	Raise a drink to friendship and let the glasses clink
+41	fish	dish	perfect	scene	fresh catch for dinner	Fresh fish from the harbor makes the finest dish
+42	twig	stick	slant	synonym	both mean a small branch	A twig, a stick, a little nest for spring
+43	thin	slim	slant	synonym	both mean slender	Thin as a reed and slim as the crescent moon
+44	vision	mission	slant	synonym	both mean a guiding purpose	Hold the vision close and let the mission lead
+45	pip	pit	slant	synonym	both mean a fruit seed	Save the cherry pit and the apple pip for planting
+46	chip	bit	slant	synonym	both mean a small piece	A chip of chocolate, a bit of cake, a perfect afternoon
+47	sing	song	slant	cause-effect	singing makes a song	Sing me a song of the open road
+48	tip	top	slant	synonym	both mean the highest point	From the tip of the tower to the top of the world
+49	drip	drop	slant	synonym	both mean a falling bead	Drip by drop, the spring rain fills the garden
+50	skip	hop	slant	synonym	both mean light bouncing steps	Skip and hop along the path to the summer fair
+51	twinkling	sprinkling	perfect	scene	stars scattered across the sky	A sprinkling of stars is twinkling over the sleepy town
+52	spring	swing	perfect	scene	playground swings in springtime	Come the spring, we swing beneath the cherry blossoms
+53	crib	bib	perfect	scene	a newborn baby's nursery	A tiny bib, a cozy crib, our sweet new baby is home
+54	kitty	pretty	perfect	scene	a sweet charming cat	Our pretty kitty curls up purring in the sun
+55	bridge	ridge	perfect	scene	crossing the high country	From the ridge we watched the sunrise gild the bridge
+56	gym	swim	perfect	scene	a morning fitness routine	Hit the gym at dawn, then a cool blue swim
+57	spring	fling	perfect	scene	carefree springtime romance	Sunny spring brought a sweet and carefree fling
+58	sitting	knitting	perfect	scene	cozy fireside craft	Grandma's sitting by the fire, knitting scarves of blue
+59	quiz	whiz	perfect	scene	a trivia champion shines	She's a whiz at every quiz on trivia night
+60	jig	gig	perfect	scene	a folk band performs	The band's last gig ended with a joyful jig
+61	chip	dip	perfect	scene	a party snack pairing	Grab a chip, take a dip, the party's just begun
+62	grin	chin	perfect	scene	a happy smiling face	A grin from ear to ear and frosting on his chin
+63	king	ring	perfect	scene	a royal signet ring	The king raised his golden ring to bless the feast
+64	fig	twig	perfect	scene	fruit on a branch	A ripe fig hangs heavy from the twig
+65	bricks	sticks	perfect	scene	three little pigs' houses	Build your house of bricks, not straw or sticks
+66	hit	mitt	perfect	scene	a summer baseball game	Crack of a hit, pop of a mitt, summer's here
+67	mist	kissed	perfect	scene	a dewy morning meadow	Morning mist kissed the meadow awake
+68	delicious	nutritious	perfect	scene	praise for wholesome food	Grandma's soup is both delicious and nutritious
+69	ditty	witty	perfect	scene	a clever little song	A witty little ditty to brighten up your day
 70	musician	audition	perfect	scene	trying out for a band	The young musician nailed her very first audition
 71	musician	rendition	perfect	scene	a performer's take on song	The musician gave a tender rendition of our wedding song
 72	wit	quip	slant	cause-effect	wit produces a quip	Her wit is quick, each quip a sparkling gem
@@ -82,19 +82,19 @@ rank	word1	word2	rhyme_type	link	relationship	example
 81	tick	tock	slant	scene	a clock keeping time	Tick and tock, the clock counts down to the party
 82	ambition	vision	slant	synonym	both mean goals ahead	Ambition fuels the engine, and vision steers the way
 83	thin	thick	assonance	antonym	slender versus broad	Through thick and thin, I'll be right by your side
-84	begin	finish	assonance	antonym	starting versus completing	Begin with hope and finish with a song
-85	hit	miss	assonance	antonym	connecting versus falling short	Hit or miss, I'll keep on swinging for the stars
-86	sink	swim	assonance	antonym	going under versus staying afloat	Sink or swim, we'll paddle on together
+84	kinship	kindred	assonance	synonym	both mean family closeness	Kindred spirits share a kinship deeper than the sea
+85	begin	finish	assonance	antonym	starting versus completing	Begin with hope and finish with a song
+86	win	victory	assonance	synonym	both mean triumph	One more win, one more victory for the home team
 87	dim	lit	assonance	antonym	shadowy versus brightly glowing	The hall was dim until your smile lit every lamp
-88	win	victory	assonance	synonym	both mean triumph	One more win, one more victory for the home team
-89	quick	swift	assonance	synonym	both mean fast	Quick as a fox and swift as the river
-90	infinite	limit	assonance	antonym	boundless versus bounded	Love has no limit; its reach is infinite
-91	midday	midnight	assonance	antonym	noon versus deep night	From midday sun to midnight moon, I think of you
-92	dizzy	giddy	assonance	synonym	both mean lightheaded joy	Dizzy with laughter, giddy as a child at play
-93	wisdom	insight	assonance	synonym	both mean deep understanding	Years bring wisdom, and quiet hours bring insight
-94	insight	instinct	assonance	synonym	both mean inner knowing	Trust your insight and follow your instinct home
-95	inkling	hint	assonance	synonym	both mean a faint clue	Just an inkling, just a hint, of the spring to come
-96	different	distinct	assonance	synonym	both mean not alike	Every snowflake is different, each one distinct and bright
+88	quick	swift	assonance	synonym	both mean fast	Quick as a fox and swift as the river
+89	infinite	limit	assonance	antonym	boundless versus bounded	Love has no limit; its reach is infinite
+90	midday	midnight	assonance	antonym	noon versus deep night	From midday sun to midnight moon, I think of you
+91	dizzy	giddy	assonance	synonym	both mean lightheaded joy	Dizzy with laughter, giddy as a child at play
+92	wisdom	insight	assonance	synonym	both mean deep understanding	Years bring wisdom, and quiet hours bring insight
+93	insight	instinct	assonance	synonym	both mean inner knowing	Trust your insight and follow your instinct home
+94	inkling	hint	assonance	synonym	both mean a faint clue	Just an inkling, just a hint, of the spring to come
+95	different	distinct	assonance	synonym	both mean not alike	Every snowflake is different, each one distinct and bright
+96	sink	swim	assonance	antonym	going under versus staying afloat	Sink or swim, we'll paddle on together
 97	sift	sieve	assonance	synonym	both mean to strain	Sift the flour through the sieve for the birthday cake
 98	crisp	brisk	assonance	synonym	both describe fresh cool air	A crisp blue morning and a brisk walk by the sea
 99	mimic	imitate	assonance	synonym	both mean to copy	The parrot loves to mimic, and the children imitate

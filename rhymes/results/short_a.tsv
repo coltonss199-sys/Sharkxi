@@ -37,7 +37,7 @@ rank	word1	word2	rhyme_type	link	relationship	example
 36	cat	pet	slant	part-whole	a cat is a pet	My cat is the sweetest pet who ever purred
 37	pat	tap	slant	synonym	both mean gentle touch	A pat on the back, a tap on the shoulder, well done
 38	cap	hat	slant	synonym	both are worn headwear	Tip your cap or wave your hat, the parade is here
-39	bag	pack	slant	synonym	both carry your things	Grab your bag, shoulder your pack, the trail is calling
+39	bag	pack	slant	synonym	both carry your things	Lift your bag, shoulder your pack, the trail is calling
 40	sack	bag	slant	synonym	both are carrying pouches	Fill a sack with apples and a bag with bread
 41	piano	soprano	perfect	scene	singer with her accompanist	The piano swells as the soprano soars
 42	dance	romance	perfect	scene	couples swaying in love	One more dance under fairy lights and our romance blooms
@@ -82,7 +82,7 @@ rank	word1	word2	rhyme_type	link	relationship	example
 81	chant	mantra	assonance	synonym	both are repeated phrases	We chant our mantra softly as the sun comes up
 82	static	dynamic	assonance	antonym	still versus energetic	Leave the static behind, our love is dynamic
 83	active	passive	assonance	antonym	acting versus receiving	Be active in your dreams, never passive in your days
-84	add	subtract	assonance	antonym	plus versus minus	Add a little laughter and subtract the worry
+84	add	subtract	assonance	antonym	plus versus minus	Add a little laughter, subtract a little rain
 85	expand	contract	assonance	antonym	grow versus shrink	Lungs expand and contract as we sing together
 86	cab	taxi	assonance	synonym	both are hired cars	Hail a cab or flag a taxi, I'll meet you downtown
 87	pants	slacks	assonance	synonym	both are trousers	Pressed pants or comfy slacks, just come dance with me
