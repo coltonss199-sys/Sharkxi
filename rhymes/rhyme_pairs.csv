@@ -1,0 +1,1001 @@
+vowel,rank,word1,word2,rhyme_type,link,relationship,example
+long_a,1,admiration,adoration,perfect,synonym,both mean warm devotion,Your kindness earned my admiration; your laughter won my adoration.
+long_a,2,fame,acclaim,perfect,synonym,both mean public renown,"I don't need fame or acclaim, just your smile when you sing along."
+long_a,3,praise,raise,perfect,synonym,both mean lift up high,We praise the morning and raise our cups to the rising sun.
+long_a,4,bouquet,spray,perfect,synonym,both mean bunch of flowers,"She held a bouquet, a spray of lilies bright as May."
+long_a,5,maintain,sustain,perfect,synonym,both mean keep going,"Maintain the rhythm, sustain the light, and carry the chorus through the night."
+long_a,6,space,place,perfect,synonym,both mean room to be,"Give me space, give me a place where my heart can breathe."
+long_a,7,yea,nay,perfect,antonym,yes vote versus no,"Count every yea and nay, then let the people have their say."
+long_a,8,famed,acclaimed,perfect,synonym,both mean widely celebrated,"The famed old choir, acclaimed in every town, still sings for free."
+long_a,9,innovation,creation,perfect,synonym,both mean making something new,Every innovation starts as a joyful creation in a dreamer's heart.
+long_a,10,motivation,inspiration,perfect,synonym,both mean inner drive,"Your faith is my motivation, your dreams my inspiration every day."
+long_a,11,admiration,appreciation,perfect,synonym,both mean grateful esteem,"With admiration and appreciation, we thank the hands that raised us."
+long_a,12,mate,date,perfect,synonym,both mean romantic partner,Met my mate on a summer date beneath the carnival lights.
+long_a,13,obtain,attain,perfect,synonym,both mean reach a goal,"What we hope we can obtain, what we climb we will attain."
+long_a,14,away,stay,perfect,antonym,leaving versus remaining,"Seasons drift away, but the ones who love us stay."
+long_a,15,meditation,contemplation,perfect,synonym,both mean quiet reflection,"Morning meditation, evening contemplation, a calm heart in between."
+long_a,16,parade,promenade,perfect,synonym,both mean festive procession,"Join the parade, the sunlit promenade where bright balloons drift by."
+long_a,17,name,fame,perfect,synonym,a name means renown,Make a name with kindness; that's the only fame worth keeping.
+long_a,18,brace,embrace,perfect,synonym,both mean hold tight,"Brace for the wave, then embrace the cool and dazzling sea."
+long_a,19,refrain,restrain,perfect,synonym,both mean hold back,I refrain from rushing in and restrain my racing heart tonight.
+long_a,20,trace,erase,perfect,antonym,marking versus wiping away,Trace our names in the sand before the tide can erase them.
+long_a,21,gain,wane,perfect,antonym,growing versus shrinking light,"Watch the moon wane, then gain its silver glow again."
+long_a,22,sway,stay,perfect,antonym,moving versus holding still,Let the willows sway while you stay close beside me.
+long_a,23,convey,say,perfect,synonym,both mean to express,Words could never convey what my eyes already say.
+long_a,24,chase,race,perfect,synonym,both mean speedy pursuit,Kids chase the kites and race the wind down the green hill.
+long_a,25,craze,phase,perfect,synonym,both mean passing trend,"This is not a craze, not a phase; this love is here for good."
+long_a,26,relate,equate,perfect,synonym,both mean link together,We relate our dreams and equate our joy with simple days.
+long_a,27,ages,stages,perfect,synonym,both mean life periods,"Through all the ages and the stages, love keeps turning pages."
+long_a,28,proclaim,exclaim,perfect,synonym,both mean declare aloud,"Proclaim it from the hills, exclaim it to the morning sky."
+long_a,29,cape,drape,perfect,synonym,both mean hanging cloth,Tie the cape and drape the velvet; tonight the stage is ours.
+long_a,30,brave,save,perfect,cause-effect,courage makes rescue possible,Be brave enough to save a heart that's drifting out to sea.
+long_a,31,bake,cake,perfect,cause-effect,baking produces a treat,"We bake till dawn, a birthday cake for someone sweet."
+long_a,32,age,sage,perfect,cause-effect,years bring deep wisdom,With every age the soul grows sage and kinder still.
+long_a,33,inspiration,creation,perfect,cause-effect,spark gives rise to art,One spark of inspiration lit a whole creation of song.
+long_a,34,elated,awaited,perfect,cause-effect,"long wait, joyful arrival",We were elated when the long awaited letter finally came.
+long_a,35,amazed,praised,perfect,cause-effect,wonder sparks warm praise,"The crowd, amazed, praised the young singer's soaring voice."
+long_a,36,sensation,ovation,perfect,cause-effect,a hit earns applause,"The show's a sensation, rising to a standing ovation."
+long_a,37,vacation,relaxation,perfect,cause-effect,time off brings rest,"A beach vacation, pure relaxation, waves to rock us to sleep."
+long_a,38,education,graduation,perfect,cause-effect,study leads to diploma,Years of education crowned with caps on graduation day.
+long_a,39,gaze,amaze,perfect,cause-effect,wonder draws the eye,Lift your gaze; the northern lights amaze the quiet sky.
+long_a,40,rain,grain,perfect,cause-effect,showers nourish growing crops,Let the rain fall soft on the golden grain of summer fields.
+long_a,41,explain,plain,perfect,cause-effect,explaining makes things clear,Let me explain in words so plain the stars could understand.
+long_a,42,gate,estate,perfect,part-whole,entrance to the grounds,Swing the iron gate wide; the whole estate is blooming.
+long_a,43,reign,domain,perfect,part-whole,realm a ruler governs,Let kindness reign across the wide domain of our hearts.
+long_a,44,nation,population,perfect,part-whole,people form a nation,"A nation is its population, every voice a thread of light."
+long_a,45,race,pace,perfect,part-whole,steady speed within race,Win the race with steady pace and joy in every stride.
+long_a,46,haven,heaven,slant,synonym,both mean blissful refuge,"Your arms are my haven, this little room my heaven."
+long_a,47,make,create,slant,synonym,both mean bring to life,Let's make a melody and create a world inside the song.
+long_a,48,regain,reclaim,slant,synonym,both mean win back,"We'll regain our footing, reclaim the morning, and start again."
+long_a,49,raise,rise,slant,synonym,both mean go upward,Raise the sails and rise with the morning tide.
+long_a,50,rate,grade,slant,synonym,both mean rank quality,Rate the sunset ten; grade the moonrise even higher.
+long_a,51,brave,safe,slant,antonym,bold versus cautious,"Be brave enough to leap, and I'll keep you safe."
+long_a,52,grace,embrace,perfect,scene,gentle loving hold,She moved with grace into his warm embrace.
+long_a,53,days,rays,perfect,scene,sunny summer afternoons,Long golden days and warm sun rays across the meadow.
+long_a,54,potato,tomato,perfect,scene,garden vegetable patch pair,"Potato in the soil, tomato on the vine, summer's on the table."
+long_a,55,latest,greatest,perfect,scene,newest and best things,"The latest dance, the greatest night, the brightest lights in town."
+long_a,56,grace,lace,perfect,scene,elegant bridal gown detail,She walked with grace in a gown of ivory lace.
+long_a,57,gracious,spacious,perfect,scene,welcoming roomy home,"A gracious host, a spacious hall, and room for all."
+long_a,58,parade,masquerade,perfect,scene,festive costumed celebration,The carnival parade becomes a masquerade of feathers and song.
+long_a,59,hooray,play,perfect,scene,cheering at children's games,"Shout hooray, the bell has rung, now it's time to play!"
+long_a,60,chalet,sleigh,perfect,scene,alpine winter holiday,"Cocoa in the chalet, bells ringing on the sleigh."
+long_a,61,cafe,buffet,perfect,scene,friendly brunch dining spread,"Brunch at the corner cafe, a sunny buffet of fresh fruit."
+long_a,62,skate,eight,perfect,scene,figure eight on ice,We skate a perfect eight across the frozen pond.
+long_a,63,blaze,rays,perfect,scene,sun's fiery light,The sunset's blaze spills golden rays across the bay.
+long_a,64,shade,glade,perfect,scene,cool forest clearing,"We rest in the shade of a quiet, ferny glade."
+long_a,65,wave,cave,perfect,scene,sea meets rocky shore,Every wave sings softly into the hidden sea cave.
+long_a,66,rain,pane,perfect,scene,storm on window glass,Soft rain taps the pane while we sip our tea.
+long_a,67,rein,mane,perfect,scene,riding a galloping horse,Loose the rein and let the mane fly free in the wind.
+long_a,68,plane,train,perfect,scene,ways to travel far,"By plane or train, I'm racing home to you."
+long_a,69,weigh,sway,perfect,scene,balancing scales tipping gently,Weigh my heart and watch the scales of summer sway.
+long_a,70,faith,safe,slant,cause-effect,trust brings feeling secure,"Keep the faith, my love; you're safe here in my arms."
+long_a,71,praise,prize,slant,cause-effect,acclaim brings an award,Her song won praise and the grand prize at the fair.
+long_a,72,save,safe,slant,cause-effect,rescue keeps one secure,Save your worries for tomorrow; tonight you're safe and warm.
+long_a,73,aim,gain,slant,cause-effect,goals lead to progress,Take your aim at the stars and gain a sky of light.
+long_a,74,train,tame,slant,cause-effect,training calms wild creatures,Train with patience and even the wildest colt grows tame.
+long_a,75,grace,praise,slant,scene,words of thankful worship,"Sing of grace, lift up praise, let the chapel bells ring."
+long_a,76,face,gaze,slant,scene,eyes upon a face,Your face in candlelight holds my gaze all night.
+long_a,77,braid,bride,slant,scene,wedding day hairstyle,"Flowers woven in her braid, the bride walks into spring."
+long_a,78,cake,plate,slant,scene,dessert on a dish,"A slice of cake on every plate, candles glowing bright."
+long_a,79,occasion,invitation,slant,scene,inviting guests to events,Every occasion starts with an invitation and a smile.
+long_a,80,frame,pane,slant,part-whole,window frame holds glass,Sunlight fills the frame and gilds each pane of glass.
+long_a,81,brave,courageous,assonance,synonym,both mean bold courage,"Be brave, be courageous, sing out against the wind."
+long_a,82,stay,remain,assonance,synonym,both mean not leaving,"Stay with me, remain until the morning light."
+long_a,83,same,change,assonance,antonym,constant versus different,"Some things stay the same, some things change like seasons."
+long_a,84,rave,acclaim,assonance,synonym,both mean enthusiastic praise,Critics rave and fans acclaim the little band from home.
+long_a,85,saint,sacred,assonance,synonym,"both mean holy, blessed","A gentle saint, a sacred hymn, a candle burning bright."
+long_a,86,oasis,haven,assonance,synonym,both mean restful refuge,"Your garden is my oasis, a haven from the noise."
+long_a,87,flame,blaze,assonance,synonym,both mean bright fire,One small flame becomes a blaze of hope tonight.
+long_a,88,straight,wavy,assonance,antonym,smooth versus curling lines,"Straight or wavy, your hair dances in the breeze."
+long_a,89,rain,rays,assonance,antonym,showers versus sunshine,"After the rain, warm rays of sun paint the puddles gold."
+long_a,90,daylight,shade,assonance,antonym,sunlight versus shadow,"From bright daylight to cool shade, we wander hand in hand."
+long_a,91,pray,faith,assonance,cause-effect,faith leads to prayer,We pray with open hearts and faith that morning comes.
+long_a,92,daisy,bouquet,assonance,part-whole,daisies gathered into bouquet,"Pick a daisy for the bouquet, sunshine wrapped in ribbon."
+long_a,93,halo,saint,assonance,part-whole,a saint's glowing ring,A golden halo crowns the painted saint above the door.
+long_a,94,grape,raisin,assonance,cause-effect,dried grape becomes raisin,"A sun-kissed grape becomes a raisin, sweet as August afternoons."
+long_a,95,pave,way,assonance,cause-effect,paving clears the path,Every kindness helps to pave the way for brighter days.
+long_a,96,wage,pay,assonance,synonym,both mean earned money,"A fair day's wage, honest pay, and supper on the table."
+long_a,97,state,nation,assonance,synonym,both mean a country,"From state to nation, voices join in one bright song."
+long_a,98,obey,behave,assonance,synonym,both mean follow rules,The puppy learns to obey and behave for a treat.
+long_a,99,train,station,assonance,scene,boarding at the railway,"The midnight train pulls into the station, bringing you home."
+long_a,100,pastry,tasty,assonance,scene,sweet bakery treats,"A flaky pastry, tasty as a Sunday morning."
+long_e,1,meet,greet,perfect,synonym,both mean welcome someone,Come meet the morning and greet the rising sun
+long_e,2,sweets,treats,perfect,synonym,both mean sugary delights,A jar of sweets and little treats for everyone
+long_e,3,beam,gleam,perfect,synonym,both mean shining light,Watch the sunrise beam and gleam across the lake
+long_e,4,easy,breezy,perfect,synonym,both mean light and effortless,"Summer days are easy, breezy, slow and warm"
+long_e,5,increase,decrease,perfect,antonym,opposite changes in amount,May your joy increase and every worry decrease
+long_e,6,sweet,petite,perfect,synonym,both mean dainty and charming,"Sweet and petite, she twirled in her little yellow dress"
+long_e,7,sleek,chic,perfect,synonym,both mean stylish and polished,She stepped out sleek and chic beneath the city lights
+long_e,8,agree,disagree,perfect,antonym,opposite responses to ideas,We can agree to disagree and still hold hands
+long_e,9,genius,ingenious,perfect,synonym,both mean brilliantly clever,"A genius plan, an ingenious spark of light"
+long_e,10,beaming,gleaming,perfect,synonym,both mean shining brightly,"Beaming faces, gleaming lanterns all along the festival street"
+long_e,11,complete,incomplete,perfect,antonym,finished versus unfinished,I felt incomplete until your laughter made me complete
+long_e,12,seen,unseen,perfect,antonym,visible versus hidden,Love the seen and the unseen wonders of the world
+long_e,13,succeed,exceed,perfect,synonym,both mean reach beyond goals,"We will succeed, then exceed the dreams we drew"
+long_e,14,even,uneven,perfect,antonym,level versus not level,On even roads or uneven ground I'll walk beside you
+long_e,15,meeting,greeting,perfect,synonym,both mean coming together warmly,Every meeting starts with a warm greeting and a smile
+long_e,16,he,she,perfect,antonym,paired male and female pronouns,He hums the melody while she sings the harmony
+long_e,17,teach,preach,perfect,synonym,both mean deliver a lesson,"Teach with kindness, preach with a gentle voice"
+long_e,18,conceive,believe,perfect,synonym,both mean imagine as true,"If you can conceive it, you can believe it"
+long_e,19,agreed,indeed,perfect,synonym,both affirm a yes,"Agreed, my friend, indeed the night is young"
+long_e,20,green,clean,perfect,synonym,both mean eco-friendly,Keep the river clean and the meadow green
+long_e,21,breeze,ease,perfect,synonym,both mean effortless calm,Life feels like a breeze when your heart's at ease
+long_e,22,appease,please,perfect,synonym,both mean satisfy someone,"No need to appease me, your smile is sure to please"
+long_e,23,believe,achieve,perfect,cause-effect,belief fuels achievement,Believe at dawn and achieve by starlight
+long_e,24,free,glee,perfect,cause-effect,freedom sparks joyful delight,"Running barefoot, wild and free, the children laughed with glee"
+long_e,25,jubilee,glee,perfect,cause-effect,celebration sparks joyful delight,"Dancing at the jubilee, we shouted out with glee"
+long_e,26,key,free,perfect,cause-effect,a key sets free,Turn the golden key and set the songbird free
+long_e,27,sheep,sleep,perfect,cause-effect,counting sheep brings sleep,Count the woolly sheep and slip away to sleep
+long_e,28,deed,need,perfect,cause-effect,kind act meets need,One good deed can meet a stranger's need
+long_e,29,need,feed,perfect,cause-effect,feeding answers a need,Bake bread for those in need and feed them well
+long_e,30,reading,leading,perfect,cause-effect,readers grow into leaders,Keep on reading and someday you'll be leading
+long_e,31,peace,cease,perfect,cause-effect,ceasing noise brings peace,Let the hurry cease and let the evening bring peace
+long_e,32,weave,sleeve,perfect,cause-effect,weaving makes the sleeve,Weave the silver thread into a sleeve of light
+long_e,33,freeze,degrees,perfect,cause-effect,low degrees bring freezing,Zero degrees and the lake begins to freeze
+long_e,34,we,me,perfect,part-whole,me is part of we,Together we are more than you and me
+long_e,35,teen,sixteen,perfect,part-whole,sixteen is a teen,"Sweet sixteen, a dreaming teen with stars in her eyes"
+long_e,36,scene,screen,perfect,part-whole,scene plays on screen,The final scene glowed softly on the silver screen
+long_e,37,caffeine,bean,perfect,part-whole,bean holds the caffeine,Every roasted bean holds a little caffeine spark
+long_e,38,sheen,gleam,slant,synonym,both mean glossy shine,"The silk had a sheen, the pearls a gentle gleam"
+long_e,39,peace,ease,slant,synonym,both mean calm comfort,Find your peace and let your heart rest at ease
+long_e,40,intrigue,mystique,slant,synonym,both mean alluring mystery,Her quiet mystique was wrapped in sweet intrigue
+long_e,41,relief,reprieve,slant,synonym,both mean welcome respite,"Rain came as a reprieve, a cool relief from summer"
+long_e,42,release,seize,slant,antonym,letting go versus grabbing,"Seize the moment, then release it like a kite"
+long_e,43,speed,fleet,slant,synonym,fleet means full speed,"Fleet of foot, she ran at joyful speed"
+long_e,44,neat,sleek,slant,synonym,both mean tidy and trim,"A neat little car, sleek and shining blue"
+long_e,45,eat,feed,slant,synonym,both mean taking food,"Feed the hungry heart, then sit and eat together"
+long_e,46,sleep,deep,perfect,scene,restful deep slumber,"Drift into sleep, so soft and deep and still"
+long_e,47,sweet,treat,perfect,scene,a sugary dessert,"A sweet surprise, a little treat just for you"
+long_e,48,bees,trees,perfect,scene,buzzing orchard in bloom,Humming bees drift through the blossoming trees
+long_e,49,seas,breeze,perfect,scene,sailing on salty wind,Sailing the seas on a warm salt breeze
+long_e,50,green,serene,perfect,scene,calm grassy valley,"A valley green, a morning calm and serene"
+long_e,51,tweet,sweet,perfect,scene,birdsong at dawn,"A robin's tweet, so sweet at break of day"
+long_e,52,seek,peek,perfect,scene,playing a hiding game,"Hide and seek, then take a peek behind the door"
+long_e,53,sneak,peek,perfect,scene,a secret quick look,Let me sneak a peek at the birthday presents
+long_e,54,unique,antique,perfect,scene,rare one-of-a-kind treasure,"Grandma's antique locket, unique as her smile"
+long_e,55,chic,boutique,perfect,scene,stylish little shop,A chic dress waiting in a corner boutique
+long_e,56,compete,elite,perfect,scene,top athletes in contest,The elite compete beneath the stadium lights
+long_e,57,speech,teach,perfect,scene,a lesson spoken aloud,Her speech could teach a hundred hearts to hope
+long_e,58,greeted,seated,perfect,scene,welcoming dinner guests,"Every guest was greeted, hugged, and seated by the fire"
+long_e,59,greens,beans,perfect,scene,fresh garden vegetables,Fresh greens and beans from Grandma's summer garden
+long_e,60,teens,jeans,perfect,scene,youthful casual fashion,Laughing teens in faded jeans on summer nights
+long_e,61,spree,glee,perfect,scene,joyful shopping fun,A shopping spree full of giggles and glee
+long_e,62,cheese,please,perfect,scene,smiling for a photo,"Say cheese, please, and hold that sunny smile"
+long_e,63,quay,sea,perfect,scene,harbor edge meets water,"Waiting on the quay, watching the open sea"
+long_e,64,clean,gleam,slant,cause-effect,cleaning makes it shine,Scrub the windows clean and watch them gleam
+long_e,65,seams,jeans,slant,part-whole,seams stitch the jeans,Golden seams stitched down my favorite jeans
+long_e,66,freeze,fleece,slant,cause-effect,fleece warms against frost,"When the winter winds freeze, wrap up in fleece"
+long_e,67,stream,screen,slant,scene,watching shows at home,Stream a movie on the big screen tonight
+long_e,68,teeny,tiny,slant,synonym,both mean very small,A teeny kitten with tiny velvet paws
+long_e,69,peace,bliss,slant,synonym,both mean deep contentment,Morning peace and quiet bliss beside the sea
+long_e,70,seek,look,slant,synonym,both mean search with eyes,Seek the sunrise and look for the good in everyone
+long_e,71,leap,hop,slant,synonym,both mean spring upward,"Leap the puddles, hop the stones, and dance on home"
+long_e,72,sleep,nap,slant,synonym,both mean restful slumber,A Sunday nap that slowly slides into sleep
+long_e,73,heat,freeze,assonance,antonym,hot versus icy cold,"From summer heat to winter freeze, I'll hold you close"
+long_e,74,weekday,weekend,assonance,antonym,work days versus rest,Weekday hustle melts into a lazy weekend glow
+long_e,75,stream,creek,assonance,synonym,both mean small river,Follow the stream down to the bubbling creek
+long_e,76,reach,achieve,assonance,synonym,both mean attain a goal,Reach for the stars and achieve the life you dream
+long_e,77,free,release,assonance,synonym,both mean let go,"Set me free, release me to the open sky"
+long_e,78,agreement,treaty,assonance,synonym,both mean formal pact,"They signed the treaty, a gentle agreement of peace"
+long_e,79,achievement,feat,assonance,synonym,both mean notable accomplishment,"Climbing that mountain was a feat, a proud achievement"
+long_e,80,prestige,esteem,assonance,synonym,both mean high regard,"Not for prestige, but for the esteem of friends"
+long_e,81,idea,dream,assonance,synonym,both mean imagined vision,It started as an idea and grew into a dream
+long_e,82,trio,three,assonance,synonym,trio means three together,"A trio of friends, three voices in harmony"
+long_e,83,convene,meet,assonance,synonym,both mean gather together,Let's convene at sunset and meet beside the bay
+long_e,84,keynote,speech,assonance,synonym,keynote is main speech,Her keynote speech filled the hall with hope
+long_e,85,seaside,beach,assonance,synonym,both mean the shore,"A seaside summer, barefoot on the beach"
+long_e,86,clean,neat,assonance,synonym,both mean tidy,"A clean room, a neat desk, a fresh new start"
+long_e,87,feast,treat,assonance,synonym,both mean delightful meal,A holiday feast with a sugary treat for dessert
+long_e,88,motif,theme,assonance,synonym,both mean recurring idea,"Hope is the motif, love the theme of every song"
+long_e,89,seed,tree,assonance,cause-effect,seed grows into tree,Plant a tiny seed and someday rest beneath a tree
+long_e,90,leaf,tree,assonance,part-whole,leaf grows on tree,Every leaf sings softly on the old oak tree
+long_e,91,fleece,sheep,assonance,part-whole,sheep wear woolly fleece,Soft fleece from gentle sheep to keep you warm
+long_e,92,tea,leaf,assonance,part-whole,tea brewed from leaf,One small tea leaf turns the water gold
+long_e,93,tea,steep,assonance,cause-effect,steeping brews the tea,Let the tea steep while the morning sun climbs high
+long_e,94,heat,steam,assonance,cause-effect,heat turns water to steam,The kettle's heat sends steam curling into the dawn
+long_e,95,bee,queen,assonance,part-whole,queen leads the hive,Every busy bee comes home to serve its queen
+long_e,96,team,league,assonance,part-whole,team plays in league,Our little team just won the whole league
+long_e,97,reef,sea,assonance,part-whole,reef lies within sea,Colorful fish dance on the reef beneath the sea
+long_e,98,pizza,cheese,assonance,part-whole,cheese tops the pizza,Warm pizza dripping golden cheese on Friday night
+long_e,99,trampoline,leap,assonance,cause-effect,trampoline launches a leap,Bounce on the trampoline and leap toward the clouds
+long_e,100,cheetah,speed,assonance,cause-effect,cheetah is built for speed,Run with a cheetah's speed across the golden plain
+long_i,1,bright,light,perfect,synonym,both mean radiant glow,"Your heart burns bright, a lantern full of light"
+long_i,2,glide,slide,perfect,synonym,both mean smooth effortless motion,We glide across the frozen pond and slide into spring
+long_i,3,precise,concise,perfect,synonym,both mean exact and trim,Keep the verses precise and the chorus concise
+long_i,4,excited,delighted,perfect,synonym,both mean thrilled with joy,"So excited, so delighted, the whole town is singing"
+long_i,5,lightly,slightly,perfect,synonym,both mean to small degree,"Step lightly, lean slightly, and the dance is yours"
+long_i,6,brighten,lighten,perfect,synonym,both mean growing more luminous,Let the morning brighten and the heavy hours lighten
+long_i,7,icy,spicy,perfect,antonym,cold versus hot flavor,An icy lemonade beside a spicy summer feast
+long_i,8,abide,reside,perfect,synonym,both mean to dwell,"Where kindness will abide, there hope will reside"
+long_i,9,alive,thrive,perfect,synonym,both mean flourishing with life,"Feel alive, and watch the whole garden thrive"
+long_i,10,incline,decline,perfect,antonym,upward versus downward slope,"Up the green incline, then down the gentle decline we roll"
+long_i,11,like,unlike,perfect,antonym,similar versus different,"Like the sun, unlike the rain, you warm me every day"
+long_i,12,mine,thine,perfect,antonym,my own versus yours,What once was mine is gladly thine
+long_i,13,lightly,tightly,perfect,antonym,loose versus firm hold,Hold your worries lightly and your friends tightly
+long_i,14,slice,dice,perfect,synonym,both mean cutting food,"Slice the peaches, dice the mint, and summer's on the table"
+long_i,15,rise,arise,perfect,synonym,both mean getting up,Rise with the larks; arise and greet the dawn
+long_i,16,white,bright,perfect,synonym,both mean pale radiance,"White as fresh snowfall, bright as the morning"
+long_i,17,ignite,light,perfect,synonym,both mean setting aflame,"Ignite the candles, light the way back home"
+long_i,18,improvise,devise,perfect,synonym,both mean inventing something new,We improvise a melody and devise a brand-new dance
+long_i,19,excite,ignite,perfect,synonym,both mean to spark passion,Let the music excite us and ignite the dancing crowd
+long_i,20,right,upright,perfect,synonym,both mean morally sound,Do what is right and walk upright through the day
+long_i,21,wind,unwind,perfect,antonym,coil versus uncoil,"Wind the music box, then let the evening unwind"
+long_i,22,try,apply,perfect,synonym,both mean making an effort,Try once more and apply your whole heart
+long_i,23,why,reply,perfect,antonym,question and answer pair,"You ask me why, and the stars reply"
+long_i,24,hi,goodbye,perfect,antonym,greeting versus farewell,"From the first hi to a fond goodbye, we laughed"
+long_i,25,thrive,strive,perfect,cause-effect,effort leads to flourishing,Those who strive will thrive in time
+long_i,26,revive,alive,perfect,cause-effect,renewal restores living energy,Spring rain will revive the fields and bring them alive
+long_i,27,wine,vine,perfect,cause-effect,vine fruit becomes wine,"Sun on the vine, sweetness in the wine"
+long_i,28,time,chime,perfect,cause-effect,bells announce the hour,The tower bells chime to tell the time
+long_i,29,wise,advise,perfect,cause-effect,wisdom yields good counsel,The wise advise with gentle words
+long_i,30,drive,strive,perfect,cause-effect,ambition fuels steady effort,With a steady drive we strive toward the summit
+long_i,31,icing,enticing,perfect,cause-effect,sweet frosting tempts appetite,The pink icing looks so enticing on the cake
+long_i,32,unwind,mind,perfect,cause-effect,relaxing calms busy thoughts,Let the evening unwind your busy mind
+long_i,33,sky,high,perfect,scene,kites soaring overhead,The sky is open and our kites fly high
+long_i,34,fly,sky,perfect,scene,birds crossing the blue,Spread your wings and fly across the sky
+long_i,35,kite,flight,perfect,scene,breezy afternoon soaring,A paper kite takes flight on the breeze
+long_i,36,flight,height,perfect,scene,soaring above the clouds,Our flight climbs to a golden height
+long_i,37,eyes,skies,perfect,scene,gazing upward in wonder,Lift your eyes to the open skies
+long_i,38,wine,dine,perfect,scene,festive evening feast,We wine and dine beneath the summer moon
+long_i,39,spice,nice,perfect,scene,sugar and spice rhyme,Sugar and spice and everything nice
+long_i,40,spice,rice,perfect,scene,fragrant kitchen cooking,A pinch of spice to warm the rice
+long_i,41,lime,thyme,perfect,scene,citrus and herb garden,"A twist of lime, a sprig of thyme"
+long_i,42,rhyme,chime,perfect,scene,musical ringing sounds,Every rhyme rings out like a silver chime
+long_i,43,bride,pride,perfect,scene,joyful wedding day,The bride is glowing with pride and joy
+long_i,44,tide,ride,perfect,scene,surfing the ocean waves,Catch the rising tide and ride it to the shore
+long_i,45,pride,stride,perfect,scene,confident walking gait,Walk with pride in every stride you take
+long_i,46,shining,lining,perfect,scene,silver lining behind clouds,Every cloud is shining with a silver lining
+long_i,47,bike,hike,perfect,scene,outdoor weekend adventure,"Ride the bike to the trail, then hike the hill"
+long_i,48,vibe,tribe,perfect,scene,kindred community feeling,Find your tribe and share the vibe
+long_i,49,kind,mind,perfect,scene,gentle thoughtful character,A kind heart and an open mind
+long_i,50,eye,spy,perfect,scene,childhood guessing game,I spy with my little eye something blue
+long_i,51,design,refine,perfect,scene,crafting and perfecting work,We design by day and refine by candlelight
+long_i,52,divine,shrine,perfect,scene,sacred place of worship,A divine hush fills the little shrine
+long_i,53,knight,might,perfect,scene,chivalry and noble strength,The knight stood tall with gentle might
+long_i,54,write,recite,perfect,scene,poetry from page to voice,I write the verse and you recite it
+long_i,55,lights,nights,perfect,scene,festive city evenings,City lights on warm summer nights
+long_i,56,icing,slicing,perfect,scene,birthday cake celebration,"Sweet icing on top, then slicing the cake"
+long_i,57,scribe,describe,perfect,scene,writer and written portrait,The scribe will describe the stars in ink
+long_i,58,life,wife,perfect,scene,shared married journey,"My wife, my life, my morning song"
+long_i,59,divided,united,slant,antonym,apart versus together,"Once divided, now united, we sing as one"
+long_i,60,divine,sublime,slant,synonym,both mean heavenly beauty,"Your voice is divine, the melody sublime"
+long_i,61,life,alive,slant,synonym,both mean living energy,"This is life, and I have never felt so alive"
+long_i,62,shine,sheen,slant,synonym,both mean glossy glow,Polish till the windows shine with a golden sheen
+long_i,63,guide,lead,slant,synonym,both mean showing the way,"Be my guide, and I will follow where you lead"
+long_i,64,tiny,mini,slant,synonym,both mean very small,A tiny bloom in a mini garden pot
+long_i,65,sublime,supreme,slant,synonym,both mean highest excellence,"A sublime melody, a supreme and shining joy"
+long_i,66,type,write,slant,synonym,both mean putting words down,"Type the lyrics, write the dream"
+long_i,67,prime,fine,slant,synonym,both mean top quality,"In our prime, every day feels fine"
+long_i,68,glide,flight,slant,synonym,both mean graceful airborne motion,Swallows glide in graceful flight
+long_i,69,mine,own,slant,synonym,both mean belonging to me,"This song is mine, my very own"
+long_i,70,design,plan,slant,synonym,both mean intentional layout,We design the garden and plan each bloom
+long_i,71,like,delight,slant,synonym,both mean enjoying something,I like the way you laugh; it is pure delight
+long_i,72,hide,sight,slant,antonym,concealed versus seen,Don't hide away; step into sight
+long_i,73,guide,light,slant,cause-effect,light shows the way,"Be my guide, my steady light"
+long_i,74,ripe,bite,slant,cause-effect,ready fruit invites tasting,"The peach is ripe, so take a bite"
+long_i,75,prize,price,slant,scene,value and reward,The prize is worth far more than any price
+long_i,76,rhyme,line,slant,scene,crafting verse in poetry,Every line ends with a rhyme
+long_i,77,bride,white,slant,scene,wedding gown color,The bride in white is radiant
+long_i,78,tribe,side,slant,scene,community standing together,My tribe stands by my side
+long_i,79,wide,height,slant,scene,dimensions of vast spaces,"The canyon wide, the mountain height, we take it in"
+long_i,80,kind,nice,assonance,synonym,both mean gentle goodness,"Be kind, be nice, and the world grows soft"
+long_i,81,quiet,silent,assonance,synonym,both mean free of noise,The quiet snow falls on the silent hills
+long_i,82,giant,tiny,assonance,antonym,huge versus small,A giant oak grew from a tiny seed
+long_i,83,hide,find,assonance,antonym,conceal versus discover,"You hide, I find you laughing by the tree"
+long_i,84,high,height,assonance,synonym,both mean great elevation,Fly high and reach the height of your dreams
+long_i,85,try,strive,assonance,synonym,both mean giving effort,"Try again, and strive toward the stars"
+long_i,86,tie,bind,assonance,synonym,both mean fasten together,Tie the ribbon and bind the bouquet
+long_i,87,supply,provide,assonance,synonym,both mean giving resources,Rivers supply the valley and provide for every field
+long_i,88,vibrant,bright,assonance,synonym,both mean vivid color,"Vibrant petals, bright and bold"
+long_i,89,polite,kind,assonance,synonym,both mean courteous warmth,"Be polite, be kind, be gentle with the world"
+long_i,90,mighty,giant,assonance,synonym,both mean enormous strength,"A mighty oak, a giant of the woods"
+long_i,91,hydrate,dry,assonance,antonym,moist versus parched,Hydrate the roots before the summer turns dry
+long_i,92,pie,slice,assonance,part-whole,piece of baked dessert,Cut a slice of warm apple pie
+long_i,93,lion,pride,assonance,part-whole,lions live in prides,The lion leads his pride across the plain
+long_i,94,eye,sight,assonance,cause-effect,eyes give us vision,"Each eye a window, each sight a gift"
+long_i,95,rise,shine,assonance,scene,morning wake-up call,"Rise and shine, the day is yours"
+long_i,96,tide,time,assonance,scene,classic time and tide,Time and tide will carry us home
+long_i,97,diamond,shine,assonance,scene,sparkling precious gem,"Like a diamond, let your spirit shine"
+long_i,98,smiling,shining,assonance,scene,beaming happy faces,Smiling faces and shining eyes
+long_i,99,horizon,sky,assonance,scene,landscape meets open heavens,Where the horizon meets the evening sky
+long_i,100,twilight,night,assonance,scene,evening fading into dark,Twilight softens into a starry night
+long_o,1,low,below,perfect,synonym,"both mean beneath, downward","Sing it soft and low, like the river far below."
+long_o,2,froze,flows,perfect,antonym,ice locked versus water moving,"All winter the creek froze, but now in spring it flows."
+long_o,3,emotion,devotion,perfect,synonym,"deep feeling, faithful love",Every emotion in my chest becomes devotion for you.
+long_o,4,loan,own,perfect,antonym,borrowed versus truly yours,"My heart is not a loan, it's yours to own."
+long_o,5,cozy,rosy,perfect,synonym,"both mean warm, glowing","Cozy by the fire, our cheeks go rosy."
+long_o,6,propose,oppose,perfect,antonym,put forward versus push back,"Whatever dreams you propose, I will never oppose."
+long_o,7,alone,lone,perfect,synonym,both mean by oneself,"One lone lantern burning, and I'm not alone tonight."
+long_o,8,bestowed,owed,perfect,antonym,freely given versus due,"Love is bestowed like sunlight, never owed."
+long_o,9,home,roam,perfect,antonym,staying put versus wandering,"Let me roam the wide world, then bring me home."
+long_o,10,exposed,enclosed,perfect,antonym,open air versus shut in,"Exposed to the sunrise, never again enclosed."
+long_o,11,hone,tone,perfect,synonym,"both mean refine, strengthen",Hone your craft and tone your voice until it shines.
+long_o,12,heroic,stoic,perfect,synonym,steady courage under strain,"Quietly heroic, calmly stoic, she carried us through."
+long_o,13,alone,own,perfect,synonym,on my own means alone,I walked alone and found a song of my own.
+long_o,14,toast,roast,perfect,synonym,both brown with dry heat,Toast the bread and roast the chestnuts by the fire.
+long_o,15,goes,flows,perfect,synonym,both mean moving onward,"As the river flows, so the story goes."
+long_o,16,go,slow,perfect,antonym,full speed versus easing off,"Green light says go, but darling, let's take it slow."
+long_o,17,grow,sow,perfect,cause-effect,"seeds sown, then sprouting",Whatever kindness you sow is bound to grow.
+long_o,18,glow,grow,perfect,cause-effect,warm light makes seedlings grow,"In the sun's warm glow, the seedlings grow."
+long_o,19,rose,grows,perfect,cause-effect,growing gardens yield roses,A wild rose grows wherever you are smiling.
+long_o,20,boat,float,perfect,cause-effect,boats are built to float,Our little boat will float on the morning tide.
+long_o,21,note,wrote,perfect,cause-effect,writing produces a note,I wrote a note and tucked it in your coat.
+long_o,22,know,show,perfect,cause-effect,showing leads to knowing,Show me the way so I will know.
+long_o,23,prose,compose,perfect,cause-effect,writers compose flowing prose,Let me compose some gentle prose about your smile.
+long_o,24,devoted,promoted,perfect,cause-effect,devotion earns a promotion,"She stayed devoted, and soon she was promoted."
+long_o,25,flown,blown,perfect,cause-effect,breezes carry kites aloft,My kite has flown wherever the breeze has blown.
+long_o,26,throat,note,perfect,cause-effect,a singing throat makes notes,A golden note rose from her throat.
+long_o,27,dome,home,perfect,part-whole,a dome crowns the home,Stars wheel above the dome of our little home.
+long_o,28,smoke,stoke,perfect,cause-effect,stoked fires send up smoke,Stoke the campfire and watch the smoke curl skyward.
+long_o,29,mow,grow,perfect,cause-effect,growing grass needs mowing,Let the clover grow before we mow the meadow.
+long_o,30,goat,coat,perfect,cause-effect,goat wool becomes coats,Soft wool from the goat makes a warm winter coat.
+long_o,31,snows,froze,perfect,cause-effect,winter snow brings freezing,"Now it snows, just like the night the river froze."
+long_o,32,stone,throne,perfect,part-whole,a throne carved from stone,She sits upon a throne of ancient stone.
+long_o,33,cozy,easy,slant,synonym,"both mean comfortable, relaxed","Sunday mornings, cozy and easy, coffee in the sun."
+long_o,34,coat,cloak,slant,synonym,both are outer garments,Wrap your coat or cloak around you; the night is cold.
+long_o,35,focus,notice,slant,synonym,both mean pay attention,Focus close and notice every little blessing.
+long_o,36,mode,mood,slant,synonym,"both mean state, manner",Switch to holiday mode and catch the festive mood.
+long_o,37,spoke,wrote,slant,antonym,speech versus written word,"What I spoke out loud, I later wrote in ink."
+long_o,38,nose,rose,perfect,scene,stop and smell roses,Bring your nose close to the rose and breathe it in.
+long_o,39,emotion,ocean,perfect,scene,an ocean of feeling,My emotion runs as deep as any ocean.
+long_o,40,host,toast,perfect,scene,host raises a toast,Our gracious host stood up to make a toast.
+long_o,41,both,growth,perfect,scene,two people growing together,"We both found growth in every season, side by side."
+long_o,42,spoken,token,perfect,scene,words given as keepsakes,Every spoken promise is a token of my love.
+long_o,43,ocean,motion,perfect,scene,waves in constant motion,"Rock me like the ocean, slow and steady motion."
+long_o,44,hose,rose,perfect,scene,watering the garden roses,Grab the garden hose and water every rose.
+long_o,45,glowing,flowing,perfect,scene,lanterns and river at dusk,"The river flowing, the lanterns glowing, all the way home."
+long_o,46,goats,oats,perfect,scene,farm animals eating oats,The goats are munching oats behind the red barn.
+long_o,47,lotion,ocean,perfect,scene,sunscreen on beach days,"Sunscreen lotion on our shoulders, then a dive into the ocean."
+long_o,48,both,oath,perfect,scene,two hearts making vows,We both made an oath beneath the summer sky.
+long_o,49,snow,glow,perfect,scene,moonlit snow shining softly,Fresh snow will glow beneath the winter moon.
+long_o,50,sow,hoe,perfect,scene,planting the garden rows,"Take the hoe, then sow the seeds in rows."
+long_o,51,road,abode,perfect,scene,road leading back home,Every winding road leads back to my abode.
+long_o,52,grove,cove,perfect,scene,seaside trees and harbor,Past the olive grove lies a quiet cove.
+long_o,53,trove,cove,perfect,scene,treasure hidden by sea,We found a treasure trove inside the hidden cove.
+long_o,54,drove,grove,perfect,scene,road trip to orchard,We drove past the lemon grove with the windows down.
+long_o,55,row,flow,perfect,scene,rowing with the current,"Row, little rowboat, and go with the flow."
+long_o,56,moat,boat,perfect,scene,"castle waters, little boat",We row a tiny boat across the castle moat.
+long_o,57,slope,rope,perfect,scene,climbing gear on hillsides,Grab the rope and climb the sunny slope.
+long_o,58,chateau,plateau,perfect,scene,castle on high ground,A little chateau sits high on the plateau.
+long_o,59,plateau,below,perfect,scene,high ground over valley,From the plateau we watch the valley below.
+long_o,60,stove,clove,perfect,scene,spices warming in kitchen,A clove of garlic sizzles on the stove.
+long_o,61,snow,blow,perfect,scene,winter winds carry snow,Let the north winds blow and fill the hills with snow.
+long_o,62,potion,lotion,perfect,scene,healing liquids in bottles,"A healing potion, a soothing lotion, kindness in a jar."
+long_o,63,toes,nose,perfect,scene,body from top to bottom,Sunshine warms you from your nose down to your toes.
+long_o,64,ode,wrote,slant,cause-effect,poets write odes,Last night I wrote an ode to the rising moon.
+long_o,65,dome,stone,slant,part-whole,domes built from stone,The chapel's dome of pale stone glows at dusk.
+long_o,66,open,close,assonance,antonym,unlocked versus shut tight,"Open the window wide, then close it when the stars come out."
+long_o,67,solo,alone,assonance,synonym,both mean without company,"I sing this solo, but I'm never alone."
+long_o,68,rosy,glowing,assonance,synonym,both mean warmly radiant,Rosy cheeks and glowing eyes after a day of sun.
+long_o,69,frozen,flowing,assonance,antonym,still ice versus running water,"Once the stream was frozen, now it's flowing free."
+long_o,70,approach,close,assonance,synonym,both mean drawing near,"As you approach, the whole world feels close and kind."
+long_o,71,remote,close,assonance,antonym,far away versus near,"Though you feel remote tonight, I hold you close."
+long_o,72,prose,poetry,assonance,antonym,plain writing versus verse,Your love turns my prose into poetry.
+long_o,73,poem,ode,assonance,synonym,both are lyric verses,This poem is an ode to the way you laugh.
+long_o,74,notice,note,assonance,synonym,both mean take heed,Take note of the sunrise; notice how it sings.
+long_o,75,donate,bestow,assonance,synonym,both mean to give,Donate your time and bestow your kindness freely.
+long_o,76,shone,glow,assonance,synonym,both mean giving light,Your lantern shone with a steady glow.
+long_o,77,slope,plateau,assonance,antonym,inclined versus flat ground,Climb the steep slope to the quiet plateau.
+long_o,78,stoic,composed,assonance,synonym,"both mean calm, steady","Stoic in the storm, composed when it was done."
+long_o,79,soda,cola,assonance,synonym,both are fizzy drinks,"Ice-cold soda, cherry cola, summer on the porch."
+long_o,80,kimono,robe,assonance,synonym,both are loose wraps,She ties her silk kimono like a morning robe.
+long_o,81,vote,chose,assonance,synonym,both mean picking one,We cast our vote and chose the brighter road.
+long_o,82,drove,rode,assonance,synonym,both mean traveled by vehicle,We drove all night and rode the coastline home.
+long_o,83,aroma,cologne,assonance,synonym,both mean pleasing scent,The sweet aroma of your cologne lingers on my scarf.
+long_o,84,mocha,cocoa,assonance,synonym,both are chocolate drinks,"A mocha for you, a cocoa for me, snow outside."
+long_o,85,sewn,woven,assonance,synonym,both mean crafted fabric,Every thread was sewn and woven with care.
+long_o,86,motion,flow,assonance,synonym,both mean smooth movement,"Let your body find its motion, let the music flow."
+long_o,87,home,come,slant,scene,returning to loved ones,"Come home, the lamp is lit and supper's warm."
+long_o,88,hope,keep,slant,scene,keeping hope alive,Keep hope burning like a candle in the window.
+long_o,89,roam,room,slant,scene,space to wander freely,Give me room to roam beneath the open sky.
+long_o,90,robe,soap,slant,scene,after-bath comfort ritual,"Lather up with lavender soap, then slip into your robe."
+long_o,91,soap,foam,assonance,cause-effect,soap makes bubbly foam,Rub the soap until the foam is soft as a cloud.
+long_o,92,dough,loaf,assonance,cause-effect,baked dough becomes loaf,Knead the dough and bake a golden loaf.
+long_o,93,roam,nomad,assonance,cause-effect,nomads by nature roam,"A gentle nomad, born to roam the open plains."
+long_o,94,clothes,sewn,assonance,cause-effect,stitching makes clothes,These clothes were sewn by grandma's gentle hands.
+long_o,95,bonus,promotion,assonance,cause-effect,promotion brings a bonus,With the promotion came a bonus and a grin.
+long_o,96,loaf,toast,assonance,part-whole,toast is sliced loaf,Cut a slice from the loaf and make warm toast.
+long_o,97,oak,grove,assonance,part-whole,oaks make up groves,Each oak in the grove is a quiet friend.
+long_o,98,yoga,pose,assonance,part-whole,poses build a practice,Breathe deep in yoga and hold the mountain pose.
+long_o,99,viola,bow,assonance,part-whole,bow draws viola music,"Draw the bow across the viola, slow and sweet."
+long_o,100,oboe,solo,assonance,scene,reed voice in spotlight,"The oboe takes a solo, soft and clear."
+long_u,1,include,exclude,perfect,antonym,letting in versus out,Let our circle include everyone; let no song exclude a friend.
+long_u,2,approve,disapprove,perfect,antonym,opposite verdicts on choices,"Whether they approve or disapprove, we keep on dancing."
+long_u,3,smooth,soothe,perfect,synonym,both mean gentle calming,Let the river smooth the stones and soothe my wandering soul.
+long_u,4,group,troop,perfect,synonym,both mean gathered band,Our little group became a troop of singing friends.
+long_u,5,loop,hoop,perfect,synonym,both name round circles,"Spin the hoop and ride the loop, round and round we go."
+long_u,6,beauty,cutie,perfect,synonym,both praise lovely looks,"Hey cutie, your smile is pure beauty in the morning light."
+long_u,7,inclusive,exclusive,perfect,antonym,open versus closed membership,"Make the party inclusive, not exclusive, and everyone can dance."
+long_u,8,new,anew,perfect,synonym,both mean fresh again,"Every sunrise feels new, so I begin my song anew."
+long_u,9,assume,presume,perfect,synonym,both mean suppose beforehand,"I assume you'll come, and I presume you'll bring the sunshine."
+long_u,10,do,undo,perfect,antonym,making versus unmaking,"Any knot we tie, we can undo, the way true dreamers do."
+long_u,11,true,blue,perfect,synonym,true-blue means loyal,"You stay true, my friend, as steady as the sky is blue."
+long_u,12,community,unity,perfect,synonym,both mean shared togetherness,A caring community grows from simple unity of hearts.
+long_u,13,union,reunion,perfect,synonym,joining and rejoining hearts,Our happy union shines brighter at every family reunion.
+long_u,14,blooming,booming,perfect,synonym,both mean thriving growth,The garden's blooming and the laughter's booming all night long.
+long_u,15,soothing,smoothing,perfect,synonym,both mean gentle easing,Her soothing hum kept smoothing out the wrinkles of the day.
+long_u,16,blues,hues,perfect,synonym,both name color shades,Ocean blues and sunset hues paint the summer sky.
+long_u,17,fusion,infusion,perfect,synonym,both mean blending together,"A fusion of rhythms, an infusion of pure joy."
+long_u,18,renew,anew,perfect,synonym,both mean beginning again,Spring will renew the meadows and start the world anew.
+long_u,19,solution,resolution,perfect,synonym,both mean answer found,We found a solution and a resolution to laugh more.
+long_u,20,troupe,group,perfect,synonym,both mean performing company,The dancing troupe became a group of lifelong friends.
+long_u,21,union,communion,perfect,synonym,both mean heartfelt fellowship,In this union of voices we share a sweet communion.
+long_u,22,moon,noon,perfect,antonym,midnight versus midday sky,"From the silver moon to the golden noon, I'm yours."
+long_u,23,undo,redo,perfect,antonym,reverse versus repeat action,"Undo the frown, redo the smile, and try it once again."
+long_u,24,scoop,swoop,perfect,synonym,both mean sweeping up,Swoop down low and scoop me up into the sky.
+long_u,25,acute,astute,perfect,synonym,both mean keenly sharp,"With an acute ear and an astute heart, she hears every note."
+long_u,26,move,remove,perfect,synonym,both mean shifting away,Move the clouds and remove the doubt; let the sunshine in.
+long_u,27,view,review,perfect,synonym,both mean looking over,"Climb up for the view, then review the road we traveled."
+long_u,28,boom,bloom,perfect,synonym,both mean flourishing growth,Let the town boom and every window bloom with flowers.
+long_u,29,mew,coo,perfect,synonym,both soft tender cries,"A kitten's mew, a dove's soft coo, the morning hums with love."
+long_u,30,hoot,toot,perfect,synonym,both are cheery calls,Hoot like an owl and toot like a horn; the party's on!
+long_u,31,glue,screw,perfect,synonym,both fasten things together,"With a little glue and a single screw, we built our dream."
+long_u,32,moving,improving,perfect,synonym,both mean making progress,"Keep on moving, keep improving, every step a brand new song."
+long_u,33,use,reuse,perfect,synonym,putting things to work,"Use it well, then reuse it, and keep the planet green."
+long_u,34,woo,coo,perfect,synonym,both mean tender courting,Come woo me softly; coo my name beneath the stars.
+long_u,35,move,groove,perfect,cause-effect,rhythm makes bodies dance,Feel the groove and let your body move.
+long_u,36,food,mood,perfect,cause-effect,good meals lift spirits,Warm food and old friends put me in a golden mood.
+long_u,37,blue,hue,perfect,part-whole,blue is one hue,"Of every hue the sky can wear, I love the blue."
+long_u,38,shoot,root,perfect,part-whole,parts of a plant,"From a tiny root, a hopeful shoot reaches for the sun."
+long_u,39,fruit,root,perfect,part-whole,plant's beginning and harvest,"Deep root, sweet fruit; patience pays in summertime."
+long_u,40,produce,juice,perfect,cause-effect,fresh produce makes juice,"Fresh produce from the market, squeezed to golden juice."
+long_u,41,tune,swoon,perfect,cause-effect,melody makes hearts melt,Play that tune again and watch the whole room swoon.
+long_u,42,flute,toot,perfect,cause-effect,a flute sounds toots,Toot the flute and call the morning birds to sing.
+long_u,43,clue,knew,perfect,cause-effect,a clue brings knowing,"One tiny clue, and suddenly I knew it was you."
+long_u,44,grew,new,perfect,cause-effect,growth brings fresh leaves,"The seed we planted grew, and every leaf was new."
+long_u,45,improve,approve,perfect,cause-effect,betterment wins approval,"Keep working to improve, and the crowd will soon approve."
+long_u,46,blew,flew,perfect,cause-effect,wind lifts the kite,The breeze blew softly and my kite flew high.
+long_u,47,muse,amuse,perfect,cause-effect,inspiration brings playful delight,My muse came by to amuse me with silly little songs.
+long_u,48,proof,truth,slant,synonym,evidence of what's real,Your smile is all the proof I need of the truth.
+long_u,49,astute,shrewd,slant,synonym,both mean clever insight,An astute mind and a shrewd eye find the hidden gold.
+long_u,50,moon,sun,slant,antonym,night light versus day,You're my moon at midnight and my sun by day.
+long_u,51,cute,sweet,slant,synonym,both mean adorable charm,"You're so cute and so sweet, you light up the street."
+long_u,52,beauty,pretty,slant,synonym,both mean lovely looks,"Pretty petals, quiet beauty, all along the garden path."
+long_u,53,tune,tone,slant,synonym,both mean musical sound,Hum a tune in a gentle tone and the night will listen.
+long_u,54,shoot,sprout,slant,synonym,both mean new growth,"A green shoot, a tender sprout, spring is pushing through."
+long_u,55,moon,june,perfect,scene,summer night romance,Dancing under a silver moon on a warm night in June.
+long_u,56,dune,lagoon,perfect,scene,sunny tropical beach,Barefoot over the dune and down to the bright lagoon.
+long_u,57,spruce,moose,perfect,scene,northern forest wildlife,A gentle moose naps beneath the spruce at dawn.
+long_u,58,bloom,groom,perfect,scene,wedding day flowers,The groom wore a rose in full bloom.
+long_u,59,shoes,blues,perfect,scene,dancing to blues music,Lace up your dancing shoes; the band is playing the blues.
+long_u,60,dew,new,perfect,scene,fresh dawn meadow,Morning dew makes every meadow look brand new.
+long_u,61,dew,blue,perfect,scene,dawn under clear sky,Diamonds of dew sparkle beneath a sky of blue.
+long_u,62,flew,through,perfect,scene,bird crossing open sky,The swallow flew through the open gate of morning.
+long_u,63,loop,swoop,perfect,scene,swallows in evening flight,The swallows loop and swoop across the evening sky.
+long_u,64,soup,scoop,perfect,scene,serving a warm supper,Scoop the soup into bowls and gather round the table.
+long_u,65,brew,stew,perfect,scene,cozy kitchen cooking,"A pot of stew, a fresh tea brew, a cozy winter night."
+long_u,66,broom,room,perfect,scene,sweeping the house clean,Sweep the room with a dancing broom and sing along.
+long_u,67,canoe,crew,perfect,scene,paddling down the river,Our canoe and our cheerful crew glide down the river.
+long_u,68,woo,you,perfect,scene,romantic courtship of beloved,I'll write you songs and woo you under every summer star.
+long_u,69,true,you,perfect,scene,loyal lover's vow,Through every season I will stay true to you.
+long_u,70,news,views,perfect,scene,morning paper reading,Good news and bright views fill the morning paper.
+long_u,71,cruise,views,perfect,scene,scenic sea voyage,A summer cruise with endless ocean views.
+long_u,72,drew,view,perfect,scene,sketching a hilltop landscape,She drew the view from the hilltop in pastel light.
+long_u,73,kangaroo,zoo,perfect,scene,family day at zoo,A bouncing kangaroo made the whole zoo laugh.
+long_u,74,loon,lagoon,perfect,scene,lake bird at dusk,The loon sings softly across the quiet lagoon.
+long_u,75,suit,boot,perfect,scene,dressing up sharp,"A sharp suit, a polished boot, we're ready for the ball."
+long_u,76,commute,route,perfect,scene,daily travel path,My morning commute takes the scenic route along the river.
+long_u,77,groovy,movie,perfect,scene,fun night at cinema,A groovy movie and a bowl of popcorn make the night.
+long_u,78,debut,revue,perfect,scene,theater opening night,Her dazzling debut stole the show at the summer revue.
+long_u,79,zoom,boom,perfect,scene,rocket launch excitement,Hear the boom and watch the rocket zoom toward the stars.
+long_u,80,proof,prove,slant,cause-effect,evidence that confirms claims,Here's my proof; let me prove my love is real.
+long_u,81,food,feed,slant,cause-effect,food is what feeds,"Share the food, feed the neighbors, fill the table with cheer."
+long_u,82,cocoon,bloom,slant,cause-effect,shelter before blossoming change,Step out of the cocoon and bloom like the spring.
+long_u,83,fruit,food,slant,part-whole,fruit is a food,Sweet fruit is the finest food under the summer sun.
+long_u,84,groove,smooth,slant,scene,mellow jazz rhythm,"Slide into the groove, so smooth and slow."
+long_u,85,move,smooth,slant,scene,graceful dance floor motion,Watch her move so smooth across the shining floor.
+long_u,86,shoot,hoop,slant,scene,basketball court play,"Dribble, jump, and shoot; the ball swishes through the hoop."
+long_u,87,groom,june,slant,scene,summer wedding day,The groom is beaming on a sunny day in June.
+long_u,88,soup,stew,assonance,synonym,both hearty bowl meals,"Hot soup or savory stew, either one warms the heart."
+long_u,89,shoe,boot,assonance,synonym,both are footwear,Find the shoe that fits or the boot that loves to roam.
+long_u,90,costume,suit,assonance,synonym,both are outfits worn,Trade your suit for a costume and dance until dawn.
+long_u,91,crew,group,assonance,synonym,both mean a team,Our crew became a group of dreamers chasing light.
+long_u,92,improve,boost,assonance,synonym,both mean making better,A little laughter can boost your spirit and improve your day.
+long_u,93,truth,true,assonance,synonym,both mean honest reality,Speak the truth and keep your heart forever true.
+long_u,94,duo,two,assonance,synonym,both mean a pair,"Just the two of us, a dancing duo under the lights."
+long_u,95,music,tune,assonance,part-whole,a tune is music,"Your laughter is music, and every word a tune."
+long_u,96,fruit,juice,assonance,cause-effect,squeezed fruit gives juice,Squeeze the fruit and pour a glass of sunshine juice.
+long_u,97,fruity,juicy,assonance,synonym,both mean ripe flavor,"Fruity smoothies, juicy peaches, summer tastes like sunshine."
+long_u,98,music,muse,assonance,cause-effect,inspiration creates song,"You are my muse, and I hear music everywhere."
+long_u,99,music,flute,assonance,part-whole,instrument making melody,The flute fills the meadow with music at sunrise.
+long_u,100,spoon,soup,assonance,scene,warm supper table,A wooden spoon stirs the soup beside the fire.
+short_a,1,dance,prance,perfect,synonym,both mean move with joy,We dance across the meadow and prance beneath the moon
+short_a,2,jazzy,snazzy,perfect,synonym,both mean lively and stylish,Jazzy shoes and a snazzy hat for the Saturday swing
+short_a,3,flashy,splashy,perfect,synonym,both mean bold and showy,Flashy lights and splashy colors paint the carnival night
+short_a,4,tango,fandango,perfect,synonym,both are lively dances,"We tango in the kitchen, then fandango down the hall"
+short_a,5,passion,compassion,perfect,synonym,both are heartfelt feelings,Lead with passion and love the world with compassion
+short_a,6,grasp,clasp,perfect,synonym,both mean hold tightly,I grasp your hand and clasp it close beneath the stars
+short_a,7,catch,match,perfect,synonym,both mean ideal partner,"You're a catch, and darling, we're a perfect match"
+short_a,8,static,ecstatic,perfect,antonym,unmoving versus wildly joyful,"No more static evenings, my heart is ecstatic now"
+short_a,9,enhance,advance,perfect,synonym,both mean improve something,Each lesson will enhance your skill and advance your dream
+short_a,10,splash,dash,perfect,synonym,both mean small poured amount,"A splash of cream, a dash of cinnamon, a perfect morning"
+short_a,11,handy,dandy,perfect,synonym,both mean fine and helpful,A handy friend makes every day just dandy
+short_a,12,attach,latch,perfect,synonym,both mean fasten securely,"Attach the ribbon, latch the gate, and run to meet me"
+short_a,13,wrap,strap,perfect,synonym,both mean bind around something,Wrap the gift in gold and strap it to the sled
+short_a,14,pack,stack,perfect,synonym,both mean load things together,Pack the presents and stack them high beneath the tree
+short_a,15,pact,contract,perfect,synonym,both mean binding agreement,"We made a pact, a contract sealed with a grin"
+short_a,16,cash,stash,perfect,synonym,both mean money saved up,Count the cash and tuck it in our travel stash
+short_a,17,demand,command,perfect,synonym,both mean firmly require,You command the stage and the fans demand one more song
+short_a,18,attach,detach,perfect,antonym,fasten versus unfasten,"Attach the sail at sunrise, detach it when we're home"
+short_a,19,pack,unpack,perfect,antonym,fill versus empty bags,We pack for the mountains and unpack beside the lake
+short_a,20,gratitude,attitude,perfect,cause-effect,thankfulness shapes your outlook,An attitude of gratitude turns every day to gold
+short_a,21,glance,romance,perfect,cause-effect,a look sparks love,One glance across the room and our romance began
+short_a,22,hand,band,perfect,part-whole,ring worn on hand,"A golden band upon your hand, forever and a day"
+short_a,23,chance,dance,perfect,cause-effect,daring leads to dancing,Take a chance and ask me for a dance
+short_a,24,outstanding,standing,perfect,cause-effect,great shows earn ovations,An outstanding show brings a standing ovation
+short_a,25,grad,glad,perfect,cause-effect,graduating makes you joyful,Every proud grad is glad to toss that cap
+short_a,26,fantastic,enthusiastic,perfect,cause-effect,great shows excite crowds,The show was fantastic and the crowd enthusiastic
+short_a,27,act,impact,perfect,cause-effect,kind deeds make difference,Every kind act makes an impact on the world
+short_a,28,action,satisfaction,perfect,cause-effect,effort brings fulfillment,Turn your dreams to action and taste satisfaction
+short_a,29,craft,raft,perfect,part-whole,a raft is a craft,"Our little craft, a raft of pine, drifts down the stream"
+short_a,30,sap,tap,perfect,cause-effect,tapping trees draws sap,We tap the maple and the sweet sap flows
+short_a,31,class,pass,perfect,cause-effect,studying lets you pass,Study with a smile and you will pass the class
+short_a,32,granted,enchanted,perfect,scene,magic makes wishes true,Your wish is granted in the enchanted wood
+short_a,33,classy,snazzy,slant,synonym,both mean smartly stylish,A classy coat and snazzy shoes for the gala
+short_a,34,dash,panache,slant,synonym,both mean stylish flair,She enters with a dash of daring and pure panache
+short_a,35,magic,logic,slant,antonym,wonder versus cool reason,Your magic melts my logic every single time
+short_a,36,cat,pet,slant,part-whole,a cat is a pet,My cat is the sweetest pet who ever purred
+short_a,37,pat,tap,slant,synonym,both mean gentle touch,"A pat on the back, a tap on the shoulder, well done"
+short_a,38,cap,hat,slant,synonym,both are worn headwear,"Tip your cap or wave your hat, the parade is here"
+short_a,39,bag,pack,slant,synonym,both carry your things,"Lift your bag, shoulder your pack, the trail is calling"
+short_a,40,sack,bag,slant,synonym,both are carrying pouches,Fill a sack with apples and a bag with bread
+short_a,41,piano,soprano,perfect,scene,singer with her accompanist,The piano swells as the soprano soars
+short_a,42,dance,romance,perfect,scene,couples swaying in love,One more dance under fairy lights and our romance blooms
+short_a,43,happy,snappy,perfect,scene,cheerful upbeat little tune,"Whistle a happy, snappy tune as we stroll to town"
+short_a,44,clapping,tapping,perfect,scene,joyful rhythm made together,"Hands are clapping, feet are tapping, the whole room sings"
+short_a,45,granny,nanny,perfect,scene,loving caregivers for children,Granny and the nanny sing the baby a lullaby
+short_a,46,dad,lad,perfect,scene,father and young son,Dad and the lad go fishing at sunrise
+short_a,47,nap,lap,perfect,scene,kitten dozing on knees,The kitten takes a nap curled up in my lap
+short_a,48,cat,mat,perfect,scene,pet curled on rug,The cat stretched out sunny on the welcome mat
+short_a,49,lamb,ram,perfect,scene,young and grown sheep,The lamb leaps while the ram keeps watch on the hill
+short_a,50,banana,cabana,perfect,scene,tropical beachside treats,A banana smoothie in the shade of the cabana
+short_a,51,sand,strand,perfect,scene,golden beach shoreline,"Barefoot on the sand, we stroll the golden strand"
+short_a,52,clap,snap,perfect,scene,rhythm made with hands,Clap your hands and snap your fingers to the beat
+short_a,53,camp,lamp,perfect,scene,light glowing at campsite,Back at camp we read by the glow of a lamp
+short_a,54,ham,yam,perfect,scene,holiday feast side dishes,Honey ham and buttered yam on the holiday table
+short_a,55,band,stand,perfect,scene,music from the bandstand,The band strikes up from the old park stand
+short_a,56,sang,rang,perfect,scene,chorus with ringing bells,The children sang as the church bells rang
+short_a,57,jazz,pizzazz,perfect,scene,music bursting with flair,The jazz trio played with pizzazz all night long
+short_a,58,cat,nap,slant,scene,a short daytime doze,Curl up like a cat and take a sunny nap
+short_a,59,brass,jazz,slant,scene,horns of jazz bands,Bright brass rings out and the jazz begins to swing
+short_a,60,catch,fetch,slant,scene,playing games with dogs,"Toss the ball, play catch, and watch the puppy fetch"
+short_a,61,math,graph,slant,scene,plotting numbers visually,We turn our math into a rising graph of dreams
+short_a,62,glad,happy,assonance,synonym,both mean joyful mood,"I'm so glad you're here, so happy you came home"
+short_a,63,happily,gladly,assonance,synonym,both mean with joy,I will happily follow and gladly hold your hand
+short_a,64,fabulous,fantastic,assonance,synonym,both mean wonderful,A fabulous night and a fantastic view
+short_a,65,granny,grandma,assonance,synonym,both mean grandmother,"Granny bakes the cookies, Grandma pours the tea"
+short_a,66,family,clan,assonance,synonym,both mean kin group,"Our family gathers, the whole happy clan"
+short_a,67,lad,lass,assonance,antonym,boy versus girl,A lad and a lass dance a jig at the fair
+short_a,68,pancake,flapjack,assonance,synonym,both name griddle cakes,"One pancake, two, a flapjack tower drizzled gold"
+short_a,69,attractive,handsome,assonance,synonym,both mean good-looking,An attractive grin on a handsome face
+short_a,70,handsome,dashing,assonance,synonym,both mean stylishly attractive,So handsome and dashing in his Sunday best
+short_a,71,lavish,extravagant,assonance,synonym,both mean richly abundant,"A lavish feast, an extravagant cake, for you"
+short_a,72,bonanza,jackpot,assonance,synonym,both mean big windfall,"A bonanza of luck, we hit the jackpot"
+short_a,73,antics,pranks,assonance,synonym,both are playful tricks,Silly antics and harmless pranks fill the summer camp
+short_a,74,mammoth,massive,assonance,synonym,both mean enormous,"A mammoth sky, a massive moon, and you beside me"
+short_a,75,vast,expanse,assonance,synonym,both evoke huge space,"A vast blue sky, an endless expanse of light"
+short_a,76,rapid,languid,assonance,antonym,quick versus slow,Rapid rivers turn to languid pools at dusk
+short_a,77,knack,aptitude,assonance,synonym,both mean natural skill,"You've got a knack, a true aptitude for joy"
+short_a,78,savvy,canny,assonance,synonym,both mean shrewd,A savvy mind and a canny smile win the day
+short_a,79,glance,scan,assonance,synonym,both mean quick look,Glance at the stars and scan the sky for wishes
+short_a,80,grasp,fathom,assonance,synonym,both mean understand,I cannot grasp or fathom how much I adore you
+short_a,81,chant,mantra,assonance,synonym,both are repeated phrases,We chant our mantra softly as the sun comes up
+short_a,82,static,dynamic,assonance,antonym,still versus energetic,"Leave the static behind, our love is dynamic"
+short_a,83,active,passive,assonance,antonym,acting versus receiving,"Be active in your dreams, never passive in your days"
+short_a,84,add,subtract,assonance,antonym,plus versus minus,"Add a little laughter, subtract a little rain"
+short_a,85,expand,contract,assonance,antonym,grow versus shrink,Lungs expand and contract as we sing together
+short_a,86,cab,taxi,assonance,synonym,both are hired cars,"Hail a cab or flag a taxi, I'll meet you downtown"
+short_a,87,pants,slacks,assonance,synonym,both are trousers,"Pressed pants or comfy slacks, just come dance with me"
+short_a,88,strategy,tactics,assonance,synonym,both mean planned approach,"Our strategy is kindness, our tactics are smiles"
+short_a,89,canyon,chasm,assonance,synonym,both are deep gorges,"Across the canyon, over the chasm, our voices echo"
+short_a,90,laugh,happy,assonance,cause-effect,laughing lifts the mood,One laugh with you and I am happy all day
+short_a,91,slapstick,laugh,assonance,cause-effect,comedy draws out laughter,A slapstick tumble makes the whole crowd laugh
+short_a,92,attract,magnet,assonance,cause-effect,magnets pull things close,You attract me like a magnet draws the steel
+short_a,93,candy,taffy,assonance,part-whole,taffy is a candy,Sweet candy stripes and salty taffy at the pier
+short_a,94,map,atlas,assonance,part-whole,atlas collects many maps,"Unfold the map, open the atlas, choose our adventure"
+short_a,95,fabric,satin,assonance,part-whole,satin is a fabric,"Soft fabric, shining satin, sewn into her gown"
+short_a,96,language,slang,assonance,part-whole,slang lives within language,Every language sparkles with its playful slang
+short_a,97,magic,abracadabra,assonance,scene,words that cast spells,Say abracadabra and feel the magic rise
+short_a,98,rabbit,hat,assonance,scene,magician's classic trick,The magician pulls a rabbit from his hat
+short_a,99,giraffe,savannah,assonance,scene,wildlife on open plains,A giraffe strolls gently across the golden savannah
+short_a,100,planet,galactic,assonance,scene,wonders of outer space,Our tiny planet spins in the galactic dance
+short_e,1,ascend,descend,perfect,antonym,rising versus coming down,We ascend at dawn and descend in golden evening light.
+short_e,2,plenty,many,perfect,synonym,both mean a lot,There is plenty of love and many hands to share it.
+short_e,3,tremendous,stupendous,perfect,synonym,both mean wonderfully huge,A tremendous cheer for a stupendous night beneath the stars.
+short_e,4,consent,assent,perfect,synonym,both mean giving agreement,With a nod of consent she gave her happy assent.
+short_e,5,steady,ready,perfect,synonym,both mean poised and prepared,"Hold your hands steady, your heart is ready."
+short_e,6,mend,amend,perfect,synonym,both mean fixing something,We mend the gate and amend the plan together.
+short_e,7,select,elect,perfect,synonym,both mean choosing,We select the brightest plan and elect the kindest voice.
+short_e,8,intent,meant,perfect,synonym,both concern intended purpose,"Her intent was kind, and every word was meant."
+short_e,9,tend,attend,perfect,synonym,both mean caring for,Tend the roses and attend to every bloom with love.
+short_e,10,edge,ledge,perfect,synonym,both name a rim,Sit on the sunny ledge at the edge of the sea.
+short_e,11,objective,subjective,perfect,antonym,fact versus personal view,Be objective with the facts and subjective with your heart.
+short_e,12,consent,dissent,perfect,antonym,agreeing versus disagreeing,"Give your consent or share your dissent, every voice counts."
+short_e,13,poetic,aesthetic,perfect,synonym,both prize artful beauty,A poetic sunrise with an aesthetic golden glow.
+short_e,14,transcend,ascend,perfect,synonym,both mean rising above,Our voices ascend and our spirits transcend the clouds.
+short_e,15,procession,succession,perfect,synonym,both mean orderly sequence,A procession of lanterns glowing in gentle succession.
+short_e,16,sketch,etch,perfect,synonym,both mean drawing lines,"Sketch the hills in pencil, then etch them in silver."
+short_e,17,immense,intense,perfect,synonym,both mean very great,The sky was immense and the sunset colors intense.
+short_e,18,success,progress,perfect,synonym,both mean moving forward,Every small success is a happy step of progress.
+short_e,19,request,suggest,perfect,synonym,both mean politely proposing,May I request a song and suggest a dance?
+short_e,20,reflection,introspection,perfect,synonym,both mean looking inward,Quiet reflection and gentle introspection help the heart grow.
+short_e,21,expressed,confessed,perfect,synonym,both mean revealing feelings,The love she expressed was the love he confessed.
+short_e,22,end,extend,perfect,antonym,stopping versus carrying on,"Don't end the song tonight, extend it one more verse."
+short_e,23,mend,tend,perfect,synonym,both mean caring for things,"Tend the garden, mend the fence, and watch love grow."
+short_e,24,leapt,stepped,perfect,synonym,both are moving feet,She leapt over puddles and stepped into the sunshine.
+short_e,25,cosmetic,aesthetic,perfect,synonym,both concern outward beauty,A cosmetic sparkle adds an aesthetic touch of rose.
+short_e,26,dress,impress,perfect,cause-effect,dressing up to impress,"Put on your finest dress, you are sure to impress."
+short_e,27,affection,connection,perfect,cause-effect,warmth builds close bonds,Your affection is the thread of our connection.
+short_e,28,respect,protect,perfect,cause-effect,we guard what we value,We protect the gardens and the friends we respect.
+short_e,29,expression,impression,perfect,cause-effect,showing feeling leaves a mark,One kind expression left a lasting impression.
+short_e,30,rest,digest,perfect,cause-effect,calm bodies digest food,After the feast we rest and slowly digest.
+short_e,31,friend,lend,perfect,cause-effect,friends lend a hand,A true friend will always lend a hand.
+short_e,32,friends,amends,perfect,cause-effect,making peace keeps friends,We made amends and stayed the closest of friends.
+short_e,33,friend,defend,perfect,cause-effect,friends stand up for you,A loyal friend will always defend your dreams.
+short_e,34,mention,attention,perfect,cause-effect,naming something draws focus,One gentle mention brought her talent the attention it deserved.
+short_e,35,pep,step,perfect,cause-effect,energy adds a bounce,Put a little pep in every step.
+short_e,36,sled,sped,perfect,cause-effect,sliding fast downhill,The little red sled sped down the snowy hill.
+short_e,37,fiesta,siesta,perfect,cause-effect,party then afternoon nap,"After the fiesta, a sweet siesta in the shade."
+short_e,38,fed,bread,perfect,cause-effect,bread feeds the table,Warm bread fed the whole happy table.
+short_e,39,pleasant,present,perfect,cause-effect,a gift brings joy,What a pleasant present wrapped in silver ribbon.
+short_e,40,splendid,commended,perfect,cause-effect,fine work earns praise,Her splendid painting was warmly commended by all.
+short_e,41,affection,protection,perfect,cause-effect,love keeps people safe,A mother's affection is the warmest kind of protection.
+short_e,42,bed,spread,perfect,part-whole,a bedspread covers beds,A quilted spread lies across the cozy bed.
+short_e,43,tent,event,perfect,part-whole,tents host outdoor events,Under the striped tent the whole event came alive.
+short_e,44,chest,vest,perfect,part-whole,a vest covers chests,A velvet vest buttoned snug across his chest.
+short_e,45,rest,nest,perfect,scene,birds rest in nests,Little birds rest in a cozy nest.
+short_e,46,pet,vet,perfect,scene,vets care for pets,The kind vet hugged every happy pet.
+short_e,47,menu,venue,perfect,scene,a dining spot's offerings,The cozy venue had a menu full of treats.
+short_e,48,seven,heaven,perfect,scene,seventh heaven joy idiom,Seven stars came out and we were in heaven.
+short_e,49,hen,wren,perfect,scene,birds in the yard,A brown hen and a tiny wren share the morning.
+short_e,50,den,glen,perfect,scene,cozy woodland hideaways,A fox curled in her den in the misty glen.
+short_e,51,quest,west,perfect,scene,journeys toward the sunset,Our quest leads west toward the golden sun.
+short_e,52,question,suggestion,perfect,scene,back and forth conversation,Every question met a kind and helpful suggestion.
+short_e,53,complexion,reflection,perfect,scene,a mirror shows faces,Her glowing complexion shone in the lake's reflection.
+short_e,54,bless,caress,perfect,scene,tender loving gestures,Bless the baby with a gentle caress.
+short_e,55,stems,gems,perfect,scene,dewdrops sparkle on flowers,Dewdrops shine like gems on the flower stems.
+short_e,56,neck,peck,perfect,scene,a tender little kiss,A tiny peck upon her neck.
+short_e,57,zen,amen,perfect,scene,peaceful prayerful calm,Breathe in the zen and whisper amen.
+short_e,58,duet,quintet,perfect,scene,groups making music together,A sweet duet grew into a joyful quintet.
+short_e,59,empty,plenty,slant,antonym,nothing versus abundance,"From an empty cup to plenty, love refills it."
+short_e,60,credit,debit,slant,antonym,money in versus out,Every debit and credit balanced at last.
+short_e,61,west,east,slant,antonym,opposite compass directions,From east to west the morning sunshine spreads.
+short_e,62,empathy,sympathy,slant,synonym,both mean sharing feelings,Empathy listens closely and sympathy holds your hand.
+short_e,63,friendly,gently,slant,synonym,both describe kind manners,A friendly wave and a gently spoken hello.
+short_e,64,lend,rent,slant,synonym,both mean temporary use,Lend me your bike or let us rent a boat.
+short_e,65,essence,presence,slant,synonym,both mean inner being,Your presence carries the essence of spring.
+short_e,66,lesson,session,slant,synonym,both are class periods,Every session brings a brand new lesson.
+short_e,67,bless,bliss,slant,cause-effect,blessings bring deep joy,Bless this day with bliss and laughter.
+short_e,68,rest,refreshed,slant,cause-effect,resting restores your energy,After a little rest I woke refreshed.
+short_e,69,fresh,press,slant,cause-effect,squeezing makes fresh juice,Fresh oranges in the press make morning juice.
+short_e,70,attend,event,slant,cause-effect,guests come to occasions,We attend the event in our brightest colors.
+short_e,71,lessons,blessings,slant,scene,gifts that life teaches,Count your lessons right along with your blessings.
+short_e,72,wedding,setting,slant,scene,a lovely venue backdrop,A garden setting for our sunlit wedding.
+short_e,73,meadow,shadow,slant,scene,sunny field with shade,Lie in the meadow in the willow's cool shadow.
+short_e,74,crescent,pleasant,slant,scene,a lovely moonlit evening,A crescent moon on a pleasant summer night.
+short_e,75,pet,pep,slant,scene,a lively playful animal,Our playful pet is full of pep.
+short_e,76,confetti,ready,slant,scene,party about to start,"Grab the confetti, the party is ready!"
+short_e,77,test,desk,slant,scene,classroom exam setting,Pencils wait on every desk for the spelling test.
+short_e,78,fence,hens,slant,scene,a cozy farmyard enclosure,The hens peck happily along the garden fence.
+short_e,79,penny,cent,assonance,synonym,both are one-cent coins,A shiny penny is a single cent of luck.
+short_e,80,protect,defend,assonance,synonym,both mean keeping safe,We protect our dreams and defend our hope.
+short_e,81,authentic,genuine,assonance,synonym,both mean truly real,Her laugh is authentic and her kindness genuine.
+short_e,82,heavenly,blessed,assonance,synonym,both mean divinely joyful,"A heavenly morning, and I feel so blessed."
+short_e,83,exquisite,splendid,assonance,synonym,both mean beautifully fine,An exquisite meal on a splendid summer night.
+short_e,84,adept,deft,assonance,synonym,both mean skillful,Adept hands and deft fingers weave the basket.
+short_e,85,stretch,bend,assonance,synonym,both are flexible moves,Stretch your arms and bend like a willow in the wind.
+short_e,86,heavy,hefty,assonance,synonym,both mean weighty,"A hefty box, a heavy load of birthday gifts."
+short_e,87,step,tread,assonance,synonym,both mean walking,Step softly and tread lightly through the meadow.
+short_e,88,segment,section,assonance,synonym,both mean a part,"Each segment of orange, each section of sun."
+short_e,89,medley,blend,assonance,synonym,both mean a mixture,"A medley of berries, a blend of sweet and tart."
+short_e,90,breadth,depth,assonance,synonym,both measure size,The ocean's depth and the sky's breadth live in your eyes.
+short_e,91,resonate,echo,assonance,synonym,both mean sound returning,Our laughter will resonate and echo through the hills.
+short_e,92,content,zen,assonance,synonym,both mean peacefully calm,Content and zen beneath the willow tree.
+short_e,93,scent,sense,assonance,cause-effect,smell wakes the senses,A rose's scent awakens every sense.
+short_e,94,lemon,zest,assonance,part-whole,zest comes from peel,Grate the lemon zest over the honey cake.
+short_e,95,nest,egg,assonance,part-whole,eggs sit in nests,A speckled egg tucked in a soft nest.
+short_e,96,necklace,pendant,assonance,part-whole,pendant hangs from necklace,A silver pendant swings from her favorite necklace.
+short_e,97,check,chess,assonance,part-whole,a move in chess,"Check, she cried, winning her very first chess game."
+short_e,98,friend,best,assonance,scene,best friends forever,You are my best friend in every kind of weather.
+short_e,99,legacy,legend,assonance,scene,lasting fame and story,A legend leaves a legacy of kindness.
+short_e,100,wedding,dress,assonance,scene,the bride's lovely gown,Her wedding dress was made of lace and light.
+short_i,1,slim,trim,perfect,synonym,both mean lean and neat,"Slim as a willow, trim as a sail, she dances down the lane"
+short_i,2,brim,rim,perfect,synonym,both name a cup's edge,"Fill my cup up to the brim, sunlight shining on the rim"
+short_i,3,snip,clip,perfect,synonym,both mean a quick cut,"A snip of ribbon, a clip of the bow, and the gift is ready"
+short_i,4,kiss,bliss,perfect,cause-effect,a kiss brings pure bliss,"One kiss beneath the summer stars, and all I feel is bliss"
+short_i,5,explicit,implicit,perfect,antonym,spelled out versus quietly implied,"Your love was never explicit, yet implicit in every glance"
+short_i,6,wink,blink,perfect,synonym,both are quick eye movements,"With a wink and a blink, the whole room started laughing"
+short_i,7,tint,hint,perfect,synonym,both mean a faint trace,"A tint of rose, a hint of gold across the morning sky"
+short_i,8,admit,omit,perfect,antonym,let in versus leave out,"Admit the sunshine, omit the doubt, and fling the windows wide"
+short_i,9,drift,shift,perfect,synonym,both mean gentle movement,Let the clouds drift and the bright seasons shift
+short_i,10,link,sync,perfect,synonym,both mean to connect,Link your hand with mine and our hearts beat in sync
+short_i,11,fling,sling,perfect,synonym,both mean to throw,Fling your worries wide and sling them past the moon
+short_i,12,ding,ring,perfect,synonym,both are bell sounds,"Ding goes the shop door, ring go the bells of home"
+short_i,13,ping,ding,perfect,synonym,both are bright chime sounds,"A ping from the kettle, a ding from the oven, breakfast is ready"
+short_i,14,assist,resist,perfect,antonym,helping versus pushing back,Don't resist the music; let the rhythm assist your feet
+short_i,15,mission,ambition,perfect,synonym,both mean a driving purpose,"Ambition lights the road, and the mission carries us home"
+short_i,16,clinch,cinch,perfect,synonym,both mean to secure,"Cinch the saddle tight, then clinch the summer race"
+short_i,17,rendition,edition,perfect,synonym,both mean a new version,"A fresh edition of our song, a sweeter rendition of the tune"
+short_i,18,efficient,proficient,perfect,synonym,both mean skilled and capable,Proficient hands and efficient hearts built this house of joy
+short_i,19,nip,sip,perfect,synonym,both mean a small drink,"A nip of cider, a sip of tea, warm beside the fire"
+short_i,20,sniff,whiff,perfect,synonym,both mean catching a smell,"One sniff, one whiff of baking bread, and I'm home again"
+short_i,21,twin,akin,perfect,synonym,both mean closely alike,"Our hearts are twin flames, akin in every dream"
+short_i,22,whisk,brisk,perfect,synonym,both suggest quick motion,Whisk me away on a brisk spring breeze
+short_i,23,click,tick,perfect,synonym,both are small crisp sounds,"The click of the latch, the tick of the clock, I'm home"
+short_i,24,win,grin,perfect,cause-effect,a win sparks a grin,Every little win puts a grin upon my face
+short_i,25,lift,gift,perfect,cause-effect,a gift lifts the spirit,Your laughter is a gift that can lift the grayest day
+short_i,26,living,giving,perfect,cause-effect,giving makes life rich,The secret of living is found in the giving
+short_i,27,kitten,smitten,perfect,cause-effect,kittens make hearts smitten,One look at the kitten and the whole family was smitten
+short_i,28,ambition,fruition,perfect,cause-effect,ambition ripens into results,Plant your ambition and tend it to fruition
+short_i,29,flint,glint,perfect,cause-effect,struck flint throws a spark,Strike the flint and catch the glint of campfire light
+short_i,30,kittens,mittens,perfect,scene,nursery rhyme kittens find mittens,Three little kittens found their mittens in the snow
+short_i,31,wiggling,giggling,perfect,scene,children playing with glee,Toddlers wiggling and giggling in a pile of autumn leaves
+short_i,32,ship,trip,perfect,scene,a voyage at sea,We board the ship for a sunlit trip across the bay
+short_i,33,sing,ring,perfect,scene,bells and voices celebrate,Let the church bells ring and all the children sing
+short_i,34,wing,sing,perfect,scene,birds singing in flight,Swallows on the wing sing the morning awake
+short_i,35,cricket,wicket,perfect,part-whole,the wicket anchors cricket,"Summer cricket on the green, the bowler aims for the wicket"
+short_i,36,sip,lip,perfect,part-whole,lips take a sip,"A sip of lemonade, sweet and cool upon my lip"
+short_i,37,twist,wrist,perfect,part-whole,a twist of the wrist,"With a twist of the wrist, the kite leaps into the sky"
+short_i,38,kin,twin,perfect,part-whole,a twin is closest kin,"My twin, my closest kin, my mirror in the morning light"
+short_i,39,violin,chin,perfect,scene,violin rests under chin,She tucks the violin beneath her chin and the music soars
+short_i,40,drink,clink,perfect,scene,glasses meet in a toast,Raise a drink to friendship and let the glasses clink
+short_i,41,fish,dish,perfect,scene,fresh catch for dinner,Fresh fish from the harbor makes the finest dish
+short_i,42,twig,stick,slant,synonym,both mean a small branch,"A twig, a stick, a little nest for spring"
+short_i,43,thin,slim,slant,synonym,both mean slender,Thin as a reed and slim as the crescent moon
+short_i,44,vision,mission,slant,synonym,both mean a guiding purpose,Hold the vision close and let the mission lead
+short_i,45,pip,pit,slant,synonym,both mean a fruit seed,Save the cherry pit and the apple pip for planting
+short_i,46,chip,bit,slant,synonym,both mean a small piece,"A chip of chocolate, a bit of cake, a perfect afternoon"
+short_i,47,sing,song,slant,cause-effect,singing makes a song,Sing me a song of the open road
+short_i,48,tip,top,slant,synonym,both mean the highest point,From the tip of the tower to the top of the world
+short_i,49,drip,drop,slant,synonym,both mean a falling bead,"Drip by drop, the spring rain fills the garden"
+short_i,50,skip,hop,slant,synonym,both mean light bouncing steps,Skip and hop along the path to the summer fair
+short_i,51,twinkling,sprinkling,perfect,scene,stars scattered across the sky,A sprinkling of stars is twinkling over the sleepy town
+short_i,52,spring,swing,perfect,scene,playground swings in springtime,"Come the spring, we swing beneath the cherry blossoms"
+short_i,53,crib,bib,perfect,scene,a newborn baby's nursery,"A tiny bib, a cozy crib, our sweet new baby is home"
+short_i,54,kitty,pretty,perfect,scene,a sweet charming cat,Our pretty kitty curls up purring in the sun
+short_i,55,bridge,ridge,perfect,scene,crossing the high country,From the ridge we watched the sunrise gild the bridge
+short_i,56,gym,swim,perfect,scene,a morning fitness routine,"Hit the gym at dawn, then a cool blue swim"
+short_i,57,spring,fling,perfect,scene,carefree springtime romance,Sunny spring brought a sweet and carefree fling
+short_i,58,sitting,knitting,perfect,scene,cozy fireside craft,"Grandma's sitting by the fire, knitting scarves of blue"
+short_i,59,quiz,whiz,perfect,scene,a trivia champion shines,She's a whiz at every quiz on trivia night
+short_i,60,jig,gig,perfect,scene,a folk band performs,The band's last gig ended with a joyful jig
+short_i,61,chip,dip,perfect,scene,a party snack pairing,"Grab a chip, take a dip, the party's just begun"
+short_i,62,grin,chin,perfect,scene,a happy smiling face,A grin from ear to ear and frosting on his chin
+short_i,63,king,ring,perfect,scene,a royal signet ring,The king raised his golden ring to bless the feast
+short_i,64,fig,twig,perfect,scene,fruit on a branch,A ripe fig hangs heavy from the twig
+short_i,65,bricks,sticks,perfect,scene,three little pigs' houses,"Build your house of bricks, not straw or sticks"
+short_i,66,hit,mitt,perfect,scene,a summer baseball game,"Crack of a hit, pop of a mitt, summer's here"
+short_i,67,mist,kissed,perfect,scene,a dewy morning meadow,Morning mist kissed the meadow awake
+short_i,68,delicious,nutritious,perfect,scene,praise for wholesome food,Grandma's soup is both delicious and nutritious
+short_i,69,ditty,witty,perfect,scene,a clever little song,A witty little ditty to brighten up your day
+short_i,70,musician,audition,perfect,scene,trying out for a band,The young musician nailed her very first audition
+short_i,71,musician,rendition,perfect,scene,a performer's take on song,The musician gave a tender rendition of our wedding song
+short_i,72,wit,quip,slant,cause-effect,wit produces a quip,"Her wit is quick, each quip a sparkling gem"
+short_i,73,wink,hint,slant,cause-effect,a wink drops a hint,A playful wink was all the hint I needed
+short_i,74,bliss,wish,slant,cause-effect,a granted wish brings bliss,Make a wish upon a falling star and wake to bliss
+short_i,75,wish,kiss,slant,scene,wishing for a kiss,I made a wish and the wind blew me a kiss
+short_i,76,fin,swim,slant,cause-effect,fins help fish swim,"With a flick of the fin, the goldfish loves to swim"
+short_i,77,ink,print,slant,cause-effect,ink makes the print,"Fresh ink on the page, fresh print of our story"
+short_i,78,wisp,mist,slant,part-whole,a wisp of mist,A wisp of silver mist curls above the lake
+short_i,79,wick,lit,slant,scene,a candle glowing warm,"The wick is lit, the room is warm and gold"
+short_i,80,violin,string,slant,part-whole,strings make the violin,"One string, one violin, one song to fill the hall"
+short_i,81,tick,tock,slant,scene,a clock keeping time,"Tick and tock, the clock counts down to the party"
+short_i,82,ambition,vision,slant,synonym,both mean goals ahead,"Ambition fuels the engine, and vision steers the way"
+short_i,83,thin,thick,assonance,antonym,slender versus broad,"Through thick and thin, I'll be right by your side"
+short_i,84,kinship,kindred,assonance,synonym,both mean family closeness,Kindred spirits share a kinship deeper than the sea
+short_i,85,begin,finish,assonance,antonym,starting versus completing,Begin with hope and finish with a song
+short_i,86,win,victory,assonance,synonym,both mean triumph,"One more win, one more victory for the home team"
+short_i,87,dim,lit,assonance,antonym,shadowy versus brightly glowing,The hall was dim until your smile lit every lamp
+short_i,88,quick,swift,assonance,synonym,both mean fast,Quick as a fox and swift as the river
+short_i,89,infinite,limit,assonance,antonym,boundless versus bounded,Love has no limit; its reach is infinite
+short_i,90,midday,midnight,assonance,antonym,noon versus deep night,"From midday sun to midnight moon, I think of you"
+short_i,91,dizzy,giddy,assonance,synonym,both mean lightheaded joy,"Dizzy with laughter, giddy as a child at play"
+short_i,92,wisdom,insight,assonance,synonym,both mean deep understanding,"Years bring wisdom, and quiet hours bring insight"
+short_i,93,insight,instinct,assonance,synonym,both mean inner knowing,Trust your insight and follow your instinct home
+short_i,94,inkling,hint,assonance,synonym,both mean a faint clue,"Just an inkling, just a hint, of the spring to come"
+short_i,95,different,distinct,assonance,synonym,both mean not alike,"Every snowflake is different, each one distinct and bright"
+short_i,96,sink,swim,assonance,antonym,going under versus staying afloat,"Sink or swim, we'll paddle on together"
+short_i,97,sift,sieve,assonance,synonym,both mean to strain,Sift the flour through the sieve for the birthday cake
+short_i,98,crisp,brisk,assonance,synonym,both describe fresh cool air,A crisp blue morning and a brisk walk by the sea
+short_i,99,mimic,imitate,assonance,synonym,both mean to copy,"The parrot loves to mimic, and the children imitate"
+short_i,100,kingdom,dominion,assonance,synonym,both mean a ruled realm,"Across the kingdom and the wide dominion, bells rang out"
+short_o,1,fond,bond,perfect,cause-effect,fondness forges a bond,We grew so fond our friendship became a bond.
+short_o,2,belonging,longing,perfect,cause-effect,longing seeks belonging,All my longing found its belonging in your arms.
+short_o,3,lock,unlock,perfect,antonym,closing versus opening up,"Every lock I built around my heart, your laugh would unlock."
+short_o,4,common,uncommon,perfect,antonym,ordinary versus rare,"In a common crowd, your kindness is uncommon."
+short_o,5,stop,nonstop,perfect,antonym,halting versus never halting,"We never stop, this joy keeps running nonstop."
+short_o,6,hop,bop,perfect,synonym,both mean bouncy dancing,Hop to the beat and bop until the sunrise.
+short_o,7,popping,hopping,perfect,synonym,both mean lively and busy,The party's popping and the dance floor's hopping.
+short_o,8,spotted,dotted,perfect,synonym,both mean speckled with marks,"The meadow, spotted gold and dotted white with daisies."
+short_o,9,ma,pa,perfect,antonym,mother and father counterparts,Ma hums the melody and Pa keeps the time.
+short_o,10,aha,ah,perfect,synonym,both voice sudden understanding,"Aha, the puzzle clicks, and ah, the whole room glows."
+short_o,11,opt,adopt,perfect,synonym,both mean choose to take,We opt for love and adopt a puppy with a happy tail.
+short_o,12,squad,pod,perfect,synonym,both mean close group,"My squad, my pod, we move as one bright wave."
+short_o,13,spot,dot,perfect,synonym,both mean tiny mark,"A sunny spot, a golden dot of freckle on your cheek."
+short_o,14,lot,plot,perfect,synonym,both mean parcel of land,"A tiny lot, a garden plot, where our sunflowers grow."
+short_o,15,loft,aloft,perfect,synonym,both suggest high up,From the loft we send our paper kites aloft.
+short_o,16,on,upon,perfect,synonym,both mean resting atop,"Light upon the water, sunshine on the bay."
+short_o,17,top,atop,perfect,synonym,both mean at the summit,Climb to the top and sit atop the world with me.
+short_o,18,slot,spot,perfect,synonym,both mean an assigned place,"Save a slot, keep a spot for me beside you."
+short_o,19,dominant,prominent,perfect,synonym,both mean standing out,"Your laughter, dominant and prominent, fills the whole hall."
+short_o,20,podcast,broadcast,perfect,synonym,both mean airing a show,Our little podcast became a broadcast of pure hope.
+short_o,21,blog,log,perfect,synonym,a blog is web log,"My travel blog, a daily log of sunny roads."
+short_o,22,rocks,blocks,perfect,synonym,both mean solid chunks,We stack smooth rocks like building blocks along the shore.
+short_o,23,conscious,subconscious,perfect,antonym,aware versus hidden mind,My conscious mind and my subconscious both hum your name.
+short_o,24,profit,nonprofit,perfect,antonym,for gain versus not,"Not for profit, our nonprofit runs on pure goodwill."
+short_o,25,awe,jaw,perfect,cause-effect,awe drops the jaw,"In awe, my jaw just drops beneath the starry sky."
+short_o,26,spa,ah,perfect,cause-effect,spa brings a relaxed sigh,"Slip into the spa and breathe a long, warm ah."
+short_o,27,thought,taught,perfect,cause-effect,teaching shapes our thought,"Every gentle thought I hold, my mother taught me."
+short_o,28,long,prolong,perfect,cause-effect,prolonging makes it long,"Summer days grow long, so let's prolong the light."
+short_o,29,shop,drop,perfect,cause-effect,shop until you drop,We'll shop and laugh and dance until we drop.
+short_o,30,mop,drop,perfect,cause-effect,mopping clears each drop,Grab the mop and catch each drop of spilled lemonade.
+short_o,31,paws,claws,perfect,part-whole,claws tip the paws,Soft little paws tuck in their sleepy claws.
+short_o,32,box,blocks,perfect,part-whole,toy box holds blocks,The toy box spills a rainbow of wooden blocks.
+short_o,33,flock,stock,perfect,part-whole,flocks count as livestock,The shepherd's flock is the finest stock in the valley.
+short_o,34,bond,bind,slant,synonym,both mean tie together,Let love bind us in a bond that lasts forever.
+short_o,35,applaud,nod,slant,synonym,both signal warm approval,They applaud and nod as you take your bow.
+short_o,36,bob,bop,slant,synonym,both mean bouncing to music,Heads bob and bodies bop to the summer tune.
+short_o,37,hot,heat,slant,synonym,heat makes things hot,"Hot July, the gentle heat of sunshine on our skin."
+short_o,38,dot,stop,slant,synonym,a full stop is dot,"Put a dot, a final stop, after every worry."
+short_o,39,song,along,perfect,scene,singing together with music,"Here comes our song, so everybody sing along."
+short_o,40,dawn,yawn,perfect,scene,waking at first light,Dawn spills gold across my sleepy yawn.
+short_o,41,pause,applause,perfect,scene,stage pause for applause,Take a pause and soak in the applause.
+short_o,42,awesome,blossom,perfect,scene,spring beauty inspiring wonder,Every awesome blossom opens wide to the sun.
+short_o,43,belong,along,perfect,scene,fitting in together,"We belong together, so come along and stay."
+short_o,44,hop,pop,perfect,cause-effect,pop tunes make you hop,"When the pop tune plays, we hop around the kitchen."
+short_o,45,pop,bop,perfect,scene,both upbeat music styles,Turn up the pop and let's bop all night.
+short_o,46,lawn,fawn,perfect,scene,young deer on grass,A fawn tiptoes across the dewy lawn.
+short_o,47,swan,fawn,perfect,scene,gentle graceful wild creatures,"A swan on the lake, a fawn by the shore, gentle morning."
+short_o,48,lawn,dawn,perfect,scene,dewy grass at sunrise,Dawn scatters diamonds on the lawn.
+short_o,49,tot,cot,perfect,scene,sleepy toddler's bed,The sleepy tot curls up in her cozy cot.
+short_o,50,hot,spot,perfect,scene,a warm lively place,This little cafe is our hot spot for sunny mornings.
+short_o,51,hot,pot,perfect,scene,steaming kitchen cooking,"Keep it hot, stir the pot, supper's nearly ready."
+short_o,52,gong,song,perfect,scene,festive music and ceremony,Ring the gong and start the celebration song.
+short_o,53,yacht,knot,perfect,scene,sailing ropes and moorings,Tie a sailor's knot and let the yacht drift free.
+short_o,54,dock,lock,perfect,scene,canal boating stops,"Tie up at the dock, then drift on through the lock."
+short_o,55,shop,swap,perfect,scene,trading at local market,At the corner shop we swap our books and stories.
+short_o,56,exotic,hypnotic,perfect,scene,both describe alluring rhythm,"Your rhythm, exotic and hypnotic, pulls me in."
+short_o,57,exotic,aquatic,perfect,scene,colorful tropical reef life,"Exotic, aquatic colors swirl across the reef."
+short_o,58,rod,cod,perfect,scene,fishing gear and catch,Cast the rod and dream of cod at sunset.
+short_o,59,pot,plot,perfect,scene,gardening container and bed,"From a clay pot to a garden plot, our seedlings grow."
+short_o,60,dawn,song,slant,scene,birds sing at daybreak,At dawn the robins start their song.
+short_o,61,want,wand,slant,cause-effect,wand grants your wants,Wave the wand and wish for all you want.
+short_o,62,cot,rock,slant,scene,soothing a baby's bed,Gently rock the cot and hum a lullaby.
+short_o,63,dog,jog,slant,scene,running with the dog,My dog and I jog through the morning park.
+short_o,64,shop,bought,slant,cause-effect,shopping ends in purchases,We found a flower shop and bought a sunny bouquet.
+short_o,65,pot,stock,slant,part-whole,stock simmers in pot,A bubbling pot of chicken stock warms the kitchen.
+short_o,66,dock,yacht,slant,scene,harbor mooring place,The yacht rests easy at the sunny dock.
+short_o,67,crop,plot,slant,scene,harvest from garden bed,Our little plot gives a crop of sweet peas.
+short_o,68,cob,crop,slant,part-whole,corn cob from crop,"Golden cob by golden cob, we gather in the crop."
+short_o,69,frog,log,slant,scene,frog sits on log,A frog on a mossy log sings to the moon.
+short_o,70,avocado,tomato,slant,scene,fresh salad ingredients,"Slice the avocado, toss the tomato, summer on a plate."
+short_o,71,honest,modest,assonance,synonym,both humble virtues,"Stay honest, stay modest, and the world will shine."
+short_o,72,promise,bond,assonance,synonym,your word as bond,"My promise is my bond, my love is yours."
+short_o,73,honest,promise,assonance,cause-effect,honest people keep promises,An honest heart will always keep its promise.
+short_o,74,want,long,assonance,synonym,both mean deeply desire,"I want you near, I long to hear you laugh."
+short_o,75,optimist,positive,assonance,synonym,both expect good things,An optimist stays positive and paints the clouds with gold.
+short_o,76,confident,positive,assonance,synonym,both mean upbeat assurance,"Stay confident, stay positive, the sun is on its way."
+short_o,77,on,off,assonance,antonym,opposite switch positions,"Lights on, lights off, we keep on dancing."
+short_o,78,top,bottom,assonance,antonym,highest versus lowest point,From the top of my heart to the bottom of my soul.
+short_o,79,soft,strong,assonance,antonym,gentle versus forceful,"Soft as a whisper, strong as the sea."
+short_o,80,saga,odyssey,assonance,synonym,both mean epic journey,"Our love's a saga, an odyssey across the stars."
+short_o,81,lodge,cottage,assonance,synonym,both mean cozy cabin,"A mountain lodge, a lakeside cottage, home is where you are."
+short_o,82,squad,posse,assonance,synonym,both mean group of friends,"My squad, my posse, rolling into summer."
+short_o,83,frost,thaw,assonance,antonym,freezing versus melting,"The frost will fade, and spring will thaw it all."
+short_o,84,novice,prodigy,assonance,antonym,beginner versus gifted genius,Every prodigy was once a novice with a dream.
+short_o,85,drama,comedy,assonance,antonym,serious versus funny stories,"Life's a drama, love's a comedy, and we're the stars."
+short_o,86,modest,posh,assonance,antonym,humble versus fancy,A modest home feels richer than a posh hotel.
+short_o,87,profit,cost,assonance,antonym,gain versus expense,"Count the profit, not the cost, of every kindness."
+short_o,88,online,offline,assonance,antonym,connected versus disconnected,"Close the laptop, leave online noise, come offline with me."
+short_o,89,clock,watch,assonance,synonym,both tell the time,"Forget the clock, ignore the watch, just dance."
+short_o,90,trot,jog,assonance,synonym,both mean running lightly,"We trot, we jog, we race the sunrise home."
+short_o,91,spa,massage,assonance,scene,pampering relaxation day treats,"A spa day, a warm massage, and every worry melts."
+short_o,92,coffee,latte,assonance,scene,both cafe morning drinks,"Coffee for you, a latte for me, sunshine for us both."
+short_o,93,cotton,soft,assonance,scene,cotton feels gentle,"Cotton sheets, soft as clouds, hold our dreams."
+short_o,94,swan,pond,assonance,scene,graceful bird on water,A swan glides slowly across the silver pond.
+short_o,95,opera,soprano,assonance,scene,singer on grand stage,The soprano's voice soars through the opera house.
+short_o,96,audience,applause,assonance,scene,crowd cheering the show,The audience rises in thunderous applause.
+short_o,97,pasta,lasagna,assonance,scene,classic noodle dinner dishes,"Pasta night, lasagna bubbling, family round the table."
+short_o,98,chocolate,frosting,assonance,scene,sweet birthday cake treats,"Chocolate cake with frosting, candles glowing, make a wish."
+short_o,99,comet,rocket,assonance,scene,streaking through outer space,A rocket chasing a comet across the night.
+short_o,100,dog,paw,assonance,part-whole,a dog's padded foot,My dog lifts a paw to shake hello.
+short_u,1,loved,beloved,perfect,synonym,both mean dearly cherished,"You are loved, my beloved, every single morning"
+short_u,2,productive,constructive,perfect,synonym,both mean building something useful,Every day feels productive when our talks stay constructive
+short_u,3,plush,lush,perfect,synonym,both mean rich and soft,Plush velvet pillows tossed across a lush green lawn
+short_u,4,fluffy,puffy,perfect,synonym,both mean soft and airy,"Fluffy pillows, puffy clouds, drifting off to dreamland"
+short_u,5,blush,flush,perfect,synonym,both mean cheeks glowing pink,"A sweet blush, a rosy flush, whenever you say my name"
+short_u,6,one,none,perfect,antonym,a single versus zero,"You're the one, and there is none who shines like you"
+short_u,7,hush,rush,perfect,antonym,quiet calm versus hurry,Let the city rush while we stay inside the hush
+short_u,8,begun,done,perfect,antonym,starting versus finishing,"Our story has just begun, and we're nowhere near done"
+short_u,9,touched,untouched,perfect,antonym,handled versus left pristine,"Snow untouched by footsteps, touched only by the moon"
+short_u,10,trusted,entrusted,perfect,synonym,both mean given faith,"I trusted you, and you entrusted me with your heart"
+short_u,11,bustling,hustling,perfect,synonym,both mean busy and lively,"Bustling markets, hustling vendors, music drifting through the square"
+short_u,12,crunch,munch,perfect,synonym,both mean noisy happy chewing,"Crunch the apples, munch the crisps, a picnic in the park"
+short_u,13,brunch,lunch,perfect,synonym,both are midday meals,A lazy brunch rolls into lunch with laughter all around
+short_u,14,hung,strung,perfect,synonym,both mean hanging up high,Lanterns hung and fairy lights strung across the yard
+short_u,15,tough,buff,perfect,synonym,both mean strong and fit,"Tough and buff, we climbed the hill and cheered at the top"
+short_u,16,hunk,chunk,perfect,synonym,both mean a big piece,"A hunk of bread, a chunk of cheese, a picnic by the sea"
+short_u,17,nudge,budge,perfect,synonym,both mean shifting slightly,One gentle nudge and the heavy door will budge
+short_u,18,rub,scrub,perfect,synonym,both mean cleaning by friction,"Rub the window, scrub the glass, and let the sunlight pass"
+short_u,19,junction,conjunction,perfect,synonym,both mean a joining point,"At the junction of our roads, a sweet conjunction of hearts"
+short_u,20,mug,jug,perfect,synonym,both are handled drinking vessels,Fill my mug from the cider jug beside the fire
+short_u,21,done,undone,perfect,antonym,finished versus left open,"Some songs are done, some dreams undone, still waiting for the dawn"
+short_u,22,plugged,unplugged,perfect,antonym,connected versus disconnected,"Plugged in all week, now we're unplugged beneath the stars"
+short_u,23,hug,snug,perfect,cause-effect,a hug feels cosy,Wrap me in a hug and I feel snug again
+short_u,24,crush,blush,perfect,cause-effect,a crush brings a blush,One little crush and I can't hide the blush
+short_u,25,sun,fun,perfect,cause-effect,sunshine brings the fun,Out in the sun we chase the fun till evening
+short_u,26,yummy,tummy,perfect,cause-effect,tasty food fills tummy,"Something yummy for my tummy, fresh pie on the sill"
+short_u,27,run,won,perfect,cause-effect,racing hard brings victory,"We run with joy, and every step feels like we've won"
+short_u,28,plum,yum,perfect,cause-effect,ripe fruit tastes delicious,"Bite a ripe plum, juicy and sweet, and whisper yum"
+short_u,29,fun,pun,perfect,cause-effect,wordplay sparks the fun,Every silly pun just adds to the fun
+short_u,30,pluck,luck,perfect,cause-effect,courage brings good fortune,With a little pluck you make your own luck
+short_u,31,dust,gust,perfect,cause-effect,wind lifts the dust,"A warm gust, a swirl of golden dust along the road"
+short_u,32,love,above,perfect,scene,love sent from heaven,The stars above remind me of your love
+short_u,33,love,dove,perfect,scene,dove symbolizes gentle love,A white dove carries all my love to you
+short_u,34,sun,begun,perfect,scene,sunrise starts a new day,"Golden sun on the hills, a brand new day has begun"
+short_u,35,sunny,funny,perfect,scene,bright and cheerful days,Sunny afternoons and funny stories by the lake
+short_u,36,honey,bunny,perfect,scene,sweet terms of endearment,"Good morning, honey, my little spring bunny"
+short_u,37,sunny,honey,perfect,scene,golden warm summer sweetness,Sunny meadows dripping with golden honey
+short_u,38,mum,hum,perfect,scene,mother's soft lullaby tune,Mum would hum a lullaby to send me off to sleep
+short_u,39,mug,hug,perfect,scene,warm cocoa comfort,Cocoa in a mug feels just like a hug
+short_u,40,up,cup,perfect,scene,raising a joyful toast,Lift your cup up high and toast to all we love
+short_u,41,drum,hum,perfect,scene,music filling the room,Beat the drum and let the whole crowd hum
+short_u,42,humming,drumming,perfect,scene,a band making music,"Humming in the kitchen, drumming on the table"
+short_u,43,study,buddy,perfect,scene,friends learning together,My study buddy makes the hardest chapters fun
+short_u,44,cousin,dozen,perfect,scene,big family gathering,"Every cousin came, at least a dozen, to the feast"
+short_u,45,sunday,monday,perfect,scene,weekend rolling into week,Lazy Sunday dreams carry me gently into Monday
+short_u,46,buzz,fuzz,perfect,scene,a fuzzy busy bee,"A gentle buzz, a coat of golden fuzz, the bee says hello"
+short_u,47,pub,grub,perfect,scene,hearty food with friends,"A cosy pub, good grub, old friends around the table"
+short_u,48,tub,scrub,perfect,scene,bath time cleaning ritual,"Bubbles in the tub, a lavender scrub, and rest"
+short_u,49,jumping,pumping,perfect,scene,high energy dance floor,"Feet jumping, music pumping, the whole night is alive"
+short_u,50,funky,monkey,perfect,scene,playful dancing animal,A funky monkey grooving to the jungle drum
+short_u,51,young,sprung,perfect,scene,fresh new springtime life,The buds have sprung and the whole world feels young
+short_u,52,sung,rung,perfect,scene,church bells and choir,Bells are rung and carols sung across the snow
+short_u,53,strung,sung,perfect,scene,guitar tuned and played,"The guitar is freshly strung, the sweetest tune is sung"
+short_u,54,none,some,slant,antonym,zero versus a few,"Some have plenty, none go hungry at our table"
+short_u,55,cub,pup,slant,synonym,both are baby animals,"A sleepy cub, a playful pup, both curled up in the sun"
+short_u,56,won,win,slant,synonym,both mean claiming victory,"We won today, and tomorrow we will win again"
+short_u,57,hubby,buddy,slant,synonym,husband as best friend,My hubby is my best buddy through it all
+short_u,58,tuck,snug,slant,cause-effect,tucked in feels cosy,Tuck me in tonight and keep me snug
+short_u,59,yummy,honey,slant,cause-effect,honey tastes so sweet,Warm toast with yummy honey on a slow morning
+short_u,60,love,enough,slant,cause-effect,love makes life enough,"No riches needed, love is more than enough"
+short_u,61,sung,song,slant,cause-effect,a song is sung,Every song is sweeter when it's sung together
+short_u,62,muffin,oven,slant,cause-effect,baked in the oven,A blueberry muffin rising warm inside the oven
+short_u,63,bun,crumb,slant,part-whole,crumb from the bun,Not a single crumb left of the cinnamon bun
+short_u,64,shrub,bud,slant,part-whole,buds grow on shrubs,Every shrub is bursting with a bud of spring
+short_u,65,cuddly,bubbly,slant,scene,sweet cheerful little ones,A cuddly teddy and a bubbly giggle light the nursery
+short_u,66,sprung,spring,slant,scene,the season bursting forth,Spring has sprung and blossoms fill the lane
+short_u,67,mum,son,slant,scene,mother and her child,Mum and son dancing in the kitchen light
+short_u,68,swung,swing,slant,scene,playground fun outdoors,We swung so high on the old oak swing
+short_u,69,hum,hymn,slant,scene,gentle church music,Hum a hymn of morning light and grace
+short_u,70,stuffing,oven,slant,scene,holiday roast cooking,"Stuffing in the oven, family at the door"
+short_u,71,something,nothing,assonance,antonym,all versus not anything,Something in your smile turns nothing into gold
+short_u,72,sunrise,sunset,assonance,antonym,dawn versus day's end,"From sunrise to sunset, I'm dancing next to you"
+short_u,73,above,up,assonance,synonym,both mean overhead and higher,"Look up, the stars above are spelling out your name"
+short_u,74,stunning,lovely,assonance,synonym,both mean very beautiful,"A stunning view, a lovely night, and you beside me"
+short_u,75,fuzzy,fluffy,assonance,synonym,both mean soft and downy,Fuzzy socks and fluffy blankets make the winter kind
+short_u,76,husband,hubby,assonance,synonym,"same man, playful name","My husband, my hubby, my partner in every song"
+short_u,77,touch,hug,assonance,synonym,both mean caring closeness,"One gentle touch, one warm hug, and the world feels right"
+short_u,78,comfy,snug,assonance,synonym,both mean cosy and warm,"Comfy sweaters in a snug little cabin, snow outside"
+short_u,79,bubbly,upbeat,assonance,synonym,both mean cheerful and lively,"Bubbly laughter, upbeat tunes, the party's on its way"
+short_u,80,stomach,tummy,assonance,synonym,"same belly, cuter word","Butterflies in my stomach, giggles in my tummy"
+short_u,81,mug,cup,assonance,synonym,both hold warm drinks,"A mug of cocoa, a cup of tea, a quiet afternoon"
+short_u,82,deluxe,plush,assonance,synonym,both mean fancy and luxurious,A deluxe suite with plush pillows and the sunrise from the bed
+short_u,83,sumptuous,lush,assonance,synonym,both mean richly abundant,A sumptuous feast laid out in a lush green garden
+short_u,84,lush,abundant,assonance,synonym,both mean richly growing,"Lush valleys, abundant orchards, harvest time is here"
+short_u,85,dusk,sunset,assonance,synonym,both mean evening's glow,At dusk the sunset paints the sky in peach and gold
+short_u,86,someday,sometime,assonance,synonym,both mean a future moment,"Someday soon, sometime in spring, we'll fly away"
+short_u,87,crunchy,chunky,assonance,synonym,both mean nutty and textured,"Crunchy or chunky, peanut butter always makes me smile"
+short_u,88,buzzing,humming,assonance,synonym,both mean a soft drone,"Bees buzzing, humming through the clover all day long"
+short_u,89,plunge,jump,assonance,synonym,both mean leaping in,Take the plunge and jump into the cool blue lake
+short_u,90,run,rush,assonance,synonym,both mean moving fast,Run to the shore and rush into the waves
+short_u,91,robust,rugged,assonance,synonym,both mean sturdy and strong,"Robust boots on rugged trails, we climb toward the light"
+short_u,92,sunshine,fun,assonance,cause-effect,bright days bring play,"Sunshine on our shoulders, fun in every step"
+short_u,93,hungry,lunch,assonance,cause-effect,appetite calls for food,Hungry hikers share a lunch beneath the pines
+short_u,94,sum,plus,assonance,cause-effect,adding makes the total,"One plus one, and the sum is us"
+short_u,95,stump,trunk,assonance,part-whole,base of the tree,Sit on the stump beside the old oak trunk
+short_u,96,crumb,crust,assonance,part-whole,pieces of the bread,"A golden crust, and not a crumb goes to waste"
+short_u,97,bunny,hutch,assonance,scene,rabbit's cozy home,The bunny naps all afternoon inside the hutch
+short_u,98,fudge,sundae,assonance,scene,ice cream parlor treat,"Hot fudge melting on a sundae, summer in a spoon"
+short_u,99,plum,plump,assonance,scene,ripe fruit on branches,"A plump purple plum, ripe and sweet from the tree"
+short_u,100,trumpet,drum,assonance,scene,marching band music,"Trumpet shining, drum beating, the parade rolls in"
