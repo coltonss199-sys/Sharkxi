@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	living	trochee	giving	trochee	perfect	cause/effect: giving enriches living	The secret of living is found in the giving
+2	kitten	trochee	smitten	trochee	perfect	cause/effect: kitten leaves me smitten	One look at that kitten and I was smitten
+3	pretty	trochee	witty	trochee	perfect	same domain: charming bright traits	She is pretty and witty and bright as the day
+4	drifting	trochee	shifting	trochee	perfect	synonyms: slow gentle motion	Sands are shifting and the clouds are drifting
+5	ticking	trochee	clicking	trochee	perfect	synonyms: small sharp sounds	The clock is ticking and the needles clicking
+6	kissing	trochee	missing	trochee	perfect	antonyms: together versus apart	All day missing you, all night kissing you
+7	winning	trochee	grinning	trochee	perfect	cause/effect: victory brings grins	We came home winning and we could not stop grinning
+8	lifted	trochee	gifted	trochee	perfect	cause/effect: gift lifts heart	My heart was lifted by the love you gifted
+9	sitting	trochee	knitting	trochee	perfect	same scene: cozy fireside evening	Grandma's sitting by the fire, knitting dreams in wool
+10	singing	trochee	ringing	trochee	perfect	same scene: bells and choir	Church bells ringing while the choir is singing
+11	ringing	trochee	bringing	trochee	perfect	cause/effect: bells bring cheer	Bells are ringing, bringing cheer to every street
+12	knitted	trochee	fitted	trochee	perfect	cause/effect: handmade sweater fits	A sweater knitted just for me, perfectly fitted
+13	begin	iamb	within	iamb	perfect	same domain: inner journey starts	Every great journey must begin within
+14	cricket	trochee	wicket	trochee	perfect	part/whole: wicket in cricket	Summer cricket on the green, the ball flies past the wicket
+15	swimming	trochee	skimming	trochee	perfect	same scene: summer lake surface	Swallows skimming where the children are swimming
+16	busy	trochee	dizzy	trochee	perfect	cause/effect: busy day spins	Such a busy day it left me dizzy with delight
+17	city	trochee	pretty	trochee	perfect	same scene: glowing city lights	The city looks so pretty in the rain
+18	drifted	trochee	lifted	trochee	perfect	same scene: kite on breeze	The kite was lifted and it drifted out to sea
+19	thinking	trochee	linking	trochee	perfect	cause/effect: thoughts connect ideas	Thinking of you, linking every star into a line
+20	pretty	trochee	beauty	trochee	slant	synonyms: lovely to behold	Pretty as a picture, a beauty to behold
+21	mini	trochee	tiny	trochee	slant	synonyms: very small size	A mini garden with a tiny rose
+22	busy	trochee	lazy	trochee	slant	antonyms: bustle versus rest	Busy weekdays melting into lazy afternoons
+23	giddy	trochee	steady	trochee	slant	antonyms: giddy versus steady	Giddy with love but steady as the sea
+24	predict	iamb	expect	iamb	slant	synonyms: foresee what comes	No one could predict the joy we did not expect
+25	dismiss	iamb	release	iamb	slant	synonyms: let things go	Dismiss your doubts and release them to the wind
+26	admit	iamb	invite	iamb	slant	synonyms: welcome someone in	Open the door, admit the light, invite the morning in
+27	mixing	trochee	fixing	trochee	perfect	same scene: kitchen cooking time	Mixing up the batter, fixing supper just for two
+28	sipping	trochee	dipping	trochee	perfect	same scene: tea and biscuits	Sipping tea and dipping biscuits by the fire
+29	bridges	trochee	ridges	trochee	perfect	same scene: mountain road trip	Over wooden bridges, up to sunny ridges
+30	lifting	trochee	drifting	trochee	perfect	same scene: morning fog rising	Morning fog is lifting, drifting off the bay
+31	smitten	trochee	written	trochee	perfect	cause/effect: love inspires letters	Every word was written by a heart so smitten
+32	swinging	trochee	singing	trochee	perfect	same scene: playground summer joy	Swinging high and singing to the sky
+33	spinning	trochee	grinning	trochee	perfect	same scene: carousel ride joy	Spinning on the carousel and grinning ear to ear
+34	skipping	trochee	dipping	trochee	perfect	same scene: lakeside stone skipping	Skipping stones and dipping toes in the summer lake
+35	wishing	trochee	fishing	trochee	perfect	same scene: lazy pond afternoon	Fishing by the pond and wishing on the breeze
+36	winning	trochee	inning	trochee	perfect	same scene: final inning win	Bottom of the final inning and we are winning
+37	fishes	trochee	dishes	trochee	perfect	same scene: seafood supper table	Silver fishes served on painted dishes
+38	printed	trochee	tinted	trochee	perfect	same domain: ink and color	Printed petals on a page tinted rose
+39	gritty	trochee	city	trochee	perfect	same scene: urban street life	Gritty city streets where dreams come alive
+40	enlist	iamb	assist	iamb	perfect	cause/effect: enlisted friends assist	Enlist your friends and they will assist you
+41	given	trochee	driven	trochee	perfect	cause/effect: gift sparks drive	Given a dream, I was driven to fly
+42	busy	trochee	easy	trochee	slant	antonyms: hectic versus relaxed	Busy hands but an easy heart
+43	amid	iamb	inside	iamb	slant	synonyms: in the midst	Amid the noise there's a quiet song inside
+44	insist	iamb	request	iamb	slant	synonyms: ask from heart	I won't insist, it's just a soft request
+45	skipping	trochee	leaping	trochee	slant	synonyms: joyful springing steps	Lambs are leaping and the children skipping
+46	winning	trochee	gaining	trochee	slant	synonyms: getting ahead	Gaining ground and winning hearts along the way
+47	nifty	trochee	crafty	trochee	slant	synonyms: clever and handy	Nifty little gadgets made by crafty hands
+48	gifted	trochee	crafted	trochee	slant	cause/effect: talent shapes craft	Gifted hands have crafted every bead
+49	mission	trochee	vision	trochee	slant	same domain: purpose and direction	Hold your vision close and live your mission
+50	mission	trochee	passion	trochee	slant	same domain: driving inner purpose	Make your passion be your mission
+51	depict	iamb	reflect	iamb	slant	synonyms: portray an image	Let my songs depict the love your eyes reflect
+52	tricky	trochee	cheeky	trochee	slant	synonyms: playful little mischief	A cheeky grin and a tricky little wink
+53	listen	trochee	lesson	trochee	slant	cause/effect: listening teaches lessons	If you listen, every day becomes a lesson
+54	given	trochee	heaven	trochee	slant	same domain: blessings from above	Every blessing given is a gift from heaven
+55	living	trochee	given	trochee	slant	same domain: life as gift	Every day of living is a gift we have been given
+56	kissing	trochee	blessing	trochee	slant	same scene: wedding day joy	With a blessing from above, we're kissing at the altar
+57	wishes	trochee	kisses	trochee	slant	same scene: birthday love notes	Sending birthday wishes wrapped in kisses
+58	begin	iamb	again	iamb	slant	same domain: fresh new starts	Every sunrise lets us begin again
+59	within	iamb	divine	iamb	slant	same domain: inner sacred spark	There's a spark divine within
+60	biscuit	trochee	basket	trochee	slant	part/whole: biscuit in basket	A warm biscuit waiting in the basket
+61	windy	trochee	sandy	trochee	slant	same scene: breezy beach day	Windy days along the sandy shore
+62	knitting	trochee	chatting	trochee	slant	same scene: cozy knitting circle	Friends are chatting while the needles keep on knitting
+63	spinning	trochee	swinging	trochee	slant	same scene: playground merry-go-round	Spinning round and swinging high
+64	fishing	trochee	splashing	trochee	slant	same scene: summer lake fun	Fishing off the dock while the children are splashing
+65	fiction	trochee	section	trochee	slant	part/whole: library fiction section	Lost all day in the fiction section
+66	wisdom	trochee	insight	trochee	assonance	synonyms: deep understanding	Wisdom grows from every quiet insight
+67	vision	trochee	insight	trochee	assonance	synonyms: clear inner seeing	A vision born of insight lights the way
+68	quickly	trochee	swiftly	trochee	assonance	synonyms: at great speed	Quickly, swiftly, the river runs to the sea
+69	minute	trochee	instant	trochee	assonance	synonyms: brief moment in time	In an instant, in a minute, love arrived
+70	smitten	trochee	giddy	trochee	assonance	synonyms: lovestruck happy feelings	Smitten and giddy as a summer bride
+71	sipping	trochee	drinking	trochee	assonance	synonyms: taking a drink	Sipping lemonade and drinking in the view
+72	whistling	trochee	singing	trochee	assonance	synonyms: making happy tunes	Whistling while we work and singing all the way
+73	district	trochee	city	trochee	assonance	part/whole: district of city	Every district of the city shining bright
+74	princess	trochee	kingdom	trochee	assonance	part/whole: princess of kingdom	A princess dancing through her kingdom
+75	innings	trochee	cricket	trochee	assonance	part/whole: innings in cricket	Long innings in the summer cricket sun
+76	kitchen	trochee	dishes	trochee	assonance	same scene: kitchen sink chores	Singing in the kitchen while we wash the dishes
+77	chicken	trochee	kitchen	trochee	assonance	same scene: farmhouse supper smells	Roast chicken warming up the kitchen
+78	chimney	trochee	kitchen	trochee	assonance	same scene: cozy cottage hearth	Smoke from the chimney, bread in the kitchen
+79	picnic	trochee	biscuits	trochee	assonance	same scene: picnic blanket treats	A picnic spread with honey biscuits
+80	crispy	trochee	biscuits	trochee	assonance	same scene: fresh baked treats	Crispy biscuits cooling on the windowsill
+81	siblings	trochee	kinship	trochee	assonance	same domain: family bonds	Siblings sharing kinship through the years
+82	kindred	trochee	siblings	trochee	assonance	same domain: close family ties	Kindred hearts, like siblings, side by side
+83	gymnast	trochee	fitness	trochee	assonance	same domain: athletic training	A gymnast's fitness shows in every turn
+84	knitting	trochee	stitches	trochee	assonance	same domain: needlework craft	Knitting rows of tiny stitches by the light
+85	written	trochee	fiction	trochee	assonance	same domain: storytelling craft	A fiction written by the candlelight
+86	ribbon	trochee	linen	trochee	assonance	same scene: sewing basket	A ribbon tied on folded linen
+87	kitten	trochee	ribbon	trochee	assonance	same scene: kitten chasing ribbon	A playful kitten chasing a satin ribbon
+88	mystic	trochee	mythic	trochee	assonance	same domain: legend and magic	A mystic song from a mythic land
+89	vivid	trochee	image	trochee	assonance	same domain: bright pictures	A vivid image of the summer sea
+90	misty	trochee	windy	trochee	assonance	same scene: moorland weather	A misty morning on the windy hills
+91	misty	trochee	midnight	trochee	assonance	same scene: moonlit misty night	A misty midnight and a silver moon
+92	fishing	trochee	swimming	trochee	assonance	same scene: summer lake day	Fishing in the morning, swimming after noon
+93	thinking	trochee	wisdom	trochee	assonance	cause/effect: thought builds wisdom	Quiet thinking slowly turns to wisdom
+94	thinking	trochee	insight	trochee	assonance	cause/effect: thought brings insight	Quiet thinking brings a sudden insight
+95	prism	trochee	vivid	trochee	assonance	cause/effect: prism makes colors	Through a prism vivid colors bloom
+96	springtime	trochee	picnic	trochee	assonance	same scene: spring outing	A springtime picnic on the hill
+97	crimson	trochee	ribbon	trochee	assonance	same scene: crimson ribbon gift	A crimson ribbon in your hair
+98	sprinting	trochee	swimming	trochee	assonance	same domain: athletic races	Sprinting on the track and swimming in the pool
+99	pixie	trochee	mystic	trochee	assonance	same domain: fairy magic	A pixie dancing in the mystic glade
+100	disco	trochee	rhythm	trochee	assonance	same domain: dance floor beat	Disco lights and rhythm in our feet

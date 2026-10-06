@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	ready	trochee	steady	trochee	perfect	synonyms: prepared and firm	Hold me ready, hold me steady, through the night
+2	intense	iamb	immense	iamb	perfect	synonyms: vast and powerful	A love intense, a sky immense above us
+3	many	trochee	plenty	trochee	perfect	synonyms: more than enough	So many stars and plenty more to wish upon
+4	sketching	trochee	etching	trochee	perfect	synonyms: drawing fine lines	Sketching your smile and etching it in gold
+5	detect	iamb	inspect	iamb	perfect	synonyms: notice and examine	Inspect the night and you'll detect a falling star
+6	success	iamb	progress	iamb	perfect	synonyms: moving forward, achieving	Every bit of progress lifts us to success
+7	express	iamb	confess	iamb	perfect	synonyms: voicing true feelings	Let me confess the words I long to express
+8	request	iamb	suggest	iamb	perfect	synonyms: politely proposing ideas	May I suggest a song, may I request a dance
+9	ascend	iamb	extend	iamb	perfect	synonyms: reaching ever higher	Extend your wings and ascend into the blue
+10	eddy	trochee	steady	trochee	perfect	antonyms: swirling versus still	The river eddy spins, but my heart holds steady
+11	penny	trochee	plenty	trochee	perfect	antonyms: scarce versus abundant	From a single penny grew a life of plenty
+12	testing	trochee	resting	trochee	perfect	antonyms: effort versus ease	After testing days, my happy heart is resting
+13	heaven	trochee	haven	trochee	slant	synonyms: safe sanctuary	Your arms are my haven, your kiss a taste of heaven
+14	friendly	trochee	gently	trochee	slant	synonyms: kind and soft	A friendly voice that speaks to me so gently
+15	friendly	trochee	kindly	trochee	slant	synonyms: warm and caring	A friendly wave, a kindly word, a sunny day
+16	heaven	trochee	seven	trochee	perfect	same scene: seventh heaven bliss	Seven stars above us shine like heaven tonight
+17	menu	trochee	venue	trochee	perfect	same scene: dinner date night	A candlelit venue and a menu made for two
+18	question	trochee	session	trochee	perfect	same scene: classroom discussion	Every question in the session sparks a light
+19	duet	iamb	cassette	iamb	perfect	same scene: music recording	We sang a sweet duet on an old cassette
+20	rested	trochee	nested	trochee	perfect	same scene: birds at home	The swallows rested where they nested in the eaves
+21	resting	trochee	nesting	trochee	perfect	same scene: spring birds settling	Doves are resting, robins nesting in the pines
+22	respect	iamb	protect	iamb	perfect	cause/effect: respect inspires protection	I respect your heart and I'll protect it always
+23	finesse	iamb	impress	iamb	perfect	cause/effect: skill wins admiration	Dance with finesse and you will impress the crowd
+24	penny	trochee	money	trochee	slant	part/whole: coin of money	Every penny saved is money for our dreams
+25	precious	trochee	gracious	trochee	slant	synonyms: dear and kind	So precious and so gracious is your love
+26	empty	trochee	plenty	trochee	slant	antonyms: none versus abundance	Empty hands are filling up with plenty
+27	steady	trochee	speedy	trochee	slant	antonyms: slow versus fast	Not speedy, just steady, I will win the race
+28	respite	trochee	rested	trochee	slant	synonyms: pause and rest	A gentle respite, and my soul has rested
+29	reflect	iamb	project	iamb	perfect	same domain: casting light outward	The moon will project what the lake will reflect
+30	collect	iamb	reflect	iamb	perfect	same scene: quiet thoughtful moment	Collect your thoughts and reflect beneath the stars
+31	pleasant	trochee	present	trochee	perfect	same scene: pleasant gift giving	A pleasant present wrapped in ribbons bright
+32	pheasant	trochee	pleasant	trochee	perfect	same scene: country morning walk	A pleasant morning and a pheasant in the field
+33	entry	trochee	sentry	trochee	perfect	same scene: guarded castle gate	A smiling sentry waves us through the entry
+34	suspense	iamb	intense	iamb	perfect	same scene: thrilling story climax	The suspense is intense as the music swells
+35	commence	iamb	suspense	iamb	perfect	same scene: curtain rising	Let the show commence, the sweet suspense is here
+36	blessing	trochee	dressing	trochee	perfect	same scene: wedding morning	Dressing for the wedding, I count every blessing
+37	tending	trochee	bending	trochee	perfect	same scene: gardener at work	Bending low and tending roses in the sun
+38	splendid	trochee	tended	trochee	perfect	cause/effect: care makes beauty	The garden that she tended grew so splendid
+39	splendid	trochee	blended	trochee	perfect	cause/effect: mixing creates beauty	The sunset colors blended into something splendid
+40	blending	trochee	bending	trochee	perfect	same scene: prism splitting light	Bending light and blending colors through the glass
+41	edges	trochee	hedges	trochee	perfect	same scene: garden borders	Roses climb along the edges of the hedges
+42	sketches	trochee	stretches	trochee	perfect	same scene: landscape drawing	Sketches of the golden stretches of the shore
+43	connect	iamb	respect	iamb	perfect	cause/effect: respect builds bonds	When we respect each other, we connect
+44	event	iamb	present	iamb	perfect	same scene: presenting at gala	At the grand event we present our brand-new song
+45	lending	trochee	sending	trochee	perfect	synonyms: giving help onward	Lending a hand and sending love your way
+46	invest	iamb	progressed	iamb	perfect	cause/effect: effort brings growth	We invest our hearts and see how far we have progressed
+47	amen	iamb	again	iamb	perfect	same scene: hymn refrain	Sing amen and sing it once again
+48	stretching	trochee	reaching	trochee	slant	synonyms: extending outward	Stretching toward the sun and reaching for the sky
+49	finesse	iamb	precise	iamb	slant	synonyms: skilled exactness	Precise and full of finesse, she paints the dawn
+50	connect	iamb	attract	iamb	slant	synonyms: drawing together	Like magnets we attract, like stars we connect
+51	express	iamb	release	iamb	slant	synonyms: letting feelings out	Release your fears and express your heart in song
+52	progress	iamb	increase	iamb	slant	synonyms: steady growth	Watch our joys increase as we progress together
+53	defend	iamb	withstand	iamb	slant	synonyms: holding firm	Together we withstand the wind and defend our dreams
+54	commence	iamb	advance	iamb	slant	synonyms: start moving forward	Let the parade commence, let the dancers advance
+55	suggest	iamb	insist	iamb	slant	antonyms: gentle versus firm	I suggest a walk, but you insist we dance
+56	lenses	trochee	senses	trochee	slant	same domain: sight and perception	Through rosy lenses all my senses come alive
+57	message	trochee	passage	trochee	slant	synonyms: shared written words	A passage in your letter holds a message bright
+58	lesson	trochee	blessing	trochee	slant	cause/effect: lessons become blessings	Every lesson is a blessing in disguise
+59	meadow	trochee	shadow	trochee	slant	same scene: shady summer field	Lie with me in the meadow, in the oak tree's shadow
+60	ready	trochee	tidy	trochee	slant	same scene: neat and prepared	The room is tidy and I'm ready for you
+61	section	trochee	fraction	trochee	slant	synonyms: part of whole	A tiny fraction, just a section of the pie
+62	request	iamb	assist	iamb	slant	cause/effect: asking brings help	Just request a hand and I'll assist you
+63	protect	iamb	intact	iamb	slant	cause/effect: guarding keeps whole	I'll protect your heart and keep it safe, intact
+64	intense	iamb	romance	iamb	slant	same scene: passionate love	An intense romance beneath the summer moon
+65	event	iamb	attend	iamb	slant	cause/effect: guests attend gatherings	We attend the grand event in our finest clothes
+66	duet	iamb	delight	iamb	slant	cause/effect: harmony brings joy	Our duet rings out with pure delight
+67	cassette	iamb	repeat	iamb	slant	same scene: tape on repeat	Our song on that cassette plays on repeat
+68	pleasant	trochee	crescent	trochee	slant	same scene: evening crescent moon	A pleasant breeze beneath the crescent moon
+69	wedding	trochee	setting	trochee	slant	same scene: wedding venue	A garden setting for our wedding day
+70	lesson	trochee	session	trochee	slant	same scene: music class time	Our music lesson turned into a jam session
+71	possess	iamb	embrace	iamb	slant	synonyms: holding close	Embrace me with the love that you possess
+72	address	iamb	discuss	iamb	slant	synonyms: talking it through	Let's discuss our dreams and address each hope
+73	tested	trochee	tasted	trochee	slant	same scene: chef's kitchen	We tasted and we tested every sweet recipe
+74	project	iamb	construct	iamb	slant	same domain: building plans	We construct our dream, a project built with love
+75	splendid	trochee	scented	trochee	slant	same scene: blooming rose garden	A splendid garden, scented by the rose
+76	bending	trochee	winding	trochee	slant	same scene: river path	A winding river bending through the vale
+77	stepping	trochee	skipping	trochee	slant	same scene: playful stroll	Stepping light and skipping down the lane
+78	epic	trochee	legend	trochee	assonance	synonyms: grand heroic tale	An epic journey, a legend to be told
+79	destined	trochee	legend	trochee	assonance	same theme: fated greatness	You were destined to become a legend in the light
+80	exit	trochee	entrance	trochee	assonance	antonyms: leaving versus arriving	Every exit leads us to a brand-new entrance
+81	breakfast	trochee	bedtime	trochee	assonance	antonyms: morning versus night	From breakfast kisses to bedtime lullabies
+82	rescue	trochee	protect	iamb	assonance	synonyms: save and guard	I will rescue you and protect you evermore
+83	rescue	trochee	defend	iamb	assonance	synonyms: save and shield	Rescue the dreamers and defend the dream
+84	strengthen	trochee	defend	iamb	assonance	synonyms: fortify and guard	We strengthen every wall and defend the ones we love
+85	trekking	trochee	stepping	trochee	assonance	synonyms: walking onward	Trekking through the hills and stepping toward the sun
+86	refuge	trochee	rescue	trochee	assonance	cause/effect: rescue brings refuge	You came to my rescue and became my refuge
+87	wedding	trochee	blessing	trochee	assonance	same scene: wedding vows	Our wedding day, a blessing from above
+88	festive	trochee	presents	trochee	assonance	same scene: holiday gift exchange	Festive lights and presents by the tree
+89	necklace	trochee	pendant	trochee	assonance	part/whole: pendant on necklace	A silver pendant on a golden necklace
+90	precious	trochee	necklace	trochee	assonance	same scene: jewelry box treasures	A precious necklace that my mother wore
+91	meadow	trochee	echo	trochee	assonance	same scene: open green valley	Hear the echo of our laughter in the meadow
+92	message	trochee	sending	trochee	assonance	cause/effect: sending a message	I'm sending you a message full of love
+93	nexus	trochee	connect	iamb	assonance	synonyms: link and connection	Two hearts connect at the nexus of the stars
+94	friendship	trochee	endless	trochee	assonance	same theme: lasting bond	Our friendship is endless like the summer sky
+95	tempo	trochee	techno	trochee	assonance	same domain: dance music	The techno beat picks up the tempo of the night
+96	fledgling	trochee	nesting	trochee	assonance	same scene: young birds growing	A fledgling learns to fly from where the robins are nesting
+97	lemon	trochee	lettuce	trochee	assonance	same scene: fresh garden salad	Squeeze a lemon on the lettuce from the garden
+98	veggie	trochee	lettuce	trochee	assonance	part/whole: lettuce among veggies	Crisp lettuce leads the veggie basket home
+99	crescent	trochee	heaven	trochee	assonance	same scene: night sky	A silver crescent glowing up in heaven
+100	fresco	trochee	sketching	trochee	assonance	same domain: wall art making	Sketching on the wall until a fresco comes alive

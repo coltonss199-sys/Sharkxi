@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	beauty	trochee	cutie	trochee	perfect	synonyms: lovely darling charm	You're my beauty and my cutie in the morning sun
+2	blooming	trochee	booming	trochee	perfect	synonyms: thriving and flourishing	The roses are blooming and the laughter is booming
+3	smoothing	trochee	soothing	trochee	perfect	synonyms: gentle calming touch	Smoothing back your hair with a soothing lullaby
+4	acute	iamb	astute	iamb	perfect	synonyms: sharp keen insight	With an acute eye and an astute heart you find the light
+5	beauty	trochee	duty	trochee	perfect	antonyms: pleasure versus obligation	I set my duty down to wander in the beauty
+6	conclude	iamb	debuted	iamb	perfect	antonyms: beginning versus ending	Our song debuted at dawn and will conclude beneath the stars
+7	truly	trochee	duly	trochee	perfect	synonyms: rightly and sincerely	Duly promised, truly yours, forever and a day
+8	debut	iamb	anew	iamb	perfect	synonyms: fresh new beginning	Every sunrise is a debut, so let's begin anew
+9	truly	trochee	newly	trochee	perfect	same scene: wedding day vows	Newly wed and truly in love tonight
+10	lagoon	iamb	monsoon	iamb	perfect	same scene: tropical rainy season	The monsoon sings its rhythm on the blue lagoon
+11	movie	trochee	groovy	trochee	perfect	same scene: retro film night	A groovy movie and a bowl of buttered popcorn
+12	debut	iamb	revue	iamb	perfect	same domain: stage show premiere	Her bright debut lit up the summer revue
+13	student	trochee	prudent	trochee	perfect	same domain: wise young learner	A prudent student keeps her lantern burning
+14	acute	iamb	minute	iamb	perfect	same domain: fine sharp precision	With acute attention to each minute detail
+15	review	iamb	debut	iamb	perfect	same domain: critics greet premiere	The papers review your debut with shining praise
+16	canoe	iamb	bamboo	iamb	perfect	same scene: jungle river paddle	A bamboo paddle guides our little green canoe
+17	raccoon	iamb	lagoon	iamb	perfect	same scene: moonlit wildlife pond	A curious raccoon dips its paws in the lagoon
+18	reboot	iamb	compute	iamb	perfect	same domain: computer restart task	Reboot the screen and compute a brighter plan
+19	recruit	iamb	salute	iamb	perfect	same scene: proud parade ground	The proud recruit gives a crisp salute
+20	costume	iamb	assume	iamb	perfect	cause/effect: costume assumes role	Assume a hero's role in a velvet costume
+21	tuning	trochee	pruning	trochee	perfect	same domain: careful fine refining	Pruning the roses and tuning my guitar
+22	grooming	trochee	pruning	trochee	slant	synonyms: trimming and tending	Pruning the hedges is grooming the garden green
+23	blooming	trochee	pruning	trochee	slant	same scene: spring garden care	Pruning the branches while the lilacs are blooming
+24	moving	trochee	soothing	trochee	slant	same domain: tender heartfelt music	Your song is moving and your voice is soothing
+25	fruity	trochee	foodie	trochee	slant	same domain: flavor lover's delight	A fruity tart for the foodie in your heart
+26	juicy	trochee	sushi	trochee	slant	same scene: tasty dinner treat	Juicy mango rolls beside the sushi plate
+27	compute	iamb	conclude	iamb	slant	same domain: logical reasoning steps	We compute the clues and conclude with a smile
+28	recruit	iamb	include	iamb	slant	same domain: welcoming new members	Recruit the dreamers and include the shy ones too
+29	costume	iamb	balloon	iamb	slant	same scene: costume party fun	A clown costume and a bright red balloon
+30	booming	trochee	tuning	trochee	slant	same scene: concert sound check	Tuning up the strings while the drums are booming
+31	moving	trochee	proving	trochee	perfect	same domain: steady forward progress	Keep on moving, keep on proving what you are
+32	rooted	trochee	suited	trochee	perfect	same domain: settled and belonging	Deeply rooted and well suited to this land
+33	cutie	trochee	sweetie	trochee	slant	synonyms: darling dear one	Come here, sweetie, you're my little cutie
+34	cutie	trochee	pretty	trochee	slant	synonyms: adorable and lovely	You're a pretty little cutie with a sunny smile
+35	minute	iamb	petite	iamb	slant	synonyms: tiny and small	A minute, petite little flower in the dew
+36	approve	iamb	believe	iamb	slant	synonyms: affirm and trust	I believe in you and I approve of every dream
+37	conclude	iamb	decide	iamb	slant	synonyms: settle the matter	We decide to dance and conclude the night with song
+38	improve	iamb	revive	iamb	slant	synonyms: restore and refresh	Spring rain will revive the fields and improve the day
+39	improve	iamb	achieve	iamb	slant	cause/effect: growth brings success	Improve a little every day and you'll achieve your dream
+40	recruit	iamb	cadet	iamb	slant	synonyms: new young trainee	The new recruit and the young cadet march side by side
+41	suited	trochee	fitted	trochee	slant	synonyms: tailored to fit	A fitted coat that's perfectly suited to you
+42	astute	iamb	discreet	iamb	slant	synonyms: wise and tactful	An astute friend is gentle and discreet
+43	juicy	trochee	spicy	trochee	slant	same domain: bold tasty flavors	Juicy peaches and a spicy cup of tea
+44	reboot	iamb	update	iamb	slant	same domain: system refresh routine	Update your heart and reboot your smile
+45	lagoon	iamb	serene	iamb	slant	same scene: calm tropical water	The lagoon lies serene beneath the swaying palms
+46	moving	trochee	loving	trochee	slant	same domain: tender heartfelt emotion	A moving song to fill a loving heart
+47	soothing	trochee	breathing	trochee	slant	same scene: calm meditation time	Slow breathing and a soothing tune at dusk
+48	proving	trochee	striving	trochee	slant	cause/effect: effort proves worth	Striving every day and proving what we can do
+49	commute	iamb	remote	iamb	slant	antonyms: office versus home	I traded the commute for a remote and sunny view
+50	proven	trochee	given	trochee	slant	same domain: certain settled truths	Your kindness is proven and your love is a given
+51	include	iamb	provide	iamb	slant	same domain: sharing and giving	Provide a chair and include everyone tonight
+52	cocoon	iamb	begin	iamb	slant	cause/effect: new wings begin	Inside the cocoon the brand new wings begin
+53	costume	iamb	become	iamb	slant	cause/effect: costume transforms wearer	Put on the costume and become the star
+54	cruising	trochee	gazing	trochee	slant	same scene: scenic open drive	Cruising down the coast and gazing at the sea
+55	commune	iamb	serene	iamb	slant	same scene: peaceful nature retreat	We commune with the forest, quiet and serene
+56	raccoon	iamb	ravine	iamb	slant	same scene: woodland creek night	A raccoon wanders down the misty ravine
+57	juicy	trochee	fruity	trochee	assonance	synonyms: luscious ripe flavor	Juicy plums and fruity wine at sunset
+58	astute	iamb	prudent	trochee	assonance	synonyms: wise sound judgment	An astute and prudent heart will guide the way
+59	truly	trochee	proven	trochee	assonance	synonyms: certain and genuine	Your kindness is truly proven every day
+60	lucid	trochee	fluent	trochee	assonance	synonyms: clear smooth expression	Lucid dreams and fluent songs of hope
+61	boosted	trochee	improved	iamb	assonance	synonyms: lifted and upgraded	Your kindness boosted me and improved my day
+62	juices	trochee	fruity	trochee	assonance	same domain: fresh fruit drinks	Morning juices, fruity, sweet, and bright
+63	renew	iamb	improve	iamb	assonance	synonyms: refresh and better	Renew your hope and improve your little world
+64	ruby	trochee	maroon	iamb	assonance	synonyms: deep red shades	A ruby sunset slowly fading to maroon
+65	loosely	trochee	smoothly	trochee	assonance	synonyms: easy flowing motion	Swaying loosely, gliding smoothly through the night
+66	fluid	trochee	smoothly	trochee	assonance	synonyms: flowing and graceful	Fluid steps and smoothly turning feet
+67	smoothing	trochee	grooming	trochee	assonance	synonyms: tidying with care	Smoothing her mane and grooming the pony
+68	include	iamb	unite	trochee	assonance	synonyms: bring people together	Unite the neighbors and include us all
+69	commune	iamb	unite	trochee	assonance	synonyms: come together peacefully	We unite in song and commune beneath the stars
+70	duo	trochee	union	trochee	assonance	synonyms: joined loving pair	A duo in a happy union, hand in hand
+71	kudos	trochee	salute	iamb	assonance	synonyms: praise and honor	Kudos to the dreamers and a salute to the brave
+72	groovy	trochee	boogie	trochee	assonance	same scene: disco dance floor	Put on something groovy and boogie all night long
+73	music	trochee	tuning	trochee	assonance	same domain: musical preparation work	Tuning my heart to the music of you
+74	bluegrass	trochee	music	trochee	assonance	part/whole: genre of music	Bluegrass music drifting through the hills
+75	sushi	trochee	tuna	trochee	assonance	part/whole: fish in sushi	Fresh tuna rolled into sushi for two
+76	sushi	trochee	foodie	trochee	assonance	same domain: food lover favorite	Every foodie dreams of sushi by the sea
+77	music	trochee	movie	trochee	assonance	same domain: entertainment arts	The music in the movie made my heart take flight
+78	cocoon	iamb	renewed	iamb	assonance	cause/effect: change brings renewal	Out of the cocoon, my wings renewed
+79	reviewed	iamb	approved	iamb	assonance	same domain: evaluation and acceptance	Reviewed with care and approved with a smile
+80	kudos	trochee	approve	iamb	assonance	same domain: praise and approval	I approve, and kudos for your courage
+81	student	trochee	fluent	trochee	assonance	cause/effect: study brings fluency	A student growing fluent in a brand new tongue
+82	roommate	trochee	student	trochee	assonance	same scene: college dorm life	My roommate is a student of the stars
+83	boosting	trochee	booming	trochee	assonance	same domain: rising growth surge	Boosting every dream while the city's booming
+84	amused	iamb	goofy	trochee	assonance	cause/effect: silliness brings laughter	Your goofy grin keeps me amused all day
+85	goofy	trochee	boogie	trochee	assonance	same scene: silly kitchen dance	Let us do a goofy boogie in the kitchen
+86	hula	trochee	bamboo	iamb	assonance	same scene: island luau night	We hula by the bamboo torches on the shore
+87	hula	trochee	tutu	trochee	assonance	same domain: swaying dance skirts	From a hula skirt to a ballet tutu, we dance
+88	boogie	trochee	jukebox	trochee	assonance	same scene: retro diner dance	Drop a coin in the jukebox and boogie down
+89	moonlight	trochee	canoe	iamb	assonance	same scene: night river paddle	Paddle the canoe through silver moonlight
+90	rooftop	trochee	moonlight	trochee	assonance	same scene: night city view	Dancing on the rooftop in the moonlight
+91	blooming	trochee	tulip	trochee	assonance	same scene: spring garden bed	Every tulip blooming in the April sun
+92	tulip	trochee	ruby	trochee	assonance	same scene: red spring blooms	A ruby tulip opening at dawn
+93	humid	trochee	monsoon	iamb	assonance	same scene: tropical wet season	Humid air before the monsoon sings
+94	shampoo	iamb	grooming	trochee	assonance	same domain: personal care routine	A little shampoo and some grooming for the show
+95	toothpaste	trochee	shampoo	iamb	assonance	same scene: bathroom morning shelf	Toothpaste, shampoo, and a song in the shower
+96	movie	trochee	viewing	trochee	assonance	same scene: cozy film night	Viewing a movie curled up by the fire
+97	suitcase	trochee	cruises	trochee	assonance	same scene: vacation travel trip	Pack a suitcase for the summer cruises
+98	smoothly	trochee	cruising	trochee	assonance	same scene: easy open road	Cruising smoothly down the open road
+99	scuba	trochee	tuna	trochee	assonance	same scene: ocean dive adventure	Scuba diving with the silver tuna
+100	tubing	trochee	canoe	iamb	assonance	same scene: lazy river day	Tubing down the river beside a red canoe

@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	sunny	trochee	funny	trochee	perfect	synonyms: cheerful bright moods	You turn a sunny morning funny with that laugh of yours
+2	yummy	trochee	tummy	trochee	perfect	cause/effect: treats fill tummy	Something yummy warms my tummy on a winter night
+3	fluffy	trochee	puffy	trochee	perfect	synonyms: soft swollen clouds	Fluffy clouds go drifting by so puffy and so white
+4	rubbing	trochee	scrubbing	trochee	perfect	synonyms: cleaning by hand	Rubbing and scrubbing till the windows shine like gold
+5	conduct	iamb	instruct	iamb	perfect	synonyms: guide and teach	Let love conduct the music and instruct my heart to sing
+6	humming	trochee	drumming	trochee	perfect	same scene: making happy music	You're humming in the kitchen while I'm drumming on the door
+7	honey	trochee	bunny	trochee	perfect	synonyms: sweet pet names	Come here, honey, come here, bunny, let me hold you tight
+8	study	trochee	buddy	trochee	perfect	same scene: learning together partners	Every study night is better with my buddy by my side
+9	cousins	trochee	dozens	trochee	perfect	same scene: big family reunion	Dozens of cousins dancing in the summer grass
+10	jumping	trochee	thumping	trochee	perfect	cause/effect: leaping makes thumping	Jumping on the trampoline, my heart is thumping loud
+11	touching	trochee	clutching	trochee	perfect	synonyms: holding with hands	Touching your hand and clutching it close to my heart
+12	rushing	trochee	blushing	trochee	perfect	cause/effect: rushing blood, blush	Warmth is rushing to my cheeks, I'm blushing at your name
+13	dusty	trochee	rusty	trochee	perfect	synonyms: old weathered things	Dusty boots and rusty keys still lead me home to you
+14	trusty	trochee	rusty	trochee	perfect	same scene: old reliable truck	My trusty rusty pickup rolls along the coast
+15	dusty	trochee	trusty	trochee	perfect	same scene: cowboy trail ride	Riding down the dusty trail upon my trusty horse
+16	jumping	trochee	bumping	trochee	perfect	same scene: lively dance floor	We're jumping and bumping to the beat all night
+17	monkey	trochee	funky	trochee	perfect	same scene: playful dancing fun	Dance like a funky monkey underneath the moon
+18	chunky	trochee	funky	trochee	perfect	same domain: bold groovy style	Chunky boots and funky shoes are dancing down the street
+19	loving	trochee	giving	trochee	slant	synonyms: generous warm heart	A loving heart is always giving more
+20	lovely	trochee	lively	trochee	slant	synonyms: bright and charming	A lovely, lively morning full of song
+21	trusted	trochee	tested	trochee	slant	synonyms: proven and reliable	A friendship tested, trusted, and true
+22	sunny	trochee	shiny	trochee	slant	synonyms: bright and gleaming	A sunny sky and shiny dreams ahead
+23	fuzzy	trochee	cozy	trochee	slant	synonyms: soft warm comfort	Fuzzy socks and cozy nights beside the fire
+24	rushing	trochee	dashing	trochee	slant	synonyms: hurrying along quickly	Rushing through the station, dashing for the train to you
+25	rugged	trochee	jagged	trochee	slant	synonyms: rough mountain terrain	Rugged cliffs and jagged peaks are calling me
+26	yummy	trochee	creamy	trochee	slant	synonyms: rich tasty dessert	Yummy, creamy ice cream melting in the sun
+27	stunning	trochee	shining	trochee	slant	synonyms: brilliant radiant beauty	You look stunning, shining like the morning star
+28	fuzzy	trochee	hazy	trochee	slant	synonyms: blurry soft focus	Fuzzy, hazy summer afternoons drift slowly by
+29	brushing	trochee	washing	trochee	slant	synonyms: daily cleaning chores	Brushing my hair and washing my face in the morning light
+30	puppy	trochee	happy	trochee	slant	same scene: joyful wagging dog	A happy puppy chasing butterflies
+31	study	trochee	ready	trochee	slant	cause/effect: study makes ready	I study every night so I'll be ready for the day
+32	running	trochee	winning	trochee	slant	cause/effect: running brings winning	Keep on running and you'll keep on winning
+33	among	iamb	belong	iamb	slant	same scene: belonging together	Among the stars is where we both belong
+34	rustic	trochee	plastic	trochee	slant	antonyms: natural versus synthetic	Rustic wood, not plastic, in our cabin home
+35	touching	trochee	reaching	trochee	slant	same scene: hands stretching skyward	Reaching for the stars and touching the sky
+36	buddy	trochee	teddy	trochee	slant	same scene: childhood cuddly companion	My teddy was my buddy every night
+37	humming	trochee	blooming	trochee	slant	same scene: spring garden bees	Bees are humming and the roses blooming in the yard
+38	begun	iamb	again	iamb	slant	same scene: starting over fresh	A brand new day has begun again
+39	loving	trochee	living	trochee	slant	same scene: love-filled life	Loving you is living free
+40	trusting	trochee	lasting	trochee	slant	cause/effect: trust builds lasting love	A trusting heart will build a lasting love
+41	summit	trochee	limit	trochee	slant	same domain: highest point reached	Climb up to the summit, the sky is the limit
+42	nutty	trochee	witty	trochee	slant	synonyms: playful silly humor	Your nutty jokes and witty lines keep me smiling
+43	bunny	trochee	pony	trochee	slant	same scene: children's pet farm	A bunny and a pony playing in the meadow
+44	bunny	trochee	tiny	trochee	slant	same scene: small soft creature	A tiny bunny hopping through the clover
+45	honey	trochee	yummy	trochee	slant	same scene: sweet sticky treats	Honey on my toast tastes yummy every time
+46	muffin	trochee	oven	trochee	slant	same scene: morning kitchen baking	A muffin rising golden in the oven
+47	button	trochee	kitten	trochee	slant	same scene: cute little things	Cute as a button, soft as a kitten
+48	touching	trochee	teaching	trochee	slant	same domain: inspiring young hearts	Teaching every child and touching every heart
+49	dusty	trochee	misty	trochee	slant	same scene: hazy country morning	Dusty roads and misty hills at dawn
+50	rusty	trochee	frosty	trochee	slant	same scene: old winter gate	The rusty gate is frosty in the morning
+51	lunches	trochee	benches	trochee	slant	same scene: park picnic break	Eating lunches on the benches by the lake
+52	budding	trochee	seeding	trochee	slant	cause/effect: seeds bring buds	Seeding in the spring brings budding trees
+53	buzzing	trochee	grazing	trochee	slant	same scene: summer meadow life	Bees are buzzing, cattle grazing in the sun
+54	jumping	trochee	camping	trochee	slant	same scene: summer outdoor fun	Camping by the lake and jumping in at noon
+55	coming	trochee	running	trochee	slant	same scene: hurrying home happily	Hear me coming running home to you
+56	rushing	trochee	splashing	trochee	slant	same scene: river rapids flowing	Rushing water splashing on the stones
+57	cousins	trochee	seasons	trochee	slant	same scene: holiday family gatherings	Holiday seasons spent with all my cousins
+58	puppy	trochee	sleepy	trochee	slant	same scene: napping little pet	A sleepy puppy curled up on my lap
+59	buddy	trochee	steady	trochee	slant	same scene: loyal reliable friend	My steady buddy through it all
+60	sunday	trochee	sandy	trochee	slant	same scene: beach weekend fun	Sunday morning on the sandy shore
+61	nutty	trochee	fruity	trochee	slant	same domain: trail mix flavors	Nutty, fruity granola in the morning
+62	puppy	trochee	floppy	trochee	slant	part/whole: floppy puppy ears	A puppy with floppy ears is waiting at the door
+63	oven	trochee	heaven	trochee	slant	same scene: heavenly fresh baking	Bread straight from the oven smells like heaven
+64	stuffing	trochee	oven	trochee	slant	same scene: holiday roast dinner	The stuffing in the oven fills the house with cheer
+65	country	trochee	pantry	trochee	slant	same scene: farmhouse kitchen shelves	A country pantry full of jam and bread
+66	hugging	trochee	cuddling	trochee	assonance	synonyms: warm close embrace	Hugging and cuddling underneath the stars
+67	fluffy	trochee	cuddly	trochee	assonance	synonyms: soft and huggable	A fluffy, cuddly kitten curled up in my arms
+68	lovely	trochee	stunning	trochee	assonance	synonyms: truly beautiful sight	You look lovely, you look stunning in the light
+69	upbeat	trochee	funny	trochee	assonance	synonyms: cheerful good humor	Your upbeat songs and funny stories light the room
+70	sunny	trochee	upbeat	trochee	assonance	synonyms: cheerful bright outlook	A sunny smile and an upbeat heart
+71	money	trochee	funding	trochee	assonance	synonyms: financial support	The money and the funding helped our garden grow
+72	buzzing	trochee	humming	trochee	assonance	synonyms: busy bee sounds	Buzzing and humming, the bees are making honey
+73	country	trochee	rustic	trochee	assonance	synonyms: rural simple charm	A rustic cabin in the country hills
+74	rugged	trochee	robust	iamb	assonance	synonyms: strong and sturdy	Rugged hands and a robust heart
+75	nutmeg	trochee	pumpkin	trochee	assonance	same scene: autumn pie spices	Nutmeg dusted on the pumpkin pie
+76	onion	trochee	mushroom	trochee	assonance	same scene: savory kitchen cooking	An onion and a mushroom sizzling in the pan
+77	drumming	trochee	trumpet	trochee	assonance	same domain: marching band music	Drumming and a trumpet leading the parade
+78	trumpet	trochee	summon	trochee	assonance	cause/effect: trumpet call gathers	The trumpet sounds to summon us to dance
+79	loving	trochee	hugging	trochee	assonance	same scene: warm affection shared	Loving and hugging all the way home
+80	money	trochee	budget	trochee	assonance	same domain: careful spending plans	We saved our money on a little budget
+81	hundred	trochee	dozen	trochee	assonance	same domain: counting big numbers	A dozen roses, then a hundred more
+82	lunchtime	trochee	hungry	trochee	assonance	cause/effect: noon brings appetite	By lunchtime I am hungry for a picnic in the sun
+83	honey	trochee	buzzing	trochee	assonance	same scene: busy beehive day	Honey dripping while the hive is buzzing
+84	discuss	iamb	study	trochee	assonance	same domain: learning together	Let's discuss the stars we study every night
+85	husband	trochee	trusted	trochee	assonance	same scene: faithful married partner	My husband is my trusted friend for life
+86	comfy	trochee	cuddly	trochee	assonance	synonyms: cozy and soft	A comfy chair, a cuddly blanket
+87	stuffing	trochee	pumpkin	trochee	assonance	same scene: harvest holiday feast	Stuffing on the table, pumpkin pie to share
+88	dozen	trochee	muffins	trochee	assonance	same scene: bakery box treats	A dozen muffins warm for breakfast
+89	compass	trochee	summit	trochee	assonance	same scene: mountain hiking trip	Follow the compass to the summit
+90	tundra	trochee	husky	trochee	assonance	same scene: arctic sled run	A husky racing on the snowy tundra
+91	upright	trochee	justice	trochee	assonance	same domain: moral integrity	An upright heart will always stand for justice
+92	clubhouse	trochee	buddies	trochee	assonance	same scene: friends' secret hangout	Meet my buddies at the clubhouse after school
+93	touchdown	trochee	rugby	trochee	assonance	same domain: ball sports	A touchdown in the rugby match
+94	mustang	trochee	running	trochee	assonance	same scene: wild horse galloping	A mustang running free across the plain
+95	above	iamb	summit	trochee	assonance	same domain: lofty mountain heights	The summit rising high above the clouds
+96	above	iamb	sunlight	trochee	assonance	same scene: bright sky overhead	Golden sunlight shining from above
+97	wondrous	trochee	stunning	trochee	assonance	synonyms: amazing and beautiful	A wondrous, stunning view from here
+98	among	iamb	cousins	trochee	assonance	same scene: family gathering together	Laughing among my cousins at the fair
+99	among	iamb	buddies	trochee	assonance	same scene: friends gathered together	Laughing among my buddies by the fire
+100	dusting	trochee	scrubbing	trochee	assonance	same scene: spring cleaning day	Dusting shelves and scrubbing floors on a bright spring day

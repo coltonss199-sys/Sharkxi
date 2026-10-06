@@ -15,6 +15,9 @@ python validate.py cmudict.dict long_a results/long_a.tsv --expect 100
 python assemble.py cmudict.dict results .
 ```
 
+`results/` holds the ten per-vowel lists, as picked by one agent per vowel, so
+`assemble.py` can be re-run without redoing the search.
+
 - `phonetics.py` holds the rules: syllable count, iamb/trochee meter, r/l-controlled
   syllables, and the perfect / slant / assonance classifier.
 - `build_candidates.py` writes the words that pass those rules, grouped by stressed vowel

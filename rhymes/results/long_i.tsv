@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	brighten	trochee	lighten	trochee	perfect	synonyms: fill with light	Let the morning brighten and the heavy clouds lighten
+2	sliding	trochee	gliding	trochee	perfect	synonyms: smooth easy motion	We go sliding down the hill and gliding into spring
+3	spicy	trochee	icy	trochee	perfect	antonyms: hot versus cold	Your spicy laugh could melt this icy winter night
+4	slightly	trochee	lightly	trochee	perfect	synonyms: soft gentle touch	Lean in slightly and kiss me lightly on the cheek
+5	delight	iamb	excite	iamb	perfect	synonyms: thrill and joy	You fill my days with delight and every hello will excite
+6	ignite	iamb	alight	iamb	perfect	synonyms: set aflame	One small spark can ignite a heart and set the sky alight
+7	comply	iamb	defy	iamb	perfect	antonyms: obey versus resist	Let the cautious comply, we will defy the gray with color
+8	reside	iamb	abide	iamb	perfect	synonyms: dwell and stay	Where your kindness may reside, my heart will gladly abide
+9	provide	iamb	supplied	iamb	perfect	synonyms: give what's needed	All the love you provide kept my hopeful heart supplied
+10	align	iamb	combine	iamb	perfect	synonyms: bring together	When the stars align our voices combine in song
+11	thriving	trochee	striving	trochee	perfect	cause/effect: effort brings flourishing	We kept striving through the seasons and now the garden's thriving
+12	alive	iamb	revive	iamb	perfect	cause/effect: revival restores life	Your laughter can revive me and make me feel alive
+13	polite	iamb	upright	iamb	perfect	synonyms: proper good conduct	Stay polite, stand upright, and let your kindness show
+14	brightness	trochee	whiteness	trochee	perfect	synonyms: pale radiant glow	The brightness of the snow and the whiteness of the moon
+15	hiking	trochee	biking	trochee	perfect	same domain: trail adventures	Summer days of hiking trails and biking down to the bay
+16	design	iamb	refine	iamb	perfect	cause/effect: draft then polish	We sketch a bold design and refine it line by line
+17	shining	trochee	lining	trochee	perfect	same scene: silver lining glow	There's a silver lining shining through the rain
+18	tiny	trochee	shiny	trochee	perfect	same scene: small bright gem	A tiny shiny seashell glowing in your hand
+19	brightly	trochee	nightly	trochee	perfect	same scene: stars each night	The stars shine brightly, nightly, just for you
+20	tonight	iamb	delight	iamb	perfect	same scene: joyful evening	Dance with me tonight and lose yourself in pure delight
+21	invite	iamb	tonight	iamb	perfect	same scene: evening gathering	I send this warm invite: come sing with us tonight
+22	polite	iamb	invite	iamb	perfect	same domain: gracious manners	With a polite little bow I offer my invite
+23	ignite	iamb	delight	iamb	perfect	cause/effect: spark kindles joy	One little song can ignite a night of pure delight
+24	slices	trochee	spices	trochee	perfect	same scene: kitchen baking	Warm bread slices dusted with cinnamon and spices
+25	concise	iamb	suffice	iamb	perfect	cause/effect: brevity is enough	A concise little kiss will suffice to say I love you
+26	brightly	trochee	lightly	trochee	perfect	same domain: gentle radiance	Step lightly, smile brightly, the day belongs to you
+27	reply	iamb	goodbye	iamb	perfect	same scene: farewell exchange	Wave goodbye and I will reply with a song
+28	arrived	iamb	revived	iamb	perfect	cause/effect: spring restores fields	The moment spring arrived the sleepy fields revived
+29	riding	trochee	gliding	trochee	perfect	same scene: smooth downhill ride	Riding on a sled and gliding down the snowy hill
+30	winding	trochee	finding	trochee	perfect	same scene: wandering trail	Down the winding road we keep on finding home
+31	advice	iamb	precise	iamb	perfect	same domain: clear counsel	Your advice is gentle, kind, and precise
+32	design	iamb	align	iamb	perfect	same domain: careful layout	We plan a clean design and let every color align
+33	divine	iamb	sublime	iamb	slant	synonyms: heavenly glorious	Your voice is divine and the melody sublime
+34	sublime	iamb	supreme	iamb	slant	synonyms: highest excellence	A sunset so sublime, a joy supreme
+35	guiding	trochee	leading	trochee	slant	synonyms: show the way	Your love is guiding me and leading me home
+36	hiking	trochee	trekking	trochee	slant	synonyms: long journeys on foot	We went hiking through the hills and trekking by the stream
+37	divine	iamb	serene	iamb	slant	synonyms: heavenly calm	In this divine and serene morning light
+38	polite	iamb	discreet	iamb	slant	synonyms: tactful and courteous	Polite and discreet, she kept our secret sweet
+39	thriving	trochee	living	trochee	slant	synonyms: full flourishing life	We are living freely and our hearts are thriving
+40	writing	trochee	typing	trochee	slant	synonyms: putting words down	I'm typing out these verses, writing all night long
+41	shining	trochee	raining	trochee	slant	antonyms: sun versus rain	Whether it is raining or the sun is shining, I'm with you
+42	brightest	trochee	greatest	trochee	slant	synonyms: very best	You are the brightest light and the greatest gift I know
+43	devised	iamb	composed	iamb	slant	synonyms: crafted and created	She devised a melody and composed it just for you
+44	lighting	trochee	guiding	trochee	slant	cause/effect: light shows the way	The lantern lighting up the path is guiding us home
+45	wisely	trochee	nicely	trochee	slant	same domain: good conduct	Speak wisely, treat others nicely, and the world will smile
+46	silent	trochee	island	trochee	slant	same scene: quiet isle	On a silent island where the soft waves sing
+47	brightness	trochee	sweetness	trochee	slant	same domain: pleasant qualities	The brightness of your smile, the sweetness of your song
+48	brightly	trochee	sweetly	trochee	slant	same domain: pleasant manner	Birds sing sweetly as the sun shines brightly
+49	timeless	trochee	seamless	trochee	slant	same domain: flawless enduring grace	A timeless dance, a seamless glide across the floor
+50	climbing	trochee	blooming	trochee	slant	same scene: garden roses	Climbing roses blooming on the garden gate
+51	rising	trochee	praising	trochee	slant	same scene: morning hymn	With the sun rising high we are praising the day
+52	divine	iamb	amen	iamb	slant	same domain: prayerful worship	The chorus sounded so divine that we all sang amen
+53	ignite	iamb	create	iamb	slant	cause/effect: spark makes art	Ignite your spark and create something new
+54	arrive	iamb	achieve	iamb	slant	cause/effect: reaching the goal	When we arrive we'll see the dreams that we achieve
+55	driving	trochee	moving	trochee	slant	same domain: travel in motion	Driving down the coast with music moving through our souls
+56	shiny	trochee	penny	trochee	slant	same scene: lucky coin	A shiny penny tossed into a wishing fountain
+57	decide	iamb	agreed	iamb	slant	cause/effect: choice brings agreement	We sat down to decide and we happily agreed
+58	quiet	trochee	silent	trochee	assonance	synonyms: hushed and still	A quiet field, a silent snow, a peaceful night
+59	tiny	trochee	giant	trochee	assonance	antonyms: small versus huge	From tiny seeds a giant oak will grow
+60	tiny	trochee	mighty	trochee	assonance	antonyms: small versus strong	A tiny seed can grow into a mighty tree
+61	hiding	trochee	finding	trochee	assonance	antonyms: hidden versus found	You were hiding in the garden and I keep finding you there
+62	giant	trochee	mighty	trochee	assonance	synonyms: huge and strong	A giant wave, a mighty ocean song
+63	benign	iamb	kindness	trochee	assonance	synonyms: gentle goodwill	A benign old heart that's full of kindness
+64	kindly	trochee	nicely	trochee	assonance	synonyms: gentle good manners	Ask her kindly and she'll answer nicely
+65	tidy	trochee	precise	iamb	assonance	synonyms: neat and exact	A tidy little garden laid out neat and precise
+66	highest	trochee	finest	trochee	assonance	synonyms: top quality	The highest praise for the finest friend I know
+67	supply	iamb	provide	iamb	assonance	synonyms: furnish and give	The rains supply the river and the river will provide
+68	guidance	trochee	advice	iamb	assonance	synonyms: wise counsel given	Thank you for your gentle guidance and your kind advice
+69	benign	iamb	kindly	trochee	assonance	synonyms: gentle and kind	A benign old sun that shines so kindly on the town
+70	sublime	iamb	timeless	trochee	assonance	synonyms: eternal and grand	A timeless song, a love sublime
+71	timeless	trochee	priceless	trochee	assonance	synonyms: precious beyond measure	These timeless moments are priceless to me
+72	lively	trochee	vibrant	trochee	assonance	synonyms: full of energy	A lively crowd along a vibrant summer street
+73	excite	iamb	lively	trochee	assonance	synonyms: full of spark	A lively tune will always excite the crowd
+74	climbing	trochee	rising	trochee	assonance	synonyms: going upward	Climbing higher, rising with the morning sun
+75	biking	trochee	riding	trochee	assonance	synonyms: pedaling along	Biking through the city, riding by the bay
+76	flying	trochee	gliding	trochee	assonance	synonyms: airborne motion	Flying over valleys, gliding on the breeze
+77	alive	iamb	thriving	trochee	assonance	synonyms: full of life	So alive and thriving in the summer sun
+78	advice	iamb	wisely	trochee	assonance	cause/effect: counsel guides choices	Take my advice and spend your summers wisely
+79	wisely	trochee	kindly	trochee	assonance	same domain: virtuous ways	Choose wisely, speak kindly, love freely
+80	finest	trochee	brightest	trochee	assonance	synonyms: the very best	The finest friend and the brightest soul I know
+81	rising	trochee	shining	trochee	assonance	same scene: sunrise glow	The sun is rising, shining on the bay
+82	tonight	iamb	twilight	trochee	assonance	same scene: evening sky	In the soft twilight we will hold hands tonight
+83	arrive	iamb	driving	trochee	assonance	cause/effect: drive then arrive	Keep on driving and soon we will arrive
+84	hiking	trochee	climbing	trochee	assonance	same domain: mountain trail	Hiking up the ridge and climbing toward the clouds
+85	flying	trochee	pilot	trochee	assonance	same domain: aviation	The pilot sings while flying through the dawn
+86	shiny	trochee	diamond	trochee	assonance	same scene: jewel sparkle	A shiny diamond glinting in the candlelight
+87	invite	iamb	dining	trochee	assonance	same scene: dinner party	Accept my invite to dining by candlelight
+88	spicy	trochee	dining	trochee	assonance	same scene: dinner table	Spicy soup and laughter while we're dining with friends
+89	diamond	trochee	priceless	trochee	assonance	same domain: precious jewels	A diamond in the snow, a priceless winter glow
+90	quiet	trochee	private	trochee	assonance	synonyms: secluded and calm	A quiet, private corner just for two
+91	icy	trochee	whiteness	trochee	assonance	same scene: winter snow	Icy branches sparkle in the whiteness of the dawn
+92	island	trochee	lighthouse	trochee	assonance	same scene: coastal night	An island lighthouse glowing in the bay
+93	guiding	trochee	lighthouse	trochee	assonance	cause/effect: beacon guides ships	The lighthouse keeps on guiding sailors home
+94	highway	trochee	driving	trochee	assonance	same scene: road trip	Driving down the highway with the windows open wide
+95	skyline	trochee	highway	trochee	assonance	same scene: city drive	The skyline glitters as we cruise the open highway
+96	icing	trochee	slices	trochee	assonance	same scene: birthday cake	Birthday cake with sugar icing cut in happy slices
+97	silence	trochee	twilight	trochee	assonance	same scene: evening hush	In the gentle silence of the purple twilight
+98	ivy	trochee	lilac	trochee	assonance	same scene: cottage garden	Ivy on the fence and lilac by the gate
+99	rhino	trochee	bison	trochee	assonance	same domain: mighty grazing beasts	The rhino and the bison roam the open plain
+100	lion	trochee	rhino	trochee	assonance	same domain: safari wildlife	A lion and a rhino resting in the sun

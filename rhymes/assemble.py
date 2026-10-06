@@ -85,10 +85,13 @@ def main():
         "",
         "**Every pair was machine-checked against CMU** (`validate.py`):",
         "",
-        "- both words are two syllables, labelled **iamb** (da-DUM) or "
+        "- both words are two syllables in every CMU pronunciation (so no "
+        "cov-ring / co-ver-ing ambiguity), labelled **iamb** (da-DUM) or "
         "**trochee** (DUM-da) exactly as CMU stresses them;",
-        "- no r- or l-controlled syllables (no ER, no vowel closed by R or L, "
-        "no syllabic -le);",
+        "- no r- or l-controlled syllables: no ER, no vowel closed by R or L, "
+        "no syllabic -le, no silent-L spelling (talk, calm), no suffixed "
+        "base-final L (roll-ing, feel-ing), and no vowel letter closed by R "
+        "in the spelling (sur-prise);",
         "- the rhyme type is the one CMU's phonemes actually support — "
         "**perfect** (identical from the stressed vowel on), **slant** "
         "(one or two near-consonant swaps, or a different vowel over identical "

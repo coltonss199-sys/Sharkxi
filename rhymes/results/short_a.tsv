@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	advance	iamb	enhance	iamb	perfect	synonyms: progress and improve	With every step we advance, every dream we enhance
+2	crafted	trochee	drafted	trochee	perfect	synonyms: designed with care	Every verse I drafted, every chorus crafted just for you
+3	banish	trochee	vanish	trochee	perfect	synonyms: make worries disappear	Banish all the gray clouds and watch the worries vanish
+4	exact	iamb	abstract	iamb	perfect	antonyms: precise versus vague	Love isn't something abstract, it's exact as the sunrise
+5	happy	trochee	snappy	trochee	perfect	synonyms: cheerful lively mood	Keep it happy, keep it snappy, let the rhythm roll
+6	baggy	trochee	shaggy	trochee	perfect	synonyms: loose and scruffy	Baggy sweater, shaggy hair, and a carefree Sunday grin
+7	packing	trochee	stacking	trochee	perfect	synonyms: loading up boxes	Packing up our memories and stacking them with care
+8	gladly	trochee	madly	trochee	perfect	synonyms: eager wholehearted love	I would gladly fall for you, madly and for good
+9	handy	trochee	dandy	trochee	perfect	synonyms: useful and fine	With a handy little tune the day is fine and dandy
+10	compact	iamb	intact	iamb	perfect	synonyms: snug and whole	Fold the dream up compact and carry it intact
+11	glances	trochee	dances	trochee	perfect	same scene: ballroom flirtation	Stolen glances turned to slow dances under the stars
+12	action	trochee	traction	trochee	perfect	cause/effect: effort gains momentum	Put your dreams in action and they'll find their traction
+13	fashion	trochee	passion	trochee	perfect	same domain: love of style	She stitched her passion into fashion made of gold
+14	clapping	trochee	tapping	trochee	perfect	same scene: keeping the beat	Hands are clapping, feet are tapping to the band
+15	glances	trochee	chances	trochee	perfect	cause/effect: glance sparks chance	Second glances turn to second chances
+16	classes	trochee	passes	trochee	perfect	cause/effect: study earns success	She smiles and passes all her classes with ease
+17	dancing	trochee	glancing	trochee	perfect	same scene: moonlit dance floor	Dancing in the moonlight, glancing at your smile
+18	lashes	trochee	flashes	trochee	perfect	same scene: bright flirting eyes	Her lashes flutter every time the camera flashes
+19	granny	trochee	nanny	trochee	perfect	same domain: loving childhood caregivers	Granny bakes the cookies while the nanny sings along
+20	classy	trochee	sassy	trochee	perfect	same domain: confident stylish attitude	She's classy in the morning and sassy on the dance floor
+21	mango	trochee	tango	trochee	perfect	same scene: tropical summer dance	Sweet mango on our lips, we tango through the night
+22	planet	trochee	granite	trochee	perfect	part/whole: rock of planet	This planet's made of granite and a million dreams
+23	napping	trochee	tapping	trochee	perfect	same scene: rainy afternoon rest	Napping on the sofa while the rain is softly tapping
+24	landing	trochee	standing	trochee	perfect	cause/effect: landing earns ovation	She stuck the landing and the crowd was standing
+25	romance	iamb	expanse	iamb	perfect	same scene: starlit open sky	Romance beneath the wide expanse of stars
+26	splashing	trochee	flashing	trochee	perfect	same scene: sunlit summer water	Children splashing in the lake with silver ripples flashing
+27	grasses	trochee	passes	trochee	perfect	same scene: breeze through meadow	The summer wind passes softly through the grasses
+28	tanning	trochee	fanning	trochee	perfect	same scene: summer beach heat	Tanning on the sand while the palm leaves keep on fanning
+29	clapping	trochee	snapping	trochee	perfect	same scene: rhythm of hands	Fingers snapping, palms clapping, everybody sing
+30	splashing	trochee	dashing	trochee	perfect	same scene: running through surf	Dashing through the waves and splashing in the sun
+31	napping	trochee	wrapping	trochee	perfect	same scene: cozy blanket nap	Napping by the fire, wrapping up in wool
+32	flashing	trochee	dashing	trochee	perfect	same scene: charming bright smile	A dashing grin and flashing eyes across the room
+33	spanning	trochee	scanning	trochee	perfect	same scene: wide horizon view	Scanning the horizon with a rainbow spanning wide
+34	sandy	trochee	candy	trochee	perfect	same scene: seaside boardwalk treats	Sandy toes and cotton candy on the pier
+35	exact	iamb	correct	iamb	slant	synonyms: precise and right	Every word exact, every note correct
+36	impact	iamb	effect	iamb	slant	synonyms: lasting influence result	Your kindness made an impact with a gentle, lasting effect
+37	expanse	iamb	immense	iamb	slant	synonyms: vast open space	The ocean's blue expanse is immense and free
+38	classy	trochee	flashy	trochee	slant	antonyms: refined versus showy	She's classy, never flashy, shining soft and true
+39	granted	trochee	handed	trochee	slant	synonyms: given as gift	Every wish was granted, every star was handed down
+40	subtract	iamb	deduct	iamb	slant	synonyms: take away amounts	Subtract the doubt and deduct the fear tonight
+41	dandy	trochee	trendy	trochee	slant	synonyms: stylish sharp dresser	Dressed up like a dandy, looking trendy on the town
+42	react	iamb	reflect	iamb	slant	antonyms: impulse versus thought	Don't react too quickly, take a breath and reflect
+43	expand	iamb	ascend	iamb	slant	synonyms: growing and rising	Let your heart expand as the morning larks ascend
+44	action	trochee	fiction	trochee	slant	antonyms: doing versus dreaming	Turn the pages of your fiction into action
+45	classy	trochee	jazzy	trochee	slant	same domain: stylish lively flair	A classy little club with a jazzy band till dawn
+46	sassy	trochee	jazzy	trochee	slant	same domain: bold lively style	She's sassy when she sings a jazzy melody
+47	fashion	trochee	flashing	trochee	slant	same scene: runway camera lights	Cameras flashing as the fashion parade goes by
+48	grasses	trochee	flashes	trochee	slant	same scene: firefly summer meadow	Fireflies in the grasses throwing tiny golden flashes
+49	cabin	trochee	snapping	trochee	slant	same scene: crackling cozy fire	The fire is snapping in our little cabin
+50	camping	trochee	chanting	trochee	slant	same scene: campfire singalong night	Camping by the lake and chanting songs beneath the moon
+51	standing	trochee	chanting	trochee	slant	same scene: cheering stadium crowd	The crowd is standing, chanting out your name
+52	baggy	trochee	khaki	trochee	slant	same scene: casual weekend clothes	Baggy khaki trousers on a lazy Sunday stroll
+53	dancing	trochee	mansion	trochee	slant	same scene: grand ballroom party	We were dancing in the mansion till the morning light
+54	glancing	trochee	handsome	trochee	slant	same scene: shy admiring look	Glancing at a handsome stranger by the door
+55	branches	trochee	benches	trochee	slant	same scene: shady city park	Sunlight through the branches on the old park benches
+56	satin	trochee	wrapping	trochee	slant	same scene: elegant gift ribbon	Satin ribbon wrapping every present with a bow
+57	packing	trochee	wagon	trochee	slant	same scene: pioneer road trip	Packing up the wagon for the long road west
+58	romance	iamb	commence	iamb	slant	same scene: love story begins	Let the music play and let the romance commence
+59	active	trochee	passive	trochee	assonance	antonyms: busy versus still	Some days I'm active, some days passive as the sea
+60	rapid	trochee	placid	trochee	assonance	antonyms: rushing versus calm	From rapid mountain rivers to the placid lake below
+61	contract	iamb	expand	iamb	assonance	antonyms: shrink versus grow	Our hearts contract and then expand with every breath
+62	advance	iamb	retract	iamb	assonance	antonyms: forward versus back	The waves advance and then retract along the shore
+63	mansion	trochee	cabin	trochee	assonance	antonyms: grand versus humble	I'd trade a marble mansion for a cabin by the lake
+64	passage	trochee	pathway	trochee	assonance	synonyms: a way through	A hidden passage opens to a sunlit pathway
+65	savvy	trochee	crafty	trochee	assonance	synonyms: shrewd and clever	She's savvy with her money and crafty with her hands
+66	handsome	trochee	dashing	trochee	assonance	synonyms: attractive charming gentleman	So handsome and so dashing in his Sunday suit
+67	lavish	trochee	fancy	trochee	assonance	synonyms: rich and elegant	A fancy gown, a lavish ball, a night to remember
+68	practice	trochee	habit	trochee	assonance	synonyms: steady daily routine	Make your practice a habit and the music comes alive
+69	mapping	trochee	planning	trochee	assonance	synonyms: plotting the route	Mapping out the journey, planning every stop
+70	happy	trochee	gladly	trochee	assonance	synonyms: joyful and willing	I'm happy and I'll gladly sing along with you
+71	catchy	trochee	snappy	trochee	assonance	synonyms: lively memorable tune	A catchy little chorus with a snappy little beat
+72	happy	trochee	laughing	trochee	assonance	cause/effect: joy brings laughter	We were happy, we were laughing till the dawn
+73	magnet	trochee	attract	iamb	assonance	cause/effect: magnet draws close	You're a magnet and you attract the morning sun
+74	antics	trochee	laughing	trochee	assonance	cause/effect: silliness brings laughter	Your silly little antics keep me laughing all day
+75	pastime	trochee	passion	trochee	assonance	synonyms: hobby and love	My favorite pastime turned into my passion
+76	fabric	trochee	fashion	trochee	assonance	part/whole: fabric makes fashion	Turning silky fabric into fashion for the stage
+77	tango	trochee	dancing	trochee	assonance	part/whole: tango within dancing	Dancing the tango underneath the city lights
+78	package	trochee	wrapping	trochee	assonance	part/whole: package in wrapping	Tearing off the wrapping on a package full of love
+79	aspen	trochee	branches	trochee	assonance	part/whole: branches of aspen	Golden aspen branches swaying in the breeze
+80	blanket	trochee	basket	trochee	assonance	same scene: picnic spread	Spread the blanket, open up the basket
+81	magic	trochee	rabbit	trochee	assonance	same scene: magician's hat trick	A little bit of magic pulls a rabbit from the hat
+82	hammock	trochee	napping	trochee	assonance	same scene: lazy summer afternoon	Napping in the hammock while the summer breezes blow
+83	angling	trochee	casting	trochee	assonance	same scene: fishing by river	Angling by the river, casting lines into the light
+84	canvas	trochee	landscape	trochee	assonance	same scene: painting outdoors	She paints a golden landscape on a canvas by the sea
+85	cactus	trochee	canyon	trochee	assonance	same scene: desert sunset	A lonely cactus glowing in the canyon light
+86	snapshot	trochee	candid	trochee	assonance	same scene: natural photo moment	A candid little snapshot of the summer that we shared
+87	statue	trochee	plaza	trochee	assonance	same scene: sunny town square	We met beside the statue in the plaza
+88	relax	iamb	unpack	iamb	assonance	same scene: vacation arrival	Unpack the bags and relax beside the sea
+89	bathtub	trochee	splashing	trochee	assonance	same scene: bubbly bath time	Splashing in the bathtub, bubbles everywhere
+90	mattress	trochee	blanket	trochee	assonance	same scene: cozy bed	A feather mattress and a woolen blanket
+91	sandwich	trochee	napkin	trochee	assonance	same scene: picnic lunch	A sandwich and a napkin on a sunny afternoon
+92	lavish	trochee	banquet	trochee	assonance	same scene: grand feast	A lavish banquet laid beneath the stars
+93	banjo	trochee	jamming	trochee	assonance	same scene: porch music jam	Jamming on the banjo on the porch at night
+94	gadget	trochee	handy	trochee	assonance	same domain: useful little tools	A handy little gadget in my pocket for the road
+95	laughing	trochee	chatting	trochee	assonance	same scene: friends together	Laughing and chatting till the stars come out
+96	athlete	trochee	practice	trochee	assonance	same scene: daily training	An athlete knows that practice builds the dream
+97	campus	trochee	classes	trochee	assonance	same scene: college life	Walking through the campus to our morning classes
+98	campsite	trochee	backpack	trochee	assonance	same scene: camping trip	Drop the backpack at the campsite by the stream
+99	grassland	trochee	rabbit	trochee	assonance	same scene: open meadow	A rabbit hopping softly through the grassland
+100	mantra	trochee	chanting	trochee	assonance	same scene: peaceful morning meditation	Chanting our mantra as the morning light arrives

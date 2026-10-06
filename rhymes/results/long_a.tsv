@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	places	trochee	spaces	trochee	perfect	synonyms: open room to roam	We'll find new places, wide-open spaces, you and me
+2	racing	trochee	chasing	trochee	perfect	synonyms: running after dreams	Racing through the meadow, chasing fireflies at dusk
+3	ages	trochee	stages	trochee	perfect	synonyms: phases of life	Through all the ages and the stages, I'll hold on
+4	waning	trochee	gaining	trochee	perfect	antonyms: shrinking versus growing	The winter's waning and the light is gaining ground
+5	display	iamb	array	iamb	perfect	synonyms: bright showcase of colors	A bright display, a dazzling array of lights
+6	create	iamb	innate	iamb	perfect	antonyms: made versus inborn	Some gifts are innate, the rest we create
+7	sustain	iamb	remain	iamb	perfect	synonyms: lasting and enduring	Let the music sustain, let the melody remain
+8	domain	iamb	terrain	iamb	perfect	synonyms: land and territory	This green domain, this rolling, wild terrain
+9	fated	trochee	slated	trochee	perfect	synonyms: destined to happen	We were fated, slated for a sunny ending
+10	contain	iamb	restrain	iamb	perfect	synonyms: holding feelings in	I can't contain this joy, can't restrain this smile
+11	faded	trochee	shaded	trochee	perfect	synonyms: softened, muted colors	Faded denim, shaded porches in July
+12	refrain	iamb	abstain	iamb	perfect	synonyms: gently holding back	Let's refrain from rushing and abstain from all the noise
+13	upgrade	iamb	remade	iamb	perfect	synonyms: improved and renewed	A total upgrade, our little home remade
+14	conveyed	iamb	displayed	iamb	perfect	synonyms: shown and expressed	The love she conveyed was displayed in her eyes
+15	equate	iamb	relate	iamb	perfect	synonyms: connect and compare	Nothing could equate to the way our hearts relate
+16	training	trochee	gaining	trochee	perfect	cause/effect: practice builds strength	Every morning training, every day I'm gaining
+17	amaze	iamb	displays	iamb	perfect	cause/effect: dazzling shows bring wonder	Fireworks light the night, and the bright displays amaze
+18	lazy	trochee	hazy	trochee	perfect	same scene: slow summer afternoon	A lazy, hazy afternoon beneath the willow
+19	lazy	trochee	daisy	trochee	perfect	same scene: summer meadow nap	Lying lazy in the daisy field all afternoon
+20	gazing	trochee	grazing	trochee	perfect	same scene: quiet country meadow	Gazing at the horses grazing in the clover
+21	raising	trochee	praising	trochee	perfect	same scene: voices lifted high	Raising up our voices, praising every dawn
+22	playing	trochee	swaying	trochee	perfect	same scene: music and dancing	The band is playing and the crowd is swaying
+23	latest	trochee	greatest	trochee	perfect	same domain: newest, finest things	Here's my latest and my greatest love song
+24	gracious	trochee	spacious	trochee	perfect	same scene: welcoming open home	A gracious host inside a spacious sunny hall
+25	phrases	trochee	praises	trochee	perfect	same domain: words of song	Singing phrases full of praises to the sky
+26	rainy	trochee	sunny	trochee	slant	antonyms: wet versus bright	Rainy mornings turn to sunny afternoons
+27	lazy	trochee	easy	trochee	slant	synonyms: relaxed and slow	Lazy Sunday morning, easy as a breeze
+28	embrace	iamb	release	iamb	slant	antonyms: hold versus let go	Embrace the moment, then release your fears
+29	staying	trochee	going	trochee	slant	antonyms: stay versus leave	Whether you're staying or going, you are loved
+30	acclaim	iamb	esteem	iamb	slant	synonyms: praise and respect	They earned acclaim and the esteem of every friend
+31	painted	trochee	tinted	trochee	slant	synonyms: colored with hue	Painted skies and tinted window light
+32	amaze	iamb	amuse	iamb	slant	synonyms: delight and entertain	Tricks that amaze and jokes that amuse
+33	bravely	trochee	safely	trochee	slant	antonyms: bold versus careful	Go forth bravely, then come home safely
+34	making	trochee	baking	trochee	perfect	same scene: warm kitchen treats	We're making memories and baking bread at home
+35	ballet	iamb	bouquet	iamb	perfect	same scene: dance recital flowers	After the ballet she held a rose bouquet
+36	spraying	trochee	swaying	trochee	perfect	same scene: breezy beach day	Ocean mist is spraying and the palms are swaying
+37	daisy	trochee	hazy	trochee	perfect	same scene: summer meadow	A daisy chain on a hazy afternoon
+38	hooray	iamb	today	iamb	perfect	same scene: celebration day	Shout hooray, it's our big day today
+39	praying	trochee	saying	trochee	perfect	same domain: words of thanks	Praying softly, saying thanks for every sunrise
+40	cafe	iamb	buffet	iamb	perfect	same scene: sunny brunch outing	Brunch at the cafe, a sunny buffet
+41	cafe	iamb	chalet	iamb	perfect	same scene: snowy alpine village	Cocoa at the cafe, then home to our chalet
+42	erase	iamb	replace	iamb	perfect	cause/effect: clear then renew	Erase the gray and replace it with gold
+43	aiming	trochee	framing	trochee	perfect	same domain: taking a photo	Aiming at the sunset, framing it just right
+44	blazing	trochee	gazing	trochee	perfect	same scene: campfire night	Gazing at the blazing campfire light
+45	races	trochee	paces	trochee	perfect	same domain: running track	We ran the races, put our hearts through paces
+46	plated	trochee	grated	trochee	perfect	same domain: preparing dinner	Cheese grated fresh and plated with a smile
+47	engage	iamb	onstage	iamb	perfect	same scene: performer and crowd	Step onstage and engage the crowd tonight
+48	pages	trochee	stages	trochee	perfect	same domain: stories and theater	Turning pages, setting stages for our tale
+49	parade	iamb	cascade	iamb	perfect	same scene: festive confetti shower	A cascade of confetti fell on the parade
+50	faces	trochee	graces	trochee	perfect	same domain: charm and beauty	Smiling faces full of little graces
+51	navy	trochee	wavy	trochee	perfect	same scene: deep ocean water	Navy water, wavy lines along the shore
+52	waking	trochee	baking	trochee	perfect	same scene: early morning kitchen	Waking up to the smell of Mama baking
+53	skating	trochee	floating	trochee	slant	synonyms: smooth gliding motion	Skating so smooth it feels like floating
+54	saying	trochee	showing	trochee	slant	synonyms: expressing your heart	Saying it is easy, showing takes your heart
+55	baby	trochee	lady	trochee	slant	same domain: girl growing up	My baby girl grew up into a graceful lady
+56	swaying	trochee	blowing	trochee	slant	cause/effect: wind moves trees	Trees are swaying while the wind is blowing
+57	attain	iamb	acclaim	iamb	slant	cause/effect: success earns praise	Dream high, attain it, and bask in the acclaim
+58	hazy	trochee	breezy	trochee	slant	same scene: summer evening	Hazy skies and breezy summer nights
+59	champagne	iamb	balloon	iamb	slant	same scene: party celebration	Pop the champagne, let loose the balloon
+60	tasty	trochee	crusty	trochee	slant	same scene: fresh warm bread	Tasty loaves with crusty golden tops
+61	champagne	iamb	cuisine	iamb	slant	same domain: fine dining	Chilled champagne and fine French cuisine
+62	gazing	trochee	rising	trochee	slant	same scene: watching sunrise	Gazing at the rising sun above the hill
+63	skating	trochee	boating	trochee	slant	same domain: lake recreation	Skating in December, boating in July
+64	painting	trochee	printing	trochee	slant	same domain: making art	Painting canvases and printing posters bright
+65	playing	trochee	growing	trochee	slant	same scene: happy childhood	Children playing, growing taller every day
+66	terrain	iamb	ravine	iamb	slant	same domain: rugged landscape	Across the green terrain and down the deep ravine
+67	tasting	trochee	roasting	trochee	slant	same scene: summer cookout	Roasting corn and tasting summer on the grill
+68	saving	trochee	giving	trochee	slant	same domain: generous money habits	Saving up and giving back with love
+69	remain	iamb	staying	trochee	assonance	synonyms: stay right here	I'll remain here, staying by your side
+70	create	iamb	making	trochee	assonance	synonyms: building something new	Let's create a song, making something new
+71	explain	iamb	convey	iamb	assonance	synonyms: put into words	I can't explain or convey how much I care
+72	behave	iamb	obey	iamb	assonance	synonyms: follow the rules	Behave yourself and obey the golden rule
+73	escape	iamb	away	iamb	assonance	synonyms: breaking free	Let's escape the city, slip away tonight
+74	safety	trochee	haven	trochee	assonance	synonyms: shelter and protection	In the safety of this quiet haven
+75	famous	trochee	nameless	trochee	assonance	antonyms: known versus unknown	Famous or nameless, I'll love you the same
+76	making	trochee	shaping	trochee	assonance	synonyms: forming something new	Making clay and shaping dreams by hand
+77	maiden	trochee	lady	trochee	assonance	synonyms: fair young woman	A gentle lady, once a village maiden
+78	obtain	iamb	gaining	trochee	assonance	synonyms: acquiring something	Gaining ground to obtain the golden prize
+79	dainty	trochee	lacy	trochee	assonance	synonyms: delicate and fine	A dainty dress with lacy sleeves
+80	gracious	trochee	patient	trochee	assonance	synonyms: kind, gentle virtues	Be gracious, be patient, be kind
+81	stately	trochee	gracious	trochee	assonance	synonyms: dignified and elegant	A stately bow, a gracious smile
+82	domain	iamb	estate	iamb	assonance	synonyms: owned land	Our small domain, this cozy country estate
+83	await	iamb	patience	trochee	assonance	synonyms: patient anticipation	I await you with patience and a smile
+84	patience	trochee	waiting	trochee	assonance	cause/effect: patience eases waiting	Patience is the gift of waiting well
+85	awake	iamb	daybreak	trochee	assonance	same scene: early morning	I'm wide awake at daybreak, full of hope
+86	rainbow	trochee	cascade	iamb	assonance	same scene: misty waterfall	A rainbow shimmers in the cascade spray
+87	daisy	trochee	bouquet	iamb	assonance	part/whole: flower in bunch	A single daisy tucked in her bouquet
+88	fragrance	trochee	bouquet	iamb	assonance	same scene: fresh flowers	The fragrance of a springtime bouquet
+89	rainbow	trochee	halo	trochee	assonance	same scene: arcs of light	A rainbow halo circling the moon
+90	baking	trochee	pastry	trochee	assonance	same scene: morning bakery	Baking pastry in the morning light
+91	rainbow	trochee	painted	trochee	assonance	same scene: colorful sky	A rainbow painted on the evening sky
+92	sacred	trochee	haven	trochee	assonance	same domain: peaceful sanctuary	We found a sacred haven by the sea
+93	ancient	trochee	ages	trochee	assonance	same domain: deep history	Ancient songs that echo through the ages
+94	shading	trochee	tracing	trochee	assonance	same domain: careful drawing	Tracing gentle lines and shading in the light
+95	ballet	iamb	dainty	trochee	assonance	same scene: graceful dancer	Dainty steps across the ballet stage
+96	skating	trochee	lakeside	trochee	assonance	same scene: frozen winter lake	Skating by the lakeside under winter stars
+97	famous	trochee	acclaim	iamb	assonance	same domain: fame and praise	Famous for your kindness, rich in acclaim
+98	apron	trochee	pastry	trochee	assonance	same scene: bakery kitchen	Flour on my apron, pastry in the oven
+99	bacon	trochee	gravy	trochee	assonance	same scene: hearty breakfast	Bacon sizzling, gravy on the side
+100	crayon	trochee	painting	trochee	assonance	same domain: kids art supplies	A crayon sketch became a painting on the wall

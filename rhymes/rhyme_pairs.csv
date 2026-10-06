@@ -1,0 +1,1001 @@
+vowel,rank,word1,meter1,word2,meter2,rhyme_type,relationship,example
+long_a,1,places,trochee,spaces,trochee,perfect,synonyms: open room to roam,"We'll find new places, wide-open spaces, you and me"
+long_a,2,racing,trochee,chasing,trochee,perfect,synonyms: running after dreams,"Racing through the meadow, chasing fireflies at dusk"
+long_a,3,ages,trochee,stages,trochee,perfect,synonyms: phases of life,"Through all the ages and the stages, I'll hold on"
+long_a,4,waning,trochee,gaining,trochee,perfect,antonyms: shrinking versus growing,The winter's waning and the light is gaining ground
+long_a,5,display,iamb,array,iamb,perfect,synonyms: bright showcase of colors,"A bright display, a dazzling array of lights"
+long_a,6,create,iamb,innate,iamb,perfect,antonyms: made versus inborn,"Some gifts are innate, the rest we create"
+long_a,7,sustain,iamb,remain,iamb,perfect,synonyms: lasting and enduring,"Let the music sustain, let the melody remain"
+long_a,8,domain,iamb,terrain,iamb,perfect,synonyms: land and territory,"This green domain, this rolling, wild terrain"
+long_a,9,fated,trochee,slated,trochee,perfect,synonyms: destined to happen,"We were fated, slated for a sunny ending"
+long_a,10,contain,iamb,restrain,iamb,perfect,synonyms: holding feelings in,"I can't contain this joy, can't restrain this smile"
+long_a,11,faded,trochee,shaded,trochee,perfect,"synonyms: softened, muted colors","Faded denim, shaded porches in July"
+long_a,12,refrain,iamb,abstain,iamb,perfect,synonyms: gently holding back,Let's refrain from rushing and abstain from all the noise
+long_a,13,upgrade,iamb,remade,iamb,perfect,synonyms: improved and renewed,"A total upgrade, our little home remade"
+long_a,14,conveyed,iamb,displayed,iamb,perfect,synonyms: shown and expressed,The love she conveyed was displayed in her eyes
+long_a,15,equate,iamb,relate,iamb,perfect,synonyms: connect and compare,Nothing could equate to the way our hearts relate
+long_a,16,training,trochee,gaining,trochee,perfect,cause/effect: practice builds strength,"Every morning training, every day I'm gaining"
+long_a,17,amaze,iamb,displays,iamb,perfect,cause/effect: dazzling shows bring wonder,"Fireworks light the night, and the bright displays amaze"
+long_a,18,lazy,trochee,hazy,trochee,perfect,same scene: slow summer afternoon,"A lazy, hazy afternoon beneath the willow"
+long_a,19,lazy,trochee,daisy,trochee,perfect,same scene: summer meadow nap,Lying lazy in the daisy field all afternoon
+long_a,20,gazing,trochee,grazing,trochee,perfect,same scene: quiet country meadow,Gazing at the horses grazing in the clover
+long_a,21,raising,trochee,praising,trochee,perfect,same scene: voices lifted high,"Raising up our voices, praising every dawn"
+long_a,22,playing,trochee,swaying,trochee,perfect,same scene: music and dancing,The band is playing and the crowd is swaying
+long_a,23,latest,trochee,greatest,trochee,perfect,"same domain: newest, finest things",Here's my latest and my greatest love song
+long_a,24,gracious,trochee,spacious,trochee,perfect,same scene: welcoming open home,A gracious host inside a spacious sunny hall
+long_a,25,phrases,trochee,praises,trochee,perfect,same domain: words of song,Singing phrases full of praises to the sky
+long_a,26,rainy,trochee,sunny,trochee,slant,antonyms: wet versus bright,Rainy mornings turn to sunny afternoons
+long_a,27,lazy,trochee,easy,trochee,slant,synonyms: relaxed and slow,"Lazy Sunday morning, easy as a breeze"
+long_a,28,embrace,iamb,release,iamb,slant,antonyms: hold versus let go,"Embrace the moment, then release your fears"
+long_a,29,staying,trochee,going,trochee,slant,antonyms: stay versus leave,"Whether you're staying or going, you are loved"
+long_a,30,acclaim,iamb,esteem,iamb,slant,synonyms: praise and respect,They earned acclaim and the esteem of every friend
+long_a,31,painted,trochee,tinted,trochee,slant,synonyms: colored with hue,Painted skies and tinted window light
+long_a,32,amaze,iamb,amuse,iamb,slant,synonyms: delight and entertain,Tricks that amaze and jokes that amuse
+long_a,33,bravely,trochee,safely,trochee,slant,antonyms: bold versus careful,"Go forth bravely, then come home safely"
+long_a,34,making,trochee,baking,trochee,perfect,same scene: warm kitchen treats,We're making memories and baking bread at home
+long_a,35,ballet,iamb,bouquet,iamb,perfect,same scene: dance recital flowers,After the ballet she held a rose bouquet
+long_a,36,spraying,trochee,swaying,trochee,perfect,same scene: breezy beach day,Ocean mist is spraying and the palms are swaying
+long_a,37,daisy,trochee,hazy,trochee,perfect,same scene: summer meadow,A daisy chain on a hazy afternoon
+long_a,38,hooray,iamb,today,iamb,perfect,same scene: celebration day,"Shout hooray, it's our big day today"
+long_a,39,praying,trochee,saying,trochee,perfect,same domain: words of thanks,"Praying softly, saying thanks for every sunrise"
+long_a,40,cafe,iamb,buffet,iamb,perfect,same scene: sunny brunch outing,"Brunch at the cafe, a sunny buffet"
+long_a,41,cafe,iamb,chalet,iamb,perfect,same scene: snowy alpine village,"Cocoa at the cafe, then home to our chalet"
+long_a,42,erase,iamb,replace,iamb,perfect,cause/effect: clear then renew,Erase the gray and replace it with gold
+long_a,43,aiming,trochee,framing,trochee,perfect,same domain: taking a photo,"Aiming at the sunset, framing it just right"
+long_a,44,blazing,trochee,gazing,trochee,perfect,same scene: campfire night,Gazing at the blazing campfire light
+long_a,45,races,trochee,paces,trochee,perfect,same domain: running track,"We ran the races, put our hearts through paces"
+long_a,46,plated,trochee,grated,trochee,perfect,same domain: preparing dinner,Cheese grated fresh and plated with a smile
+long_a,47,engage,iamb,onstage,iamb,perfect,same scene: performer and crowd,Step onstage and engage the crowd tonight
+long_a,48,pages,trochee,stages,trochee,perfect,same domain: stories and theater,"Turning pages, setting stages for our tale"
+long_a,49,parade,iamb,cascade,iamb,perfect,same scene: festive confetti shower,A cascade of confetti fell on the parade
+long_a,50,faces,trochee,graces,trochee,perfect,same domain: charm and beauty,Smiling faces full of little graces
+long_a,51,navy,trochee,wavy,trochee,perfect,same scene: deep ocean water,"Navy water, wavy lines along the shore"
+long_a,52,waking,trochee,baking,trochee,perfect,same scene: early morning kitchen,Waking up to the smell of Mama baking
+long_a,53,skating,trochee,floating,trochee,slant,synonyms: smooth gliding motion,Skating so smooth it feels like floating
+long_a,54,saying,trochee,showing,trochee,slant,synonyms: expressing your heart,"Saying it is easy, showing takes your heart"
+long_a,55,baby,trochee,lady,trochee,slant,same domain: girl growing up,My baby girl grew up into a graceful lady
+long_a,56,swaying,trochee,blowing,trochee,slant,cause/effect: wind moves trees,Trees are swaying while the wind is blowing
+long_a,57,attain,iamb,acclaim,iamb,slant,cause/effect: success earns praise,"Dream high, attain it, and bask in the acclaim"
+long_a,58,hazy,trochee,breezy,trochee,slant,same scene: summer evening,Hazy skies and breezy summer nights
+long_a,59,champagne,iamb,balloon,iamb,slant,same scene: party celebration,"Pop the champagne, let loose the balloon"
+long_a,60,tasty,trochee,crusty,trochee,slant,same scene: fresh warm bread,Tasty loaves with crusty golden tops
+long_a,61,champagne,iamb,cuisine,iamb,slant,same domain: fine dining,Chilled champagne and fine French cuisine
+long_a,62,gazing,trochee,rising,trochee,slant,same scene: watching sunrise,Gazing at the rising sun above the hill
+long_a,63,skating,trochee,boating,trochee,slant,same domain: lake recreation,"Skating in December, boating in July"
+long_a,64,painting,trochee,printing,trochee,slant,same domain: making art,Painting canvases and printing posters bright
+long_a,65,playing,trochee,growing,trochee,slant,same scene: happy childhood,"Children playing, growing taller every day"
+long_a,66,terrain,iamb,ravine,iamb,slant,same domain: rugged landscape,Across the green terrain and down the deep ravine
+long_a,67,tasting,trochee,roasting,trochee,slant,same scene: summer cookout,Roasting corn and tasting summer on the grill
+long_a,68,saving,trochee,giving,trochee,slant,same domain: generous money habits,Saving up and giving back with love
+long_a,69,remain,iamb,staying,trochee,assonance,synonyms: stay right here,"I'll remain here, staying by your side"
+long_a,70,create,iamb,making,trochee,assonance,synonyms: building something new,"Let's create a song, making something new"
+long_a,71,explain,iamb,convey,iamb,assonance,synonyms: put into words,I can't explain or convey how much I care
+long_a,72,behave,iamb,obey,iamb,assonance,synonyms: follow the rules,Behave yourself and obey the golden rule
+long_a,73,escape,iamb,away,iamb,assonance,synonyms: breaking free,"Let's escape the city, slip away tonight"
+long_a,74,safety,trochee,haven,trochee,assonance,synonyms: shelter and protection,In the safety of this quiet haven
+long_a,75,famous,trochee,nameless,trochee,assonance,antonyms: known versus unknown,"Famous or nameless, I'll love you the same"
+long_a,76,making,trochee,shaping,trochee,assonance,synonyms: forming something new,Making clay and shaping dreams by hand
+long_a,77,maiden,trochee,lady,trochee,assonance,synonyms: fair young woman,"A gentle lady, once a village maiden"
+long_a,78,obtain,iamb,gaining,trochee,assonance,synonyms: acquiring something,Gaining ground to obtain the golden prize
+long_a,79,dainty,trochee,lacy,trochee,assonance,synonyms: delicate and fine,A dainty dress with lacy sleeves
+long_a,80,gracious,trochee,patient,trochee,assonance,"synonyms: kind, gentle virtues","Be gracious, be patient, be kind"
+long_a,81,stately,trochee,gracious,trochee,assonance,synonyms: dignified and elegant,"A stately bow, a gracious smile"
+long_a,82,domain,iamb,estate,iamb,assonance,synonyms: owned land,"Our small domain, this cozy country estate"
+long_a,83,await,iamb,patience,trochee,assonance,synonyms: patient anticipation,I await you with patience and a smile
+long_a,84,patience,trochee,waiting,trochee,assonance,cause/effect: patience eases waiting,Patience is the gift of waiting well
+long_a,85,awake,iamb,daybreak,trochee,assonance,same scene: early morning,"I'm wide awake at daybreak, full of hope"
+long_a,86,rainbow,trochee,cascade,iamb,assonance,same scene: misty waterfall,A rainbow shimmers in the cascade spray
+long_a,87,daisy,trochee,bouquet,iamb,assonance,part/whole: flower in bunch,A single daisy tucked in her bouquet
+long_a,88,fragrance,trochee,bouquet,iamb,assonance,same scene: fresh flowers,The fragrance of a springtime bouquet
+long_a,89,rainbow,trochee,halo,trochee,assonance,same scene: arcs of light,A rainbow halo circling the moon
+long_a,90,baking,trochee,pastry,trochee,assonance,same scene: morning bakery,Baking pastry in the morning light
+long_a,91,rainbow,trochee,painted,trochee,assonance,same scene: colorful sky,A rainbow painted on the evening sky
+long_a,92,sacred,trochee,haven,trochee,assonance,same domain: peaceful sanctuary,We found a sacred haven by the sea
+long_a,93,ancient,trochee,ages,trochee,assonance,same domain: deep history,Ancient songs that echo through the ages
+long_a,94,shading,trochee,tracing,trochee,assonance,same domain: careful drawing,Tracing gentle lines and shading in the light
+long_a,95,ballet,iamb,dainty,trochee,assonance,same scene: graceful dancer,Dainty steps across the ballet stage
+long_a,96,skating,trochee,lakeside,trochee,assonance,same scene: frozen winter lake,Skating by the lakeside under winter stars
+long_a,97,famous,trochee,acclaim,iamb,assonance,same domain: fame and praise,"Famous for your kindness, rich in acclaim"
+long_a,98,apron,trochee,pastry,trochee,assonance,same scene: bakery kitchen,"Flour on my apron, pastry in the oven"
+long_a,99,bacon,trochee,gravy,trochee,assonance,same scene: hearty breakfast,"Bacon sizzling, gravy on the side"
+long_a,100,crayon,trochee,painting,trochee,assonance,same domain: kids art supplies,A crayon sketch became a painting on the wall
+long_e,1,easy,trochee,breezy,trochee,perfect,synonyms: carefree and light,"Keep it easy, keep it breezy, let the summer carry you"
+long_e,2,gleaming,trochee,beaming,trochee,perfect,synonyms: shining with light,Your gleaming eyes and beaming smile light up the room
+long_e,3,indeed,iamb,agreed,iamb,perfect,"synonyms: yes, of course","Indeed, my love, we both agreed to dance tonight"
+long_e,4,supreme,iamb,extreme,iamb,perfect,synonyms: utmost highest degree,"A love supreme, a joy extreme, we're soaring high"
+long_e,5,teaching,trochee,preaching,trochee,perfect,synonyms: sharing a lesson,"She's teaching love, not preaching rules, just living kind"
+long_e,6,neatly,trochee,sweetly,trochee,perfect,synonyms: done with gentle care,You fold my letters neatly and you sign them sweetly
+long_e,7,easing,trochee,pleasing,trochee,perfect,synonyms: soft and soothing,A gentle breeze so easing and so pleasing on my skin
+long_e,8,believe,iamb,achieve,iamb,perfect,cause/effect: faith fuels success,"If you believe, then you'll achieve the stars you chase"
+long_e,9,reading,trochee,leading,trochee,perfect,cause/effect: readers become leaders,Keep on reading and you'll soon be leading the way
+long_e,10,relief,iamb,belief,iamb,perfect,cause/effect: faith brings comfort,Sweet relief arrived with my belief that dawn would come
+long_e,11,relieved,iamb,achieved,iamb,perfect,cause/effect: goal brings ease,"We're so relieved, the dream's achieved at last"
+long_e,12,receive,iamb,believe,iamb,perfect,cause/effect: trust then gain,"Open up your heart, believe, and you'll receive"
+long_e,13,teaching,trochee,reaching,trochee,perfect,cause/effect: lessons touch hearts,"Teaching kindness, reaching every heart in town"
+long_e,14,proceed,iamb,agreed,iamb,perfect,cause/effect: consent then action,"Once we agreed, we could proceed with open hearts"
+long_e,15,meeting,trochee,greeting,trochee,perfect,same scene: friendly hello,Every meeting starts with a greeting full of sunshine
+long_e,16,creamy,trochee,dreamy,trochee,perfect,same scene: sweet dessert night,Creamy vanilla on a dreamy summer night
+long_e,17,streaming,trochee,gleaming,trochee,perfect,same scene: sunlight pouring in,"Sunlight streaming, every window gleaming gold"
+long_e,18,streaming,trochee,beaming,trochee,perfect,same scene: sunny morning glow,Sunlight streaming through the curtains and you're beaming back at me
+long_e,19,fleeting,trochee,meeting,trochee,perfect,same scene: brief encounter,A fleeting meeting on the train became forever
+long_e,20,seating,trochee,eating,trochee,perfect,same scene: dinner table,"Find your seating, start the eating, the feast is here"
+long_e,21,beaches,trochee,peaches,trochee,perfect,same scene: summer seaside,"Sandy beaches, sunny peaches, summer in our hands"
+long_e,22,elite,iamb,compete,iamb,perfect,same domain: top-level contest,The elite compete beneath the stadium lights
+long_e,23,unique,iamb,boutique,iamb,perfect,same domain: special little shop,A unique boutique on a cobblestone street
+long_e,24,treated,trochee,greeted,trochee,perfect,same scene: welcomed guests,We were greeted with a hug and treated like family
+long_e,25,seated,trochee,greeted,trochee,perfect,same scene: welcomed dinner guests,Every guest was greeted warmly and seated by the fire
+long_e,26,esteem,iamb,supreme,iamb,perfect,same domain: highest regard,"Hold yourself in high esteem, your heart supreme"
+long_e,27,redeem,iamb,esteem,iamb,perfect,same domain: restored self-worth,Let kindness redeem the day and lift your self-esteem
+long_e,28,season,trochee,reason,trochee,perfect,same domain: purpose in time,For every season there's a reason to sing
+long_e,29,seeking,trochee,speaking,trochee,perfect,same domain: honest truth telling,Seeking truth and speaking kindly every day
+long_e,30,serene,iamb,ravine,iamb,perfect,same scene: quiet green valley,The river runs serene along the green ravine
+long_e,31,marine,iamb,serene,iamb,perfect,same scene: calm blue sea,"A marine blue bay, so calm and so serene"
+long_e,32,feeding,trochee,seeding,trochee,perfect,same scene: garden care,"Seeding rows and feeding roots, the garden grows"
+long_e,33,steamy,trochee,creamy,trochee,perfect,same scene: morning latte,"A steamy, creamy latte warms my morning hands"
+long_e,34,cuisine,iamb,caffeine,iamb,perfect,same scene: cozy corner cafe,French cuisine and fresh caffeine in a corner cafe
+long_e,35,canteen,iamb,cuisine,iamb,perfect,same domain: dining hall food,The little canteen serves a homemade cuisine we love
+long_e,36,antique,iamb,boutique,iamb,perfect,same scene: vintage shopping day,Antique lamps glow in a little boutique downtown
+long_e,37,teaches,trochee,speeches,trochee,perfect,same domain: inspiring lessons,She teaches hope through speeches full of light
+long_e,38,keeping,trochee,sleeping,trochee,perfect,same scene: tender night watch,I'll be keeping watch while you are sleeping
+long_e,39,retreat,iamb,discreet,iamb,perfect,same scene: quiet hideaway,"A discreet retreat beside the lake, just us two"
+long_e,40,routine,iamb,machine,iamb,perfect,same domain: steady daily rhythm,Our morning routine hums like a happy machine
+long_e,41,unseen,iamb,between,iamb,perfect,same domain: hidden spaces,The love unseen that lives between the lines
+long_e,42,leaping,trochee,sweeping,trochee,perfect,same scene: graceful dance motion,"Leaping, sweeping, spinning round the ballroom floor"
+long_e,43,complete,iamb,repeat,iamb,perfect,same domain: favorite song loop,"The song's complete, so press repeat and sing along"
+long_e,44,reaches,trochee,beaches,trochee,perfect,same scene: tide meets shore,The morning tide reaches golden beaches by the bay
+long_e,45,unique,iamb,alike,iamb,slant,antonyms: different versus same,"We're each unique, yet in our hearts alike"
+long_e,46,leading,trochee,heading,trochee,slant,synonyms: steering the team,She's heading up the choir and leading us in song
+long_e,47,proceed,iamb,ahead,iamb,slant,synonyms: move forward onward,"We proceed with courage, looking straight ahead"
+long_e,48,serene,iamb,benign,iamb,slant,synonyms: gentle and calm,"Your smile is serene, your heart benign and kind"
+long_e,49,elite,iamb,unique,iamb,slant,synonyms: exceptional and rare,"Elite and unique, you're one of a kind"
+long_e,50,sleeping,trochee,napping,trochee,slant,synonyms: resting tired eyes,The cat is napping while the baby's sleeping
+long_e,51,complete,iamb,ignite,iamb,slant,antonyms: start versus finish,We ignite the spark and dance until it's complete
+long_e,52,between,iamb,within,iamb,slant,synonyms: inside the space,Between the stars and deep within my heart
+long_e,53,cleaning,trochee,gleaming,trochee,slant,cause/effect: scrubbing makes shine,Cleaning every window till the glass is gleaming
+long_e,54,compete,iamb,succeed,iamb,slant,cause/effect: effort brings victory,We compete with heart and that is how we succeed
+long_e,55,complete,iamb,delight,iamb,slant,cause/effect: finishing brings joy,"The puzzle's complete, oh what a sweet delight"
+long_e,56,succeed,iamb,decide,iamb,slant,cause/effect: choice then success,Decide to dream and you'll succeed someday
+long_e,57,reading,trochee,freedom,trochee,slant,cause/effect: books bring liberty,Every page of reading gives my spirit freedom
+long_e,58,sweetly,trochee,deeply,trochee,slant,same domain: tender loving ways,"Love me sweetly, love me deeply, all night long"
+long_e,59,meaning,trochee,dreaming,trochee,slant,same domain: purpose and hope,Finding meaning in the dreaming of the night
+long_e,60,meeting,trochee,speaking,trochee,slant,same scene: friendly conversation,At every meeting you were speaking words of hope
+long_e,61,easy,trochee,cozy,trochee,slant,same domain: relaxed comfort,Easy mornings in a cozy little room
+long_e,62,breezy,trochee,lazy,trochee,slant,same scene: summer afternoon,"A breezy, lazy Sunday by the shore"
+long_e,63,season,trochee,frozen,trochee,slant,same scene: winter lake,The skating season on the frozen lake
+long_e,64,season,trochee,easing,trochee,slant,same scene: winter softening,The cold is easing as the season turns to spring
+long_e,65,believe,iamb,alive,iamb,slant,same domain: hopeful vitality,"When I believe, I feel alive again"
+long_e,66,beaming,trochee,blooming,trochee,slant,same domain: radiant joy,You're beaming like the roses blooming in the sun
+long_e,67,greeting,trochee,speaking,trochee,slant,same scene: warm welcome words,"A friendly greeting, softly speaking welcome home"
+long_e,68,eating,trochee,feeding,trochee,slant,same domain: family mealtime,We're eating lunch and feeding ducks beside the pond
+long_e,69,neatly,trochee,tightly,trochee,slant,same domain: tidy careful packing,"Pack it neatly, wrap it tightly, send it home"
+long_e,70,seeking,trochee,beacon,trochee,slant,same scene: searching ship's light,"Seeking home, I find a beacon on the shore"
+long_e,71,even,trochee,breathing,trochee,slant,same scene: calm restful sleep,Your breathing slow and even as you sleep
+long_e,72,sweetie,trochee,sleepy,trochee,slant,same scene: bedtime cuddle,"Goodnight my sleepy sweetie, close your eyes"
+long_e,73,compete,iamb,debate,iamb,slant,same domain: friendly contest,"We debate and compete, but we're friends at the end"
+long_e,74,receive,iamb,arrive,iamb,slant,same scene: gift delivery day,The letters arrive and I receive your love
+long_e,75,leaving,trochee,moving,trochee,slant,same domain: relocating home,We're leaving town and moving to the sea
+long_e,76,marine,iamb,lagoon,iamb,slant,same scene: tropical blue water,Marine blue waves in a quiet lagoon
+long_e,77,increase,iamb,deepen,trochee,assonance,synonyms: growing stronger,Let our love increase and deepen with the years
+long_e,78,succeed,iamb,achieve,iamb,assonance,synonyms: reaching success,Together we'll succeed and we'll achieve it all
+long_e,79,release,iamb,freedom,trochee,assonance,synonyms: liberation and escape,Release the doves and let them fly to freedom
+long_e,80,relief,iamb,easing,trochee,assonance,synonyms: soothing comfort,What a sweet relief to feel the busy day easing into night
+long_e,81,sleeping,trochee,dreaming,trochee,assonance,cause/effect: rest brings dreams,"Sleeping under starlight, dreaming of the sea"
+long_e,82,treaty,trochee,agreed,iamb,assonance,cause/effect: peace pact signed,The treaty's signed and every heart agreed
+long_e,83,discreet,iamb,secret,trochee,assonance,same domain: keeping confidences,Be discreet and keep my secret close to your heart
+long_e,84,secret,trochee,keeping,trochee,assonance,same domain: trusted confidence,Keeping every secret that you whisper to me
+long_e,85,release,iamb,freely,trochee,assonance,same domain: letting go,Release the kite and let it fly so freely
+long_e,86,teaching,trochee,reading,trochee,assonance,same domain: classroom learning,Teaching little ones the joy of reading
+long_e,87,seeking,trochee,reaching,trochee,assonance,same domain: striving for more,"Always seeking, always reaching for the stars"
+long_e,88,deeply,trochee,breathing,trochee,assonance,same scene: calm restful air,Breathing deeply in the cool pine air
+long_e,89,breathing,trochee,easy,trochee,assonance,same domain: relaxed calm,Breathing easy by the open window
+long_e,90,cleaning,trochee,sweeping,trochee,assonance,same scene: household chores,"Cleaning windows, sweeping floors, the house is shining"
+long_e,91,sleepy,trochee,dreamy,trochee,assonance,same scene: drowsy bedtime,"A sleepy, dreamy lullaby to end the day"
+long_e,92,evening,trochee,dreamy,trochee,assonance,same scene: soft twilight,A dreamy evening glowing pink and gold
+long_e,93,weekend,trochee,freedom,trochee,assonance,same domain: time off,The weekend comes and brings a taste of freedom
+long_e,94,seaside,trochee,beaches,trochee,assonance,part/whole: beaches of seaside,A seaside town with sandy beaches all around
+long_e,95,leafy,trochee,breezy,trochee,assonance,same scene: summer park,A leafy lane on a breezy afternoon
+long_e,96,evening,trochee,sleepy,trochee,assonance,same scene: quiet nightfall,"The evening settles, sleepy and so still"
+long_e,97,kiwi,trochee,peaches,trochee,assonance,same domain: fresh fruit basket,"Kiwi, peaches, berries in a picnic basket"
+long_e,98,cheesy,trochee,pizza,trochee,assonance,same domain: comfort food,A cheesy pizza shared with friends on Friday night
+long_e,99,zebra,trochee,cheetah,trochee,assonance,same scene: savanna safari,A zebra and a cheetah on the golden plain
+long_e,100,greenhouse,trochee,seedlings,trochee,assonance,same scene: spring garden,"In the greenhouse, seedlings reach toward the sun"
+long_i,1,brighten,trochee,lighten,trochee,perfect,synonyms: fill with light,Let the morning brighten and the heavy clouds lighten
+long_i,2,sliding,trochee,gliding,trochee,perfect,synonyms: smooth easy motion,We go sliding down the hill and gliding into spring
+long_i,3,spicy,trochee,icy,trochee,perfect,antonyms: hot versus cold,Your spicy laugh could melt this icy winter night
+long_i,4,slightly,trochee,lightly,trochee,perfect,synonyms: soft gentle touch,Lean in slightly and kiss me lightly on the cheek
+long_i,5,delight,iamb,excite,iamb,perfect,synonyms: thrill and joy,You fill my days with delight and every hello will excite
+long_i,6,ignite,iamb,alight,iamb,perfect,synonyms: set aflame,One small spark can ignite a heart and set the sky alight
+long_i,7,comply,iamb,defy,iamb,perfect,antonyms: obey versus resist,"Let the cautious comply, we will defy the gray with color"
+long_i,8,reside,iamb,abide,iamb,perfect,synonyms: dwell and stay,"Where your kindness may reside, my heart will gladly abide"
+long_i,9,provide,iamb,supplied,iamb,perfect,synonyms: give what's needed,All the love you provide kept my hopeful heart supplied
+long_i,10,align,iamb,combine,iamb,perfect,synonyms: bring together,When the stars align our voices combine in song
+long_i,11,thriving,trochee,striving,trochee,perfect,cause/effect: effort brings flourishing,We kept striving through the seasons and now the garden's thriving
+long_i,12,alive,iamb,revive,iamb,perfect,cause/effect: revival restores life,Your laughter can revive me and make me feel alive
+long_i,13,polite,iamb,upright,iamb,perfect,synonyms: proper good conduct,"Stay polite, stand upright, and let your kindness show"
+long_i,14,brightness,trochee,whiteness,trochee,perfect,synonyms: pale radiant glow,The brightness of the snow and the whiteness of the moon
+long_i,15,hiking,trochee,biking,trochee,perfect,same domain: trail adventures,Summer days of hiking trails and biking down to the bay
+long_i,16,design,iamb,refine,iamb,perfect,cause/effect: draft then polish,We sketch a bold design and refine it line by line
+long_i,17,shining,trochee,lining,trochee,perfect,same scene: silver lining glow,There's a silver lining shining through the rain
+long_i,18,tiny,trochee,shiny,trochee,perfect,same scene: small bright gem,A tiny shiny seashell glowing in your hand
+long_i,19,brightly,trochee,nightly,trochee,perfect,same scene: stars each night,"The stars shine brightly, nightly, just for you"
+long_i,20,tonight,iamb,delight,iamb,perfect,same scene: joyful evening,Dance with me tonight and lose yourself in pure delight
+long_i,21,invite,iamb,tonight,iamb,perfect,same scene: evening gathering,I send this warm invite: come sing with us tonight
+long_i,22,polite,iamb,invite,iamb,perfect,same domain: gracious manners,With a polite little bow I offer my invite
+long_i,23,ignite,iamb,delight,iamb,perfect,cause/effect: spark kindles joy,One little song can ignite a night of pure delight
+long_i,24,slices,trochee,spices,trochee,perfect,same scene: kitchen baking,Warm bread slices dusted with cinnamon and spices
+long_i,25,concise,iamb,suffice,iamb,perfect,cause/effect: brevity is enough,A concise little kiss will suffice to say I love you
+long_i,26,brightly,trochee,lightly,trochee,perfect,same domain: gentle radiance,"Step lightly, smile brightly, the day belongs to you"
+long_i,27,reply,iamb,goodbye,iamb,perfect,same scene: farewell exchange,Wave goodbye and I will reply with a song
+long_i,28,arrived,iamb,revived,iamb,perfect,cause/effect: spring restores fields,The moment spring arrived the sleepy fields revived
+long_i,29,riding,trochee,gliding,trochee,perfect,same scene: smooth downhill ride,Riding on a sled and gliding down the snowy hill
+long_i,30,winding,trochee,finding,trochee,perfect,same scene: wandering trail,Down the winding road we keep on finding home
+long_i,31,advice,iamb,precise,iamb,perfect,same domain: clear counsel,"Your advice is gentle, kind, and precise"
+long_i,32,design,iamb,align,iamb,perfect,same domain: careful layout,We plan a clean design and let every color align
+long_i,33,divine,iamb,sublime,iamb,slant,synonyms: heavenly glorious,Your voice is divine and the melody sublime
+long_i,34,sublime,iamb,supreme,iamb,slant,synonyms: highest excellence,"A sunset so sublime, a joy supreme"
+long_i,35,guiding,trochee,leading,trochee,slant,synonyms: show the way,Your love is guiding me and leading me home
+long_i,36,hiking,trochee,trekking,trochee,slant,synonyms: long journeys on foot,We went hiking through the hills and trekking by the stream
+long_i,37,divine,iamb,serene,iamb,slant,synonyms: heavenly calm,In this divine and serene morning light
+long_i,38,polite,iamb,discreet,iamb,slant,synonyms: tactful and courteous,"Polite and discreet, she kept our secret sweet"
+long_i,39,thriving,trochee,living,trochee,slant,synonyms: full flourishing life,We are living freely and our hearts are thriving
+long_i,40,writing,trochee,typing,trochee,slant,synonyms: putting words down,"I'm typing out these verses, writing all night long"
+long_i,41,shining,trochee,raining,trochee,slant,antonyms: sun versus rain,"Whether it is raining or the sun is shining, I'm with you"
+long_i,42,brightest,trochee,greatest,trochee,slant,synonyms: very best,You are the brightest light and the greatest gift I know
+long_i,43,devised,iamb,composed,iamb,slant,synonyms: crafted and created,She devised a melody and composed it just for you
+long_i,44,lighting,trochee,guiding,trochee,slant,cause/effect: light shows the way,The lantern lighting up the path is guiding us home
+long_i,45,wisely,trochee,nicely,trochee,slant,same domain: good conduct,"Speak wisely, treat others nicely, and the world will smile"
+long_i,46,silent,trochee,island,trochee,slant,same scene: quiet isle,On a silent island where the soft waves sing
+long_i,47,brightness,trochee,sweetness,trochee,slant,same domain: pleasant qualities,"The brightness of your smile, the sweetness of your song"
+long_i,48,brightly,trochee,sweetly,trochee,slant,same domain: pleasant manner,Birds sing sweetly as the sun shines brightly
+long_i,49,timeless,trochee,seamless,trochee,slant,same domain: flawless enduring grace,"A timeless dance, a seamless glide across the floor"
+long_i,50,climbing,trochee,blooming,trochee,slant,same scene: garden roses,Climbing roses blooming on the garden gate
+long_i,51,rising,trochee,praising,trochee,slant,same scene: morning hymn,With the sun rising high we are praising the day
+long_i,52,divine,iamb,amen,iamb,slant,same domain: prayerful worship,The chorus sounded so divine that we all sang amen
+long_i,53,ignite,iamb,create,iamb,slant,cause/effect: spark makes art,Ignite your spark and create something new
+long_i,54,arrive,iamb,achieve,iamb,slant,cause/effect: reaching the goal,When we arrive we'll see the dreams that we achieve
+long_i,55,driving,trochee,moving,trochee,slant,same domain: travel in motion,Driving down the coast with music moving through our souls
+long_i,56,shiny,trochee,penny,trochee,slant,same scene: lucky coin,A shiny penny tossed into a wishing fountain
+long_i,57,decide,iamb,agreed,iamb,slant,cause/effect: choice brings agreement,We sat down to decide and we happily agreed
+long_i,58,quiet,trochee,silent,trochee,assonance,synonyms: hushed and still,"A quiet field, a silent snow, a peaceful night"
+long_i,59,tiny,trochee,giant,trochee,assonance,antonyms: small versus huge,From tiny seeds a giant oak will grow
+long_i,60,tiny,trochee,mighty,trochee,assonance,antonyms: small versus strong,A tiny seed can grow into a mighty tree
+long_i,61,hiding,trochee,finding,trochee,assonance,antonyms: hidden versus found,You were hiding in the garden and I keep finding you there
+long_i,62,giant,trochee,mighty,trochee,assonance,synonyms: huge and strong,"A giant wave, a mighty ocean song"
+long_i,63,benign,iamb,kindness,trochee,assonance,synonyms: gentle goodwill,A benign old heart that's full of kindness
+long_i,64,kindly,trochee,nicely,trochee,assonance,synonyms: gentle good manners,Ask her kindly and she'll answer nicely
+long_i,65,tidy,trochee,precise,iamb,assonance,synonyms: neat and exact,A tidy little garden laid out neat and precise
+long_i,66,highest,trochee,finest,trochee,assonance,synonyms: top quality,The highest praise for the finest friend I know
+long_i,67,supply,iamb,provide,iamb,assonance,synonyms: furnish and give,The rains supply the river and the river will provide
+long_i,68,guidance,trochee,advice,iamb,assonance,synonyms: wise counsel given,Thank you for your gentle guidance and your kind advice
+long_i,69,benign,iamb,kindly,trochee,assonance,synonyms: gentle and kind,A benign old sun that shines so kindly on the town
+long_i,70,sublime,iamb,timeless,trochee,assonance,synonyms: eternal and grand,"A timeless song, a love sublime"
+long_i,71,timeless,trochee,priceless,trochee,assonance,synonyms: precious beyond measure,These timeless moments are priceless to me
+long_i,72,lively,trochee,vibrant,trochee,assonance,synonyms: full of energy,A lively crowd along a vibrant summer street
+long_i,73,excite,iamb,lively,trochee,assonance,synonyms: full of spark,A lively tune will always excite the crowd
+long_i,74,climbing,trochee,rising,trochee,assonance,synonyms: going upward,"Climbing higher, rising with the morning sun"
+long_i,75,biking,trochee,riding,trochee,assonance,synonyms: pedaling along,"Biking through the city, riding by the bay"
+long_i,76,flying,trochee,gliding,trochee,assonance,synonyms: airborne motion,"Flying over valleys, gliding on the breeze"
+long_i,77,alive,iamb,thriving,trochee,assonance,synonyms: full of life,So alive and thriving in the summer sun
+long_i,78,advice,iamb,wisely,trochee,assonance,cause/effect: counsel guides choices,Take my advice and spend your summers wisely
+long_i,79,wisely,trochee,kindly,trochee,assonance,same domain: virtuous ways,"Choose wisely, speak kindly, love freely"
+long_i,80,finest,trochee,brightest,trochee,assonance,synonyms: the very best,The finest friend and the brightest soul I know
+long_i,81,rising,trochee,shining,trochee,assonance,same scene: sunrise glow,"The sun is rising, shining on the bay"
+long_i,82,tonight,iamb,twilight,trochee,assonance,same scene: evening sky,In the soft twilight we will hold hands tonight
+long_i,83,arrive,iamb,driving,trochee,assonance,cause/effect: drive then arrive,Keep on driving and soon we will arrive
+long_i,84,hiking,trochee,climbing,trochee,assonance,same domain: mountain trail,Hiking up the ridge and climbing toward the clouds
+long_i,85,flying,trochee,pilot,trochee,assonance,same domain: aviation,The pilot sings while flying through the dawn
+long_i,86,shiny,trochee,diamond,trochee,assonance,same scene: jewel sparkle,A shiny diamond glinting in the candlelight
+long_i,87,invite,iamb,dining,trochee,assonance,same scene: dinner party,Accept my invite to dining by candlelight
+long_i,88,spicy,trochee,dining,trochee,assonance,same scene: dinner table,Spicy soup and laughter while we're dining with friends
+long_i,89,diamond,trochee,priceless,trochee,assonance,same domain: precious jewels,"A diamond in the snow, a priceless winter glow"
+long_i,90,quiet,trochee,private,trochee,assonance,synonyms: secluded and calm,"A quiet, private corner just for two"
+long_i,91,icy,trochee,whiteness,trochee,assonance,same scene: winter snow,Icy branches sparkle in the whiteness of the dawn
+long_i,92,island,trochee,lighthouse,trochee,assonance,same scene: coastal night,An island lighthouse glowing in the bay
+long_i,93,guiding,trochee,lighthouse,trochee,assonance,cause/effect: beacon guides ships,The lighthouse keeps on guiding sailors home
+long_i,94,highway,trochee,driving,trochee,assonance,same scene: road trip,Driving down the highway with the windows open wide
+long_i,95,skyline,trochee,highway,trochee,assonance,same scene: city drive,The skyline glitters as we cruise the open highway
+long_i,96,icing,trochee,slices,trochee,assonance,same scene: birthday cake,Birthday cake with sugar icing cut in happy slices
+long_i,97,silence,trochee,twilight,trochee,assonance,same scene: evening hush,In the gentle silence of the purple twilight
+long_i,98,ivy,trochee,lilac,trochee,assonance,same scene: cottage garden,Ivy on the fence and lilac by the gate
+long_i,99,rhino,trochee,bison,trochee,assonance,same domain: mighty grazing beasts,The rhino and the bison roam the open plain
+long_i,100,lion,trochee,rhino,trochee,assonance,same domain: safari wildlife,A lion and a rhino resting in the sun
+long_o,1,roasted,trochee,toasted,trochee,perfect,synonyms: browned by fire,We roasted chestnuts and we toasted bread beside the fire
+long_o,2,cozy,trochee,rosy,trochee,perfect,synonyms: warm and snug,Your cheeks turn rosy in this cozy little room
+long_o,3,focus,trochee,locus,trochee,perfect,synonyms: center of attention,"You're the focus of my heart, the locus of my light"
+long_o,4,going,trochee,flowing,trochee,perfect,synonyms: moving steadily onward,Keep the music flowing and the good times going
+long_o,5,disclose,iamb,expose,iamb,perfect,synonyms: reveal hidden feelings,I'll disclose my secret heart and expose the love inside
+long_o,6,noted,trochee,quoted,trochee,perfect,synonyms: remarked and cited,She noted every kind word and we quoted her all summer
+long_o,7,slowing,trochee,going,trochee,perfect,antonyms: slowing versus going,"Never slowing, always going, we chase the morning sun"
+long_o,8,sowing,trochee,growing,trochee,perfect,cause/effect: seeds become sprouts,"We are sowing seeds of kindness, watch them growing every day"
+long_o,9,notion,trochee,motion,trochee,perfect,cause/effect: idea sparks action,One bright notion set the whole wide world in motion
+long_o,10,floating,trochee,boating,trochee,perfect,same scene: lazy lake day,"Summer days of boating, lazy hours of floating free"
+long_o,11,ocean,trochee,motion,trochee,perfect,same scene: rolling sea waves,"The ocean keeps its gentle motion, rocking us to sleep"
+long_o,12,roses,trochee,noses,trochee,perfect,same scene: smelling garden flowers,We pressed our noses into roses blooming by the gate
+long_o,13,glowing,trochee,snowing,trochee,perfect,same scene: fireside winter night,"Outside it's snowing, inside the fire is glowing"
+long_o,14,snowing,trochee,blowing,trochee,perfect,same scene: gentle winter flurry,It's softly snowing and the winter wind is blowing
+long_o,15,bowing,trochee,showing,trochee,perfect,same scene: stage curtain call,"After the showing, all the dancers keep on bowing"
+long_o,16,flowing,trochee,rowing,trochee,perfect,same scene: river boat ride,We go rowing down the river with the waters flowing slow
+long_o,17,spoken,trochee,token,trochee,perfect,same scene: vows and rings,"With every promise spoken, this ring's my token true"
+long_o,18,arose,iamb,propose,iamb,perfect,same scene: sunrise marriage proposal,"As the golden sun arose, I knelt down to propose"
+long_o,19,hosted,trochee,toasted,trochee,perfect,same scene: dinner party cheers,We hosted all our friends and toasted to the year
+long_o,20,hosting,trochee,roasting,trochee,perfect,same scene: holiday dinner feast,"We are hosting the whole family, roasting turkey through the night"
+long_o,21,ocean,trochee,lotion,trochee,perfect,same scene: sunny beach day,"Sparkling ocean, coconut lotion, summer on our skin"
+long_o,22,plateau,iamb,below,iamb,perfect,same scene: mountain valley view,From the high plateau the valley sparkles far below
+long_o,23,chateau,iamb,plateau,iamb,perfect,same scene: hilltop French estate,A stone chateau stands proud upon the green plateau
+long_o,24,baroque,iamb,bespoke,iamb,perfect,same domain: ornate fine craftsmanship,"A baroque frame, a bespoke gown, a night of golden grace"
+long_o,25,remote,iamb,afloat,iamb,perfect,same scene: drifting distant boat,On a remote blue sea we drift afloat and free
+long_o,26,holy,trochee,lowly,trochee,perfect,same scene: humble manger hymn,A holy light fell softly on that lowly stable bed
+long_o,27,holy,trochee,slowly,trochee,perfect,same scene: reverent church bells,Slowly the holy bells ring out across the sleepy town
+long_o,28,hello,iamb,ago,iamb,perfect,same scene: old friend reunion,"Hello, my friend, from all those happy years ago"
+long_o,29,glowing,trochee,growing,trochee,perfect,same scene: thriving sunlit garden,The garden's glowing and the seedlings keep on growing
+long_o,30,abode,iamb,unload,iamb,perfect,same scene: moving-in day,We unload the boxes at our sweet new abode
+long_o,31,joking,trochee,poking,trochee,perfect,same scene: playful friendly teasing,"Joking with my brothers, poking fun all afternoon"
+long_o,32,proton,trochee,photon,trochee,perfect,same domain: atomic particle physics,"Every proton, every photon, hums the song of light"
+long_o,33,notice,trochee,focus,trochee,slant,synonyms: paying close attention,"Notice every moment, focus on the light"
+long_o,34,bespoke,iamb,unique,iamb,slant,synonyms: one of a kind,"A bespoke love, unique as morning light"
+long_o,35,devote,iamb,commit,iamb,slant,synonyms: pledge full dedication,"I devote my life to you, commit my every day"
+long_o,36,compose,iamb,devise,iamb,slant,synonyms: create and craft,I'll compose a melody and devise a little rhyme
+long_o,37,coaching,trochee,teaching,trochee,slant,synonyms: guiding young learners,"Coaching little leaguers, teaching them to dream"
+long_o,38,quoting,trochee,citing,trochee,slant,synonyms: referencing others' words,"Quoting poets, citing stars, I tell you how I feel"
+long_o,39,noting,trochee,writing,trochee,slant,synonyms: jotting words down,"Noting every sunset, writing every dream"
+long_o,40,noted,trochee,stated,trochee,slant,synonyms: remarked and declared,I noted what you stated: love is all we need
+long_o,41,sewing,trochee,showing,trochee,perfect,same scene: fashion design runway,Months of sewing led to showing gowns upon the stage
+long_o,42,throwing,trochee,sowing,trochee,perfect,cause/effect: scattered seeds planted,"Throwing seeds across the field, we're sowing hope for spring"
+long_o,43,lotus,trochee,focus,trochee,slant,same domain: calm meditation practice,"Sit still like a lotus, breathe and find your focus"
+long_o,44,remote,iamb,retreat,iamb,slant,same scene: secluded mountain getaway,A remote retreat where the river meets the sky
+long_o,45,baroque,iamb,antique,iamb,slant,same domain: ornate vintage art,Baroque mirrors and antique lace adorn the hall
+long_o,46,bespoke,iamb,boutique,iamb,slant,same domain: tailored fashion shop,"From the boutique, a bespoke dress of silk"
+long_o,47,abode,iamb,reside,iamb,slant,same domain: dwelling at home,In this humble abode is where our hearts reside
+long_o,48,cozy,trochee,lazy,trochee,slant,same scene: slow restful Sunday,A cozy blanket on a lazy Sunday morning
+long_o,49,rosy,trochee,daisy,trochee,slant,same scene: blooming spring garden,Rosy cheeks and a daisy tucked behind your ear
+long_o,50,roses,trochee,vases,trochee,slant,same scene: flowers on display,Fill the crystal vases with the roses from the yard
+long_o,51,poses,trochee,muses,trochee,slant,same scene: artist's studio session,The painter muses while the model poses in the light
+long_o,52,posing,trochee,gazing,trochee,slant,same scene: portrait photo shoot,"She's posing by the window, gazing at the sea"
+long_o,53,roasted,trochee,tasted,trochee,slant,cause/effect: cooked then savored,We roasted corn and tasted summer on the porch
+long_o,54,soaking,trochee,floating,trochee,slant,same scene: lazy pool day,"Soaking up the sunshine, floating on the pool"
+long_o,55,poet,trochee,quiet,trochee,slant,same scene: contemplative writing hour,The poet loves the quiet hours before the dawn
+long_o,56,invoke,iamb,devote,iamb,slant,same domain: prayerful heartfelt dedication,I invoke the stars and devote my heart to you
+long_o,57,roaming,trochee,dreaming,trochee,slant,same scene: wandering daydream afternoon,"Roaming through the meadows, dreaming of the sea"
+long_o,58,slogan,trochee,spoken,trochee,slant,same domain: catchy spoken phrase,A hopeful slogan spoken softly can change the world
+long_o,59,solo,trochee,halo,trochee,slant,same scene: angelic choir spotlight,She sings her solo with a golden halo glow
+long_o,60,open,trochee,hoping,trochee,slant,same feeling: open hopeful heart,"Keep your heart wide open, keep on hoping for the dawn"
+long_o,61,poem,trochee,flowing,trochee,slant,same domain: lyrical flowing verse,Let the poem keep on flowing like a river to the sea
+long_o,62,woven,trochee,clothing,trochee,slant,same domain: textile handmade garments,Woven threads of gold become the clothing that you wear
+long_o,63,cologne,iamb,champagne,iamb,slant,same scene: elegant evening out,"A splash of cologne, a glass of champagne tonight"
+long_o,64,alone,iamb,serene,iamb,slant,same feeling: peaceful quiet solitude,"Alone beside the lake, serene as the dawn"
+long_o,65,rosy,trochee,hazy,trochee,slant,same scene: soft summer dusk,A rosy sky above a hazy summer field
+long_o,66,compose,iamb,revise,iamb,slant,same domain: songwriting draft work,I compose a verse at midnight and revise it in the dawn
+long_o,67,alone,iamb,solo,trochee,assonance,synonyms: on one's own,"I'm not alone, though I'm singing solo tonight"
+long_o,68,only,trochee,solo,trochee,assonance,synonyms: single and alone,"The only voice tonight, a solo sweet and clear"
+long_o,69,open,trochee,closing,trochee,assonance,antonyms: open versus closing,"One door is closing, another swinging open"
+long_o,70,composed,iamb,stoic,trochee,assonance,synonyms: calm and unshaken,"Composed and stoic, steady as the mountain"
+long_o,71,opus,trochee,poem,trochee,assonance,synonyms: creative written work,"This poem is my opus, every word for you"
+long_o,72,soda,trochee,cola,trochee,assonance,synonyms: fizzy soft drink,"Cherry cola, orange soda, summer on the porch"
+long_o,73,roaming,trochee,nomad,trochee,assonance,synonyms: wandering traveler life,A nomad roaming free beneath the desert stars
+long_o,74,abode,iamb,homestead,trochee,assonance,synonyms: dwelling place home,"Our homestead is a humble, happy abode"
+long_o,75,rotate,trochee,motion,trochee,assonance,synonyms: turning spinning movement,Watch the planets rotate in their graceful motion
+long_o,76,compose,iamb,poem,trochee,assonance,cause/effect: writing creates verse,I'll compose a poem for you by candlelight
+long_o,77,clothing,trochee,sewing,trochee,assonance,cause/effect: stitching makes garments,Grandma's sewing turned to clothing for us all
+long_o,78,coaching,trochee,trophy,trochee,assonance,cause/effect: training earns prize,Years of coaching brought the shiny trophy home
+long_o,79,bestowed,iamb,trophy,trochee,assonance,cause/effect: award granted honor,The trophy bestowed upon the team that never quit
+long_o,80,promote,iamb,bonus,trochee,assonance,cause/effect: promotion brings reward,"They'll promote you soon, and there's a bonus on the way"
+long_o,81,produce,trochee,growing,trochee,assonance,cause/effect: farming yields harvest,"Our garden keeps on growing, fresh produce every summer day"
+long_o,82,romance,trochee,propose,iamb,assonance,cause/effect: love leads to proposal,"After years of sweet romance, tonight I will propose"
+long_o,83,propose,iamb,roses,trochee,assonance,same scene: romantic marriage proposal,I'll propose with a dozen roses in my hand
+long_o,84,cocoa,trochee,cozy,trochee,assonance,same scene: warm winter evening,Cozy by the fire with a mug of cocoa
+long_o,85,coastline,trochee,ocean,trochee,assonance,part/whole: shore of ocean,Along the coastline where the ocean meets the sky
+long_o,86,afloat,iamb,boating,trochee,assonance,same scene: drifting lake boat,"Lazy summer boating, we are drifting soft afloat"
+long_o,87,moment,trochee,photo,trochee,assonance,part/whole: snapshot of moment,"Hold this moment in a photo, frame it on the wall"
+long_o,88,nouveau,iamb,baroque,iamb,assonance,same domain: art history styles,"From art nouveau to baroque, the gallery glows with gold"
+long_o,89,cologne,iamb,lotion,trochee,assonance,same domain: scented grooming products,A touch of cologne and a little lotion before the dance
+long_o,90,yoga,trochee,lotus,trochee,assonance,same domain: meditation pose practice,Morning yoga in the lotus pose beneath the sun
+long_o,91,protein,trochee,tofu,trochee,assonance,same domain: plant-based nutrition,A bowl of tofu packed with protein and with love
+long_o,92,invoke,iamb,holy,trochee,assonance,same domain: sacred prayer words,We invoke the holy light to guide us home
+long_o,93,frozen,trochee,snowy,trochee,assonance,same scene: winter wonderland hills,"Frozen lakes and snowy hills, a winter wonderland"
+long_o,94,snowflake,trochee,frozen,trochee,assonance,same scene: icy winter window,A single snowflake on a frozen windowpane
+long_o,95,lotus,trochee,floating,trochee,assonance,same scene: pond blossoms drifting,A pink lotus floating on the quiet pond
+long_o,96,smoky,trochee,roasted,trochee,assonance,same scene: campfire cookout night,Smoky embers glow while marshmallows are roasted
+long_o,97,plateau,iamb,sloping,trochee,assonance,same scene: mountain terrain hike,Past the sloping hills we reach the wide plateau
+long_o,98,robot,trochee,program,trochee,assonance,same domain: machine coding work,My little robot runs a program made of dreams
+long_o,99,slogan,trochee,logo,trochee,assonance,same domain: brand identity design,A bright new logo and a slogan full of cheer
+long_o,100,donut,trochee,cocoa,trochee,assonance,same scene: cafe breakfast treat,A sugar donut and a cup of cocoa at dawn
+long_u,1,beauty,trochee,cutie,trochee,perfect,synonyms: lovely darling charm,You're my beauty and my cutie in the morning sun
+long_u,2,blooming,trochee,booming,trochee,perfect,synonyms: thriving and flourishing,The roses are blooming and the laughter is booming
+long_u,3,smoothing,trochee,soothing,trochee,perfect,synonyms: gentle calming touch,Smoothing back your hair with a soothing lullaby
+long_u,4,acute,iamb,astute,iamb,perfect,synonyms: sharp keen insight,With an acute eye and an astute heart you find the light
+long_u,5,beauty,trochee,duty,trochee,perfect,antonyms: pleasure versus obligation,I set my duty down to wander in the beauty
+long_u,6,conclude,iamb,debuted,iamb,perfect,antonyms: beginning versus ending,Our song debuted at dawn and will conclude beneath the stars
+long_u,7,truly,trochee,duly,trochee,perfect,synonyms: rightly and sincerely,"Duly promised, truly yours, forever and a day"
+long_u,8,debut,iamb,anew,iamb,perfect,synonyms: fresh new beginning,"Every sunrise is a debut, so let's begin anew"
+long_u,9,truly,trochee,newly,trochee,perfect,same scene: wedding day vows,Newly wed and truly in love tonight
+long_u,10,lagoon,iamb,monsoon,iamb,perfect,same scene: tropical rainy season,The monsoon sings its rhythm on the blue lagoon
+long_u,11,movie,trochee,groovy,trochee,perfect,same scene: retro film night,A groovy movie and a bowl of buttered popcorn
+long_u,12,debut,iamb,revue,iamb,perfect,same domain: stage show premiere,Her bright debut lit up the summer revue
+long_u,13,student,trochee,prudent,trochee,perfect,same domain: wise young learner,A prudent student keeps her lantern burning
+long_u,14,acute,iamb,minute,iamb,perfect,same domain: fine sharp precision,With acute attention to each minute detail
+long_u,15,review,iamb,debut,iamb,perfect,same domain: critics greet premiere,The papers review your debut with shining praise
+long_u,16,canoe,iamb,bamboo,iamb,perfect,same scene: jungle river paddle,A bamboo paddle guides our little green canoe
+long_u,17,raccoon,iamb,lagoon,iamb,perfect,same scene: moonlit wildlife pond,A curious raccoon dips its paws in the lagoon
+long_u,18,reboot,iamb,compute,iamb,perfect,same domain: computer restart task,Reboot the screen and compute a brighter plan
+long_u,19,recruit,iamb,salute,iamb,perfect,same scene: proud parade ground,The proud recruit gives a crisp salute
+long_u,20,costume,iamb,assume,iamb,perfect,cause/effect: costume assumes role,Assume a hero's role in a velvet costume
+long_u,21,tuning,trochee,pruning,trochee,perfect,same domain: careful fine refining,Pruning the roses and tuning my guitar
+long_u,22,grooming,trochee,pruning,trochee,slant,synonyms: trimming and tending,Pruning the hedges is grooming the garden green
+long_u,23,blooming,trochee,pruning,trochee,slant,same scene: spring garden care,Pruning the branches while the lilacs are blooming
+long_u,24,moving,trochee,soothing,trochee,slant,same domain: tender heartfelt music,Your song is moving and your voice is soothing
+long_u,25,fruity,trochee,foodie,trochee,slant,same domain: flavor lover's delight,A fruity tart for the foodie in your heart
+long_u,26,juicy,trochee,sushi,trochee,slant,same scene: tasty dinner treat,Juicy mango rolls beside the sushi plate
+long_u,27,compute,iamb,conclude,iamb,slant,same domain: logical reasoning steps,We compute the clues and conclude with a smile
+long_u,28,recruit,iamb,include,iamb,slant,same domain: welcoming new members,Recruit the dreamers and include the shy ones too
+long_u,29,costume,iamb,balloon,iamb,slant,same scene: costume party fun,A clown costume and a bright red balloon
+long_u,30,booming,trochee,tuning,trochee,slant,same scene: concert sound check,Tuning up the strings while the drums are booming
+long_u,31,moving,trochee,proving,trochee,perfect,same domain: steady forward progress,"Keep on moving, keep on proving what you are"
+long_u,32,rooted,trochee,suited,trochee,perfect,same domain: settled and belonging,Deeply rooted and well suited to this land
+long_u,33,cutie,trochee,sweetie,trochee,slant,synonyms: darling dear one,"Come here, sweetie, you're my little cutie"
+long_u,34,cutie,trochee,pretty,trochee,slant,synonyms: adorable and lovely,You're a pretty little cutie with a sunny smile
+long_u,35,minute,iamb,petite,iamb,slant,synonyms: tiny and small,"A minute, petite little flower in the dew"
+long_u,36,approve,iamb,believe,iamb,slant,synonyms: affirm and trust,I believe in you and I approve of every dream
+long_u,37,conclude,iamb,decide,iamb,slant,synonyms: settle the matter,We decide to dance and conclude the night with song
+long_u,38,improve,iamb,revive,iamb,slant,synonyms: restore and refresh,Spring rain will revive the fields and improve the day
+long_u,39,improve,iamb,achieve,iamb,slant,cause/effect: growth brings success,Improve a little every day and you'll achieve your dream
+long_u,40,recruit,iamb,cadet,iamb,slant,synonyms: new young trainee,The new recruit and the young cadet march side by side
+long_u,41,suited,trochee,fitted,trochee,slant,synonyms: tailored to fit,A fitted coat that's perfectly suited to you
+long_u,42,astute,iamb,discreet,iamb,slant,synonyms: wise and tactful,An astute friend is gentle and discreet
+long_u,43,juicy,trochee,spicy,trochee,slant,same domain: bold tasty flavors,Juicy peaches and a spicy cup of tea
+long_u,44,reboot,iamb,update,iamb,slant,same domain: system refresh routine,Update your heart and reboot your smile
+long_u,45,lagoon,iamb,serene,iamb,slant,same scene: calm tropical water,The lagoon lies serene beneath the swaying palms
+long_u,46,moving,trochee,loving,trochee,slant,same domain: tender heartfelt emotion,A moving song to fill a loving heart
+long_u,47,soothing,trochee,breathing,trochee,slant,same scene: calm meditation time,Slow breathing and a soothing tune at dusk
+long_u,48,proving,trochee,striving,trochee,slant,cause/effect: effort proves worth,Striving every day and proving what we can do
+long_u,49,commute,iamb,remote,iamb,slant,antonyms: office versus home,I traded the commute for a remote and sunny view
+long_u,50,proven,trochee,given,trochee,slant,same domain: certain settled truths,Your kindness is proven and your love is a given
+long_u,51,include,iamb,provide,iamb,slant,same domain: sharing and giving,Provide a chair and include everyone tonight
+long_u,52,cocoon,iamb,begin,iamb,slant,cause/effect: new wings begin,Inside the cocoon the brand new wings begin
+long_u,53,costume,iamb,become,iamb,slant,cause/effect: costume transforms wearer,Put on the costume and become the star
+long_u,54,cruising,trochee,gazing,trochee,slant,same scene: scenic open drive,Cruising down the coast and gazing at the sea
+long_u,55,commune,iamb,serene,iamb,slant,same scene: peaceful nature retreat,"We commune with the forest, quiet and serene"
+long_u,56,raccoon,iamb,ravine,iamb,slant,same scene: woodland creek night,A raccoon wanders down the misty ravine
+long_u,57,juicy,trochee,fruity,trochee,assonance,synonyms: luscious ripe flavor,Juicy plums and fruity wine at sunset
+long_u,58,astute,iamb,prudent,trochee,assonance,synonyms: wise sound judgment,An astute and prudent heart will guide the way
+long_u,59,truly,trochee,proven,trochee,assonance,synonyms: certain and genuine,Your kindness is truly proven every day
+long_u,60,lucid,trochee,fluent,trochee,assonance,synonyms: clear smooth expression,Lucid dreams and fluent songs of hope
+long_u,61,boosted,trochee,improved,iamb,assonance,synonyms: lifted and upgraded,Your kindness boosted me and improved my day
+long_u,62,juices,trochee,fruity,trochee,assonance,same domain: fresh fruit drinks,"Morning juices, fruity, sweet, and bright"
+long_u,63,renew,iamb,improve,iamb,assonance,synonyms: refresh and better,Renew your hope and improve your little world
+long_u,64,ruby,trochee,maroon,iamb,assonance,synonyms: deep red shades,A ruby sunset slowly fading to maroon
+long_u,65,loosely,trochee,smoothly,trochee,assonance,synonyms: easy flowing motion,"Swaying loosely, gliding smoothly through the night"
+long_u,66,fluid,trochee,smoothly,trochee,assonance,synonyms: flowing and graceful,Fluid steps and smoothly turning feet
+long_u,67,smoothing,trochee,grooming,trochee,assonance,synonyms: tidying with care,Smoothing her mane and grooming the pony
+long_u,68,include,iamb,unite,trochee,assonance,synonyms: bring people together,Unite the neighbors and include us all
+long_u,69,commune,iamb,unite,trochee,assonance,synonyms: come together peacefully,We unite in song and commune beneath the stars
+long_u,70,duo,trochee,union,trochee,assonance,synonyms: joined loving pair,"A duo in a happy union, hand in hand"
+long_u,71,kudos,trochee,salute,iamb,assonance,synonyms: praise and honor,Kudos to the dreamers and a salute to the brave
+long_u,72,groovy,trochee,boogie,trochee,assonance,same scene: disco dance floor,Put on something groovy and boogie all night long
+long_u,73,music,trochee,tuning,trochee,assonance,same domain: musical preparation work,Tuning my heart to the music of you
+long_u,74,bluegrass,trochee,music,trochee,assonance,part/whole: genre of music,Bluegrass music drifting through the hills
+long_u,75,sushi,trochee,tuna,trochee,assonance,part/whole: fish in sushi,Fresh tuna rolled into sushi for two
+long_u,76,sushi,trochee,foodie,trochee,assonance,same domain: food lover favorite,Every foodie dreams of sushi by the sea
+long_u,77,music,trochee,movie,trochee,assonance,same domain: entertainment arts,The music in the movie made my heart take flight
+long_u,78,cocoon,iamb,renewed,iamb,assonance,cause/effect: change brings renewal,"Out of the cocoon, my wings renewed"
+long_u,79,reviewed,iamb,approved,iamb,assonance,same domain: evaluation and acceptance,Reviewed with care and approved with a smile
+long_u,80,kudos,trochee,approve,iamb,assonance,same domain: praise and approval,"I approve, and kudos for your courage"
+long_u,81,student,trochee,fluent,trochee,assonance,cause/effect: study brings fluency,A student growing fluent in a brand new tongue
+long_u,82,roommate,trochee,student,trochee,assonance,same scene: college dorm life,My roommate is a student of the stars
+long_u,83,boosting,trochee,booming,trochee,assonance,same domain: rising growth surge,Boosting every dream while the city's booming
+long_u,84,amused,iamb,goofy,trochee,assonance,cause/effect: silliness brings laughter,Your goofy grin keeps me amused all day
+long_u,85,goofy,trochee,boogie,trochee,assonance,same scene: silly kitchen dance,Let us do a goofy boogie in the kitchen
+long_u,86,hula,trochee,bamboo,iamb,assonance,same scene: island luau night,We hula by the bamboo torches on the shore
+long_u,87,hula,trochee,tutu,trochee,assonance,same domain: swaying dance skirts,"From a hula skirt to a ballet tutu, we dance"
+long_u,88,boogie,trochee,jukebox,trochee,assonance,same scene: retro diner dance,Drop a coin in the jukebox and boogie down
+long_u,89,moonlight,trochee,canoe,iamb,assonance,same scene: night river paddle,Paddle the canoe through silver moonlight
+long_u,90,rooftop,trochee,moonlight,trochee,assonance,same scene: night city view,Dancing on the rooftop in the moonlight
+long_u,91,blooming,trochee,tulip,trochee,assonance,same scene: spring garden bed,Every tulip blooming in the April sun
+long_u,92,tulip,trochee,ruby,trochee,assonance,same scene: red spring blooms,A ruby tulip opening at dawn
+long_u,93,humid,trochee,monsoon,iamb,assonance,same scene: tropical wet season,Humid air before the monsoon sings
+long_u,94,shampoo,iamb,grooming,trochee,assonance,same domain: personal care routine,A little shampoo and some grooming for the show
+long_u,95,toothpaste,trochee,shampoo,iamb,assonance,same scene: bathroom morning shelf,"Toothpaste, shampoo, and a song in the shower"
+long_u,96,movie,trochee,viewing,trochee,assonance,same scene: cozy film night,Viewing a movie curled up by the fire
+long_u,97,suitcase,trochee,cruises,trochee,assonance,same scene: vacation travel trip,Pack a suitcase for the summer cruises
+long_u,98,smoothly,trochee,cruising,trochee,assonance,same scene: easy open road,Cruising smoothly down the open road
+long_u,99,scuba,trochee,tuna,trochee,assonance,same scene: ocean dive adventure,Scuba diving with the silver tuna
+long_u,100,tubing,trochee,canoe,iamb,assonance,same scene: lazy river day,Tubing down the river beside a red canoe
+short_a,1,advance,iamb,enhance,iamb,perfect,synonyms: progress and improve,"With every step we advance, every dream we enhance"
+short_a,2,crafted,trochee,drafted,trochee,perfect,synonyms: designed with care,"Every verse I drafted, every chorus crafted just for you"
+short_a,3,banish,trochee,vanish,trochee,perfect,synonyms: make worries disappear,Banish all the gray clouds and watch the worries vanish
+short_a,4,exact,iamb,abstract,iamb,perfect,antonyms: precise versus vague,"Love isn't something abstract, it's exact as the sunrise"
+short_a,5,happy,trochee,snappy,trochee,perfect,synonyms: cheerful lively mood,"Keep it happy, keep it snappy, let the rhythm roll"
+short_a,6,baggy,trochee,shaggy,trochee,perfect,synonyms: loose and scruffy,"Baggy sweater, shaggy hair, and a carefree Sunday grin"
+short_a,7,packing,trochee,stacking,trochee,perfect,synonyms: loading up boxes,Packing up our memories and stacking them with care
+short_a,8,gladly,trochee,madly,trochee,perfect,synonyms: eager wholehearted love,"I would gladly fall for you, madly and for good"
+short_a,9,handy,trochee,dandy,trochee,perfect,synonyms: useful and fine,With a handy little tune the day is fine and dandy
+short_a,10,compact,iamb,intact,iamb,perfect,synonyms: snug and whole,Fold the dream up compact and carry it intact
+short_a,11,glances,trochee,dances,trochee,perfect,same scene: ballroom flirtation,Stolen glances turned to slow dances under the stars
+short_a,12,action,trochee,traction,trochee,perfect,cause/effect: effort gains momentum,Put your dreams in action and they'll find their traction
+short_a,13,fashion,trochee,passion,trochee,perfect,same domain: love of style,She stitched her passion into fashion made of gold
+short_a,14,clapping,trochee,tapping,trochee,perfect,same scene: keeping the beat,"Hands are clapping, feet are tapping to the band"
+short_a,15,glances,trochee,chances,trochee,perfect,cause/effect: glance sparks chance,Second glances turn to second chances
+short_a,16,classes,trochee,passes,trochee,perfect,cause/effect: study earns success,She smiles and passes all her classes with ease
+short_a,17,dancing,trochee,glancing,trochee,perfect,same scene: moonlit dance floor,"Dancing in the moonlight, glancing at your smile"
+short_a,18,lashes,trochee,flashes,trochee,perfect,same scene: bright flirting eyes,Her lashes flutter every time the camera flashes
+short_a,19,granny,trochee,nanny,trochee,perfect,same domain: loving childhood caregivers,Granny bakes the cookies while the nanny sings along
+short_a,20,classy,trochee,sassy,trochee,perfect,same domain: confident stylish attitude,She's classy in the morning and sassy on the dance floor
+short_a,21,mango,trochee,tango,trochee,perfect,same scene: tropical summer dance,"Sweet mango on our lips, we tango through the night"
+short_a,22,planet,trochee,granite,trochee,perfect,part/whole: rock of planet,This planet's made of granite and a million dreams
+short_a,23,napping,trochee,tapping,trochee,perfect,same scene: rainy afternoon rest,Napping on the sofa while the rain is softly tapping
+short_a,24,landing,trochee,standing,trochee,perfect,cause/effect: landing earns ovation,She stuck the landing and the crowd was standing
+short_a,25,romance,iamb,expanse,iamb,perfect,same scene: starlit open sky,Romance beneath the wide expanse of stars
+short_a,26,splashing,trochee,flashing,trochee,perfect,same scene: sunlit summer water,Children splashing in the lake with silver ripples flashing
+short_a,27,grasses,trochee,passes,trochee,perfect,same scene: breeze through meadow,The summer wind passes softly through the grasses
+short_a,28,tanning,trochee,fanning,trochee,perfect,same scene: summer beach heat,Tanning on the sand while the palm leaves keep on fanning
+short_a,29,clapping,trochee,snapping,trochee,perfect,same scene: rhythm of hands,"Fingers snapping, palms clapping, everybody sing"
+short_a,30,splashing,trochee,dashing,trochee,perfect,same scene: running through surf,Dashing through the waves and splashing in the sun
+short_a,31,napping,trochee,wrapping,trochee,perfect,same scene: cozy blanket nap,"Napping by the fire, wrapping up in wool"
+short_a,32,flashing,trochee,dashing,trochee,perfect,same scene: charming bright smile,A dashing grin and flashing eyes across the room
+short_a,33,spanning,trochee,scanning,trochee,perfect,same scene: wide horizon view,Scanning the horizon with a rainbow spanning wide
+short_a,34,sandy,trochee,candy,trochee,perfect,same scene: seaside boardwalk treats,Sandy toes and cotton candy on the pier
+short_a,35,exact,iamb,correct,iamb,slant,synonyms: precise and right,"Every word exact, every note correct"
+short_a,36,impact,iamb,effect,iamb,slant,synonyms: lasting influence result,"Your kindness made an impact with a gentle, lasting effect"
+short_a,37,expanse,iamb,immense,iamb,slant,synonyms: vast open space,The ocean's blue expanse is immense and free
+short_a,38,classy,trochee,flashy,trochee,slant,antonyms: refined versus showy,"She's classy, never flashy, shining soft and true"
+short_a,39,granted,trochee,handed,trochee,slant,synonyms: given as gift,"Every wish was granted, every star was handed down"
+short_a,40,subtract,iamb,deduct,iamb,slant,synonyms: take away amounts,Subtract the doubt and deduct the fear tonight
+short_a,41,dandy,trochee,trendy,trochee,slant,synonyms: stylish sharp dresser,"Dressed up like a dandy, looking trendy on the town"
+short_a,42,react,iamb,reflect,iamb,slant,antonyms: impulse versus thought,"Don't react too quickly, take a breath and reflect"
+short_a,43,expand,iamb,ascend,iamb,slant,synonyms: growing and rising,Let your heart expand as the morning larks ascend
+short_a,44,action,trochee,fiction,trochee,slant,antonyms: doing versus dreaming,Turn the pages of your fiction into action
+short_a,45,classy,trochee,jazzy,trochee,slant,same domain: stylish lively flair,A classy little club with a jazzy band till dawn
+short_a,46,sassy,trochee,jazzy,trochee,slant,same domain: bold lively style,She's sassy when she sings a jazzy melody
+short_a,47,fashion,trochee,flashing,trochee,slant,same scene: runway camera lights,Cameras flashing as the fashion parade goes by
+short_a,48,grasses,trochee,flashes,trochee,slant,same scene: firefly summer meadow,Fireflies in the grasses throwing tiny golden flashes
+short_a,49,cabin,trochee,snapping,trochee,slant,same scene: crackling cozy fire,The fire is snapping in our little cabin
+short_a,50,camping,trochee,chanting,trochee,slant,same scene: campfire singalong night,Camping by the lake and chanting songs beneath the moon
+short_a,51,standing,trochee,chanting,trochee,slant,same scene: cheering stadium crowd,"The crowd is standing, chanting out your name"
+short_a,52,baggy,trochee,khaki,trochee,slant,same scene: casual weekend clothes,Baggy khaki trousers on a lazy Sunday stroll
+short_a,53,dancing,trochee,mansion,trochee,slant,same scene: grand ballroom party,We were dancing in the mansion till the morning light
+short_a,54,glancing,trochee,handsome,trochee,slant,same scene: shy admiring look,Glancing at a handsome stranger by the door
+short_a,55,branches,trochee,benches,trochee,slant,same scene: shady city park,Sunlight through the branches on the old park benches
+short_a,56,satin,trochee,wrapping,trochee,slant,same scene: elegant gift ribbon,Satin ribbon wrapping every present with a bow
+short_a,57,packing,trochee,wagon,trochee,slant,same scene: pioneer road trip,Packing up the wagon for the long road west
+short_a,58,romance,iamb,commence,iamb,slant,same scene: love story begins,Let the music play and let the romance commence
+short_a,59,active,trochee,passive,trochee,assonance,antonyms: busy versus still,"Some days I'm active, some days passive as the sea"
+short_a,60,rapid,trochee,placid,trochee,assonance,antonyms: rushing versus calm,From rapid mountain rivers to the placid lake below
+short_a,61,contract,iamb,expand,iamb,assonance,antonyms: shrink versus grow,Our hearts contract and then expand with every breath
+short_a,62,advance,iamb,retract,iamb,assonance,antonyms: forward versus back,The waves advance and then retract along the shore
+short_a,63,mansion,trochee,cabin,trochee,assonance,antonyms: grand versus humble,I'd trade a marble mansion for a cabin by the lake
+short_a,64,passage,trochee,pathway,trochee,assonance,synonyms: a way through,A hidden passage opens to a sunlit pathway
+short_a,65,savvy,trochee,crafty,trochee,assonance,synonyms: shrewd and clever,She's savvy with her money and crafty with her hands
+short_a,66,handsome,trochee,dashing,trochee,assonance,synonyms: attractive charming gentleman,So handsome and so dashing in his Sunday suit
+short_a,67,lavish,trochee,fancy,trochee,assonance,synonyms: rich and elegant,"A fancy gown, a lavish ball, a night to remember"
+short_a,68,practice,trochee,habit,trochee,assonance,synonyms: steady daily routine,Make your practice a habit and the music comes alive
+short_a,69,mapping,trochee,planning,trochee,assonance,synonyms: plotting the route,"Mapping out the journey, planning every stop"
+short_a,70,happy,trochee,gladly,trochee,assonance,synonyms: joyful and willing,I'm happy and I'll gladly sing along with you
+short_a,71,catchy,trochee,snappy,trochee,assonance,synonyms: lively memorable tune,A catchy little chorus with a snappy little beat
+short_a,72,happy,trochee,laughing,trochee,assonance,cause/effect: joy brings laughter,"We were happy, we were laughing till the dawn"
+short_a,73,magnet,trochee,attract,iamb,assonance,cause/effect: magnet draws close,You're a magnet and you attract the morning sun
+short_a,74,antics,trochee,laughing,trochee,assonance,cause/effect: silliness brings laughter,Your silly little antics keep me laughing all day
+short_a,75,pastime,trochee,passion,trochee,assonance,synonyms: hobby and love,My favorite pastime turned into my passion
+short_a,76,fabric,trochee,fashion,trochee,assonance,part/whole: fabric makes fashion,Turning silky fabric into fashion for the stage
+short_a,77,tango,trochee,dancing,trochee,assonance,part/whole: tango within dancing,Dancing the tango underneath the city lights
+short_a,78,package,trochee,wrapping,trochee,assonance,part/whole: package in wrapping,Tearing off the wrapping on a package full of love
+short_a,79,aspen,trochee,branches,trochee,assonance,part/whole: branches of aspen,Golden aspen branches swaying in the breeze
+short_a,80,blanket,trochee,basket,trochee,assonance,same scene: picnic spread,"Spread the blanket, open up the basket"
+short_a,81,magic,trochee,rabbit,trochee,assonance,same scene: magician's hat trick,A little bit of magic pulls a rabbit from the hat
+short_a,82,hammock,trochee,napping,trochee,assonance,same scene: lazy summer afternoon,Napping in the hammock while the summer breezes blow
+short_a,83,angling,trochee,casting,trochee,assonance,same scene: fishing by river,"Angling by the river, casting lines into the light"
+short_a,84,canvas,trochee,landscape,trochee,assonance,same scene: painting outdoors,She paints a golden landscape on a canvas by the sea
+short_a,85,cactus,trochee,canyon,trochee,assonance,same scene: desert sunset,A lonely cactus glowing in the canyon light
+short_a,86,snapshot,trochee,candid,trochee,assonance,same scene: natural photo moment,A candid little snapshot of the summer that we shared
+short_a,87,statue,trochee,plaza,trochee,assonance,same scene: sunny town square,We met beside the statue in the plaza
+short_a,88,relax,iamb,unpack,iamb,assonance,same scene: vacation arrival,Unpack the bags and relax beside the sea
+short_a,89,bathtub,trochee,splashing,trochee,assonance,same scene: bubbly bath time,"Splashing in the bathtub, bubbles everywhere"
+short_a,90,mattress,trochee,blanket,trochee,assonance,same scene: cozy bed,A feather mattress and a woolen blanket
+short_a,91,sandwich,trochee,napkin,trochee,assonance,same scene: picnic lunch,A sandwich and a napkin on a sunny afternoon
+short_a,92,lavish,trochee,banquet,trochee,assonance,same scene: grand feast,A lavish banquet laid beneath the stars
+short_a,93,banjo,trochee,jamming,trochee,assonance,same scene: porch music jam,Jamming on the banjo on the porch at night
+short_a,94,gadget,trochee,handy,trochee,assonance,same domain: useful little tools,A handy little gadget in my pocket for the road
+short_a,95,laughing,trochee,chatting,trochee,assonance,same scene: friends together,Laughing and chatting till the stars come out
+short_a,96,athlete,trochee,practice,trochee,assonance,same scene: daily training,An athlete knows that practice builds the dream
+short_a,97,campus,trochee,classes,trochee,assonance,same scene: college life,Walking through the campus to our morning classes
+short_a,98,campsite,trochee,backpack,trochee,assonance,same scene: camping trip,Drop the backpack at the campsite by the stream
+short_a,99,grassland,trochee,rabbit,trochee,assonance,same scene: open meadow,A rabbit hopping softly through the grassland
+short_a,100,mantra,trochee,chanting,trochee,assonance,same scene: peaceful morning meditation,Chanting our mantra as the morning light arrives
+short_e,1,ready,trochee,steady,trochee,perfect,synonyms: prepared and firm,"Hold me ready, hold me steady, through the night"
+short_e,2,intense,iamb,immense,iamb,perfect,synonyms: vast and powerful,"A love intense, a sky immense above us"
+short_e,3,many,trochee,plenty,trochee,perfect,synonyms: more than enough,So many stars and plenty more to wish upon
+short_e,4,sketching,trochee,etching,trochee,perfect,synonyms: drawing fine lines,Sketching your smile and etching it in gold
+short_e,5,detect,iamb,inspect,iamb,perfect,synonyms: notice and examine,Inspect the night and you'll detect a falling star
+short_e,6,success,iamb,progress,iamb,perfect,"synonyms: moving forward, achieving",Every bit of progress lifts us to success
+short_e,7,express,iamb,confess,iamb,perfect,synonyms: voicing true feelings,Let me confess the words I long to express
+short_e,8,request,iamb,suggest,iamb,perfect,synonyms: politely proposing ideas,"May I suggest a song, may I request a dance"
+short_e,9,ascend,iamb,extend,iamb,perfect,synonyms: reaching ever higher,Extend your wings and ascend into the blue
+short_e,10,eddy,trochee,steady,trochee,perfect,antonyms: swirling versus still,"The river eddy spins, but my heart holds steady"
+short_e,11,penny,trochee,plenty,trochee,perfect,antonyms: scarce versus abundant,From a single penny grew a life of plenty
+short_e,12,testing,trochee,resting,trochee,perfect,antonyms: effort versus ease,"After testing days, my happy heart is resting"
+short_e,13,heaven,trochee,haven,trochee,slant,synonyms: safe sanctuary,"Your arms are my haven, your kiss a taste of heaven"
+short_e,14,friendly,trochee,gently,trochee,slant,synonyms: kind and soft,A friendly voice that speaks to me so gently
+short_e,15,friendly,trochee,kindly,trochee,slant,synonyms: warm and caring,"A friendly wave, a kindly word, a sunny day"
+short_e,16,heaven,trochee,seven,trochee,perfect,same scene: seventh heaven bliss,Seven stars above us shine like heaven tonight
+short_e,17,menu,trochee,venue,trochee,perfect,same scene: dinner date night,A candlelit venue and a menu made for two
+short_e,18,question,trochee,session,trochee,perfect,same scene: classroom discussion,Every question in the session sparks a light
+short_e,19,duet,iamb,cassette,iamb,perfect,same scene: music recording,We sang a sweet duet on an old cassette
+short_e,20,rested,trochee,nested,trochee,perfect,same scene: birds at home,The swallows rested where they nested in the eaves
+short_e,21,resting,trochee,nesting,trochee,perfect,same scene: spring birds settling,"Doves are resting, robins nesting in the pines"
+short_e,22,respect,iamb,protect,iamb,perfect,cause/effect: respect inspires protection,I respect your heart and I'll protect it always
+short_e,23,finesse,iamb,impress,iamb,perfect,cause/effect: skill wins admiration,Dance with finesse and you will impress the crowd
+short_e,24,penny,trochee,money,trochee,slant,part/whole: coin of money,Every penny saved is money for our dreams
+short_e,25,precious,trochee,gracious,trochee,slant,synonyms: dear and kind,So precious and so gracious is your love
+short_e,26,empty,trochee,plenty,trochee,slant,antonyms: none versus abundance,Empty hands are filling up with plenty
+short_e,27,steady,trochee,speedy,trochee,slant,antonyms: slow versus fast,"Not speedy, just steady, I will win the race"
+short_e,28,respite,trochee,rested,trochee,slant,synonyms: pause and rest,"A gentle respite, and my soul has rested"
+short_e,29,reflect,iamb,project,iamb,perfect,same domain: casting light outward,The moon will project what the lake will reflect
+short_e,30,collect,iamb,reflect,iamb,perfect,same scene: quiet thoughtful moment,Collect your thoughts and reflect beneath the stars
+short_e,31,pleasant,trochee,present,trochee,perfect,same scene: pleasant gift giving,A pleasant present wrapped in ribbons bright
+short_e,32,pheasant,trochee,pleasant,trochee,perfect,same scene: country morning walk,A pleasant morning and a pheasant in the field
+short_e,33,entry,trochee,sentry,trochee,perfect,same scene: guarded castle gate,A smiling sentry waves us through the entry
+short_e,34,suspense,iamb,intense,iamb,perfect,same scene: thrilling story climax,The suspense is intense as the music swells
+short_e,35,commence,iamb,suspense,iamb,perfect,same scene: curtain rising,"Let the show commence, the sweet suspense is here"
+short_e,36,blessing,trochee,dressing,trochee,perfect,same scene: wedding morning,"Dressing for the wedding, I count every blessing"
+short_e,37,tending,trochee,bending,trochee,perfect,same scene: gardener at work,Bending low and tending roses in the sun
+short_e,38,splendid,trochee,tended,trochee,perfect,cause/effect: care makes beauty,The garden that she tended grew so splendid
+short_e,39,splendid,trochee,blended,trochee,perfect,cause/effect: mixing creates beauty,The sunset colors blended into something splendid
+short_e,40,blending,trochee,bending,trochee,perfect,same scene: prism splitting light,Bending light and blending colors through the glass
+short_e,41,edges,trochee,hedges,trochee,perfect,same scene: garden borders,Roses climb along the edges of the hedges
+short_e,42,sketches,trochee,stretches,trochee,perfect,same scene: landscape drawing,Sketches of the golden stretches of the shore
+short_e,43,connect,iamb,respect,iamb,perfect,cause/effect: respect builds bonds,"When we respect each other, we connect"
+short_e,44,event,iamb,present,iamb,perfect,same scene: presenting at gala,At the grand event we present our brand-new song
+short_e,45,lending,trochee,sending,trochee,perfect,synonyms: giving help onward,Lending a hand and sending love your way
+short_e,46,invest,iamb,progressed,iamb,perfect,cause/effect: effort brings growth,We invest our hearts and see how far we have progressed
+short_e,47,amen,iamb,again,iamb,perfect,same scene: hymn refrain,Sing amen and sing it once again
+short_e,48,stretching,trochee,reaching,trochee,slant,synonyms: extending outward,Stretching toward the sun and reaching for the sky
+short_e,49,finesse,iamb,precise,iamb,slant,synonyms: skilled exactness,"Precise and full of finesse, she paints the dawn"
+short_e,50,connect,iamb,attract,iamb,slant,synonyms: drawing together,"Like magnets we attract, like stars we connect"
+short_e,51,express,iamb,release,iamb,slant,synonyms: letting feelings out,Release your fears and express your heart in song
+short_e,52,progress,iamb,increase,iamb,slant,synonyms: steady growth,Watch our joys increase as we progress together
+short_e,53,defend,iamb,withstand,iamb,slant,synonyms: holding firm,Together we withstand the wind and defend our dreams
+short_e,54,commence,iamb,advance,iamb,slant,synonyms: start moving forward,"Let the parade commence, let the dancers advance"
+short_e,55,suggest,iamb,insist,iamb,slant,antonyms: gentle versus firm,"I suggest a walk, but you insist we dance"
+short_e,56,lenses,trochee,senses,trochee,slant,same domain: sight and perception,Through rosy lenses all my senses come alive
+short_e,57,message,trochee,passage,trochee,slant,synonyms: shared written words,A passage in your letter holds a message bright
+short_e,58,lesson,trochee,blessing,trochee,slant,cause/effect: lessons become blessings,Every lesson is a blessing in disguise
+short_e,59,meadow,trochee,shadow,trochee,slant,same scene: shady summer field,"Lie with me in the meadow, in the oak tree's shadow"
+short_e,60,ready,trochee,tidy,trochee,slant,same scene: neat and prepared,The room is tidy and I'm ready for you
+short_e,61,section,trochee,fraction,trochee,slant,synonyms: part of whole,"A tiny fraction, just a section of the pie"
+short_e,62,request,iamb,assist,iamb,slant,cause/effect: asking brings help,Just request a hand and I'll assist you
+short_e,63,protect,iamb,intact,iamb,slant,cause/effect: guarding keeps whole,"I'll protect your heart and keep it safe, intact"
+short_e,64,intense,iamb,romance,iamb,slant,same scene: passionate love,An intense romance beneath the summer moon
+short_e,65,event,iamb,attend,iamb,slant,cause/effect: guests attend gatherings,We attend the grand event in our finest clothes
+short_e,66,duet,iamb,delight,iamb,slant,cause/effect: harmony brings joy,Our duet rings out with pure delight
+short_e,67,cassette,iamb,repeat,iamb,slant,same scene: tape on repeat,Our song on that cassette plays on repeat
+short_e,68,pleasant,trochee,crescent,trochee,slant,same scene: evening crescent moon,A pleasant breeze beneath the crescent moon
+short_e,69,wedding,trochee,setting,trochee,slant,same scene: wedding venue,A garden setting for our wedding day
+short_e,70,lesson,trochee,session,trochee,slant,same scene: music class time,Our music lesson turned into a jam session
+short_e,71,possess,iamb,embrace,iamb,slant,synonyms: holding close,Embrace me with the love that you possess
+short_e,72,address,iamb,discuss,iamb,slant,synonyms: talking it through,Let's discuss our dreams and address each hope
+short_e,73,tested,trochee,tasted,trochee,slant,same scene: chef's kitchen,We tasted and we tested every sweet recipe
+short_e,74,project,iamb,construct,iamb,slant,same domain: building plans,"We construct our dream, a project built with love"
+short_e,75,splendid,trochee,scented,trochee,slant,same scene: blooming rose garden,"A splendid garden, scented by the rose"
+short_e,76,bending,trochee,winding,trochee,slant,same scene: river path,A winding river bending through the vale
+short_e,77,stepping,trochee,skipping,trochee,slant,same scene: playful stroll,Stepping light and skipping down the lane
+short_e,78,epic,trochee,legend,trochee,assonance,synonyms: grand heroic tale,"An epic journey, a legend to be told"
+short_e,79,destined,trochee,legend,trochee,assonance,same theme: fated greatness,You were destined to become a legend in the light
+short_e,80,exit,trochee,entrance,trochee,assonance,antonyms: leaving versus arriving,Every exit leads us to a brand-new entrance
+short_e,81,breakfast,trochee,bedtime,trochee,assonance,antonyms: morning versus night,From breakfast kisses to bedtime lullabies
+short_e,82,rescue,trochee,protect,iamb,assonance,synonyms: save and guard,I will rescue you and protect you evermore
+short_e,83,rescue,trochee,defend,iamb,assonance,synonyms: save and shield,Rescue the dreamers and defend the dream
+short_e,84,strengthen,trochee,defend,iamb,assonance,synonyms: fortify and guard,We strengthen every wall and defend the ones we love
+short_e,85,trekking,trochee,stepping,trochee,assonance,synonyms: walking onward,Trekking through the hills and stepping toward the sun
+short_e,86,refuge,trochee,rescue,trochee,assonance,cause/effect: rescue brings refuge,You came to my rescue and became my refuge
+short_e,87,wedding,trochee,blessing,trochee,assonance,same scene: wedding vows,"Our wedding day, a blessing from above"
+short_e,88,festive,trochee,presents,trochee,assonance,same scene: holiday gift exchange,Festive lights and presents by the tree
+short_e,89,necklace,trochee,pendant,trochee,assonance,part/whole: pendant on necklace,A silver pendant on a golden necklace
+short_e,90,precious,trochee,necklace,trochee,assonance,same scene: jewelry box treasures,A precious necklace that my mother wore
+short_e,91,meadow,trochee,echo,trochee,assonance,same scene: open green valley,Hear the echo of our laughter in the meadow
+short_e,92,message,trochee,sending,trochee,assonance,cause/effect: sending a message,I'm sending you a message full of love
+short_e,93,nexus,trochee,connect,iamb,assonance,synonyms: link and connection,Two hearts connect at the nexus of the stars
+short_e,94,friendship,trochee,endless,trochee,assonance,same theme: lasting bond,Our friendship is endless like the summer sky
+short_e,95,tempo,trochee,techno,trochee,assonance,same domain: dance music,The techno beat picks up the tempo of the night
+short_e,96,fledgling,trochee,nesting,trochee,assonance,same scene: young birds growing,A fledgling learns to fly from where the robins are nesting
+short_e,97,lemon,trochee,lettuce,trochee,assonance,same scene: fresh garden salad,Squeeze a lemon on the lettuce from the garden
+short_e,98,veggie,trochee,lettuce,trochee,assonance,part/whole: lettuce among veggies,Crisp lettuce leads the veggie basket home
+short_e,99,crescent,trochee,heaven,trochee,assonance,same scene: night sky,A silver crescent glowing up in heaven
+short_e,100,fresco,trochee,sketching,trochee,assonance,same domain: wall art making,Sketching on the wall until a fresco comes alive
+short_i,1,living,trochee,giving,trochee,perfect,cause/effect: giving enriches living,The secret of living is found in the giving
+short_i,2,kitten,trochee,smitten,trochee,perfect,cause/effect: kitten leaves me smitten,One look at that kitten and I was smitten
+short_i,3,pretty,trochee,witty,trochee,perfect,same domain: charming bright traits,She is pretty and witty and bright as the day
+short_i,4,drifting,trochee,shifting,trochee,perfect,synonyms: slow gentle motion,Sands are shifting and the clouds are drifting
+short_i,5,ticking,trochee,clicking,trochee,perfect,synonyms: small sharp sounds,The clock is ticking and the needles clicking
+short_i,6,kissing,trochee,missing,trochee,perfect,antonyms: together versus apart,"All day missing you, all night kissing you"
+short_i,7,winning,trochee,grinning,trochee,perfect,cause/effect: victory brings grins,We came home winning and we could not stop grinning
+short_i,8,lifted,trochee,gifted,trochee,perfect,cause/effect: gift lifts heart,My heart was lifted by the love you gifted
+short_i,9,sitting,trochee,knitting,trochee,perfect,same scene: cozy fireside evening,"Grandma's sitting by the fire, knitting dreams in wool"
+short_i,10,singing,trochee,ringing,trochee,perfect,same scene: bells and choir,Church bells ringing while the choir is singing
+short_i,11,ringing,trochee,bringing,trochee,perfect,cause/effect: bells bring cheer,"Bells are ringing, bringing cheer to every street"
+short_i,12,knitted,trochee,fitted,trochee,perfect,cause/effect: handmade sweater fits,"A sweater knitted just for me, perfectly fitted"
+short_i,13,begin,iamb,within,iamb,perfect,same domain: inner journey starts,Every great journey must begin within
+short_i,14,cricket,trochee,wicket,trochee,perfect,part/whole: wicket in cricket,"Summer cricket on the green, the ball flies past the wicket"
+short_i,15,swimming,trochee,skimming,trochee,perfect,same scene: summer lake surface,Swallows skimming where the children are swimming
+short_i,16,busy,trochee,dizzy,trochee,perfect,cause/effect: busy day spins,Such a busy day it left me dizzy with delight
+short_i,17,city,trochee,pretty,trochee,perfect,same scene: glowing city lights,The city looks so pretty in the rain
+short_i,18,drifted,trochee,lifted,trochee,perfect,same scene: kite on breeze,The kite was lifted and it drifted out to sea
+short_i,19,thinking,trochee,linking,trochee,perfect,cause/effect: thoughts connect ideas,"Thinking of you, linking every star into a line"
+short_i,20,pretty,trochee,beauty,trochee,slant,synonyms: lovely to behold,"Pretty as a picture, a beauty to behold"
+short_i,21,mini,trochee,tiny,trochee,slant,synonyms: very small size,A mini garden with a tiny rose
+short_i,22,busy,trochee,lazy,trochee,slant,antonyms: bustle versus rest,Busy weekdays melting into lazy afternoons
+short_i,23,giddy,trochee,steady,trochee,slant,antonyms: giddy versus steady,Giddy with love but steady as the sea
+short_i,24,predict,iamb,expect,iamb,slant,synonyms: foresee what comes,No one could predict the joy we did not expect
+short_i,25,dismiss,iamb,release,iamb,slant,synonyms: let things go,Dismiss your doubts and release them to the wind
+short_i,26,admit,iamb,invite,iamb,slant,synonyms: welcome someone in,"Open the door, admit the light, invite the morning in"
+short_i,27,mixing,trochee,fixing,trochee,perfect,same scene: kitchen cooking time,"Mixing up the batter, fixing supper just for two"
+short_i,28,sipping,trochee,dipping,trochee,perfect,same scene: tea and biscuits,Sipping tea and dipping biscuits by the fire
+short_i,29,bridges,trochee,ridges,trochee,perfect,same scene: mountain road trip,"Over wooden bridges, up to sunny ridges"
+short_i,30,lifting,trochee,drifting,trochee,perfect,same scene: morning fog rising,"Morning fog is lifting, drifting off the bay"
+short_i,31,smitten,trochee,written,trochee,perfect,cause/effect: love inspires letters,Every word was written by a heart so smitten
+short_i,32,swinging,trochee,singing,trochee,perfect,same scene: playground summer joy,Swinging high and singing to the sky
+short_i,33,spinning,trochee,grinning,trochee,perfect,same scene: carousel ride joy,Spinning on the carousel and grinning ear to ear
+short_i,34,skipping,trochee,dipping,trochee,perfect,same scene: lakeside stone skipping,Skipping stones and dipping toes in the summer lake
+short_i,35,wishing,trochee,fishing,trochee,perfect,same scene: lazy pond afternoon,Fishing by the pond and wishing on the breeze
+short_i,36,winning,trochee,inning,trochee,perfect,same scene: final inning win,Bottom of the final inning and we are winning
+short_i,37,fishes,trochee,dishes,trochee,perfect,same scene: seafood supper table,Silver fishes served on painted dishes
+short_i,38,printed,trochee,tinted,trochee,perfect,same domain: ink and color,Printed petals on a page tinted rose
+short_i,39,gritty,trochee,city,trochee,perfect,same scene: urban street life,Gritty city streets where dreams come alive
+short_i,40,enlist,iamb,assist,iamb,perfect,cause/effect: enlisted friends assist,Enlist your friends and they will assist you
+short_i,41,given,trochee,driven,trochee,perfect,cause/effect: gift sparks drive,"Given a dream, I was driven to fly"
+short_i,42,busy,trochee,easy,trochee,slant,antonyms: hectic versus relaxed,Busy hands but an easy heart
+short_i,43,amid,iamb,inside,iamb,slant,synonyms: in the midst,Amid the noise there's a quiet song inside
+short_i,44,insist,iamb,request,iamb,slant,synonyms: ask from heart,"I won't insist, it's just a soft request"
+short_i,45,skipping,trochee,leaping,trochee,slant,synonyms: joyful springing steps,Lambs are leaping and the children skipping
+short_i,46,winning,trochee,gaining,trochee,slant,synonyms: getting ahead,Gaining ground and winning hearts along the way
+short_i,47,nifty,trochee,crafty,trochee,slant,synonyms: clever and handy,Nifty little gadgets made by crafty hands
+short_i,48,gifted,trochee,crafted,trochee,slant,cause/effect: talent shapes craft,Gifted hands have crafted every bead
+short_i,49,mission,trochee,vision,trochee,slant,same domain: purpose and direction,Hold your vision close and live your mission
+short_i,50,mission,trochee,passion,trochee,slant,same domain: driving inner purpose,Make your passion be your mission
+short_i,51,depict,iamb,reflect,iamb,slant,synonyms: portray an image,Let my songs depict the love your eyes reflect
+short_i,52,tricky,trochee,cheeky,trochee,slant,synonyms: playful little mischief,A cheeky grin and a tricky little wink
+short_i,53,listen,trochee,lesson,trochee,slant,cause/effect: listening teaches lessons,"If you listen, every day becomes a lesson"
+short_i,54,given,trochee,heaven,trochee,slant,same domain: blessings from above,Every blessing given is a gift from heaven
+short_i,55,living,trochee,given,trochee,slant,same domain: life as gift,Every day of living is a gift we have been given
+short_i,56,kissing,trochee,blessing,trochee,slant,same scene: wedding day joy,"With a blessing from above, we're kissing at the altar"
+short_i,57,wishes,trochee,kisses,trochee,slant,same scene: birthday love notes,Sending birthday wishes wrapped in kisses
+short_i,58,begin,iamb,again,iamb,slant,same domain: fresh new starts,Every sunrise lets us begin again
+short_i,59,within,iamb,divine,iamb,slant,same domain: inner sacred spark,There's a spark divine within
+short_i,60,biscuit,trochee,basket,trochee,slant,part/whole: biscuit in basket,A warm biscuit waiting in the basket
+short_i,61,windy,trochee,sandy,trochee,slant,same scene: breezy beach day,Windy days along the sandy shore
+short_i,62,knitting,trochee,chatting,trochee,slant,same scene: cozy knitting circle,Friends are chatting while the needles keep on knitting
+short_i,63,spinning,trochee,swinging,trochee,slant,same scene: playground merry-go-round,Spinning round and swinging high
+short_i,64,fishing,trochee,splashing,trochee,slant,same scene: summer lake fun,Fishing off the dock while the children are splashing
+short_i,65,fiction,trochee,section,trochee,slant,part/whole: library fiction section,Lost all day in the fiction section
+short_i,66,wisdom,trochee,insight,trochee,assonance,synonyms: deep understanding,Wisdom grows from every quiet insight
+short_i,67,vision,trochee,insight,trochee,assonance,synonyms: clear inner seeing,A vision born of insight lights the way
+short_i,68,quickly,trochee,swiftly,trochee,assonance,synonyms: at great speed,"Quickly, swiftly, the river runs to the sea"
+short_i,69,minute,trochee,instant,trochee,assonance,synonyms: brief moment in time,"In an instant, in a minute, love arrived"
+short_i,70,smitten,trochee,giddy,trochee,assonance,synonyms: lovestruck happy feelings,Smitten and giddy as a summer bride
+short_i,71,sipping,trochee,drinking,trochee,assonance,synonyms: taking a drink,Sipping lemonade and drinking in the view
+short_i,72,whistling,trochee,singing,trochee,assonance,synonyms: making happy tunes,Whistling while we work and singing all the way
+short_i,73,district,trochee,city,trochee,assonance,part/whole: district of city,Every district of the city shining bright
+short_i,74,princess,trochee,kingdom,trochee,assonance,part/whole: princess of kingdom,A princess dancing through her kingdom
+short_i,75,innings,trochee,cricket,trochee,assonance,part/whole: innings in cricket,Long innings in the summer cricket sun
+short_i,76,kitchen,trochee,dishes,trochee,assonance,same scene: kitchen sink chores,Singing in the kitchen while we wash the dishes
+short_i,77,chicken,trochee,kitchen,trochee,assonance,same scene: farmhouse supper smells,Roast chicken warming up the kitchen
+short_i,78,chimney,trochee,kitchen,trochee,assonance,same scene: cozy cottage hearth,"Smoke from the chimney, bread in the kitchen"
+short_i,79,picnic,trochee,biscuits,trochee,assonance,same scene: picnic blanket treats,A picnic spread with honey biscuits
+short_i,80,crispy,trochee,biscuits,trochee,assonance,same scene: fresh baked treats,Crispy biscuits cooling on the windowsill
+short_i,81,siblings,trochee,kinship,trochee,assonance,same domain: family bonds,Siblings sharing kinship through the years
+short_i,82,kindred,trochee,siblings,trochee,assonance,same domain: close family ties,"Kindred hearts, like siblings, side by side"
+short_i,83,gymnast,trochee,fitness,trochee,assonance,same domain: athletic training,A gymnast's fitness shows in every turn
+short_i,84,knitting,trochee,stitches,trochee,assonance,same domain: needlework craft,Knitting rows of tiny stitches by the light
+short_i,85,written,trochee,fiction,trochee,assonance,same domain: storytelling craft,A fiction written by the candlelight
+short_i,86,ribbon,trochee,linen,trochee,assonance,same scene: sewing basket,A ribbon tied on folded linen
+short_i,87,kitten,trochee,ribbon,trochee,assonance,same scene: kitten chasing ribbon,A playful kitten chasing a satin ribbon
+short_i,88,mystic,trochee,mythic,trochee,assonance,same domain: legend and magic,A mystic song from a mythic land
+short_i,89,vivid,trochee,image,trochee,assonance,same domain: bright pictures,A vivid image of the summer sea
+short_i,90,misty,trochee,windy,trochee,assonance,same scene: moorland weather,A misty morning on the windy hills
+short_i,91,misty,trochee,midnight,trochee,assonance,same scene: moonlit misty night,A misty midnight and a silver moon
+short_i,92,fishing,trochee,swimming,trochee,assonance,same scene: summer lake day,"Fishing in the morning, swimming after noon"
+short_i,93,thinking,trochee,wisdom,trochee,assonance,cause/effect: thought builds wisdom,Quiet thinking slowly turns to wisdom
+short_i,94,thinking,trochee,insight,trochee,assonance,cause/effect: thought brings insight,Quiet thinking brings a sudden insight
+short_i,95,prism,trochee,vivid,trochee,assonance,cause/effect: prism makes colors,Through a prism vivid colors bloom
+short_i,96,springtime,trochee,picnic,trochee,assonance,same scene: spring outing,A springtime picnic on the hill
+short_i,97,crimson,trochee,ribbon,trochee,assonance,same scene: crimson ribbon gift,A crimson ribbon in your hair
+short_i,98,sprinting,trochee,swimming,trochee,assonance,same domain: athletic races,Sprinting on the track and swimming in the pool
+short_i,99,pixie,trochee,mystic,trochee,assonance,same domain: fairy magic,A pixie dancing in the mystic glade
+short_i,100,disco,trochee,rhythm,trochee,assonance,same domain: dance floor beat,Disco lights and rhythm in our feet
+short_o,1,dotted,trochee,spotted,trochee,perfect,synonyms: speckled with marks,Your dotted dress and spotted scarf go twirling down the lane
+short_o,2,chopping,trochee,cropping,trochee,perfect,synonyms: cutting and trimming,Chopping wood and cropping hay beneath the harvest sun
+short_o,3,hopping,trochee,stopping,trochee,perfect,antonyms: bouncing versus halting,Hopping down the garden path and never stopping
+short_o,4,hopping,trochee,popping,trochee,perfect,synonyms: lively and buzzing,The dance floor's hopping and the music's popping
+short_o,5,hockey,trochee,jockey,trochee,perfect,same domain: sporting athletes,From the hockey rink to the jockey's winning ride
+short_o,6,awesome,trochee,blossom,trochee,perfect,same scene: wondrous spring bloom,What an awesome blossom opens on the cherry tree
+short_o,7,popping,trochee,topping,trochee,perfect,same scene: buttered popcorn treat,"Hear the kernels popping, pour the butter topping"
+short_o,8,tonic,trochee,sonic,trochee,perfect,same domain: musical sound,Start on the tonic note and ride the sonic wave
+short_o,9,rocking,trochee,stocking,trochee,perfect,same scene: Christmas morning cheer,Rocking by the fireside with a stocking full of dreams
+short_o,10,pauses,trochee,clauses,trochee,perfect,part/whole: rhythm of sentences,Love lives in the pauses between the clauses
+short_o,11,strongest,trochee,longest,trochee,perfect,cause/effect: strength brings endurance,The strongest love is the one that lasts the longest
+short_o,12,shopping,trochee,dropping,trochee,perfect,cause/effect: shop till you drop,"We'll go shopping till we're dropping, laughing all the way"
+short_o,13,broaden,trochee,widen,trochee,slant,synonyms: making something wider,"Broaden your horizons, let your circle widen"
+short_o,14,broadly,trochee,widely,trochee,slant,synonyms: across a wide range,"Smile broadly, roam widely, the world is yours today"
+short_o,15,fondly,trochee,kindly,trochee,slant,synonyms: with warm affection,Remember me fondly and treat the stranger kindly
+short_o,16,fondness,trochee,kindness,trochee,slant,synonyms: warm tender affection,Your fondness and your kindness are the light that leads me home
+short_o,17,spotted,trochee,sighted,trochee,slant,synonyms: caught sight of,We spotted the first star as the sailors sighted land
+short_o,18,hopping,trochee,skipping,trochee,slant,synonyms: light bouncing steps,"Hopping over puddles, skipping down the lane"
+short_o,19,logic,trochee,magic,trochee,slant,antonyms: reason versus wonder,"Forget the logic, darling, love is magic"
+short_o,20,pocket,trochee,jacket,trochee,slant,part/whole: pocket of jacket,A love note tucked in the pocket of your jacket
+short_o,21,dotted,trochee,plotted,trochee,perfect,same scene: mapping a route,We plotted our course along a dotted line
+short_o,22,shopping,trochee,swapping,trochee,perfect,same domain: trading goods,"Shopping at the market, swapping stories with our friends"
+short_o,23,crossing,trochee,tossing,trochee,perfect,same scene: boat on waves,Crossing the bay with the waves gently tossing
+short_o,24,knocking,trochee,locking,trochee,perfect,same scene: opening the door,"Love came knocking, so I quit locking my heart away"
+short_o,25,abroad,iamb,applaud,iamb,perfect,same scene: acclaimed tour abroad,We sing abroad and the whole world stands to applaud
+short_o,26,fondly,trochee,friendly,trochee,slant,synonyms: warm and welcoming,"She waves so fondly, every face is friendly"
+short_o,27,spotted,trochee,noted,trochee,slant,synonyms: noticed and observed,I spotted your smile and noted every spark
+short_o,28,spotting,trochee,sighting,trochee,slant,synonyms: catching first glimpse,Spotting the first robin is the sighting of the spring
+short_o,29,beyond,iamb,transcend,iamb,slant,synonyms: rising past limits,Look beyond the clouds and let your heart transcend
+short_o,30,glossy,trochee,classy,trochee,slant,synonyms: sleek polished style,Glossy shoes and a classy little tune
+short_o,31,glossy,trochee,messy,trochee,slant,antonyms: polished versus untidy,"From glossy curls to messy hair, I love you either way"
+short_o,32,softly,trochee,safely,trochee,slant,synonyms: gentle and protective,"Hold me softly, keep me safely in your arms"
+short_o,33,wanted,trochee,granted,trochee,slant,cause/effect: wish comes true,"Every star I wanted, every wish was granted"
+short_o,34,honest,trochee,promised,trochee,slant,cause/effect: truth keeps promises,An honest heart gives all it promised
+short_o,35,bonding,trochee,blending,trochee,slant,synonyms: coming together as one,"Hearts are bonding, voices blending into one"
+short_o,36,along,iamb,among,iamb,slant,synonyms: together with others,Sing along among the friends who love you
+short_o,37,softly,trochee,swiftly,trochee,slant,antonyms: gentle versus quick,The river whispers softly and the swallows swiftly fly
+short_o,38,adopt,iamb,accept,iamb,slant,synonyms: welcoming someone in,"Open arms adopt you, open hearts accept you"
+short_o,39,crossing,trochee,passing,trochee,slant,synonyms: traveling across or past,Crossing every bridge and passing every mile
+short_o,40,rocking,trochee,shaking,trochee,slant,synonyms: dancing body movement,The whole room's rocking and the floor is shaking
+short_o,41,cotton,trochee,satin,trochee,slant,same domain: soft fabrics,Cotton sheets and satin ribbons in the summer breeze
+short_o,42,frosty,trochee,misty,trochee,slant,same scene: cold winter morning,"A frosty morning, misty fields of white"
+short_o,43,frosted,trochee,toasted,trochee,slant,same scene: bakery breakfast table,Frosted buns and toasted bread to start the day
+short_o,44,frosting,trochee,tasting,trochee,slant,same scene: baking a cake,"Sneaking frosting, tasting sugar off the spoon"
+short_o,45,cotton,trochee,button,trochee,slant,part/whole: button on shirt,Sew a button on my cotton Sunday shirt
+short_o,46,donkey,trochee,monkey,trochee,slant,same domain: barnyard and zoo,A donkey and a monkey dancing at the fair
+short_o,47,comic,trochee,mimic,trochee,slant,same domain: comedy performers,The comic and the mimic keep the crowd in stitches
+short_o,48,pocket,trochee,ticket,trochee,slant,same scene: ready to travel,A ticket in my pocket and the open road ahead
+short_o,49,washing,trochee,splashing,trochee,slant,same scene: bath time fun,Washing in the creek and splashing in the sun
+short_o,50,rocky,trochee,foggy,trochee,slant,same scene: misty mountain trail,Foggy mornings on the rocky mountain trail
+short_o,51,chopping,trochee,prepping,trochee,slant,same scene: kitchen supper prep,Chopping herbs and prepping supper while we sing
+short_o,52,topping,trochee,dipping,trochee,slant,same scene: dessert bar,Strawberries for dipping and whipped cream for topping
+short_o,53,longing,trochee,singing,trochee,slant,same scene: love song,My longing turns to singing every time you call
+short_o,54,applause,iamb,amaze,iamb,slant,cause/effect: wonder earns applause,You amaze them all and they rise in applause
+short_o,55,applaud,iamb,parade,iamb,slant,same scene: cheering street parade,Wave your flags and applaud as the bright parade goes by
+short_o,56,upon,iamb,began,iamb,slant,same scene: story opening,Once upon a time our story began
+short_o,57,softly,trochee,briefly,trochee,slant,same scene: tender passing kiss,"Kiss me softly, kiss me briefly, then kiss me once again"
+short_o,58,beyond,iamb,ascend,iamb,slant,same scene: rising skyward,Ascend the hill and see the stars beyond
+short_o,59,beyond,iamb,extend,iamb,slant,same scene: reaching past horizons,Extend your hand and reach for the stars beyond
+short_o,60,comet,trochee,summit,trochee,slant,same scene: mountain night sky,A comet blazing over the snowy summit
+short_o,61,shopping,trochee,shipping,trochee,slant,same domain: online orders,"Shopping from the sofa, free shipping to my door"
+short_o,62,hottest,trochee,brightest,trochee,slant,same scene: summer midday sun,The hottest day of summer and the brightest sun
+short_o,63,tossing,trochee,passing,trochee,slant,same scene: playing catch,Tossing the ball and passing it back across the park
+short_o,64,pausing,trochee,crossing,trochee,slant,same scene: careful street crossing,"Pausing at the corner, then crossing hand in hand"
+short_o,65,pausing,trochee,gazing,trochee,slant,same scene: hilltop view,"Pausing on the hilltop, gazing at the sea"
+short_o,66,plotting,trochee,writing,trochee,slant,same domain: storytelling craft,"Plotting out the chapters, writing down our dreams"
+short_o,67,popping,trochee,clapping,trochee,slant,same scene: celebration party,"Corks are popping, hands are clapping, happy new year"
+short_o,68,cotton,trochee,kitten,trochee,slant,same domain: soft fluffy things,"Soft as cotton, sleepy as a kitten"
+short_o,69,robin,trochee,cabin,trochee,slant,same scene: woodland cabin morning,A robin sings outside our little cabin door
+short_o,70,bonding,trochee,spending,trochee,slant,same scene: quality time together,"Bonding over pancakes, spending Sunday slow"
+short_o,71,across,iamb,embrace,iamb,slant,same scene: joyful reunion,Run across the room and fall into my embrace
+short_o,72,salon,iamb,champagne,iamb,slant,same scene: elegant evening soiree,Champagne laughter in the candlelit salon
+short_o,73,atop,iamb,bottom,trochee,assonance,antonyms: top versus bottom,From the bottom of the hill to atop the highest peak
+short_o,74,comic,trochee,drama,trochee,assonance,antonyms: comedy versus drama,"Half the night was comic, half was drama on the stage"
+short_o,75,honest,trochee,modest,trochee,assonance,same domain: humble virtues,"An honest word, a modest heart, that's all I need"
+short_o,76,promise,trochee,constant,trochee,assonance,same domain: faithful devotion,A constant heart will always keep its promise
+short_o,77,mama,trochee,papa,trochee,assonance,same domain: loving parents,Mama hums and papa sings us both to sleep
+short_o,78,coffee,trochee,latte,trochee,assonance,same domain: morning cafe drinks,"Black coffee for you, a creamy latte for me"
+short_o,79,coffee,trochee,office,trochee,assonance,same scene: office break room,Fresh coffee brewing in the office every morning
+short_o,80,awesome,trochee,applause,iamb,assonance,cause/effect: great show earns applause,"What an awesome show, the whole room rings with applause"
+short_o,81,watching,trochee,spotting,trochee,assonance,synonyms: looking and observing,Watching for the fireflies and spotting every glow
+short_o,82,fondness,trochee,bonding,trochee,assonance,cause/effect: affection builds closeness,Our fondness keeps on bonding us together
+short_o,83,autumn,trochee,august,trochee,assonance,same domain: late summer months,August slips away and autumn paints the trees
+short_o,84,blossom,trochee,robin,trochee,assonance,same scene: spring garden,A robin sings where every blossom grows
+short_o,85,bravo,trochee,drama,trochee,assonance,same scene: stage curtain call,"Bravo for the drama, take another bow tonight"
+short_o,86,comet,trochee,rocket,trochee,assonance,same scene: night sky,"Ride a rocket, chase a comet through the night"
+short_o,87,frosting,trochee,glossy,trochee,assonance,same scene: shiny iced cake,Glossy pink frosting on a birthday cake for you
+short_o,88,autumn,trochee,frosty,trochee,assonance,same scene: crisp cold season,Autumn leaves on frosty mornings crunch beneath our feet
+short_o,89,coffee,trochee,autumn,trochee,assonance,same scene: cozy fall morning,Warm coffee on a golden autumn day
+short_o,90,blossom,trochee,poppy,trochee,assonance,same domain: spring flowers,A poppy blooms beside the apple blossom
+short_o,91,hockey,trochee,hobby,trochee,assonance,same domain: weekend pastimes,Hockey on the frozen pond is my favorite winter hobby
+short_o,92,bravo,trochee,spotlight,trochee,assonance,same scene: curtain call ovation,"Bravo, the spotlight finds you as the curtain falls"
+short_o,93,taco,trochee,nacho,trochee,assonance,same domain: Mexican food,A taco night with a nacho plate to share
+short_o,94,cottage,trochee,lodging,trochee,assonance,synonyms: places to stay,A cozy cottage gives us lodging for the night
+short_o,95,comet,trochee,cosmos,trochee,assonance,same domain: outer space,A comet streaking through the cosmos just for you
+short_o,96,cosmic,trochee,rocket,trochee,assonance,same domain: space travel,Board the rocket for a cosmic ride tonight
+short_o,97,octave,trochee,tonic,trochee,assonance,same domain: musical scale,"Climb an octave, then fall back home to the tonic"
+short_o,98,saga,trochee,drama,trochee,assonance,same domain: epic storytelling,Our love's a saga full of drama and delight
+short_o,99,cottage,trochee,condo,trochee,assonance,same domain: holiday homes,Trade the city condo for a cottage by the sea
+short_o,100,condo,trochee,lobby,trochee,assonance,part/whole: lobby of building,Meet me in the lobby of your condo after dark
+short_u,1,sunny,trochee,funny,trochee,perfect,synonyms: cheerful bright moods,You turn a sunny morning funny with that laugh of yours
+short_u,2,yummy,trochee,tummy,trochee,perfect,cause/effect: treats fill tummy,Something yummy warms my tummy on a winter night
+short_u,3,fluffy,trochee,puffy,trochee,perfect,synonyms: soft swollen clouds,Fluffy clouds go drifting by so puffy and so white
+short_u,4,rubbing,trochee,scrubbing,trochee,perfect,synonyms: cleaning by hand,Rubbing and scrubbing till the windows shine like gold
+short_u,5,conduct,iamb,instruct,iamb,perfect,synonyms: guide and teach,Let love conduct the music and instruct my heart to sing
+short_u,6,humming,trochee,drumming,trochee,perfect,same scene: making happy music,You're humming in the kitchen while I'm drumming on the door
+short_u,7,honey,trochee,bunny,trochee,perfect,synonyms: sweet pet names,"Come here, honey, come here, bunny, let me hold you tight"
+short_u,8,study,trochee,buddy,trochee,perfect,same scene: learning together partners,Every study night is better with my buddy by my side
+short_u,9,cousins,trochee,dozens,trochee,perfect,same scene: big family reunion,Dozens of cousins dancing in the summer grass
+short_u,10,jumping,trochee,thumping,trochee,perfect,cause/effect: leaping makes thumping,"Jumping on the trampoline, my heart is thumping loud"
+short_u,11,touching,trochee,clutching,trochee,perfect,synonyms: holding with hands,Touching your hand and clutching it close to my heart
+short_u,12,rushing,trochee,blushing,trochee,perfect,"cause/effect: rushing blood, blush","Warmth is rushing to my cheeks, I'm blushing at your name"
+short_u,13,dusty,trochee,rusty,trochee,perfect,synonyms: old weathered things,Dusty boots and rusty keys still lead me home to you
+short_u,14,trusty,trochee,rusty,trochee,perfect,same scene: old reliable truck,My trusty rusty pickup rolls along the coast
+short_u,15,dusty,trochee,trusty,trochee,perfect,same scene: cowboy trail ride,Riding down the dusty trail upon my trusty horse
+short_u,16,jumping,trochee,bumping,trochee,perfect,same scene: lively dance floor,We're jumping and bumping to the beat all night
+short_u,17,monkey,trochee,funky,trochee,perfect,same scene: playful dancing fun,Dance like a funky monkey underneath the moon
+short_u,18,chunky,trochee,funky,trochee,perfect,same domain: bold groovy style,Chunky boots and funky shoes are dancing down the street
+short_u,19,loving,trochee,giving,trochee,slant,synonyms: generous warm heart,A loving heart is always giving more
+short_u,20,lovely,trochee,lively,trochee,slant,synonyms: bright and charming,"A lovely, lively morning full of song"
+short_u,21,trusted,trochee,tested,trochee,slant,synonyms: proven and reliable,"A friendship tested, trusted, and true"
+short_u,22,sunny,trochee,shiny,trochee,slant,synonyms: bright and gleaming,A sunny sky and shiny dreams ahead
+short_u,23,fuzzy,trochee,cozy,trochee,slant,synonyms: soft warm comfort,Fuzzy socks and cozy nights beside the fire
+short_u,24,rushing,trochee,dashing,trochee,slant,synonyms: hurrying along quickly,"Rushing through the station, dashing for the train to you"
+short_u,25,rugged,trochee,jagged,trochee,slant,synonyms: rough mountain terrain,Rugged cliffs and jagged peaks are calling me
+short_u,26,yummy,trochee,creamy,trochee,slant,synonyms: rich tasty dessert,"Yummy, creamy ice cream melting in the sun"
+short_u,27,stunning,trochee,shining,trochee,slant,synonyms: brilliant radiant beauty,"You look stunning, shining like the morning star"
+short_u,28,fuzzy,trochee,hazy,trochee,slant,synonyms: blurry soft focus,"Fuzzy, hazy summer afternoons drift slowly by"
+short_u,29,brushing,trochee,washing,trochee,slant,synonyms: daily cleaning chores,Brushing my hair and washing my face in the morning light
+short_u,30,puppy,trochee,happy,trochee,slant,same scene: joyful wagging dog,A happy puppy chasing butterflies
+short_u,31,study,trochee,ready,trochee,slant,cause/effect: study makes ready,I study every night so I'll be ready for the day
+short_u,32,running,trochee,winning,trochee,slant,cause/effect: running brings winning,Keep on running and you'll keep on winning
+short_u,33,among,iamb,belong,iamb,slant,same scene: belonging together,Among the stars is where we both belong
+short_u,34,rustic,trochee,plastic,trochee,slant,antonyms: natural versus synthetic,"Rustic wood, not plastic, in our cabin home"
+short_u,35,touching,trochee,reaching,trochee,slant,same scene: hands stretching skyward,Reaching for the stars and touching the sky
+short_u,36,buddy,trochee,teddy,trochee,slant,same scene: childhood cuddly companion,My teddy was my buddy every night
+short_u,37,humming,trochee,blooming,trochee,slant,same scene: spring garden bees,Bees are humming and the roses blooming in the yard
+short_u,38,begun,iamb,again,iamb,slant,same scene: starting over fresh,A brand new day has begun again
+short_u,39,loving,trochee,living,trochee,slant,same scene: love-filled life,Loving you is living free
+short_u,40,trusting,trochee,lasting,trochee,slant,cause/effect: trust builds lasting love,A trusting heart will build a lasting love
+short_u,41,summit,trochee,limit,trochee,slant,same domain: highest point reached,"Climb up to the summit, the sky is the limit"
+short_u,42,nutty,trochee,witty,trochee,slant,synonyms: playful silly humor,Your nutty jokes and witty lines keep me smiling
+short_u,43,bunny,trochee,pony,trochee,slant,same scene: children's pet farm,A bunny and a pony playing in the meadow
+short_u,44,bunny,trochee,tiny,trochee,slant,same scene: small soft creature,A tiny bunny hopping through the clover
+short_u,45,honey,trochee,yummy,trochee,slant,same scene: sweet sticky treats,Honey on my toast tastes yummy every time
+short_u,46,muffin,trochee,oven,trochee,slant,same scene: morning kitchen baking,A muffin rising golden in the oven
+short_u,47,button,trochee,kitten,trochee,slant,same scene: cute little things,"Cute as a button, soft as a kitten"
+short_u,48,touching,trochee,teaching,trochee,slant,same domain: inspiring young hearts,Teaching every child and touching every heart
+short_u,49,dusty,trochee,misty,trochee,slant,same scene: hazy country morning,Dusty roads and misty hills at dawn
+short_u,50,rusty,trochee,frosty,trochee,slant,same scene: old winter gate,The rusty gate is frosty in the morning
+short_u,51,lunches,trochee,benches,trochee,slant,same scene: park picnic break,Eating lunches on the benches by the lake
+short_u,52,budding,trochee,seeding,trochee,slant,cause/effect: seeds bring buds,Seeding in the spring brings budding trees
+short_u,53,buzzing,trochee,grazing,trochee,slant,same scene: summer meadow life,"Bees are buzzing, cattle grazing in the sun"
+short_u,54,jumping,trochee,camping,trochee,slant,same scene: summer outdoor fun,Camping by the lake and jumping in at noon
+short_u,55,coming,trochee,running,trochee,slant,same scene: hurrying home happily,Hear me coming running home to you
+short_u,56,rushing,trochee,splashing,trochee,slant,same scene: river rapids flowing,Rushing water splashing on the stones
+short_u,57,cousins,trochee,seasons,trochee,slant,same scene: holiday family gatherings,Holiday seasons spent with all my cousins
+short_u,58,puppy,trochee,sleepy,trochee,slant,same scene: napping little pet,A sleepy puppy curled up on my lap
+short_u,59,buddy,trochee,steady,trochee,slant,same scene: loyal reliable friend,My steady buddy through it all
+short_u,60,sunday,trochee,sandy,trochee,slant,same scene: beach weekend fun,Sunday morning on the sandy shore
+short_u,61,nutty,trochee,fruity,trochee,slant,same domain: trail mix flavors,"Nutty, fruity granola in the morning"
+short_u,62,puppy,trochee,floppy,trochee,slant,part/whole: floppy puppy ears,A puppy with floppy ears is waiting at the door
+short_u,63,oven,trochee,heaven,trochee,slant,same scene: heavenly fresh baking,Bread straight from the oven smells like heaven
+short_u,64,stuffing,trochee,oven,trochee,slant,same scene: holiday roast dinner,The stuffing in the oven fills the house with cheer
+short_u,65,country,trochee,pantry,trochee,slant,same scene: farmhouse kitchen shelves,A country pantry full of jam and bread
+short_u,66,hugging,trochee,cuddling,trochee,assonance,synonyms: warm close embrace,Hugging and cuddling underneath the stars
+short_u,67,fluffy,trochee,cuddly,trochee,assonance,synonyms: soft and huggable,"A fluffy, cuddly kitten curled up in my arms"
+short_u,68,lovely,trochee,stunning,trochee,assonance,synonyms: truly beautiful sight,"You look lovely, you look stunning in the light"
+short_u,69,upbeat,trochee,funny,trochee,assonance,synonyms: cheerful good humor,Your upbeat songs and funny stories light the room
+short_u,70,sunny,trochee,upbeat,trochee,assonance,synonyms: cheerful bright outlook,A sunny smile and an upbeat heart
+short_u,71,money,trochee,funding,trochee,assonance,synonyms: financial support,The money and the funding helped our garden grow
+short_u,72,buzzing,trochee,humming,trochee,assonance,synonyms: busy bee sounds,"Buzzing and humming, the bees are making honey"
+short_u,73,country,trochee,rustic,trochee,assonance,synonyms: rural simple charm,A rustic cabin in the country hills
+short_u,74,rugged,trochee,robust,iamb,assonance,synonyms: strong and sturdy,Rugged hands and a robust heart
+short_u,75,nutmeg,trochee,pumpkin,trochee,assonance,same scene: autumn pie spices,Nutmeg dusted on the pumpkin pie
+short_u,76,onion,trochee,mushroom,trochee,assonance,same scene: savory kitchen cooking,An onion and a mushroom sizzling in the pan
+short_u,77,drumming,trochee,trumpet,trochee,assonance,same domain: marching band music,Drumming and a trumpet leading the parade
+short_u,78,trumpet,trochee,summon,trochee,assonance,cause/effect: trumpet call gathers,The trumpet sounds to summon us to dance
+short_u,79,loving,trochee,hugging,trochee,assonance,same scene: warm affection shared,Loving and hugging all the way home
+short_u,80,money,trochee,budget,trochee,assonance,same domain: careful spending plans,We saved our money on a little budget
+short_u,81,hundred,trochee,dozen,trochee,assonance,same domain: counting big numbers,"A dozen roses, then a hundred more"
+short_u,82,lunchtime,trochee,hungry,trochee,assonance,cause/effect: noon brings appetite,By lunchtime I am hungry for a picnic in the sun
+short_u,83,honey,trochee,buzzing,trochee,assonance,same scene: busy beehive day,Honey dripping while the hive is buzzing
+short_u,84,discuss,iamb,study,trochee,assonance,same domain: learning together,Let's discuss the stars we study every night
+short_u,85,husband,trochee,trusted,trochee,assonance,same scene: faithful married partner,My husband is my trusted friend for life
+short_u,86,comfy,trochee,cuddly,trochee,assonance,synonyms: cozy and soft,"A comfy chair, a cuddly blanket"
+short_u,87,stuffing,trochee,pumpkin,trochee,assonance,same scene: harvest holiday feast,"Stuffing on the table, pumpkin pie to share"
+short_u,88,dozen,trochee,muffins,trochee,assonance,same scene: bakery box treats,A dozen muffins warm for breakfast
+short_u,89,compass,trochee,summit,trochee,assonance,same scene: mountain hiking trip,Follow the compass to the summit
+short_u,90,tundra,trochee,husky,trochee,assonance,same scene: arctic sled run,A husky racing on the snowy tundra
+short_u,91,upright,trochee,justice,trochee,assonance,same domain: moral integrity,An upright heart will always stand for justice
+short_u,92,clubhouse,trochee,buddies,trochee,assonance,same scene: friends' secret hangout,Meet my buddies at the clubhouse after school
+short_u,93,touchdown,trochee,rugby,trochee,assonance,same domain: ball sports,A touchdown in the rugby match
+short_u,94,mustang,trochee,running,trochee,assonance,same scene: wild horse galloping,A mustang running free across the plain
+short_u,95,above,iamb,summit,trochee,assonance,same domain: lofty mountain heights,The summit rising high above the clouds
+short_u,96,above,iamb,sunlight,trochee,assonance,same scene: bright sky overhead,Golden sunlight shining from above
+short_u,97,wondrous,trochee,stunning,trochee,assonance,synonyms: amazing and beautiful,"A wondrous, stunning view from here"
+short_u,98,among,iamb,cousins,trochee,assonance,same scene: family gathering together,Laughing among my cousins at the fair
+short_u,99,among,iamb,buddies,trochee,assonance,same scene: friends gathered together,Laughing among my buddies by the fire
+short_u,100,dusting,trochee,scrubbing,trochee,assonance,same scene: spring cleaning day,Dusting shelves and scrubbing floors on a bright spring day

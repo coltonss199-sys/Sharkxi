@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	dotted	trochee	spotted	trochee	perfect	synonyms: speckled with marks	Your dotted dress and spotted scarf go twirling down the lane
+2	chopping	trochee	cropping	trochee	perfect	synonyms: cutting and trimming	Chopping wood and cropping hay beneath the harvest sun
+3	hopping	trochee	stopping	trochee	perfect	antonyms: bouncing versus halting	Hopping down the garden path and never stopping
+4	hopping	trochee	popping	trochee	perfect	synonyms: lively and buzzing	The dance floor's hopping and the music's popping
+5	hockey	trochee	jockey	trochee	perfect	same domain: sporting athletes	From the hockey rink to the jockey's winning ride
+6	awesome	trochee	blossom	trochee	perfect	same scene: wondrous spring bloom	What an awesome blossom opens on the cherry tree
+7	popping	trochee	topping	trochee	perfect	same scene: buttered popcorn treat	Hear the kernels popping, pour the butter topping
+8	tonic	trochee	sonic	trochee	perfect	same domain: musical sound	Start on the tonic note and ride the sonic wave
+9	rocking	trochee	stocking	trochee	perfect	same scene: Christmas morning cheer	Rocking by the fireside with a stocking full of dreams
+10	pauses	trochee	clauses	trochee	perfect	part/whole: rhythm of sentences	Love lives in the pauses between the clauses
+11	strongest	trochee	longest	trochee	perfect	cause/effect: strength brings endurance	The strongest love is the one that lasts the longest
+12	shopping	trochee	dropping	trochee	perfect	cause/effect: shop till you drop	We'll go shopping till we're dropping, laughing all the way
+13	broaden	trochee	widen	trochee	slant	synonyms: making something wider	Broaden your horizons, let your circle widen
+14	broadly	trochee	widely	trochee	slant	synonyms: across a wide range	Smile broadly, roam widely, the world is yours today
+15	fondly	trochee	kindly	trochee	slant	synonyms: with warm affection	Remember me fondly and treat the stranger kindly
+16	fondness	trochee	kindness	trochee	slant	synonyms: warm tender affection	Your fondness and your kindness are the light that leads me home
+17	spotted	trochee	sighted	trochee	slant	synonyms: caught sight of	We spotted the first star as the sailors sighted land
+18	hopping	trochee	skipping	trochee	slant	synonyms: light bouncing steps	Hopping over puddles, skipping down the lane
+19	logic	trochee	magic	trochee	slant	antonyms: reason versus wonder	Forget the logic, darling, love is magic
+20	pocket	trochee	jacket	trochee	slant	part/whole: pocket of jacket	A love note tucked in the pocket of your jacket
+21	dotted	trochee	plotted	trochee	perfect	same scene: mapping a route	We plotted our course along a dotted line
+22	shopping	trochee	swapping	trochee	perfect	same domain: trading goods	Shopping at the market, swapping stories with our friends
+23	crossing	trochee	tossing	trochee	perfect	same scene: boat on waves	Crossing the bay with the waves gently tossing
+24	knocking	trochee	locking	trochee	perfect	same scene: opening the door	Love came knocking, so I quit locking my heart away
+25	abroad	iamb	applaud	iamb	perfect	same scene: acclaimed tour abroad	We sing abroad and the whole world stands to applaud
+26	fondly	trochee	friendly	trochee	slant	synonyms: warm and welcoming	She waves so fondly, every face is friendly
+27	spotted	trochee	noted	trochee	slant	synonyms: noticed and observed	I spotted your smile and noted every spark
+28	spotting	trochee	sighting	trochee	slant	synonyms: catching first glimpse	Spotting the first robin is the sighting of the spring
+29	beyond	iamb	transcend	iamb	slant	synonyms: rising past limits	Look beyond the clouds and let your heart transcend
+30	glossy	trochee	classy	trochee	slant	synonyms: sleek polished style	Glossy shoes and a classy little tune
+31	glossy	trochee	messy	trochee	slant	antonyms: polished versus untidy	From glossy curls to messy hair, I love you either way
+32	softly	trochee	safely	trochee	slant	synonyms: gentle and protective	Hold me softly, keep me safely in your arms
+33	wanted	trochee	granted	trochee	slant	cause/effect: wish comes true	Every star I wanted, every wish was granted
+34	honest	trochee	promised	trochee	slant	cause/effect: truth keeps promises	An honest heart gives all it promised
+35	bonding	trochee	blending	trochee	slant	synonyms: coming together as one	Hearts are bonding, voices blending into one
+36	along	iamb	among	iamb	slant	synonyms: together with others	Sing along among the friends who love you
+37	softly	trochee	swiftly	trochee	slant	antonyms: gentle versus quick	The river whispers softly and the swallows swiftly fly
+38	adopt	iamb	accept	iamb	slant	synonyms: welcoming someone in	Open arms adopt you, open hearts accept you
+39	crossing	trochee	passing	trochee	slant	synonyms: traveling across or past	Crossing every bridge and passing every mile
+40	rocking	trochee	shaking	trochee	slant	synonyms: dancing body movement	The whole room's rocking and the floor is shaking
+41	cotton	trochee	satin	trochee	slant	same domain: soft fabrics	Cotton sheets and satin ribbons in the summer breeze
+42	frosty	trochee	misty	trochee	slant	same scene: cold winter morning	A frosty morning, misty fields of white
+43	frosted	trochee	toasted	trochee	slant	same scene: bakery breakfast table	Frosted buns and toasted bread to start the day
+44	frosting	trochee	tasting	trochee	slant	same scene: baking a cake	Sneaking frosting, tasting sugar off the spoon
+45	cotton	trochee	button	trochee	slant	part/whole: button on shirt	Sew a button on my cotton Sunday shirt
+46	donkey	trochee	monkey	trochee	slant	same domain: barnyard and zoo	A donkey and a monkey dancing at the fair
+47	comic	trochee	mimic	trochee	slant	same domain: comedy performers	The comic and the mimic keep the crowd in stitches
+48	pocket	trochee	ticket	trochee	slant	same scene: ready to travel	A ticket in my pocket and the open road ahead
+49	washing	trochee	splashing	trochee	slant	same scene: bath time fun	Washing in the creek and splashing in the sun
+50	rocky	trochee	foggy	trochee	slant	same scene: misty mountain trail	Foggy mornings on the rocky mountain trail
+51	chopping	trochee	prepping	trochee	slant	same scene: kitchen supper prep	Chopping herbs and prepping supper while we sing
+52	topping	trochee	dipping	trochee	slant	same scene: dessert bar	Strawberries for dipping and whipped cream for topping
+53	longing	trochee	singing	trochee	slant	same scene: love song	My longing turns to singing every time you call
+54	applause	iamb	amaze	iamb	slant	cause/effect: wonder earns applause	You amaze them all and they rise in applause
+55	applaud	iamb	parade	iamb	slant	same scene: cheering street parade	Wave your flags and applaud as the bright parade goes by
+56	upon	iamb	began	iamb	slant	same scene: story opening	Once upon a time our story began
+57	softly	trochee	briefly	trochee	slant	same scene: tender passing kiss	Kiss me softly, kiss me briefly, then kiss me once again
+58	beyond	iamb	ascend	iamb	slant	same scene: rising skyward	Ascend the hill and see the stars beyond
+59	beyond	iamb	extend	iamb	slant	same scene: reaching past horizons	Extend your hand and reach for the stars beyond
+60	comet	trochee	summit	trochee	slant	same scene: mountain night sky	A comet blazing over the snowy summit
+61	shopping	trochee	shipping	trochee	slant	same domain: online orders	Shopping from the sofa, free shipping to my door
+62	hottest	trochee	brightest	trochee	slant	same scene: summer midday sun	The hottest day of summer and the brightest sun
+63	tossing	trochee	passing	trochee	slant	same scene: playing catch	Tossing the ball and passing it back across the park
+64	pausing	trochee	crossing	trochee	slant	same scene: careful street crossing	Pausing at the corner, then crossing hand in hand
+65	pausing	trochee	gazing	trochee	slant	same scene: hilltop view	Pausing on the hilltop, gazing at the sea
+66	plotting	trochee	writing	trochee	slant	same domain: storytelling craft	Plotting out the chapters, writing down our dreams
+67	popping	trochee	clapping	trochee	slant	same scene: celebration party	Corks are popping, hands are clapping, happy new year
+68	cotton	trochee	kitten	trochee	slant	same domain: soft fluffy things	Soft as cotton, sleepy as a kitten
+69	robin	trochee	cabin	trochee	slant	same scene: woodland cabin morning	A robin sings outside our little cabin door
+70	bonding	trochee	spending	trochee	slant	same scene: quality time together	Bonding over pancakes, spending Sunday slow
+71	across	iamb	embrace	iamb	slant	same scene: joyful reunion	Run across the room and fall into my embrace
+72	salon	iamb	champagne	iamb	slant	same scene: elegant evening soiree	Champagne laughter in the candlelit salon
+73	atop	iamb	bottom	trochee	assonance	antonyms: top versus bottom	From the bottom of the hill to atop the highest peak
+74	comic	trochee	drama	trochee	assonance	antonyms: comedy versus drama	Half the night was comic, half was drama on the stage
+75	honest	trochee	modest	trochee	assonance	same domain: humble virtues	An honest word, a modest heart, that's all I need
+76	promise	trochee	constant	trochee	assonance	same domain: faithful devotion	A constant heart will always keep its promise
+77	mama	trochee	papa	trochee	assonance	same domain: loving parents	Mama hums and papa sings us both to sleep
+78	coffee	trochee	latte	trochee	assonance	same domain: morning cafe drinks	Black coffee for you, a creamy latte for me
+79	coffee	trochee	office	trochee	assonance	same scene: office break room	Fresh coffee brewing in the office every morning
+80	awesome	trochee	applause	iamb	assonance	cause/effect: great show earns applause	What an awesome show, the whole room rings with applause
+81	watching	trochee	spotting	trochee	assonance	synonyms: looking and observing	Watching for the fireflies and spotting every glow
+82	fondness	trochee	bonding	trochee	assonance	cause/effect: affection builds closeness	Our fondness keeps on bonding us together
+83	autumn	trochee	august	trochee	assonance	same domain: late summer months	August slips away and autumn paints the trees
+84	blossom	trochee	robin	trochee	assonance	same scene: spring garden	A robin sings where every blossom grows
+85	bravo	trochee	drama	trochee	assonance	same scene: stage curtain call	Bravo for the drama, take another bow tonight
+86	comet	trochee	rocket	trochee	assonance	same scene: night sky	Ride a rocket, chase a comet through the night
+87	frosting	trochee	glossy	trochee	assonance	same scene: shiny iced cake	Glossy pink frosting on a birthday cake for you
+88	autumn	trochee	frosty	trochee	assonance	same scene: crisp cold season	Autumn leaves on frosty mornings crunch beneath our feet
+89	coffee	trochee	autumn	trochee	assonance	same scene: cozy fall morning	Warm coffee on a golden autumn day
+90	blossom	trochee	poppy	trochee	assonance	same domain: spring flowers	A poppy blooms beside the apple blossom
+91	hockey	trochee	hobby	trochee	assonance	same domain: weekend pastimes	Hockey on the frozen pond is my favorite winter hobby
+92	bravo	trochee	spotlight	trochee	assonance	same scene: curtain call ovation	Bravo, the spotlight finds you as the curtain falls
+93	taco	trochee	nacho	trochee	assonance	same domain: Mexican food	A taco night with a nacho plate to share
+94	cottage	trochee	lodging	trochee	assonance	synonyms: places to stay	A cozy cottage gives us lodging for the night
+95	comet	trochee	cosmos	trochee	assonance	same domain: outer space	A comet streaking through the cosmos just for you
+96	cosmic	trochee	rocket	trochee	assonance	same domain: space travel	Board the rocket for a cosmic ride tonight
+97	octave	trochee	tonic	trochee	assonance	same domain: musical scale	Climb an octave, then fall back home to the tonic
+98	saga	trochee	drama	trochee	assonance	same domain: epic storytelling	Our love's a saga full of drama and delight
+99	cottage	trochee	condo	trochee	assonance	same domain: holiday homes	Trade the city condo for a cottage by the sea
+100	condo	trochee	lobby	trochee	assonance	part/whole: lobby of building	Meet me in the lobby of your condo after dark

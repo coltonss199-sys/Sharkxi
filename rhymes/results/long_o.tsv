@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	roasted	trochee	toasted	trochee	perfect	synonyms: browned by fire	We roasted chestnuts and we toasted bread beside the fire
+2	cozy	trochee	rosy	trochee	perfect	synonyms: warm and snug	Your cheeks turn rosy in this cozy little room
+3	focus	trochee	locus	trochee	perfect	synonyms: center of attention	You're the focus of my heart, the locus of my light
+4	going	trochee	flowing	trochee	perfect	synonyms: moving steadily onward	Keep the music flowing and the good times going
+5	disclose	iamb	expose	iamb	perfect	synonyms: reveal hidden feelings	I'll disclose my secret heart and expose the love inside
+6	noted	trochee	quoted	trochee	perfect	synonyms: remarked and cited	She noted every kind word and we quoted her all summer
+7	slowing	trochee	going	trochee	perfect	antonyms: slowing versus going	Never slowing, always going, we chase the morning sun
+8	sowing	trochee	growing	trochee	perfect	cause/effect: seeds become sprouts	We are sowing seeds of kindness, watch them growing every day
+9	notion	trochee	motion	trochee	perfect	cause/effect: idea sparks action	One bright notion set the whole wide world in motion
+10	floating	trochee	boating	trochee	perfect	same scene: lazy lake day	Summer days of boating, lazy hours of floating free
+11	ocean	trochee	motion	trochee	perfect	same scene: rolling sea waves	The ocean keeps its gentle motion, rocking us to sleep
+12	roses	trochee	noses	trochee	perfect	same scene: smelling garden flowers	We pressed our noses into roses blooming by the gate
+13	glowing	trochee	snowing	trochee	perfect	same scene: fireside winter night	Outside it's snowing, inside the fire is glowing
+14	snowing	trochee	blowing	trochee	perfect	same scene: gentle winter flurry	It's softly snowing and the winter wind is blowing
+15	bowing	trochee	showing	trochee	perfect	same scene: stage curtain call	After the showing, all the dancers keep on bowing
+16	flowing	trochee	rowing	trochee	perfect	same scene: river boat ride	We go rowing down the river with the waters flowing slow
+17	spoken	trochee	token	trochee	perfect	same scene: vows and rings	With every promise spoken, this ring's my token true
+18	arose	iamb	propose	iamb	perfect	same scene: sunrise marriage proposal	As the golden sun arose, I knelt down to propose
+19	hosted	trochee	toasted	trochee	perfect	same scene: dinner party cheers	We hosted all our friends and toasted to the year
+20	hosting	trochee	roasting	trochee	perfect	same scene: holiday dinner feast	We are hosting the whole family, roasting turkey through the night
+21	ocean	trochee	lotion	trochee	perfect	same scene: sunny beach day	Sparkling ocean, coconut lotion, summer on our skin
+22	plateau	iamb	below	iamb	perfect	same scene: mountain valley view	From the high plateau the valley sparkles far below
+23	chateau	iamb	plateau	iamb	perfect	same scene: hilltop French estate	A stone chateau stands proud upon the green plateau
+24	baroque	iamb	bespoke	iamb	perfect	same domain: ornate fine craftsmanship	A baroque frame, a bespoke gown, a night of golden grace
+25	remote	iamb	afloat	iamb	perfect	same scene: drifting distant boat	On a remote blue sea we drift afloat and free
+26	holy	trochee	lowly	trochee	perfect	same scene: humble manger hymn	A holy light fell softly on that lowly stable bed
+27	holy	trochee	slowly	trochee	perfect	same scene: reverent church bells	Slowly the holy bells ring out across the sleepy town
+28	hello	iamb	ago	iamb	perfect	same scene: old friend reunion	Hello, my friend, from all those happy years ago
+29	glowing	trochee	growing	trochee	perfect	same scene: thriving sunlit garden	The garden's glowing and the seedlings keep on growing
+30	abode	iamb	unload	iamb	perfect	same scene: moving-in day	We unload the boxes at our sweet new abode
+31	joking	trochee	poking	trochee	perfect	same scene: playful friendly teasing	Joking with my brothers, poking fun all afternoon
+32	proton	trochee	photon	trochee	perfect	same domain: atomic particle physics	Every proton, every photon, hums the song of light
+33	notice	trochee	focus	trochee	slant	synonyms: paying close attention	Notice every moment, focus on the light
+34	bespoke	iamb	unique	iamb	slant	synonyms: one of a kind	A bespoke love, unique as morning light
+35	devote	iamb	commit	iamb	slant	synonyms: pledge full dedication	I devote my life to you, commit my every day
+36	compose	iamb	devise	iamb	slant	synonyms: create and craft	I'll compose a melody and devise a little rhyme
+37	coaching	trochee	teaching	trochee	slant	synonyms: guiding young learners	Coaching little leaguers, teaching them to dream
+38	quoting	trochee	citing	trochee	slant	synonyms: referencing others' words	Quoting poets, citing stars, I tell you how I feel
+39	noting	trochee	writing	trochee	slant	synonyms: jotting words down	Noting every sunset, writing every dream
+40	noted	trochee	stated	trochee	slant	synonyms: remarked and declared	I noted what you stated: love is all we need
+41	sewing	trochee	showing	trochee	perfect	same scene: fashion design runway	Months of sewing led to showing gowns upon the stage
+42	throwing	trochee	sowing	trochee	perfect	cause/effect: scattered seeds planted	Throwing seeds across the field, we're sowing hope for spring
+43	lotus	trochee	focus	trochee	slant	same domain: calm meditation practice	Sit still like a lotus, breathe and find your focus
+44	remote	iamb	retreat	iamb	slant	same scene: secluded mountain getaway	A remote retreat where the river meets the sky
+45	baroque	iamb	antique	iamb	slant	same domain: ornate vintage art	Baroque mirrors and antique lace adorn the hall
+46	bespoke	iamb	boutique	iamb	slant	same domain: tailored fashion shop	From the boutique, a bespoke dress of silk
+47	abode	iamb	reside	iamb	slant	same domain: dwelling at home	In this humble abode is where our hearts reside
+48	cozy	trochee	lazy	trochee	slant	same scene: slow restful Sunday	A cozy blanket on a lazy Sunday morning
+49	rosy	trochee	daisy	trochee	slant	same scene: blooming spring garden	Rosy cheeks and a daisy tucked behind your ear
+50	roses	trochee	vases	trochee	slant	same scene: flowers on display	Fill the crystal vases with the roses from the yard
+51	poses	trochee	muses	trochee	slant	same scene: artist's studio session	The painter muses while the model poses in the light
+52	posing	trochee	gazing	trochee	slant	same scene: portrait photo shoot	She's posing by the window, gazing at the sea
+53	roasted	trochee	tasted	trochee	slant	cause/effect: cooked then savored	We roasted corn and tasted summer on the porch
+54	soaking	trochee	floating	trochee	slant	same scene: lazy pool day	Soaking up the sunshine, floating on the pool
+55	poet	trochee	quiet	trochee	slant	same scene: contemplative writing hour	The poet loves the quiet hours before the dawn
+56	invoke	iamb	devote	iamb	slant	same domain: prayerful heartfelt dedication	I invoke the stars and devote my heart to you
+57	roaming	trochee	dreaming	trochee	slant	same scene: wandering daydream afternoon	Roaming through the meadows, dreaming of the sea
+58	slogan	trochee	spoken	trochee	slant	same domain: catchy spoken phrase	A hopeful slogan spoken softly can change the world
+59	solo	trochee	halo	trochee	slant	same scene: angelic choir spotlight	She sings her solo with a golden halo glow
+60	open	trochee	hoping	trochee	slant	same feeling: open hopeful heart	Keep your heart wide open, keep on hoping for the dawn
+61	poem	trochee	flowing	trochee	slant	same domain: lyrical flowing verse	Let the poem keep on flowing like a river to the sea
+62	woven	trochee	clothing	trochee	slant	same domain: textile handmade garments	Woven threads of gold become the clothing that you wear
+63	cologne	iamb	champagne	iamb	slant	same scene: elegant evening out	A splash of cologne, a glass of champagne tonight
+64	alone	iamb	serene	iamb	slant	same feeling: peaceful quiet solitude	Alone beside the lake, serene as the dawn
+65	rosy	trochee	hazy	trochee	slant	same scene: soft summer dusk	A rosy sky above a hazy summer field
+66	compose	iamb	revise	iamb	slant	same domain: songwriting draft work	I compose a verse at midnight and revise it in the dawn
+67	alone	iamb	solo	trochee	assonance	synonyms: on one's own	I'm not alone, though I'm singing solo tonight
+68	only	trochee	solo	trochee	assonance	synonyms: single and alone	The only voice tonight, a solo sweet and clear
+69	open	trochee	closing	trochee	assonance	antonyms: open versus closing	One door is closing, another swinging open
+70	composed	iamb	stoic	trochee	assonance	synonyms: calm and unshaken	Composed and stoic, steady as the mountain
+71	opus	trochee	poem	trochee	assonance	synonyms: creative written work	This poem is my opus, every word for you
+72	soda	trochee	cola	trochee	assonance	synonyms: fizzy soft drink	Cherry cola, orange soda, summer on the porch
+73	roaming	trochee	nomad	trochee	assonance	synonyms: wandering traveler life	A nomad roaming free beneath the desert stars
+74	abode	iamb	homestead	trochee	assonance	synonyms: dwelling place home	Our homestead is a humble, happy abode
+75	rotate	trochee	motion	trochee	assonance	synonyms: turning spinning movement	Watch the planets rotate in their graceful motion
+76	compose	iamb	poem	trochee	assonance	cause/effect: writing creates verse	I'll compose a poem for you by candlelight
+77	clothing	trochee	sewing	trochee	assonance	cause/effect: stitching makes garments	Grandma's sewing turned to clothing for us all
+78	coaching	trochee	trophy	trochee	assonance	cause/effect: training earns prize	Years of coaching brought the shiny trophy home
+79	bestowed	iamb	trophy	trochee	assonance	cause/effect: award granted honor	The trophy bestowed upon the team that never quit
+80	promote	iamb	bonus	trochee	assonance	cause/effect: promotion brings reward	They'll promote you soon, and there's a bonus on the way
+81	produce	trochee	growing	trochee	assonance	cause/effect: farming yields harvest	Our garden keeps on growing, fresh produce every summer day
+82	romance	trochee	propose	iamb	assonance	cause/effect: love leads to proposal	After years of sweet romance, tonight I will propose
+83	propose	iamb	roses	trochee	assonance	same scene: romantic marriage proposal	I'll propose with a dozen roses in my hand
+84	cocoa	trochee	cozy	trochee	assonance	same scene: warm winter evening	Cozy by the fire with a mug of cocoa
+85	coastline	trochee	ocean	trochee	assonance	part/whole: shore of ocean	Along the coastline where the ocean meets the sky
+86	afloat	iamb	boating	trochee	assonance	same scene: drifting lake boat	Lazy summer boating, we are drifting soft afloat
+87	moment	trochee	photo	trochee	assonance	part/whole: snapshot of moment	Hold this moment in a photo, frame it on the wall
+88	nouveau	iamb	baroque	iamb	assonance	same domain: art history styles	From art nouveau to baroque, the gallery glows with gold
+89	cologne	iamb	lotion	trochee	assonance	same domain: scented grooming products	A touch of cologne and a little lotion before the dance
+90	yoga	trochee	lotus	trochee	assonance	same domain: meditation pose practice	Morning yoga in the lotus pose beneath the sun
+91	protein	trochee	tofu	trochee	assonance	same domain: plant-based nutrition	A bowl of tofu packed with protein and with love
+92	invoke	iamb	holy	trochee	assonance	same domain: sacred prayer words	We invoke the holy light to guide us home
+93	frozen	trochee	snowy	trochee	assonance	same scene: winter wonderland hills	Frozen lakes and snowy hills, a winter wonderland
+94	snowflake	trochee	frozen	trochee	assonance	same scene: icy winter window	A single snowflake on a frozen windowpane
+95	lotus	trochee	floating	trochee	assonance	same scene: pond blossoms drifting	A pink lotus floating on the quiet pond
+96	smoky	trochee	roasted	trochee	assonance	same scene: campfire cookout night	Smoky embers glow while marshmallows are roasted
+97	plateau	iamb	sloping	trochee	assonance	same scene: mountain terrain hike	Past the sloping hills we reach the wide plateau
+98	robot	trochee	program	trochee	assonance	same domain: machine coding work	My little robot runs a program made of dreams
+99	slogan	trochee	logo	trochee	assonance	same domain: brand identity design	A bright new logo and a slogan full of cheer
+100	donut	trochee	cocoa	trochee	assonance	same scene: cafe breakfast treat	A sugar donut and a cup of cocoa at dawn

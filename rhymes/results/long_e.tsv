@@ -1,0 +1,101 @@
+rank	word1	meter1	word2	meter2	rhyme_type	relationship	example
+1	easy	trochee	breezy	trochee	perfect	synonyms: carefree and light	Keep it easy, keep it breezy, let the summer carry you
+2	gleaming	trochee	beaming	trochee	perfect	synonyms: shining with light	Your gleaming eyes and beaming smile light up the room
+3	indeed	iamb	agreed	iamb	perfect	synonyms: yes, of course	Indeed, my love, we both agreed to dance tonight
+4	supreme	iamb	extreme	iamb	perfect	synonyms: utmost highest degree	A love supreme, a joy extreme, we're soaring high
+5	teaching	trochee	preaching	trochee	perfect	synonyms: sharing a lesson	She's teaching love, not preaching rules, just living kind
+6	neatly	trochee	sweetly	trochee	perfect	synonyms: done with gentle care	You fold my letters neatly and you sign them sweetly
+7	easing	trochee	pleasing	trochee	perfect	synonyms: soft and soothing	A gentle breeze so easing and so pleasing on my skin
+8	believe	iamb	achieve	iamb	perfect	cause/effect: faith fuels success	If you believe, then you'll achieve the stars you chase
+9	reading	trochee	leading	trochee	perfect	cause/effect: readers become leaders	Keep on reading and you'll soon be leading the way
+10	relief	iamb	belief	iamb	perfect	cause/effect: faith brings comfort	Sweet relief arrived with my belief that dawn would come
+11	relieved	iamb	achieved	iamb	perfect	cause/effect: goal brings ease	We're so relieved, the dream's achieved at last
+12	receive	iamb	believe	iamb	perfect	cause/effect: trust then gain	Open up your heart, believe, and you'll receive
+13	teaching	trochee	reaching	trochee	perfect	cause/effect: lessons touch hearts	Teaching kindness, reaching every heart in town
+14	proceed	iamb	agreed	iamb	perfect	cause/effect: consent then action	Once we agreed, we could proceed with open hearts
+15	meeting	trochee	greeting	trochee	perfect	same scene: friendly hello	Every meeting starts with a greeting full of sunshine
+16	creamy	trochee	dreamy	trochee	perfect	same scene: sweet dessert night	Creamy vanilla on a dreamy summer night
+17	streaming	trochee	gleaming	trochee	perfect	same scene: sunlight pouring in	Sunlight streaming, every window gleaming gold
+18	streaming	trochee	beaming	trochee	perfect	same scene: sunny morning glow	Sunlight streaming through the curtains and you're beaming back at me
+19	fleeting	trochee	meeting	trochee	perfect	same scene: brief encounter	A fleeting meeting on the train became forever
+20	seating	trochee	eating	trochee	perfect	same scene: dinner table	Find your seating, start the eating, the feast is here
+21	beaches	trochee	peaches	trochee	perfect	same scene: summer seaside	Sandy beaches, sunny peaches, summer in our hands
+22	elite	iamb	compete	iamb	perfect	same domain: top-level contest	The elite compete beneath the stadium lights
+23	unique	iamb	boutique	iamb	perfect	same domain: special little shop	A unique boutique on a cobblestone street
+24	treated	trochee	greeted	trochee	perfect	same scene: welcomed guests	We were greeted with a hug and treated like family
+25	seated	trochee	greeted	trochee	perfect	same scene: welcomed dinner guests	Every guest was greeted warmly and seated by the fire
+26	esteem	iamb	supreme	iamb	perfect	same domain: highest regard	Hold yourself in high esteem, your heart supreme
+27	redeem	iamb	esteem	iamb	perfect	same domain: restored self-worth	Let kindness redeem the day and lift your self-esteem
+28	season	trochee	reason	trochee	perfect	same domain: purpose in time	For every season there's a reason to sing
+29	seeking	trochee	speaking	trochee	perfect	same domain: honest truth telling	Seeking truth and speaking kindly every day
+30	serene	iamb	ravine	iamb	perfect	same scene: quiet green valley	The river runs serene along the green ravine
+31	marine	iamb	serene	iamb	perfect	same scene: calm blue sea	A marine blue bay, so calm and so serene
+32	feeding	trochee	seeding	trochee	perfect	same scene: garden care	Seeding rows and feeding roots, the garden grows
+33	steamy	trochee	creamy	trochee	perfect	same scene: morning latte	A steamy, creamy latte warms my morning hands
+34	cuisine	iamb	caffeine	iamb	perfect	same scene: cozy corner cafe	French cuisine and fresh caffeine in a corner cafe
+35	canteen	iamb	cuisine	iamb	perfect	same domain: dining hall food	The little canteen serves a homemade cuisine we love
+36	antique	iamb	boutique	iamb	perfect	same scene: vintage shopping day	Antique lamps glow in a little boutique downtown
+37	teaches	trochee	speeches	trochee	perfect	same domain: inspiring lessons	She teaches hope through speeches full of light
+38	keeping	trochee	sleeping	trochee	perfect	same scene: tender night watch	I'll be keeping watch while you are sleeping
+39	retreat	iamb	discreet	iamb	perfect	same scene: quiet hideaway	A discreet retreat beside the lake, just us two
+40	routine	iamb	machine	iamb	perfect	same domain: steady daily rhythm	Our morning routine hums like a happy machine
+41	unseen	iamb	between	iamb	perfect	same domain: hidden spaces	The love unseen that lives between the lines
+42	leaping	trochee	sweeping	trochee	perfect	same scene: graceful dance motion	Leaping, sweeping, spinning round the ballroom floor
+43	complete	iamb	repeat	iamb	perfect	same domain: favorite song loop	The song's complete, so press repeat and sing along
+44	reaches	trochee	beaches	trochee	perfect	same scene: tide meets shore	The morning tide reaches golden beaches by the bay
+45	unique	iamb	alike	iamb	slant	antonyms: different versus same	We're each unique, yet in our hearts alike
+46	leading	trochee	heading	trochee	slant	synonyms: steering the team	She's heading up the choir and leading us in song
+47	proceed	iamb	ahead	iamb	slant	synonyms: move forward onward	We proceed with courage, looking straight ahead
+48	serene	iamb	benign	iamb	slant	synonyms: gentle and calm	Your smile is serene, your heart benign and kind
+49	elite	iamb	unique	iamb	slant	synonyms: exceptional and rare	Elite and unique, you're one of a kind
+50	sleeping	trochee	napping	trochee	slant	synonyms: resting tired eyes	The cat is napping while the baby's sleeping
+51	complete	iamb	ignite	iamb	slant	antonyms: start versus finish	We ignite the spark and dance until it's complete
+52	between	iamb	within	iamb	slant	synonyms: inside the space	Between the stars and deep within my heart
+53	cleaning	trochee	gleaming	trochee	slant	cause/effect: scrubbing makes shine	Cleaning every window till the glass is gleaming
+54	compete	iamb	succeed	iamb	slant	cause/effect: effort brings victory	We compete with heart and that is how we succeed
+55	complete	iamb	delight	iamb	slant	cause/effect: finishing brings joy	The puzzle's complete, oh what a sweet delight
+56	succeed	iamb	decide	iamb	slant	cause/effect: choice then success	Decide to dream and you'll succeed someday
+57	reading	trochee	freedom	trochee	slant	cause/effect: books bring liberty	Every page of reading gives my spirit freedom
+58	sweetly	trochee	deeply	trochee	slant	same domain: tender loving ways	Love me sweetly, love me deeply, all night long
+59	meaning	trochee	dreaming	trochee	slant	same domain: purpose and hope	Finding meaning in the dreaming of the night
+60	meeting	trochee	speaking	trochee	slant	same scene: friendly conversation	At every meeting you were speaking words of hope
+61	easy	trochee	cozy	trochee	slant	same domain: relaxed comfort	Easy mornings in a cozy little room
+62	breezy	trochee	lazy	trochee	slant	same scene: summer afternoon	A breezy, lazy Sunday by the shore
+63	season	trochee	frozen	trochee	slant	same scene: winter lake	The skating season on the frozen lake
+64	season	trochee	easing	trochee	slant	same scene: winter softening	The cold is easing as the season turns to spring
+65	believe	iamb	alive	iamb	slant	same domain: hopeful vitality	When I believe, I feel alive again
+66	beaming	trochee	blooming	trochee	slant	same domain: radiant joy	You're beaming like the roses blooming in the sun
+67	greeting	trochee	speaking	trochee	slant	same scene: warm welcome words	A friendly greeting, softly speaking welcome home
+68	eating	trochee	feeding	trochee	slant	same domain: family mealtime	We're eating lunch and feeding ducks beside the pond
+69	neatly	trochee	tightly	trochee	slant	same domain: tidy careful packing	Pack it neatly, wrap it tightly, send it home
+70	seeking	trochee	beacon	trochee	slant	same scene: searching ship's light	Seeking home, I find a beacon on the shore
+71	even	trochee	breathing	trochee	slant	same scene: calm restful sleep	Your breathing slow and even as you sleep
+72	sweetie	trochee	sleepy	trochee	slant	same scene: bedtime cuddle	Goodnight my sleepy sweetie, close your eyes
+73	compete	iamb	debate	iamb	slant	same domain: friendly contest	We debate and compete, but we're friends at the end
+74	receive	iamb	arrive	iamb	slant	same scene: gift delivery day	The letters arrive and I receive your love
+75	leaving	trochee	moving	trochee	slant	same domain: relocating home	We're leaving town and moving to the sea
+76	marine	iamb	lagoon	iamb	slant	same scene: tropical blue water	Marine blue waves in a quiet lagoon
+77	increase	iamb	deepen	trochee	assonance	synonyms: growing stronger	Let our love increase and deepen with the years
+78	succeed	iamb	achieve	iamb	assonance	synonyms: reaching success	Together we'll succeed and we'll achieve it all
+79	release	iamb	freedom	trochee	assonance	synonyms: liberation and escape	Release the doves and let them fly to freedom
+80	relief	iamb	easing	trochee	assonance	synonyms: soothing comfort	What a sweet relief to feel the busy day easing into night
+81	sleeping	trochee	dreaming	trochee	assonance	cause/effect: rest brings dreams	Sleeping under starlight, dreaming of the sea
+82	treaty	trochee	agreed	iamb	assonance	cause/effect: peace pact signed	The treaty's signed and every heart agreed
+83	discreet	iamb	secret	trochee	assonance	same domain: keeping confidences	Be discreet and keep my secret close to your heart
+84	secret	trochee	keeping	trochee	assonance	same domain: trusted confidence	Keeping every secret that you whisper to me
+85	release	iamb	freely	trochee	assonance	same domain: letting go	Release the kite and let it fly so freely
+86	teaching	trochee	reading	trochee	assonance	same domain: classroom learning	Teaching little ones the joy of reading
+87	seeking	trochee	reaching	trochee	assonance	same domain: striving for more	Always seeking, always reaching for the stars
+88	deeply	trochee	breathing	trochee	assonance	same scene: calm restful air	Breathing deeply in the cool pine air
+89	breathing	trochee	easy	trochee	assonance	same domain: relaxed calm	Breathing easy by the open window
+90	cleaning	trochee	sweeping	trochee	assonance	same scene: household chores	Cleaning windows, sweeping floors, the house is shining
+91	sleepy	trochee	dreamy	trochee	assonance	same scene: drowsy bedtime	A sleepy, dreamy lullaby to end the day
+92	evening	trochee	dreamy	trochee	assonance	same scene: soft twilight	A dreamy evening glowing pink and gold
+93	weekend	trochee	freedom	trochee	assonance	same domain: time off	The weekend comes and brings a taste of freedom
+94	seaside	trochee	beaches	trochee	assonance	part/whole: beaches of seaside	A seaside town with sandy beaches all around
+95	leafy	trochee	breezy	trochee	assonance	same scene: summer park	A leafy lane on a breezy afternoon
+96	evening	trochee	sleepy	trochee	assonance	same scene: quiet nightfall	The evening settles, sleepy and so still
+97	kiwi	trochee	peaches	trochee	assonance	same domain: fresh fruit basket	Kiwi, peaches, berries in a picnic basket
+98	cheesy	trochee	pizza	trochee	assonance	same domain: comfort food	A cheesy pizza shared with friends on Friday night
+99	zebra	trochee	cheetah	trochee	assonance	same scene: savanna safari	A zebra and a cheetah on the golden plain
+100	greenhouse	trochee	seedlings	trochee	assonance	same scene: spring garden	In the greenhouse, seedlings reach toward the sun
