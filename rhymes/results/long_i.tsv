@@ -1,0 +1,101 @@
+rank	word1	word2	rhyme_type	link	relationship	example
+1	bright	light	perfect	synonym	both mean radiant glow	Your heart burns bright, a lantern full of light
+2	glide	slide	perfect	synonym	both mean smooth effortless motion	We glide across the frozen pond and slide into spring
+3	precise	concise	perfect	synonym	both mean exact and trim	Keep the verses precise and the chorus concise
+4	excited	delighted	perfect	synonym	both mean thrilled with joy	So excited, so delighted, the whole town is singing
+5	lightly	slightly	perfect	synonym	both mean to small degree	Step lightly, lean slightly, and the dance is yours
+6	brighten	lighten	perfect	synonym	both mean growing more luminous	Let the morning brighten and the heavy hours lighten
+7	icy	spicy	perfect	antonym	cold versus hot flavor	An icy lemonade beside a spicy summer feast
+8	abide	reside	perfect	synonym	both mean to dwell	Where kindness will abide, there hope will reside
+9	alive	thrive	perfect	synonym	both mean flourishing with life	Feel alive, and watch the whole garden thrive
+10	incline	decline	perfect	antonym	upward versus downward slope	Up the green incline, then down the gentle decline we roll
+11	like	unlike	perfect	antonym	similar versus different	Like the sun, unlike the rain, you warm me every day
+12	mine	thine	perfect	antonym	my own versus yours	What once was mine is gladly thine
+13	lightly	tightly	perfect	antonym	loose versus firm hold	Hold your worries lightly and your friends tightly
+14	slice	dice	perfect	synonym	both mean cutting food	Slice the peaches, dice the mint, and summer's on the table
+15	rise	arise	perfect	synonym	both mean getting up	Rise with the larks; arise and greet the dawn
+16	white	bright	perfect	synonym	both mean pale radiance	White as fresh snowfall, bright as the morning
+17	ignite	light	perfect	synonym	both mean setting aflame	Ignite the candles, light the way back home
+18	improvise	devise	perfect	synonym	both mean inventing something new	We improvise a melody and devise a brand-new dance
+19	allied	side	perfect	synonym	both mean standing together	Allied in hope, we walk on side by side
+20	right	upright	perfect	synonym	both mean morally sound	Do what is right and walk upright through the day
+21	wind	unwind	perfect	antonym	coil versus uncoil	Wind the music box, then let the evening unwind
+22	try	apply	perfect	synonym	both mean making an effort	Try once more and apply your whole heart
+23	why	reply	perfect	antonym	question and answer pair	You ask me why, and the stars reply
+24	hi	goodbye	perfect	antonym	greeting versus farewell	From the first hi to a fond goodbye, we laughed
+25	thrive	strive	perfect	cause-effect	effort leads to flourishing	Those who strive will thrive in time
+26	revive	alive	perfect	cause-effect	renewal restores living energy	Spring rain will revive the fields and bring them alive
+27	wine	vine	perfect	cause-effect	vine fruit becomes wine	Sun on the vine, sweetness in the wine
+28	time	chime	perfect	cause-effect	bells announce the hour	The tower bells chime to tell the time
+29	wise	advise	perfect	cause-effect	wisdom yields good counsel	The wise advise with gentle words
+30	ally	rely	perfect	cause-effect	loyalty breeds dependable trust	You're my ally, the friend I can rely on
+31	alliance	reliance	perfect	cause-effect	partnership builds mutual trust	Our alliance grew into a deep reliance
+32	drive	arrive	perfect	cause-effect	journey ends in arrival	We drive all night and arrive with the dawn
+33	unwind	mind	perfect	cause-effect	relaxing calms busy thoughts	Let the evening unwind your busy mind
+34	sky	high	perfect	scene	kites soaring overhead	The sky is open and our kites fly high
+35	fly	sky	perfect	scene	birds crossing the blue	Spread your wings and fly across the sky
+36	kite	flight	perfect	scene	breezy afternoon soaring	A paper kite takes flight on the breeze
+37	flight	height	perfect	scene	soaring above the clouds	Our flight climbs to a golden height
+38	eyes	skies	perfect	scene	gazing upward in wonder	Lift your eyes to the open skies
+39	wine	dine	perfect	scene	festive evening feast	We wine and dine beneath the summer moon
+40	spice	nice	perfect	scene	sugar and spice rhyme	Sugar and spice and everything nice
+41	spice	rice	perfect	scene	fragrant kitchen cooking	A pinch of spice to warm the rice
+42	lime	thyme	perfect	scene	citrus and herb garden	A twist of lime, a sprig of thyme
+43	rhyme	chime	perfect	scene	musical ringing sounds	Every rhyme rings out like a silver chime
+44	bride	pride	perfect	scene	joyful wedding day	The bride is glowing with pride and joy
+45	prize	surprise	perfect	scene	unexpected happy win	The prize arrived as a sweet surprise
+46	shining	lining	perfect	scene	silver lining behind clouds	Every cloud is shining with a silver lining
+47	bike	hike	perfect	scene	outdoor weekend adventure	Ride the bike to the trail, then hike the hill
+48	vibe	tribe	perfect	scene	kindred community feeling	Find your tribe and share the vibe
+49	kind	mind	perfect	scene	gentle thoughtful character	A kind heart and an open mind
+50	eye	spy	perfect	scene	childhood guessing game	I spy with my little eye something blue
+51	design	refine	perfect	scene	crafting and perfecting work	We design by day and refine by candlelight
+52	divine	shrine	perfect	scene	sacred place of worship	A divine hush fills the little shrine
+53	knight	might	perfect	scene	chivalry and noble strength	The knight stood tall with gentle might
+54	write	recite	perfect	scene	poetry from page to voice	I write the verse and you recite it
+55	lights	nights	perfect	scene	festive city evenings	City lights on warm summer nights
+56	icing	slicing	perfect	scene	birthday cake celebration	Sweet icing on top, then slicing the cake
+57	scribe	describe	perfect	scene	writer and written portrait	The scribe will describe the stars in ink
+58	life	wife	perfect	scene	shared married journey	My wife, my life, my morning song
+59	divided	united	slant	antonym	apart versus together	Once divided, now united, we sing as one
+60	divine	sublime	slant	synonym	both mean heavenly beauty	Your voice is divine, the melody sublime
+61	life	alive	slant	synonym	both mean living energy	This is life, and I have never felt so alive
+62	shine	sheen	slant	synonym	both mean glossy glow	Polish till the windows shine with a golden sheen
+63	guide	lead	slant	synonym	both mean showing the way	Be my guide, and I will follow where you lead
+64	surprise	amaze	slant	synonym	both mean astonish with delight	Let the sunrise surprise you and the stars amaze you
+65	sublime	supreme	slant	synonym	both mean highest excellence	A sublime melody, a supreme and shining joy
+66	type	write	slant	synonym	both mean putting words down	Type the lyrics, write the dream
+67	prime	fine	slant	synonym	both mean top quality	In our prime, every day feels fine
+68	glide	flight	slant	synonym	both mean graceful airborne motion	Swallows glide in graceful flight
+69	mine	own	slant	synonym	both mean belonging to me	This song is mine, my very own
+70	design	plan	slant	synonym	both mean intentional layout	We design the garden and plan each bloom
+71	like	delight	slant	synonym	both mean enjoying something	I like the way you laugh; it is pure delight
+72	hide	sight	slant	antonym	concealed versus seen	Don't hide away; step into sight
+73	guide	light	slant	cause-effect	light shows the way	Be my guide, my steady light
+74	ripe	bite	slant	cause-effect	ready fruit invites tasting	The peach is ripe, so take a bite
+75	prize	price	slant	scene	value and reward	The prize is worth far more than any price
+76	rhyme	line	slant	scene	crafting verse in poetry	Every line ends with a rhyme
+77	bride	white	slant	scene	wedding gown color	The bride in white is radiant
+78	tribe	side	slant	scene	community standing together	My tribe stands by my side
+79	wide	height	slant	scene	dimensions of vast spaces	The canyon wide, the mountain height, we take it in
+80	kind	nice	assonance	synonym	both mean gentle goodness	Be kind, be nice, and the world grows soft
+81	quiet	silent	assonance	synonym	both mean free of noise	The quiet snow falls on the silent hills
+82	giant	tiny	assonance	antonym	huge versus small	A giant oak grew from a tiny seed
+83	hide	find	assonance	antonym	conceal versus discover	You hide, I find you laughing by the tree
+84	high	height	assonance	synonym	both mean great elevation	Fly high and reach the height of your dreams
+85	try	strive	assonance	synonym	both mean giving effort	Try again, and strive toward the stars
+86	tie	bind	assonance	synonym	both mean fasten together	Tie the ribbon and bind the bouquet
+87	supply	provide	assonance	synonym	both mean giving resources	Rivers supply the valley and provide for every field
+88	vibrant	bright	assonance	synonym	both mean vivid color	Vibrant petals, bright and bold
+89	polite	kind	assonance	synonym	both mean courteous warmth	Be polite, be kind, be gentle with the world
+90	mighty	giant	assonance	synonym	both mean enormous strength	A mighty oak, a giant of the woods
+91	hydrate	dry	assonance	antonym	moist versus parched	Hydrate the roots before the summer turns dry
+92	pie	slice	assonance	part-whole	piece of baked dessert	Cut a slice of warm apple pie
+93	lion	pride	assonance	part-whole	lions live in prides	The lion leads his pride across the plain
+94	eye	sight	assonance	cause-effect	eyes give us vision	Each eye a window, each sight a gift
+95	rise	shine	assonance	scene	morning wake-up call	Rise and shine, the day is yours
+96	tide	time	assonance	scene	classic time and tide	Time and tide will carry us home
+97	diamond	shine	assonance	scene	sparkling precious gem	Like a diamond, let your spirit shine
+98	smiling	shining	assonance	scene	beaming happy faces	Smiling faces and shining eyes
+99	horizon	sky	assonance	scene	landscape meets open heavens	Where the horizon meets the evening sky
+100	library	quiet	assonance	scene	hushed reading room calm	The library is quiet and full of dreams
