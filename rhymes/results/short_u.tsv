@@ -1,0 +1,101 @@
+rank	word1	word2	rhyme_type	link	relationship	example
+1	productive	constructive	perfect	synonym	both mean building something useful	Every day feels productive when our talks stay constructive
+2	loved	beloved	perfect	synonym	both mean dearly cherished	You are loved, my beloved, every single morning
+3	plush	lush	perfect	synonym	both mean rich and soft	Plush velvet pillows tossed across a lush green lawn
+4	blush	flush	perfect	synonym	both mean cheeks glowing pink	A sweet blush, a rosy flush, whenever you say my name
+5	rough	tough	perfect	synonym	both mean hardy and rugged	When the road gets rough, the tough keep dancing on
+6	fluffy	puffy	perfect	synonym	both mean soft and airy	Fluffy pillows, puffy clouds, drifting off to dreamland
+7	one	none	perfect	antonym	a single versus zero	You're the one, and there is none who shines like you
+8	hush	rush	perfect	antonym	quiet calm versus hurry	Let the city rush while we stay inside the hush
+9	begun	done	perfect	antonym	starting versus finishing	Our story has just begun, and we're nowhere near done
+10	touched	untouched	perfect	antonym	handled versus left pristine	Snow untouched by footsteps, touched only by the moon
+11	hunk	chunk	perfect	synonym	both mean a big piece	A hunk of bread, a chunk of cheese, a picnic by the sea
+12	rub	scrub	perfect	synonym	both mean cleaning by friction	Rub the window, scrub the glass, and let the sunlight pass
+13	nudge	budge	perfect	synonym	both mean shifting slightly	One gentle nudge and the heavy door will budge
+14	trusted	entrusted	perfect	synonym	both mean given faith	I trusted you, and you entrusted me with your heart
+15	bustling	hustling	perfect	synonym	both mean busy and lively	Bustling markets, hustling vendors, music drifting through the square
+16	tough	buff	perfect	synonym	both mean strong and fit	Tough and buff, we climbed the hill and cheered at the top
+17	huff	puff	perfect	synonym	both mean blowing hard	Huff and puff, the candles flicker, birthday wishes fly
+18	crunch	munch	perfect	synonym	both mean noisy happy chewing	Crunch the apples, munch the crisps, a picnic in the park
+19	brunch	lunch	perfect	synonym	both are midday meals	A lazy brunch rolls into lunch with laughter all around
+20	hung	strung	perfect	synonym	both mean hanging up high	Lanterns hung and fairy lights strung across the yard
+21	thump	bump	perfect	synonym	both mean a soft knock	Thump, bump, the bass line moves your dancing feet
+22	junction	conjunction	perfect	synonym	both mean a joining point	At the junction of our roads, a sweet conjunction of hearts
+23	mug	jug	perfect	synonym	both are handled drinking vessels	Fill my mug from the cider jug beside the fire
+24	done	undone	perfect	antonym	finished versus left open	Some songs are done, some dreams undone, still waiting for the dawn
+25	plugged	unplugged	perfect	antonym	connected versus disconnected	Plugged in all week, now we're unplugged beneath the stars
+26	crush	blush	perfect	cause-effect	a crush brings a blush	One little crush and I can't hide the blush
+27	sun	fun	perfect	cause-effect	sunshine brings the fun	Out in the sun we chase the fun till evening
+28	yummy	tummy	perfect	cause-effect	tasty food fills tummy	Something yummy for my tummy, fresh pie on the sill
+29	hug	snug	perfect	cause-effect	a hug feels cosy	Wrap me in a hug and I feel snug again
+30	fun	pun	perfect	cause-effect	wordplay sparks the fun	Every silly pun just adds to the fun
+31	dust	gust	perfect	cause-effect	wind lifts the dust	A warm gust, a swirl of golden dust along the road
+32	pluck	luck	perfect	cause-effect	courage brings good fortune	With a little pluck you make your own luck
+33	love	above	perfect	scene	love sent from heaven	The stars above remind me of your love
+34	love	dove	perfect	scene	dove symbolizes gentle love	A white dove carries all my love to you
+35	sunny	funny	perfect	scene	bright and cheerful days	Sunny afternoons and funny stories by the lake
+36	honey	bunny	perfect	scene	sweet terms of endearment	Good morning, honey, my little spring bunny
+37	sunny	honey	perfect	scene	golden warm summer sweetness	Sunny meadows dripping with golden honey
+38	drum	hum	perfect	scene	music filling the room	Beat the drum and let the whole crowd hum
+39	humming	drumming	perfect	scene	a band making music	Humming in the kitchen, drumming on the table
+40	mug	hug	perfect	scene	warm cocoa comfort	Cocoa in a mug feels just like a hug
+41	study	buddy	perfect	scene	friends learning together	My study buddy makes the hardest chapters fun
+42	cousin	dozen	perfect	scene	big family gathering	Every cousin came, at least a dozen, to the feast
+43	sunday	monday	perfect	scene	weekend rolling into week	Lazy Sunday dreams carry me gently into Monday
+44	buzz	fuzz	perfect	scene	a fuzzy busy bee	A gentle buzz, a coat of golden fuzz, the bee says hello
+45	pub	grub	perfect	scene	hearty food with friends	A cosy pub, good grub, old friends around the table
+46	tub	scrub	perfect	scene	bath time cleaning ritual	Bubbles in the tub, a lavender scrub, and rest
+47	bug	rug	perfect	scene	snug as a bug	Snug as a bug in a rug beside the fire
+48	jumping	pumping	perfect	scene	high energy dance floor	Feet jumping, music pumping, the whole night is alive
+49	funky	monkey	perfect	scene	playful dancing animal	A funky monkey grooving to the jungle drum
+50	young	sprung	perfect	scene	fresh new springtime life	The buds have sprung and the whole world feels young
+51	sung	rung	perfect	scene	church bells and choir	Bells are rung and carols sung across the snow
+52	strung	sung	perfect	scene	guitar tuned and played	The guitar is freshly strung, the sweetest tune is sung
+53	none	some	slant	antonym	zero versus a few	Some have plenty, none go hungry at our table
+54	cub	pup	slant	synonym	both are baby animals	A sleepy cub, a playful pup, both curled up in the sun
+55	won	win	slant	synonym	both mean claiming victory	We won today, and tomorrow we will win again
+56	hubby	buddy	slant	synonym	husband as best friend	My hubby is my best buddy through it all
+57	buzz	fuss	slant	synonym	both mean excited commotion	All the buzz and fuss about the spring fair
+58	sung	song	slant	cause-effect	a song is sung	Every song is sweeter when it's sung together
+59	muffin	oven	slant	cause-effect	baked in the oven	A blueberry muffin rising warm inside the oven
+60	tuck	snug	slant	cause-effect	tucked in feels cosy	Tuck me in tonight and keep me snug
+61	yummy	honey	slant	cause-effect	honey tastes so sweet	Warm toast with yummy honey on a slow morning
+62	love	enough	slant	cause-effect	love makes life enough	No riches needed, love is more than enough
+63	bun	crumb	slant	part-whole	crumb from the bun	Not a single crumb left of the cinnamon bun
+64	shrub	bud	slant	part-whole	buds grow on shrubs	Every shrub is bursting with a bud of spring
+65	sprung	spring	slant	scene	the season bursting forth	Spring has sprung and blossoms fill the lane
+66	stuffing	oven	slant	scene	holiday roast cooking	Stuffing in the oven, family at the door
+67	dug	mud	slant	scene	gardening in the soil	We dug in the mud and planted tulips in rows
+68	mum	son	slant	scene	mother and her child	Mum and son dancing in the kitchen light
+69	hum	hymn	slant	scene	gentle church music	Hum a hymn of morning light and grace
+70	swung	swing	slant	scene	playground fun outdoors	We swung so high on the old oak swing
+71	something	nothing	assonance	antonym	all versus not anything	Something in your smile turns nothing into gold
+72	sunrise	sunset	assonance	antonym	dawn versus day's end	From sunrise to sunset, I'm dancing next to you
+73	above	up	assonance	synonym	both mean overhead and higher	Look up, the stars above are spelling out your name
+74	stunning	lovely	assonance	synonym	both mean very beautiful	A stunning view, a lovely night, and you beside me
+75	fuzzy	fluffy	assonance	synonym	both mean soft and downy	Fuzzy socks and fluffy blankets make the winter kind
+76	husband	hubby	assonance	synonym	same man, playful name	My husband, my hubby, my partner in every song
+77	stomach	tummy	assonance	synonym	same belly, cuter word	Butterflies in my stomach, giggles in my tummy
+78	mug	cup	assonance	synonym	both hold warm drinks	A mug of cocoa, a cup of tea, a quiet afternoon
+79	comfy	snug	assonance	synonym	both mean cosy and warm	Comfy sweaters in a snug little cabin, snow outside
+80	deluxe	plush	assonance	synonym	both mean fancy and luxurious	A deluxe suite with plush pillows and the sunrise from the bed
+81	sumptuous	lush	assonance	synonym	both mean richly abundant	A sumptuous feast laid out in a lush green garden
+82	lush	abundant	assonance	synonym	both mean richly growing	Lush valleys, abundant orchards, harvest time is here
+83	dusk	sunset	assonance	synonym	both mean evening's glow	At dusk the sunset paints the sky in peach and gold
+84	someday	sometime	assonance	synonym	both mean a future moment	Someday soon, sometime in spring, we'll fly away
+85	crunchy	chunky	assonance	synonym	both mean nutty and textured	Crunchy or chunky, peanut butter always makes me smile
+86	buzzing	humming	assonance	synonym	both mean a soft drone	Bees buzzing, humming through the clover all day long
+87	plunge	jump	assonance	synonym	both mean leaping in	Take the plunge and jump into the cool blue lake
+88	run	rush	assonance	synonym	both mean moving fast	Run to the shore and rush into the waves
+89	robust	rugged	assonance	synonym	both mean sturdy and strong	Robust boots on rugged trails, we climb toward the light
+90	touch	hug	assonance	synonym	both mean caring closeness	One gentle touch, one warm hug, and the world feels right
+91	bubbly	upbeat	assonance	synonym	both mean cheerful and lively	Bubbly laughter, upbeat tunes, the party's on its way
+92	hungry	lunch	assonance	cause-effect	appetite calls for food	Hungry hikers share a lunch beneath the pines
+93	sum	plus	assonance	cause-effect	adding makes the total	One plus one, and the sum is us
+94	sunshine	fun	assonance	cause-effect	bright days bring play	Sunshine on our shoulders, fun in every step
+95	stump	trunk	assonance	part-whole	base of the tree	Sit on the stump beside the old oak trunk
+96	crumb	crust	assonance	part-whole	pieces of the bread	A golden crust, and not a crumb goes to waste
+97	trumpet	drum	assonance	scene	marching band music	Trumpet shining, drum beating, the parade rolls in
+98	bunny	hutch	assonance	scene	rabbit's cozy home	The bunny naps all afternoon inside the hutch
+99	fudge	sundae	assonance	scene	ice cream parlor treat	Hot fudge melting on a sundae, summer in a spoon
+100	plum	plump	assonance	scene	ripe fruit on branches	A plump purple plum, ripe and sweet from the tree

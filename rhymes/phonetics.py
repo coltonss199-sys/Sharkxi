@@ -4,6 +4,9 @@ Rules enforced here (from the brief):
   * no r-controlled syllables: no ER vowel, and no vowel immediately followed by R
   * no l-controlled syllables: no vowel immediately followed by L, except a long
     vowel in an open syllable whose L starts the next syllable (ho-ly, si-lent)
+  * the spelling has no phonics r/l-controlled pattern either: no vowel letter
+    followed by an R or L that closes it (calm, talk, surprise, ally, balloon),
+    even where CMU lists a variant pronunciation without that R or L
   * the word carries a primary stress (so it has a rhyme tail to compare)
 """
 
@@ -35,6 +38,8 @@ NEAR = [{"P", "B"}, {"T", "D"}, {"K", "G"}, {"F", "V"}, {"S", "Z"},
         {"P", "T"}, {"B", "D"}, {"F", "TH"}, {"V", "DH"}]
 
 WORD_RE = re.compile(r"^[a-z]+$")
+# A vowel letter whose R or L is not followed by another vowel letter.
+SPELLING_RE = re.compile(r"[aeiouy][rl](?![aeiouy])")
 
 
 def load_cmu(path):
@@ -74,7 +79,9 @@ def controlled(phones):
     long vowel stays open before L (ho-ly, si-lent) but is r-coloured before
     R in American English (he-ro, si-ren), so that still counts. CMU writes
     a schwa before an R-onset as ER0 (a-rise, pa-rade); that R starts the
-    next syllable, so it is allowed too.
+    next syllable only when the next vowel takes primary stress. Before an
+    unstressed vowel it is an "er/or/ar" syllable (mem-o-ry, fa-vor-ite,
+    li-brar-y), so that counts.
     """
     for i, ph in enumerate(phones):
         if not is_vowel(ph):
@@ -82,7 +89,7 @@ def controlled(phones):
         v = base(ph)
         nxt = phones[i + 1] if i + 1 < len(phones) else None
         if v == "ER":
-            if ph == "ER0" and nxt is not None and is_vowel(nxt):
+            if ph == "ER0" and nxt is not None and nxt.endswith("1"):
                 continue
             return True
         if nxt not in ("L", "R"):
@@ -91,6 +98,8 @@ def controlled(phones):
         if after is None or not is_vowel(after):
             return True
         if ph.endswith("0"):
+            if nxt == "R" and not after.endswith("1"):
+                return True
             continue
         if v not in LONG or nxt == "R":
             return True
@@ -156,7 +165,14 @@ def rhyme_type(p1, p2):
     return None
 
 
-def qualifying(prons):
+def spelling_controlled(word):
+    """True if the spelling shows an r- or l-controlled vowel (ar, ol, ell...)."""
+    return SPELLING_RE.search(word) is not None
+
+
+def qualifying(prons, word):
     """Pronunciations of a word that satisfy the brief's sound rules."""
+    if spelling_controlled(word):
+        return []
     return [p for p in prons
             if stressed_index(p) is not None and not controlled(p)]

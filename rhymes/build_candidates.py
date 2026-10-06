@@ -33,7 +33,7 @@ def main():
         if zipf_frequency and z < min_zipf:
             continue
         seen = set()
-        for p in qualifying(plist):
+        for p in qualifying(plist, word):
             if syllables(p) > max_syl:
                 continue
             v = base(p[stressed_index(p)])

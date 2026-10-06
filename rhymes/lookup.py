@@ -50,7 +50,7 @@ def main():
         for w in (w1, w2):
             if w not in prons:
                 sys.exit(f"{w}: not in CMU dict")
-        q1, q2 = qualifying(prons[w1]), qualifying(prons[w2])
+        q1, q2 = qualifying(prons[w1], w1), qualifying(prons[w2], w2)
         if not q1 or not q2:
             sys.exit(f"{w1}/{w2}: a word breaks the r/l rule")
         print(f"{w1} / {w2}: {best(q1, q2) or 'no qualifying sound link'}")
@@ -60,7 +60,7 @@ def main():
     for w, plist in prons.items():
         if zipf_frequency and zipf_frequency(w, "en") < min_zipf:
             continue
-        q = qualifying(plist)
+        q = qualifying(plist, w)
         if q:
             common[w] = q
 
@@ -70,10 +70,10 @@ def main():
             continue
         print(f"{word}:")
         for p in prons[word]:
-            ok = p in qualifying(prons[word])
-            tag = f"ok, {group_of(p)}" if ok else "BREAKS r/l rule (or no stress)"
+            ok = p in qualifying(prons[word], word)
+            tag = f"ok, {group_of(p)}" if ok else "BREAKS r/l rule (sound or spelling)"
             print(f"  {' '.join(p):30s} {tag}")
-        q = qualifying(prons[word])
+        q = qualifying(prons[word], word)
         if not q:
             print()
             continue

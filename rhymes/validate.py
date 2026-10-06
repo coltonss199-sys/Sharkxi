@@ -63,7 +63,7 @@ def check(prons, group, rows):
             if w not in prons:
                 problems.append(f"{where}: '{w}' not in CMU dict")
                 continue
-            q[w] = qualifying(prons[w])
+            q[w] = qualifying(prons[w], w)
             if not q[w]:
                 problems.append(f"{where}: '{w}' has an r- or l-controlled syllable")
         if len(q) < 2 or not q[w1] or not q[w2]:
