@@ -1,92 +1,92 @@
 rank	word1	word2	rhyme_type	link	relationship	example
 1	low	below	perfect	synonym	both mean beneath, downward	Sing it soft and low, like the river far below.
 2	froze	flows	perfect	antonym	ice locked versus water moving	All winter the creek froze, but now in spring it flows.
-3	propose	oppose	perfect	antonym	put forward versus push back	Whatever dreams you propose, I will never oppose.
-4	alone	lone	perfect	synonym	both mean by oneself	One lone lantern burning, and I'm not alone tonight.
-5	loan	own	perfect	antonym	borrowed versus truly yours	My heart is not a loan, it's yours to own.
-6	emotion	devotion	perfect	synonym	deep feeling, faithful love	Every emotion in my chest becomes devotion for you.
-7	exposed	enclosed	perfect	antonym	open air versus shut in	Exposed to the sunrise, never again enclosed.
-8	home	roam	perfect	antonym	staying put versus wandering	Let me roam the wide world, then bring me home.
-9	bestowed	owed	perfect	antonym	freely given versus due	Love is bestowed like sunlight, never owed.
-10	hone	tone	perfect	synonym	both mean refine, strengthen	Hone your craft and tone your voice until it shines.
-11	cozy	rosy	perfect	synonym	both mean warm, glowing	Cozy by the fire, our cheeks go rosy.
+3	emotion	devotion	perfect	synonym	deep feeling, faithful love	Every emotion in my chest becomes devotion for you.
+4	loan	own	perfect	antonym	borrowed versus truly yours	My heart is not a loan, it's yours to own.
+5	cozy	rosy	perfect	synonym	both mean warm, glowing	Cozy by the fire, our cheeks go rosy.
+6	propose	oppose	perfect	antonym	put forward versus push back	Whatever dreams you propose, I will never oppose.
+7	alone	lone	perfect	synonym	both mean by oneself	One lone lantern burning, and I'm not alone tonight.
+8	bestowed	owed	perfect	antonym	freely given versus due	Love is bestowed like sunlight, never owed.
+9	home	roam	perfect	antonym	staying put versus wandering	Let me roam the wide world, then bring me home.
+10	exposed	enclosed	perfect	antonym	open air versus shut in	Exposed to the sunrise, never again enclosed.
+11	hone	tone	perfect	synonym	both mean refine, strengthen	Hone your craft and tone your voice until it shines.
 12	heroic	stoic	perfect	synonym	steady courage under strain	Quietly heroic, calmly stoic, she carried us through.
 13	alone	own	perfect	synonym	on my own means alone	I walked alone and found a song of my own.
-14	drone	tone	perfect	synonym	steady sustained sound	The bagpipe drone holds one warm tone beneath the tune.
-15	toast	roast	perfect	synonym	both brown with dry heat	Toast the bread and roast the chestnuts by the fire.
-16	goes	flows	perfect	synonym	both mean moving onward	As the river flows, so the story goes.
-17	go	slow	perfect	antonym	full speed versus easing off	Green light says go, but darling, let's take it slow.
-18	grow	sow	perfect	cause-effect	seeds sown, then sprouting	Whatever kindness you sow is bound to grow.
-19	boat	float	perfect	cause-effect	boats are built to float	Our little boat will float on the morning tide.
-20	note	wrote	perfect	cause-effect	writing produces a note	I wrote a note and tucked it in your coat.
-21	glow	grow	perfect	cause-effect	warm light makes seedlings grow	In the sun's warm glow, the seedlings grow.
+14	toast	roast	perfect	synonym	both brown with dry heat	Toast the bread and roast the chestnuts by the fire.
+15	goes	flows	perfect	synonym	both mean moving onward	As the river flows, so the story goes.
+16	go	slow	perfect	antonym	full speed versus easing off	Green light says go, but darling, let's take it slow.
+17	grow	sow	perfect	cause-effect	seeds sown, then sprouting	Whatever kindness you sow is bound to grow.
+18	glow	grow	perfect	cause-effect	warm light makes seedlings grow	In the sun's warm glow, the seedlings grow.
+19	rose	grows	perfect	cause-effect	growing gardens yield roses	A wild rose grows wherever you are smiling.
+20	boat	float	perfect	cause-effect	boats are built to float	Our little boat will float on the morning tide.
+21	note	wrote	perfect	cause-effect	writing produces a note	I wrote a note and tucked it in your coat.
 22	know	show	perfect	cause-effect	showing leads to knowing	Show me the way so I will know.
-23	rose	grows	perfect	cause-effect	growing gardens yield roses	A wild rose grows wherever you are smiling.
-24	prose	compose	perfect	cause-effect	writers compose flowing prose	Let me compose some gentle prose about your smile.
-25	hope	cope	perfect	cause-effect	hope helps hearts endure	Hold on to hope; it helps the heart cope.
-26	devoted	promoted	perfect	cause-effect	devotion earns a promotion	She stayed devoted, and soon she was promoted.
-27	smoke	stoke	perfect	cause-effect	stoked fires send up smoke	Stoke the campfire and watch the smoke curl skyward.
-28	flown	blown	perfect	cause-effect	breezes carry kites aloft	My kite has flown wherever the breeze has blown.
-29	throat	note	perfect	cause-effect	a singing throat makes notes	A golden note rose from her throat.
-30	snows	froze	perfect	cause-effect	winter snow brings freezing	Now it snows, just like the night the river froze.
-31	mow	grow	perfect	cause-effect	growing grass needs mowing	Let the clover grow before we mow the meadow.
-32	goat	coat	perfect	cause-effect	goat wool becomes coats	Soft wool from the goat makes a warm winter coat.
-33	dome	home	perfect	part-whole	a dome crowns the home	Stars wheel above the dome of our little home.
-34	stone	throne	perfect	part-whole	a throne carved from stone	She sits upon a throne of ancient stone.
-35	yoke	oak	perfect	part-whole	yoke carved from oak	The old yoke was carved from sturdy oak.
-36	coat	cloak	slant	synonym	both are outer garments	Wrap your coat or cloak around you; the night is cold.
-37	focus	notice	slant	synonym	both mean pay attention	Focus close and notice every little blessing.
-38	cozy	easy	slant	synonym	both mean comfortable, relaxed	Sunday mornings, cozy and easy, coffee in the sun.
-39	mode	mood	slant	synonym	both mean state, manner	Switch to holiday mode and catch the festive mood.
-40	spoke	wrote	slant	antonym	speech versus written word	What I spoke out loud, I later wrote in ink.
-41	nose	rose	perfect	scene	stop and smell roses	Bring your nose close to the rose and breathe it in.
-42	emotion	ocean	perfect	scene	an ocean of feeling	My emotion runs as deep as any ocean.
+23	prose	compose	perfect	cause-effect	writers compose flowing prose	Let me compose some gentle prose about your smile.
+24	devoted	promoted	perfect	cause-effect	devotion earns a promotion	She stayed devoted, and soon she was promoted.
+25	flown	blown	perfect	cause-effect	breezes carry kites aloft	My kite has flown wherever the breeze has blown.
+26	throat	note	perfect	cause-effect	a singing throat makes notes	A golden note rose from her throat.
+27	dome	home	perfect	part-whole	a dome crowns the home	Stars wheel above the dome of our little home.
+28	smoke	stoke	perfect	cause-effect	stoked fires send up smoke	Stoke the campfire and watch the smoke curl skyward.
+29	mow	grow	perfect	cause-effect	growing grass needs mowing	Let the clover grow before we mow the meadow.
+30	goat	coat	perfect	cause-effect	goat wool becomes coats	Soft wool from the goat makes a warm winter coat.
+31	snows	froze	perfect	cause-effect	winter snow brings freezing	Now it snows, just like the night the river froze.
+32	stone	throne	perfect	part-whole	a throne carved from stone	She sits upon a throne of ancient stone.
+33	cozy	easy	slant	synonym	both mean comfortable, relaxed	Sunday mornings, cozy and easy, coffee in the sun.
+34	coat	cloak	slant	synonym	both are outer garments	Wrap your coat or cloak around you; the night is cold.
+35	focus	notice	slant	synonym	both mean pay attention	Focus close and notice every little blessing.
+36	mode	mood	slant	synonym	both mean state, manner	Switch to holiday mode and catch the festive mood.
+37	spoke	wrote	slant	antonym	speech versus written word	What I spoke out loud, I later wrote in ink.
+38	nose	rose	perfect	scene	stop and smell roses	Bring your nose close to the rose and breathe it in.
+39	emotion	ocean	perfect	scene	an ocean of feeling	My emotion runs as deep as any ocean.
+40	host	toast	perfect	scene	host raises a toast	Our gracious host stood up to make a toast.
+41	both	growth	perfect	scene	two people growing together	We both found growth in every season, side by side.
+42	spoken	token	perfect	scene	words given as keepsakes	Every spoken promise is a token of my love.
 43	ocean	motion	perfect	scene	waves in constant motion	Rock me like the ocean, slow and steady motion.
-44	host	toast	perfect	scene	host raises a toast	Our gracious host stood up to make a toast.
-45	hose	rose	perfect	scene	watering the garden roses	Grab the garden hose and water every rose.
+44	hose	rose	perfect	scene	watering the garden roses	Grab the garden hose and water every rose.
+45	glowing	flowing	perfect	scene	lanterns and river at dusk	The river flowing, the lanterns glowing, all the way home.
 46	goats	oats	perfect	scene	farm animals eating oats	The goats are munching oats behind the red barn.
 47	lotion	ocean	perfect	scene	sunscreen on beach days	Sunscreen lotion on our shoulders, then a dive into the ocean.
 48	both	oath	perfect	scene	two hearts making vows	We both made an oath beneath the summer sky.
-49	broke	woke	perfect	scene	dawn broke, we woke	The morning broke in gold, and I woke up smiling.
+49	snow	glow	perfect	scene	moonlit snow shining softly	Fresh snow will glow beneath the winter moon.
 50	sow	hoe	perfect	scene	planting the garden rows	Take the hoe, then sow the seeds in rows.
-51	snow	glow	perfect	scene	moonlit snow shining softly	Fresh snow will glow beneath the winter moon.
-52	snow	blow	perfect	scene	winter winds carry snow	Let the north winds blow and fill the hills with snow.
-53	road	abode	perfect	scene	road leading back home	Every winding road leads back to my abode.
-54	grove	cove	perfect	scene	seaside trees and harbor	Past the olive grove lies a quiet cove.
-55	trove	cove	perfect	scene	treasure hidden by sea	We found a treasure trove inside the hidden cove.
-56	drove	grove	perfect	scene	road trip to orchard	We drove past the lemon grove with the windows down.
-57	moat	boat	perfect	scene	castle waters, little boat	We row a tiny boat across the castle moat.
-58	slope	rope	perfect	scene	climbing gear on hillsides	Grab the rope and climb the sunny slope.
-59	row	flow	perfect	scene	rowing with the current	Row, little rowboat, and go with the flow.
-60	chateau	plateau	perfect	scene	castle on high ground	A little chateau sits high on the plateau.
-61	plateau	below	perfect	scene	high ground over valley	From the plateau we watch the valley below.
-62	holy	lowly	perfect	scene	humble manger, holy night	On that holy night, a lowly manger shone.
-63	stove	clove	perfect	scene	spices warming in kitchen	A clove of garlic sizzles on the stove.
-64	potion	lotion	perfect	scene	healing liquids in bottles	A healing potion, a soothing lotion, kindness in a jar.
-65	toes	nose	perfect	scene	body from top to bottom	Sunshine warms you from your nose down to your toes.
-66	ode	wrote	slant	cause-effect	poets write odes	Last night I wrote an ode to the rising moon.
-67	dome	stone	slant	part-whole	domes built from stone	The chapel's dome of pale stone glows at dusk.
-68	open	close	assonance	antonym	unlocked versus shut tight	Open the window wide, then close it when the stars come out.
-69	remote	close	assonance	antonym	far away versus near	Though you feel remote tonight, I hold you close.
-70	solo	alone	assonance	synonym	both mean without company	I sing this solo, but I'm never alone.
-71	frozen	flowing	assonance	antonym	still ice versus running water	Once the stream was frozen, now it's flowing free.
-72	approach	close	assonance	synonym	both mean drawing near	As you approach, the whole world feels close and kind.
-73	prose	poetry	assonance	antonym	plain writing versus verse	Your love turns my prose into poetry.
+51	road	abode	perfect	scene	road leading back home	Every winding road leads back to my abode.
+52	grove	cove	perfect	scene	seaside trees and harbor	Past the olive grove lies a quiet cove.
+53	trove	cove	perfect	scene	treasure hidden by sea	We found a treasure trove inside the hidden cove.
+54	drove	grove	perfect	scene	road trip to orchard	We drove past the lemon grove with the windows down.
+55	row	flow	perfect	scene	rowing with the current	Row, little rowboat, and go with the flow.
+56	moat	boat	perfect	scene	castle waters, little boat	We row a tiny boat across the castle moat.
+57	slope	rope	perfect	scene	climbing gear on hillsides	Grab the rope and climb the sunny slope.
+58	chateau	plateau	perfect	scene	castle on high ground	A little chateau sits high on the plateau.
+59	plateau	below	perfect	scene	high ground over valley	From the plateau we watch the valley below.
+60	stove	clove	perfect	scene	spices warming in kitchen	A clove of garlic sizzles on the stove.
+61	snow	blow	perfect	scene	winter winds carry snow	Let the north winds blow and fill the hills with snow.
+62	potion	lotion	perfect	scene	healing liquids in bottles	A healing potion, a soothing lotion, kindness in a jar.
+63	toes	nose	perfect	scene	body from top to bottom	Sunshine warms you from your nose down to your toes.
+64	ode	wrote	slant	cause-effect	poets write odes	Last night I wrote an ode to the rising moon.
+65	dome	stone	slant	part-whole	domes built from stone	The chapel's dome of pale stone glows at dusk.
+66	open	close	assonance	antonym	unlocked versus shut tight	Open the window wide, then close it when the stars come out.
+67	solo	alone	assonance	synonym	both mean without company	I sing this solo, but I'm never alone.
+68	rosy	glowing	assonance	synonym	both mean warmly radiant	Rosy cheeks and glowing eyes after a day of sun.
+69	frozen	flowing	assonance	antonym	still ice versus running water	Once the stream was frozen, now it's flowing free.
+70	approach	close	assonance	synonym	both mean drawing near	As you approach, the whole world feels close and kind.
+71	remote	close	assonance	antonym	far away versus near	Though you feel remote tonight, I hold you close.
+72	prose	poetry	assonance	antonym	plain writing versus verse	Your love turns my prose into poetry.
+73	poem	ode	assonance	synonym	both are lyric verses	This poem is an ode to the way you laugh.
 74	notice	note	assonance	synonym	both mean take heed	Take note of the sunrise; notice how it sings.
-75	poem	ode	assonance	synonym	both are lyric verses	This poem is an ode to the way you laugh.
-76	donate	bestow	assonance	synonym	both mean to give	Donate your time and bestow your kindness freely.
-77	shone	glow	assonance	synonym	both mean giving light	Your lantern shone with a steady glow.
-78	slope	plateau	assonance	antonym	inclined versus flat ground	Climb the steep slope to the quiet plateau.
-79	stoic	composed	assonance	synonym	both mean calm, steady	Stoic in the storm, composed when it was done.
-80	soda	cola	assonance	synonym	both are fizzy drinks	Ice-cold soda, cherry cola, summer on the porch.
-81	kimono	robe	assonance	synonym	both are loose wraps	She ties her silk kimono like a morning robe.
-82	vote	chose	assonance	synonym	both mean picking one	We cast our vote and chose the brighter road.
-83	drove	rode	assonance	synonym	both mean traveled by vehicle	We drove all night and rode the coastline home.
-84	aroma	cologne	assonance	synonym	both mean pleasing scent	The sweet aroma of your cologne lingers on my scarf.
-85	mocha	cocoa	assonance	synonym	both are chocolate drinks	A mocha for you, a cocoa for me, snow outside.
-86	sewn	woven	assonance	synonym	both mean crafted fabric	Every thread was sewn and woven with care.
-87	motion	flow	assonance	synonym	both mean smooth movement	Let your body find its motion, let the music flow.
-88	home	come	slant	scene	returning to loved ones	Come home, the lamp is lit and supper's warm.
+75	donate	bestow	assonance	synonym	both mean to give	Donate your time and bestow your kindness freely.
+76	shone	glow	assonance	synonym	both mean giving light	Your lantern shone with a steady glow.
+77	slope	plateau	assonance	antonym	inclined versus flat ground	Climb the steep slope to the quiet plateau.
+78	stoic	composed	assonance	synonym	both mean calm, steady	Stoic in the storm, composed when it was done.
+79	soda	cola	assonance	synonym	both are fizzy drinks	Ice-cold soda, cherry cola, summer on the porch.
+80	kimono	robe	assonance	synonym	both are loose wraps	She ties her silk kimono like a morning robe.
+81	vote	chose	assonance	synonym	both mean picking one	We cast our vote and chose the brighter road.
+82	drove	rode	assonance	synonym	both mean traveled by vehicle	We drove all night and rode the coastline home.
+83	aroma	cologne	assonance	synonym	both mean pleasing scent	The sweet aroma of your cologne lingers on my scarf.
+84	mocha	cocoa	assonance	synonym	both are chocolate drinks	A mocha for you, a cocoa for me, snow outside.
+85	sewn	woven	assonance	synonym	both mean crafted fabric	Every thread was sewn and woven with care.
+86	motion	flow	assonance	synonym	both mean smooth movement	Let your body find its motion, let the music flow.
+87	home	come	slant	scene	returning to loved ones	Come home, the lamp is lit and supper's warm.
+88	hope	keep	slant	scene	keeping hope alive	Keep hope burning like a candle in the window.
 89	roam	room	slant	scene	space to wander freely	Give me room to roam beneath the open sky.
 90	robe	soap	slant	scene	after-bath comfort ritual	Lather up with lavender soap, then slip into your robe.
 91	soap	foam	assonance	cause-effect	soap makes bubbly foam	Rub the soap until the foam is soft as a cloud.
