@@ -17,7 +17,7 @@ rank	word1	word2	rhyme_type	link	relationship	example
 16	white	bright	perfect	synonym	both mean pale radiance	White as fresh snowfall, bright as the morning
 17	ignite	light	perfect	synonym	both mean setting aflame	Ignite the candles, light the way back home
 18	improvise	devise	perfect	synonym	both mean inventing something new	We improvise a melody and devise a brand-new dance
-19	allied	side	perfect	synonym	both mean standing together	Allied in hope, we walk on side by side
+19	excite	ignite	perfect	synonym	both mean to spark passion	Let the music excite us and ignite the dancing crowd
 20	right	upright	perfect	synonym	both mean morally sound	Do what is right and walk upright through the day
 21	wind	unwind	perfect	antonym	coil versus uncoil	Wind the music box, then let the evening unwind
 22	try	apply	perfect	synonym	both mean making an effort	Try once more and apply your whole heart
@@ -28,22 +28,22 @@ rank	word1	word2	rhyme_type	link	relationship	example
 27	wine	vine	perfect	cause-effect	vine fruit becomes wine	Sun on the vine, sweetness in the wine
 28	time	chime	perfect	cause-effect	bells announce the hour	The tower bells chime to tell the time
 29	wise	advise	perfect	cause-effect	wisdom yields good counsel	The wise advise with gentle words
-30	ally	rely	perfect	cause-effect	loyalty breeds dependable trust	You're my ally, the friend I can rely on
-31	alliance	reliance	perfect	cause-effect	partnership builds mutual trust	Our alliance grew into a deep reliance
-32	drive	arrive	perfect	cause-effect	journey ends in arrival	We drive all night and arrive with the dawn
-33	unwind	mind	perfect	cause-effect	relaxing calms busy thoughts	Let the evening unwind your busy mind
-34	sky	high	perfect	scene	kites soaring overhead	The sky is open and our kites fly high
-35	fly	sky	perfect	scene	birds crossing the blue	Spread your wings and fly across the sky
-36	kite	flight	perfect	scene	breezy afternoon soaring	A paper kite takes flight on the breeze
-37	flight	height	perfect	scene	soaring above the clouds	Our flight climbs to a golden height
-38	eyes	skies	perfect	scene	gazing upward in wonder	Lift your eyes to the open skies
-39	wine	dine	perfect	scene	festive evening feast	We wine and dine beneath the summer moon
-40	spice	nice	perfect	scene	sugar and spice rhyme	Sugar and spice and everything nice
-41	spice	rice	perfect	scene	fragrant kitchen cooking	A pinch of spice to warm the rice
-42	lime	thyme	perfect	scene	citrus and herb garden	A twist of lime, a sprig of thyme
-43	rhyme	chime	perfect	scene	musical ringing sounds	Every rhyme rings out like a silver chime
-44	bride	pride	perfect	scene	joyful wedding day	The bride is glowing with pride and joy
-45	prize	surprise	perfect	scene	unexpected happy win	The prize arrived as a sweet surprise
+30	drive	strive	perfect	cause-effect	ambition fuels steady effort	With a steady drive we strive toward the summit
+31	icing	enticing	perfect	cause-effect	sweet frosting tempts appetite	The pink icing looks so enticing on the cake
+32	unwind	mind	perfect	cause-effect	relaxing calms busy thoughts	Let the evening unwind your busy mind
+33	sky	high	perfect	scene	kites soaring overhead	The sky is open and our kites fly high
+34	fly	sky	perfect	scene	birds crossing the blue	Spread your wings and fly across the sky
+35	kite	flight	perfect	scene	breezy afternoon soaring	A paper kite takes flight on the breeze
+36	flight	height	perfect	scene	soaring above the clouds	Our flight climbs to a golden height
+37	eyes	skies	perfect	scene	gazing upward in wonder	Lift your eyes to the open skies
+38	wine	dine	perfect	scene	festive evening feast	We wine and dine beneath the summer moon
+39	spice	nice	perfect	scene	sugar and spice rhyme	Sugar and spice and everything nice
+40	spice	rice	perfect	scene	fragrant kitchen cooking	A pinch of spice to warm the rice
+41	lime	thyme	perfect	scene	citrus and herb garden	A twist of lime, a sprig of thyme
+42	rhyme	chime	perfect	scene	musical ringing sounds	Every rhyme rings out like a silver chime
+43	bride	pride	perfect	scene	joyful wedding day	The bride is glowing with pride and joy
+44	tide	ride	perfect	scene	surfing the ocean waves	Catch the rising tide and ride it to the shore
+45	pride	stride	perfect	scene	confident walking gait	Walk with pride in every stride you take
 46	shining	lining	perfect	scene	silver lining behind clouds	Every cloud is shining with a silver lining
 47	bike	hike	perfect	scene	outdoor weekend adventure	Ride the bike to the trail, then hike the hill
 48	vibe	tribe	perfect	scene	kindred community feeling	Find your tribe and share the vibe
@@ -62,7 +62,7 @@ rank	word1	word2	rhyme_type	link	relationship	example
 61	life	alive	slant	synonym	both mean living energy	This is life, and I have never felt so alive
 62	shine	sheen	slant	synonym	both mean glossy glow	Polish till the windows shine with a golden sheen
 63	guide	lead	slant	synonym	both mean showing the way	Be my guide, and I will follow where you lead
-64	surprise	amaze	slant	synonym	both mean astonish with delight	Let the sunrise surprise you and the stars amaze you
+64	tiny	mini	slant	synonym	both mean very small	A tiny bloom in a mini garden pot
 65	sublime	supreme	slant	synonym	both mean highest excellence	A sublime melody, a supreme and shining joy
 66	type	write	slant	synonym	both mean putting words down	Type the lyrics, write the dream
 67	prime	fine	slant	synonym	both mean top quality	In our prime, every day feels fine
@@ -98,4 +98,4 @@ rank	word1	word2	rhyme_type	link	relationship	example
 97	diamond	shine	assonance	scene	sparkling precious gem	Like a diamond, let your spirit shine
 98	smiling	shining	assonance	scene	beaming happy faces	Smiling faces and shining eyes
 99	horizon	sky	assonance	scene	landscape meets open heavens	Where the horizon meets the evening sky
-100	library	quiet	assonance	scene	hushed reading room calm	The library is quiet and full of dreams
+100	twilight	night	assonance	scene	evening fading into dark	Twilight softens into a starry night
