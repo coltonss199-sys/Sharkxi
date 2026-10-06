@@ -1,16 +1,16 @@
 rank	word1	word2	rhyme_type	link	relationship	example
 1	ascend	descend	perfect	antonym	rising versus coming down	We ascend at dawn and descend in golden evening light.
 2	plenty	many	perfect	synonym	both mean a lot	There is plenty of love and many hands to share it.
-3	consent	assent	perfect	synonym	both mean giving agreement	With a nod of consent she gave her happy assent.
-4	tremendous	stupendous	perfect	synonym	both mean wonderfully huge	A tremendous cheer for a stupendous night beneath the stars.
+3	tremendous	stupendous	perfect	synonym	both mean wonderfully huge	A tremendous cheer for a stupendous night beneath the stars.
+4	consent	assent	perfect	synonym	both mean giving agreement	With a nod of consent she gave her happy assent.
 5	steady	ready	perfect	synonym	both mean poised and prepared	Hold your hands steady, your heart is ready.
-6	select	elect	perfect	synonym	both mean choosing	We select the brightest plan and elect the kindest voice.
-7	mend	amend	perfect	synonym	both mean fixing something	We mend the gate and amend the plan together.
+6	mend	amend	perfect	synonym	both mean fixing something	We mend the gate and amend the plan together.
+7	select	elect	perfect	synonym	both mean choosing	We select the brightest plan and elect the kindest voice.
 8	intent	meant	perfect	synonym	both concern intended purpose	Her intent was kind, and every word was meant.
-9	edge	ledge	perfect	synonym	both name a rim	Sit on the sunny ledge at the edge of the sea.
-10	objective	subjective	perfect	antonym	fact versus personal view	Be objective with the facts and subjective with your heart.
-11	consent	dissent	perfect	antonym	agreeing versus disagreeing	Give your consent or share your dissent, every voice counts.
-12	less	excess	perfect	antonym	too little versus too much	Choose a little less and leave the excess behind.
+9	tend	attend	perfect	synonym	both mean caring for	Tend the roses and attend to every bloom with love.
+10	edge	ledge	perfect	synonym	both name a rim	Sit on the sunny ledge at the edge of the sea.
+11	objective	subjective	perfect	antonym	fact versus personal view	Be objective with the facts and subjective with your heart.
+12	consent	dissent	perfect	antonym	agreeing versus disagreeing	Give your consent or share your dissent, every voice counts.
 13	poetic	aesthetic	perfect	synonym	both prize artful beauty	A poetic sunrise with an aesthetic golden glow.
 14	transcend	ascend	perfect	synonym	both mean rising above	Our voices ascend and our spirits transcend the clouds.
 15	procession	succession	perfect	synonym	both mean orderly sequence	A procession of lanterns glowing in gentle succession.
@@ -23,22 +23,22 @@ rank	word1	word2	rhyme_type	link	relationship	example
 22	end	extend	perfect	antonym	stopping versus carrying on	Don't end the song tonight, extend it one more verse.
 23	mend	tend	perfect	synonym	both mean caring for things	Tend the garden, mend the fence, and watch love grow.
 24	leapt	stepped	perfect	synonym	both are moving feet	She leapt over puddles and stepped into the sunshine.
-25	fence	defense	perfect	synonym	a barrier that guards	The garden fence is a gentle defense for the roses.
-26	cosmetic	aesthetic	perfect	synonym	both concern outward beauty	A cosmetic sparkle adds an aesthetic touch of rose.
-27	dress	impress	perfect	cause-effect	dressing up to impress	Put on your finest dress, you are sure to impress.
-28	affection	connection	perfect	cause-effect	warmth builds close bonds	Your affection is the thread of our connection.
-29	respect	protect	perfect	cause-effect	we guard what we value	We protect the gardens and the friends we respect.
-30	expression	impression	perfect	cause-effect	showing feeling leaves a mark	One kind expression left a lasting impression.
-31	rest	digest	perfect	cause-effect	calm bodies digest food	After the feast we rest and slowly digest.
-32	friend	lend	perfect	cause-effect	friends lend a hand	A true friend will always lend a hand.
-33	friends	amends	perfect	cause-effect	making peace keeps friends	We made amends and stayed the closest of friends.
-34	friend	defend	perfect	cause-effect	friends stand up for you	A loyal friend will always defend your dreams.
-35	mention	attention	perfect	cause-effect	naming something draws focus	One gentle mention brought her talent the attention it deserved.
-36	pep	step	perfect	cause-effect	energy adds a bounce	Put a little pep in every step.
-37	sled	sped	perfect	cause-effect	sliding fast downhill	The little red sled sped down the snowy hill.
-38	fiesta	siesta	perfect	cause-effect	party then afternoon nap	After the fiesta, a sweet siesta in the shade.
-39	fed	bread	perfect	cause-effect	bread feeds the table	Warm bread fed the whole happy table.
-40	pleasant	present	perfect	cause-effect	a gift brings joy	What a pleasant present wrapped in silver ribbon.
+25	cosmetic	aesthetic	perfect	synonym	both concern outward beauty	A cosmetic sparkle adds an aesthetic touch of rose.
+26	dress	impress	perfect	cause-effect	dressing up to impress	Put on your finest dress, you are sure to impress.
+27	affection	connection	perfect	cause-effect	warmth builds close bonds	Your affection is the thread of our connection.
+28	respect	protect	perfect	cause-effect	we guard what we value	We protect the gardens and the friends we respect.
+29	expression	impression	perfect	cause-effect	showing feeling leaves a mark	One kind expression left a lasting impression.
+30	rest	digest	perfect	cause-effect	calm bodies digest food	After the feast we rest and slowly digest.
+31	friend	lend	perfect	cause-effect	friends lend a hand	A true friend will always lend a hand.
+32	friends	amends	perfect	cause-effect	making peace keeps friends	We made amends and stayed the closest of friends.
+33	friend	defend	perfect	cause-effect	friends stand up for you	A loyal friend will always defend your dreams.
+34	mention	attention	perfect	cause-effect	naming something draws focus	One gentle mention brought her talent the attention it deserved.
+35	pep	step	perfect	cause-effect	energy adds a bounce	Put a little pep in every step.
+36	sled	sped	perfect	cause-effect	sliding fast downhill	The little red sled sped down the snowy hill.
+37	fiesta	siesta	perfect	cause-effect	party then afternoon nap	After the fiesta, a sweet siesta in the shade.
+38	fed	bread	perfect	cause-effect	bread feeds the table	Warm bread fed the whole happy table.
+39	pleasant	present	perfect	cause-effect	a gift brings joy	What a pleasant present wrapped in silver ribbon.
+40	splendid	commended	perfect	cause-effect	fine work earns praise	Her splendid painting was warmly commended by all.
 41	affection	protection	perfect	cause-effect	love keeps people safe	A mother's affection is the warmest kind of protection.
 42	bed	spread	perfect	part-whole	a bedspread covers beds	A quilted spread lies across the cozy bed.
 43	tent	event	perfect	part-whole	tents host outdoor events	Under the striped tent the whole event came alive.
@@ -59,35 +59,35 @@ rank	word1	word2	rhyme_type	link	relationship	example
 58	duet	quintet	perfect	scene	groups making music together	A sweet duet grew into a joyful quintet.
 59	empty	plenty	slant	antonym	nothing versus abundance	From an empty cup to plenty, love refills it.
 60	credit	debit	slant	antonym	money in versus out	Every debit and credit balanced at last.
-61	heaven	haven	slant	synonym	both mean peaceful sanctuary	This little garden is my haven, my piece of heaven.
-62	west	east	slant	antonym	opposite compass directions	From east to west the morning sunshine spreads.
-63	empathy	sympathy	slant	synonym	both mean sharing feelings	Empathy listens closely and sympathy holds your hand.
-64	friendly	gently	slant	synonym	both describe kind manners	A friendly wave and a gently spoken hello.
-65	endless	relentless	slant	synonym	both mean never stopping	Endless summer and relentless sunshine on the sea.
-66	lend	rent	slant	synonym	both mean temporary use	Lend me your bike or let us rent a boat.
-67	essence	presence	slant	synonym	both mean inner being	Your presence carries the essence of spring.
-68	lesson	session	slant	synonym	both are class periods	Every session brings a brand new lesson.
-69	bless	bliss	slant	cause-effect	blessings bring deep joy	Bless this day with bliss and laughter.
-70	rest	refreshed	slant	cause-effect	resting restores your energy	After a little rest I woke refreshed.
-71	fresh	press	slant	cause-effect	squeezing makes fresh juice	Fresh oranges in the press make morning juice.
-72	attend	event	slant	cause-effect	guests come to occasions	We attend the event in our brightest colors.
-73	lessons	blessings	slant	scene	gifts that life teaches	Count your lessons right along with your blessings.
-74	meadow	shadow	slant	scene	sunny field with shade	Lie in the meadow in the willow's cool shadow.
-75	crescent	pleasant	slant	scene	a lovely moonlit evening	A crescent moon on a pleasant summer night.
+61	west	east	slant	antonym	opposite compass directions	From east to west the morning sunshine spreads.
+62	empathy	sympathy	slant	synonym	both mean sharing feelings	Empathy listens closely and sympathy holds your hand.
+63	friendly	gently	slant	synonym	both describe kind manners	A friendly wave and a gently spoken hello.
+64	lend	rent	slant	synonym	both mean temporary use	Lend me your bike or let us rent a boat.
+65	essence	presence	slant	synonym	both mean inner being	Your presence carries the essence of spring.
+66	lesson	session	slant	synonym	both are class periods	Every session brings a brand new lesson.
+67	bless	bliss	slant	cause-effect	blessings bring deep joy	Bless this day with bliss and laughter.
+68	rest	refreshed	slant	cause-effect	resting restores your energy	After a little rest I woke refreshed.
+69	fresh	press	slant	cause-effect	squeezing makes fresh juice	Fresh oranges in the press make morning juice.
+70	attend	event	slant	cause-effect	guests come to occasions	We attend the event in our brightest colors.
+71	lessons	blessings	slant	scene	gifts that life teaches	Count your lessons right along with your blessings.
+72	wedding	setting	slant	scene	a lovely venue backdrop	A garden setting for our sunlit wedding.
+73	meadow	shadow	slant	scene	sunny field with shade	Lie in the meadow in the willow's cool shadow.
+74	crescent	pleasant	slant	scene	a lovely moonlit evening	A crescent moon on a pleasant summer night.
+75	pet	pep	slant	scene	a lively playful animal	Our playful pet is full of pep.
 76	confetti	ready	slant	scene	party about to start	Grab the confetti, the party is ready!
 77	test	desk	slant	scene	classroom exam setting	Pencils wait on every desk for the spelling test.
 78	fence	hens	slant	scene	a cozy farmyard enclosure	The hens peck happily along the garden fence.
 79	penny	cent	assonance	synonym	both are one-cent coins	A shiny penny is a single cent of luck.
 80	protect	defend	assonance	synonym	both mean keeping safe	We protect our dreams and defend our hope.
 81	authentic	genuine	assonance	synonym	both mean truly real	Her laugh is authentic and her kindness genuine.
-82	exquisite	splendid	assonance	synonym	both mean beautifully fine	An exquisite meal on a splendid summer night.
-83	adept	deft	assonance	synonym	both mean skillful	Adept hands and deft fingers weave the basket.
-84	stretch	bend	assonance	synonym	both are flexible moves	Stretch your arms and bend like a willow in the wind.
-85	heavy	hefty	assonance	synonym	both mean weighty	A hefty box, a heavy load of birthday gifts.
-86	step	tread	assonance	synonym	both mean walking	Step softly and tread lightly through the meadow.
-87	segment	section	assonance	synonym	both mean a part	Each segment of orange, each section of sun.
-88	medley	blend	assonance	synonym	both mean a mixture	A medley of berries, a blend of sweet and tart.
-89	tension	suspense	assonance	synonym	both build eager anticipation	The tension builds and the suspense makes us grin.
+82	heavenly	blessed	assonance	synonym	both mean divinely joyful	A heavenly morning, and I feel so blessed.
+83	exquisite	splendid	assonance	synonym	both mean beautifully fine	An exquisite meal on a splendid summer night.
+84	adept	deft	assonance	synonym	both mean skillful	Adept hands and deft fingers weave the basket.
+85	stretch	bend	assonance	synonym	both are flexible moves	Stretch your arms and bend like a willow in the wind.
+86	heavy	hefty	assonance	synonym	both mean weighty	A hefty box, a heavy load of birthday gifts.
+87	step	tread	assonance	synonym	both mean walking	Step softly and tread lightly through the meadow.
+88	segment	section	assonance	synonym	both mean a part	Each segment of orange, each section of sun.
+89	medley	blend	assonance	synonym	both mean a mixture	A medley of berries, a blend of sweet and tart.
 90	breadth	depth	assonance	synonym	both measure size	The ocean's depth and the sky's breadth live in your eyes.
 91	resonate	echo	assonance	synonym	both mean sound returning	Our laughter will resonate and echo through the hills.
 92	content	zen	assonance	synonym	both mean peacefully calm	Content and zen beneath the willow tree.

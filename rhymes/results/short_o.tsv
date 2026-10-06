@@ -1,101 +1,101 @@
 rank	word1	word2	rhyme_type	link	relationship	example
-1	lock	unlock	perfect	antonym	closing versus opening up	Every lock I built around my heart, your laugh would unlock.
-2	stop	nonstop	perfect	antonym	halting versus never halting	We never stop, this joy keeps running nonstop.
-3	common	uncommon	perfect	antonym	ordinary versus rare	In a common crowd, your kindness is uncommon.
-4	spot	dot	perfect	synonym	both mean tiny mark	A sunny spot, a golden dot of freckle on your cheek.
-5	spotted	dotted	perfect	synonym	both mean speckled with marks	The meadow, spotted gold and dotted white with daisies.
-6	lot	plot	perfect	synonym	both mean parcel of land	A tiny lot, a garden plot, where our sunflowers grow.
-7	got	bought	perfect	synonym	both mean acquired	Everything I got, I bought with honest, happy work.
-8	podcast	broadcast	perfect	synonym	both mean airing a show	Our little podcast became a broadcast of pure hope.
-9	blog	log	perfect	synonym	a blog is web log	My travel blog, a daily log of sunny roads.
-10	crop	chop	perfect	synonym	both mean cut short	Crop the roses, chop the herbs, and set the table bright.
-11	conscious	subconscious	perfect	antonym	aware versus hidden mind	My conscious mind and my subconscious both hum your name.
-12	profit	nonprofit	perfect	antonym	for gain versus not	Not for profit, our nonprofit runs on pure goodwill.
-13	opt	adopt	perfect	synonym	both mean choose to take	We opt for love and adopt a puppy with a happy tail.
-14	slot	spot	perfect	synonym	both mean an assigned place	Save a slot, keep a spot for me beside you.
-15	hop	bop	perfect	synonym	both mean bouncy dancing	Hop to the beat and bop until the sunrise.
-16	popping	hopping	perfect	synonym	both mean lively and busy	The party's popping and the dance floor's hopping.
-17	loft	aloft	perfect	synonym	both suggest high up	From the loft we send our paper kites aloft.
-18	dominant	prominent	perfect	synonym	both mean standing out	Your laughter, dominant and prominent, fills the whole hall.
-19	ma	pa	perfect	antonym	mother and father counterparts	Ma hums the melody and Pa keeps the time.
-20	aha	ah	perfect	synonym	both voice sudden understanding	Aha, the puzzle clicks, and ah, the whole room glows.
-21	squad	pod	perfect	synonym	both mean close group	My squad, my pod, we move as one bright wave.
+1	fond	bond	perfect	cause-effect	fondness forges a bond	We grew so fond our friendship became a bond.
+2	belonging	longing	perfect	cause-effect	longing seeks belonging	All my longing found its belonging in your arms.
+3	lock	unlock	perfect	antonym	closing versus opening up	Every lock I built around my heart, your laugh would unlock.
+4	common	uncommon	perfect	antonym	ordinary versus rare	In a common crowd, your kindness is uncommon.
+5	stop	nonstop	perfect	antonym	halting versus never halting	We never stop, this joy keeps running nonstop.
+6	hop	bop	perfect	synonym	both mean bouncy dancing	Hop to the beat and bop until the sunrise.
+7	popping	hopping	perfect	synonym	both mean lively and busy	The party's popping and the dance floor's hopping.
+8	spotted	dotted	perfect	synonym	both mean speckled with marks	The meadow, spotted gold and dotted white with daisies.
+9	ma	pa	perfect	antonym	mother and father counterparts	Ma hums the melody and Pa keeps the time.
+10	aha	ah	perfect	synonym	both voice sudden understanding	Aha, the puzzle clicks, and ah, the whole room glows.
+11	opt	adopt	perfect	synonym	both mean choose to take	We opt for love and adopt a puppy with a happy tail.
+12	squad	pod	perfect	synonym	both mean close group	My squad, my pod, we move as one bright wave.
+13	spot	dot	perfect	synonym	both mean tiny mark	A sunny spot, a golden dot of freckle on your cheek.
+14	lot	plot	perfect	synonym	both mean parcel of land	A tiny lot, a garden plot, where our sunflowers grow.
+15	loft	aloft	perfect	synonym	both suggest high up	From the loft we send our paper kites aloft.
+16	on	upon	perfect	synonym	both mean resting atop	Light upon the water, sunshine on the bay.
+17	top	atop	perfect	synonym	both mean at the summit	Climb to the top and sit atop the world with me.
+18	slot	spot	perfect	synonym	both mean an assigned place	Save a slot, keep a spot for me beside you.
+19	dominant	prominent	perfect	synonym	both mean standing out	Your laughter, dominant and prominent, fills the whole hall.
+20	podcast	broadcast	perfect	synonym	both mean airing a show	Our little podcast became a broadcast of pure hope.
+21	blog	log	perfect	synonym	a blog is web log	My travel blog, a daily log of sunny roads.
 22	rocks	blocks	perfect	synonym	both mean solid chunks	We stack smooth rocks like building blocks along the shore.
-23	on	upon	perfect	synonym	both mean resting atop	Light upon the water, sunshine on the bay.
-24	top	atop	perfect	synonym	both mean at the summit	Climb to the top and sit atop the world with me.
-25	fond	bond	perfect	cause-effect	fondness forges a bond	We grew so fond our friendship became a bond.
-26	thought	taught	perfect	cause-effect	teaching shapes our thought	Every gentle thought I hold, my mother taught me.
-27	awe	jaw	perfect	cause-effect	awe drops the jaw	In awe, my jaw just drops beneath the starry sky.
-28	shop	drop	perfect	cause-effect	shop until you drop	We'll shop and laugh and dance until we drop.
-29	spa	ah	perfect	cause-effect	spa brings a relaxed sigh	Slip into the spa and breathe a long, warm ah.
-30	long	prolong	perfect	cause-effect	prolonging makes it long	Summer days grow long, so let's prolong the light.
-31	belonging	longing	perfect	cause-effect	longing seeks belonging	All my longing found its belonging in your arms.
-32	mop	drop	perfect	cause-effect	mopping clears each drop	Grab the mop and catch each drop of spilled lemonade.
-33	paws	claws	perfect	part-whole	claws tip the paws	Soft little paws tuck in their sleepy claws.
-34	flock	stock	perfect	part-whole	flocks count as livestock	The shepherd's flock is the finest stock in the valley.
-35	box	blocks	perfect	part-whole	toy box holds blocks	The toy box spills a rainbow of wooden blocks.
-36	bond	bind	slant	synonym	both mean tie together	Let love bind us in a bond that lasts forever.
-37	drop	drip	slant	synonym	both mean falling water	Drip by drip and drop by drop, the spring rain sings.
-38	hot	heat	slant	synonym	heat makes things hot	Hot July, the gentle heat of sunshine on our skin.
-39	logic	magic	slant	antonym	reason versus wonder	Forget the logic, love is simply magic.
-40	song	sing	slant	cause-effect	you sing a song	Sing with me tonight, this song is ours.
-41	dot	stop	slant	synonym	a full stop is dot	Put a dot, a final stop, after every worry.
-42	bob	bop	slant	synonym	both mean bouncing to music	Heads bob and bodies bop to the summer tune.
-43	applaud	nod	slant	synonym	both signal warm approval	They applaud and nod as you take your bow.
-44	pause	applause	perfect	scene	stage pause for applause	Take a pause and soak in the applause.
-45	dawn	yawn	perfect	scene	waking at first light	Dawn spills gold across my sleepy yawn.
-46	song	along	perfect	scene	singing together with music	Here comes our song, so everybody sing along.
-47	hot	pot	perfect	scene	steaming kitchen cooking	Keep it hot, stir the pot, supper's nearly ready.
-48	hot	spot	perfect	scene	a warm lively place	This little cafe is our hot spot for sunny mornings.
-49	pop	bop	perfect	scene	both upbeat music styles	Turn up the pop and let's bop all night.
-50	shop	swap	perfect	scene	trading at local market	At the corner shop we swap our books and stories.
-51	dock	lock	perfect	scene	canal boating stops	Tie up at the dock, then drift on through the lock.
-52	yacht	knot	perfect	scene	sailing ropes and moorings	Tie a sailor's knot and let the yacht drift free.
-53	tot	cot	perfect	scene	sleepy toddler's bed	The sleepy tot curls up in her cozy cot.
-54	frog	bog	perfect	scene	wetland creature and home	A happy frog sings softly in the misty bog.
-55	lawn	fawn	perfect	scene	young deer on grass	A fawn tiptoes across the dewy lawn.
-56	lawn	dawn	perfect	scene	dewy grass at sunrise	Dawn scatters diamonds on the lawn.
-57	awesome	blossom	perfect	scene	spring beauty inspiring wonder	Every awesome blossom opens wide to the sun.
+23	conscious	subconscious	perfect	antonym	aware versus hidden mind	My conscious mind and my subconscious both hum your name.
+24	profit	nonprofit	perfect	antonym	for gain versus not	Not for profit, our nonprofit runs on pure goodwill.
+25	awe	jaw	perfect	cause-effect	awe drops the jaw	In awe, my jaw just drops beneath the starry sky.
+26	spa	ah	perfect	cause-effect	spa brings a relaxed sigh	Slip into the spa and breathe a long, warm ah.
+27	thought	taught	perfect	cause-effect	teaching shapes our thought	Every gentle thought I hold, my mother taught me.
+28	long	prolong	perfect	cause-effect	prolonging makes it long	Summer days grow long, so let's prolong the light.
+29	shop	drop	perfect	cause-effect	shop until you drop	We'll shop and laugh and dance until we drop.
+30	mop	drop	perfect	cause-effect	mopping clears each drop	Grab the mop and catch each drop of spilled lemonade.
+31	paws	claws	perfect	part-whole	claws tip the paws	Soft little paws tuck in their sleepy claws.
+32	box	blocks	perfect	part-whole	toy box holds blocks	The toy box spills a rainbow of wooden blocks.
+33	flock	stock	perfect	part-whole	flocks count as livestock	The shepherd's flock is the finest stock in the valley.
+34	bond	bind	slant	synonym	both mean tie together	Let love bind us in a bond that lasts forever.
+35	applaud	nod	slant	synonym	both signal warm approval	They applaud and nod as you take your bow.
+36	bob	bop	slant	synonym	both mean bouncing to music	Heads bob and bodies bop to the summer tune.
+37	hot	heat	slant	synonym	heat makes things hot	Hot July, the gentle heat of sunshine on our skin.
+38	dot	stop	slant	synonym	a full stop is dot	Put a dot, a final stop, after every worry.
+39	song	along	perfect	scene	singing together with music	Here comes our song, so everybody sing along.
+40	dawn	yawn	perfect	scene	waking at first light	Dawn spills gold across my sleepy yawn.
+41	pause	applause	perfect	scene	stage pause for applause	Take a pause and soak in the applause.
+42	awesome	blossom	perfect	scene	spring beauty inspiring wonder	Every awesome blossom opens wide to the sun.
+43	belong	along	perfect	scene	fitting in together	We belong together, so come along and stay.
+44	hop	pop	perfect	cause-effect	pop tunes make you hop	When the pop tune plays, we hop around the kitchen.
+45	pop	bop	perfect	scene	both upbeat music styles	Turn up the pop and let's bop all night.
+46	lawn	fawn	perfect	scene	young deer on grass	A fawn tiptoes across the dewy lawn.
+47	swan	fawn	perfect	scene	gentle graceful wild creatures	A swan on the lake, a fawn by the shore, gentle morning.
+48	lawn	dawn	perfect	scene	dewy grass at sunrise	Dawn scatters diamonds on the lawn.
+49	tot	cot	perfect	scene	sleepy toddler's bed	The sleepy tot curls up in her cozy cot.
+50	hot	spot	perfect	scene	a warm lively place	This little cafe is our hot spot for sunny mornings.
+51	hot	pot	perfect	scene	steaming kitchen cooking	Keep it hot, stir the pot, supper's nearly ready.
+52	gong	song	perfect	scene	festive music and ceremony	Ring the gong and start the celebration song.
+53	yacht	knot	perfect	scene	sailing ropes and moorings	Tie a sailor's knot and let the yacht drift free.
+54	dock	lock	perfect	scene	canal boating stops	Tie up at the dock, then drift on through the lock.
+55	shop	swap	perfect	scene	trading at local market	At the corner shop we swap our books and stories.
+56	exotic	hypnotic	perfect	scene	both describe alluring rhythm	Your rhythm, exotic and hypnotic, pulls me in.
+57	exotic	aquatic	perfect	scene	colorful tropical reef life	Exotic, aquatic colors swirl across the reef.
 58	rod	cod	perfect	scene	fishing gear and catch	Cast the rod and dream of cod at sunset.
-59	exotic	aquatic	perfect	scene	colorful tropical reef life	Exotic, aquatic colors swirl across the reef.
-60	exotic	hypnotic	perfect	scene	both describe alluring rhythm	Your rhythm, exotic and hypnotic, pulls me in.
-61	pot	plot	perfect	scene	gardening container and bed	From a clay pot to a garden plot, our seedlings grow.
-62	fog	bog	perfect	scene	misty marshland morning	Morning fog drifts softly over the bog.
-63	shop	bought	slant	cause-effect	shopping ends in purchases	We found a flower shop and bought a sunny bouquet.
-64	pot	stock	slant	part-whole	stock simmers in pot	A bubbling pot of chicken stock warms the kitchen.
-65	dog	jog	slant	scene	running with the dog	My dog and I jog through the morning park.
-66	dawn	song	slant	scene	birds sing at daybreak	At dawn the robins start their song.
-67	dock	yacht	slant	scene	harbor mooring place	The yacht rests easy at the sunny dock.
-68	cot	rock	slant	scene	soothing a baby's bed	Gently rock the cot and hum a lullaby.
-69	crop	plot	slant	scene	harvest from garden bed	Our little plot gives a crop of sweet peas.
-70	cob	crop	slant	part-whole	corn cob from crop	Golden cob by golden cob, we gather in the crop.
-71	frog	log	slant	scene	frog sits on log	A frog on a mossy log sings to the moon.
-72	avocado	tomato	slant	scene	fresh salad ingredients	Slice the avocado, toss the tomato, summer on a plate.
-73	want	wand	slant	cause-effect	wand grants your wants	Wave the wand and wish for all you want.
-74	on	off	assonance	antonym	opposite switch positions	Lights on, lights off, we keep on dancing.
-75	online	offline	assonance	antonym	connected versus disconnected	Close the laptop, leave online noise, come offline with me.
-76	top	bottom	assonance	antonym	highest versus lowest point	From the top of my heart to the bottom of my soul.
-77	clock	watch	assonance	synonym	both tell the time	Forget the clock, ignore the watch, just dance.
-78	trot	jog	assonance	synonym	both mean running lightly	We trot, we jog, we race the sunrise home.
-79	lodge	cottage	assonance	synonym	both mean cozy cabin	A mountain lodge, a lakeside cottage, home is where you are.
-80	squad	posse	assonance	synonym	both mean group of friends	My squad, my posse, rolling into summer.
-81	honest	modest	assonance	synonym	both humble virtues	Stay honest, stay modest, and the world will shine.
-82	frost	thaw	assonance	antonym	freezing versus melting	The frost will fade, and spring will thaw it all.
-83	want	long	assonance	synonym	both mean deeply desire	I want you near, I long to hear you laugh.
-84	profit	cost	assonance	antonym	gain versus expense	Count the profit, not the cost, of every kindness.
+59	pot	plot	perfect	scene	gardening container and bed	From a clay pot to a garden plot, our seedlings grow.
+60	dawn	song	slant	scene	birds sing at daybreak	At dawn the robins start their song.
+61	want	wand	slant	cause-effect	wand grants your wants	Wave the wand and wish for all you want.
+62	cot	rock	slant	scene	soothing a baby's bed	Gently rock the cot and hum a lullaby.
+63	dog	jog	slant	scene	running with the dog	My dog and I jog through the morning park.
+64	shop	bought	slant	cause-effect	shopping ends in purchases	We found a flower shop and bought a sunny bouquet.
+65	pot	stock	slant	part-whole	stock simmers in pot	A bubbling pot of chicken stock warms the kitchen.
+66	dock	yacht	slant	scene	harbor mooring place	The yacht rests easy at the sunny dock.
+67	crop	plot	slant	scene	harvest from garden bed	Our little plot gives a crop of sweet peas.
+68	cob	crop	slant	part-whole	corn cob from crop	Golden cob by golden cob, we gather in the crop.
+69	frog	log	slant	scene	frog sits on log	A frog on a mossy log sings to the moon.
+70	avocado	tomato	slant	scene	fresh salad ingredients	Slice the avocado, toss the tomato, summer on a plate.
+71	honest	modest	assonance	synonym	both humble virtues	Stay honest, stay modest, and the world will shine.
+72	promise	bond	assonance	synonym	your word as bond	My promise is my bond, my love is yours.
+73	honest	promise	assonance	cause-effect	honest people keep promises	An honest heart will always keep its promise.
+74	want	long	assonance	synonym	both mean deeply desire	I want you near, I long to hear you laugh.
+75	optimist	positive	assonance	synonym	both expect good things	An optimist stays positive and paints the clouds with gold.
+76	confident	positive	assonance	synonym	both mean upbeat assurance	Stay confident, stay positive, the sun is on its way.
+77	on	off	assonance	antonym	opposite switch positions	Lights on, lights off, we keep on dancing.
+78	top	bottom	assonance	antonym	highest versus lowest point	From the top of my heart to the bottom of my soul.
+79	soft	strong	assonance	antonym	gentle versus forceful	Soft as a whisper, strong as the sea.
+80	saga	odyssey	assonance	synonym	both mean epic journey	Our love's a saga, an odyssey across the stars.
+81	lodge	cottage	assonance	synonym	both mean cozy cabin	A mountain lodge, a lakeside cottage, home is where you are.
+82	squad	posse	assonance	synonym	both mean group of friends	My squad, my posse, rolling into summer.
+83	frost	thaw	assonance	antonym	freezing versus melting	The frost will fade, and spring will thaw it all.
+84	novice	prodigy	assonance	antonym	beginner versus gifted genius	Every prodigy was once a novice with a dream.
 85	drama	comedy	assonance	antonym	serious versus funny stories	Life's a drama, love's a comedy, and we're the stars.
-86	novice	prodigy	assonance	antonym	beginner versus gifted genius	Every prodigy was once a novice with a dream.
-87	logic	nonsense	assonance	antonym	reason versus silliness	Throw out the logic and dance with lovely nonsense.
-88	promise	bond	assonance	synonym	your word as bond	My promise is my bond, my love is yours.
-89	modest	posh	assonance	antonym	humble versus fancy	A modest home feels richer than a posh hotel.
-90	saga	odyssey	assonance	synonym	both mean epic journey	Our love's a saga, an odyssey across the stars.
-91	soft	strong	assonance	antonym	gentle versus forceful	Soft as a whisper, strong as the sea.
-92	confident	positive	assonance	synonym	both mean upbeat assurance	Stay confident, stay positive, the sun is on its way.
-93	coffee	latte	assonance	scene	both cafe morning drinks	Coffee for you, a latte for me, sunshine for us both.
-94	dog	paw	assonance	part-whole	a dog's padded foot	My dog lifts a paw to shake hello.
-95	swan	pond	assonance	scene	graceful bird on water	A swan glides slowly across the silver pond.
-96	opera	soprano	assonance	scene	singer on grand stage	The soprano's voice soars through the opera house.
+86	modest	posh	assonance	antonym	humble versus fancy	A modest home feels richer than a posh hotel.
+87	profit	cost	assonance	antonym	gain versus expense	Count the profit, not the cost, of every kindness.
+88	online	offline	assonance	antonym	connected versus disconnected	Close the laptop, leave online noise, come offline with me.
+89	clock	watch	assonance	synonym	both tell the time	Forget the clock, ignore the watch, just dance.
+90	trot	jog	assonance	synonym	both mean running lightly	We trot, we jog, we race the sunrise home.
+91	spa	massage	assonance	scene	pampering relaxation day treats	A spa day, a warm massage, and every worry melts.
+92	coffee	latte	assonance	scene	both cafe morning drinks	Coffee for you, a latte for me, sunshine for us both.
+93	cotton	soft	assonance	scene	cotton feels gentle	Cotton sheets, soft as clouds, hold our dreams.
+94	swan	pond	assonance	scene	graceful bird on water	A swan glides slowly across the silver pond.
+95	opera	soprano	assonance	scene	singer on grand stage	The soprano's voice soars through the opera house.
+96	audience	applause	assonance	scene	crowd cheering the show	The audience rises in thunderous applause.
 97	pasta	lasagna	assonance	scene	classic noodle dinner dishes	Pasta night, lasagna bubbling, family round the table.
-98	comet	rocket	assonance	scene	streaking through outer space	A rocket chasing a comet across the night.
-99	audience	applause	assonance	scene	crowd cheering the show	The audience rises in thunderous applause.
-100	cotton	soft	assonance	scene	cotton feels gentle	Cotton sheets, soft as clouds, hold our dreams.
+98	chocolate	frosting	assonance	scene	sweet birthday cake treats	Chocolate cake with frosting, candles glowing, make a wish.
+99	comet	rocket	assonance	scene	streaking through outer space	A rocket chasing a comet across the night.
+100	dog	paw	assonance	part-whole	a dog's padded foot	My dog lifts a paw to shake hello.
